@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PixAI Prompt Generator</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Word Trigger block -->
+      <div class="group-row">
+        <div class="left-column">
+          <div class="keyword-list" data-target="trigger">
+            <h3>Word Trigger / トリガー</h3>
+            <div class="sub-group">
+              <button data-keyword="hdr">HDR</button>
+              <button data-keyword="masterpiece">Masterpiece</button>
+              <button data-keyword="best quality">Best Quality</button>
+            </div>
+          </div>
+        </div>
+        <div class="right-column">
+          <div class="block">
+            <label>Word Trigger / トリガー</label>
+            <textarea
+              id="trigger"
+              rows="2"
+              placeholder="例: hdr, masterpiece"
+            ></textarea>
+          </div>
+        </div>
+      </div>
+
+      <!-- Character block -->
+      <div class="group-row">
+        <div class="left-column">
+          <div class="keyword-list" data-target="character">
+            <h3>Character</h3>
+            <div class="exclusive-group">
+              <button data-keyword="1girl" data-exclusive="true">1girl</button>
+              <button data-keyword="2girls" data-exclusive="true">
+                2girls
+              </button>
+            </div>
+            <div class="sub-group">
+              <h4>動き</h4>
+              <button data-keyword="dancing">Dancing</button>
+              <button data-keyword="running">Running</button>
+            </div>
+            <div class="sub-group">
+              <h4>表情</h4>
+              <button data-keyword="smiling">Smiling</button>
+              <button data-keyword="serious">Serious</button>
+            </div>
+            <div class="sub-group">
+              <h4>視点</h4>
+              <button data-keyword="low angle">Low Angle</button>
+              <button data-keyword="high angle">High Angle</button>
+            </div>
+          </div>
+        </div>
+        <div class="right-column">
+          <div class="block">
+            <label>Character / 人物</label>
+            <textarea
+              id="character"
+              rows="6"
+              placeholder="例: 1girl, dancing, smiling, low angle"
+            ></textarea>
+          </div>
+        </div>
+      </div>
+
+      <!-- Ground block -->
+      <div class="group-row">
+        <div class="left-column">
+          <div class="keyword-list" data-target="ground">
+            <h3>Ground</h3>
+            <div class="sub-group">
+              <h4>地面種類</h4>
+              <button data-keyword="uyuni salt flats">Uyuni Salt Flats</button>
+              <button data-keyword="asphalt">Asphalt</button>
+              <button data-keyword="brick pavement">Brick Pavement</button>
+            </div>
+          </div>
+        </div>
+        <div class="right-column">
+          <div class="block">
+            <label>Ground / 地面</label>
+            <textarea
+              id="ground"
+              rows="3"
+              placeholder="例: uyuni salt flats surface, reflective"
+            ></textarea>
+          </div>
+        </div>
+      </div>
+
+      <!-- Background block -->
+      <div class="group-row">
+        <div class="left-column">
+          <div class="keyword-list" data-target="background">
+            <h3>Background</h3>
+            <div class="sub-group">
+              <h4>建物・景色</h4>
+              <button data-keyword="European castle">European Castle</button>
+              <button data-keyword="mountain">Mountain</button>
+              <button data-keyword="forest">Forest</button>
+            </div>
+          </div>
+        </div>
+        <div class="right-column">
+          <div class="block">
+            <label>Background / 背景</label>
+            <textarea
+              id="background"
+              rows="3"
+              placeholder="例: European castle in distance"
+            ></textarea>
+          </div>
+        </div>
+      </div>
+
+      <!-- Time / Weather block -->
+      <div class="group-row">
+        <div class="left-column">
+          <div class="keyword-list" data-target="time">
+            <h3>Time / Weather</h3>
+            <div class="sub-group">
+              <h4>時刻</h4>
+              <button data-keyword="day">Day</button>
+              <button data-keyword="night">Night</button>
+            </div>
+            <div class="sub-group">
+              <h4>天気</h4>
+              <button data-keyword="clear sky">Clear Sky</button>
+              <button data-keyword="rainy">Rainy</button>
+            </div>
+          </div>
+        </div>
+        <div class="right-column">
+          <div class="block">
+            <label>Time & Weather / 時刻・天気</label>
+            <textarea
+              id="time"
+              rows="3"
+              placeholder="例: night, clear sky"
+            ></textarea>
+          </div>
+        </div>
+      </div>
+
+      <button id="generate">Generate Prompt</button>
+      <button id="copy">Copy Result</button>
+      <div class="output" id="output"></div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
