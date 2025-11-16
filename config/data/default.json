@@ -1,4 +1,14 @@
 {
+  "ratio_composition": ["rule of thirds", "golden ratio"],
+  "leading_lines": ["spiral composition", "leading lines to subject"],
+  "balance_layout": ["symmetrical layout", "asymmetrical layout"],
+  "other_composition": [
+    "balanced foreground and background",
+    "dynamic diagonal flow",
+    "central focus",
+    "layered depth",
+    "perspective depth cues"
+  ],
   "subject_main": ["1girl", "1boy", "girl", "woman", "man", "couple", "group"],
   "subject_type": [
     "angel",
@@ -397,5 +407,22 @@
     "romantic",
     "sad",
     "tense"
+  ],
+  "ratio_composition_after": ["slightly adjust subject position for balance"],
+  "leading_lines_after": [
+    "minor leading line adjustment",
+    "soften diagonal flow",
+    "subtle spiral enhancement"
+  ],
+  "balance_layout_after": [
+    "refine symmetry or asymmetry",
+    "fine-tune foreground weight",
+    "slight balance correction for background elements"
+  ],
+  "other_composition_after": [
+    "slightly tweak perspective depth",
+    "micro-adjust focal point",
+    "enhance visual flow",
+    "subtle layer correction"
   ]
 }

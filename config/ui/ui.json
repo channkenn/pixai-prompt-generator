@@ -1,6 +1,42 @@
 {
   "groups": [
     {
+      "id": "composition_before_par",
+      "label": "構図",
+      "subgroups": [
+        {
+          "id": "ratio_composition",
+          "label": "比率構図",
+          "exclusive": true,
+          "items": []
+        },
+        {
+          "id": "leading_lines",
+          "label": "視線誘導",
+          "exclusive": true,
+          "items": ["spiral composition", "leading lines to subject"]
+        },
+        {
+          "id": "balance_layout",
+          "label": "左右バランス",
+          "exclusive": true,
+          "items": ["symmetrical layout", "asymmetrical layout"]
+        },
+        {
+          "id": "other_composition",
+          "label": "その他共存可能な構図",
+          "exclusive": false,
+          "items": [
+            "balanced foreground and background",
+            "dynamic diagonal flow",
+            "central focus",
+            "layered depth",
+            "perspective depth cues"
+          ]
+        }
+      ]
+    },
+    {
       "id": "subject",
       "label": "主題",
       "subgroups": [
@@ -180,6 +216,49 @@
           "id": "mood",
           "label": "ムード",
           "exclusive": true
+        }
+      ]
+    },
+    {
+      "id": "composition_after_par",
+      "label": "構図補助",
+      "subgroups": [
+        {
+          "id": "ratio_composition_after",
+          "label": "比率構図の微調整",
+          "exclusive": true,
+          "items": ["slightly adjust subject position for balance"]
+        },
+        {
+          "id": "leading_lines_after",
+          "label": "視線誘導の微調整",
+          "exclusive": true,
+          "items": [
+            "minor leading line adjustment",
+            "soften diagonal flow",
+            "subtle spiral enhancement"
+          ]
+        },
+        {
+          "id": "balance_layout_after",
+          "label": "左右バランスの微調整",
+          "exclusive": true,
+          "items": [
+            "refine symmetry or asymmetry",
+            "fine-tune foreground weight",
+            "slight balance correction for background elements"
+          ]
+        },
+        {
+          "id": "other_composition_after",
+          "label": "その他共存可能な微調整",
+          "exclusive": false,
+          "items": [
+            "slightly tweak perspective depth",
+            "micro-adjust focal point",
+            "enhance visual flow",
+            "subtle layer correction"
+          ]
         }
       ]
     }
