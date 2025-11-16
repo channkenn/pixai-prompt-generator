@@ -1,0 +1,136 @@
+{
+  "groups": [
+    {
+      "id": "subject",
+      "label": "主題",
+      "subgroups": [
+        {
+          "id": "subject_main",
+          "label": "主な主語",
+          "exclusive": true
+        },
+        {
+          "id": "subject_type",
+          "label": "キャラ分類",
+          "exclusive": false
+        },
+        {
+          "id": "species",
+          "label": "種別",
+          "exclusive": true
+        },
+        {
+          "id": "age",
+          "label": "年齢層",
+          "exclusive": true
+        },
+        {
+          "id": "body_type",
+          "label": "体型",
+          "exclusive": false
+        }
+      ]
+    },
+
+    {
+      "id": "character",
+      "label": "キャラクター",
+      "subgroups": [
+        {
+          "id": "expression",
+          "label": "表情",
+          "exclusive": true
+        },
+        {
+          "id": "pose",
+          "label": "ポーズ",
+          "exclusive": true
+        },
+        {
+          "id": "action",
+          "label": "動作",
+          "exclusive": true
+        },
+        {
+          "id": "angle",
+          "label": "視点角度",
+          "exclusive": true
+        },
+        {
+          "id": "distance",
+          "label": "距離",
+          "exclusive": true
+        }
+      ]
+    },
+    {
+      "id": "outfit_par",
+      "label": "衣装",
+      "subgroups": [
+        {
+          "id": "outfit",
+          "label": "衣装",
+          "exclusive": true
+        },
+        {
+          "id": "accessory",
+          "label": "アクセサリー",
+          "exclusive": false
+        },
+        {
+          "id": "props_person",
+          "label": "小物",
+          "exclusive": false
+        }
+      ]
+    },
+    {
+      "id": "ground_par",
+      "label": "地面",
+      "subgroups": [
+        {
+          "id": "ground",
+          "label": "地面",
+          "exclusive": false
+        },
+        {
+          "id": "groundtexture",
+          "label": "地面テクスチャ",
+          "exclusive": false
+        },
+        {
+          "id": "background",
+          "label": "背景",
+          "exclusive": false
+        },
+        {
+          "id": "props_background",
+          "label": "小物",
+          "exclusive": false
+        }
+      ]
+    },
+
+    {
+      "id": "atmosphere",
+      "label": "空（時間＋天候）",
+      "subgroups": [
+        {
+          "id": "sky",
+          "label": "空",
+          "exclusive": true
+        },
+        {
+          "id": "lighting",
+          "label": "光",
+          "exclusive": true
+        },
+        {
+          "id": "mood",
+          "label": "ムード",
+          "exclusive": true
+        }
+      ]
+    }
+  ]
+}

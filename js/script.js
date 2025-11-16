@@ -1,167 +1,145 @@
-import { DICT } from "./constants.js";
+// script.js
+document.addEventListener("DOMContentLoaded", async () => {
+  const resDict = await fetch("config/data/default.json");
+  const DICT = await resDict.json();
 
-document.addEventListener("DOMContentLoaded", () => {
-  const keywordLists = document.querySelectorAll(".keyword-list");
+  const resUI = await fetch("config/ui/ui.json");
+  const UI = await resUI.json();
 
-  // ボタン選択処理
-  keywordLists.forEach((list) => {
-    list.querySelectorAll("button").forEach((btn) => {
-      btn.addEventListener("click", () => {
-        const targetId = list.dataset.target;
-        const textarea = document.getElementById(targetId);
-        const isExclusive = btn.dataset.exclusive === "true";
+  const container = document.querySelector(".container");
 
-        // 親の sub-group を取得
-        const subgroupElement = btn.parentElement;
+  // ボタン群生成
+  const createKeywordList = (group) => {
+    const wrapper = document.createElement("div");
+    wrapper.className = "group-row";
 
-        // ---- 排他処理 ----
-        if (isExclusive) {
-          const groupBtns = subgroupElement.querySelectorAll("button");
-          groupBtns.forEach((b) => {
-            if (b !== btn) b.classList.remove("active");
+    const leftCol = document.createElement("div");
+    leftCol.className = "left-column";
+
+    const rightCol = document.createElement("div");
+    rightCol.className = "right-column";
+    const block = document.createElement("div");
+    block.className = "block";
+    const labelEl = document.createElement("label");
+    labelEl.textContent = group.label;
+    block.appendChild(labelEl);
+
+    const textarea = document.createElement("textarea");
+    textarea.id = group.id;
+    textarea.rows = 4;
+    textarea.placeholder = `例: ${group.subgroups
+      .map((sg) => sg.id)
+      .join(", ")}`;
+    block.appendChild(textarea);
+    rightCol.appendChild(block);
+
+    group.subgroups.forEach((sg) => {
+      const keywordList = document.createElement("div");
+      keywordList.className = "keyword-list";
+      keywordList.dataset.target = group.id;
+
+      const h3 = document.createElement("h3");
+      h3.textContent = group.label;
+      keywordList.appendChild(h3);
+
+      const subGroupDiv = document.createElement("div");
+      subGroupDiv.className = "sub-group";
+      subGroupDiv.dataset.subgroup = sg.id;
+      subGroupDiv.dataset.id = sg.id; // ★ 追加（label 出力用）
+
+      const h4 = document.createElement("h4");
+      h4.textContent = sg.label;
+      subGroupDiv.appendChild(h4);
+
+      const items = Array.isArray(DICT[sg.id]) ? DICT[sg.id] : [];
+      items.forEach((key) => {
+        const btn = document.createElement("button");
+        btn.dataset.keyword = key;
+        btn.dataset.exclusive = sg.exclusive;
+        btn.textContent = key;
+        subGroupDiv.appendChild(btn);
+      });
+
+      keywordList.appendChild(subGroupDiv);
+      leftCol.appendChild(keywordList);
+    });
+
+    wrapper.appendChild(leftCol);
+    wrapper.appendChild(rightCol);
+    container.insertBefore(wrapper, document.getElementById("generate"));
+  };
+
+  // 各グループ生成
+  UI.groups.forEach(createKeywordList);
+
+  // ボタンイベント
+  container.querySelectorAll("button").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const targetId = btn.closest(".keyword-list").dataset.target;
+      const textarea = document.getElementById(targetId);
+      const isExclusive = btn.dataset.exclusive === "true";
+
+      const subgroup = btn.closest(".sub-group");
+
+      if (isExclusive) {
+        subgroup.querySelectorAll("button").forEach((b) => {
+          if (b !== btn) b.classList.remove("active");
+        });
+        btn.classList.toggle("active");
+      } else {
+        btn.classList.toggle("active");
+      }
+
+      const allActive = [];
+      btn
+        .closest(".left-column")
+        .querySelectorAll(".sub-group")
+        .forEach((sg) => {
+          sg.querySelectorAll("button.active").forEach((b) => {
+            allActive.push(b.dataset.keyword);
           });
-          btn.classList.toggle("active");
-        } else {
-          btn.classList.toggle("active");
-        }
-
-        // ---- textarea 更新処理 ----
-        // sub-group 関係なく全 active ボタンを走査して textarea に反映
-        const allActiveKeywords = Array.from(
-          list.querySelectorAll("button.active")
-        ).map((b) => {
-          const subgroup = b.parentElement.dataset.subgroup;
-          const key = b.dataset.keyword;
-
-          switch (subgroup) {
-            case "characterCount":
-              return DICT.characterCount[key] || key;
-            case "action":
-              return DICT.action[key] || key;
-            case "pose":
-              return DICT.pose[key] || key;
-            case "expression":
-              return DICT.expression[key] || key;
-            case "angle":
-              return DICT.angle[key] || key;
-            case "distance":
-              return DICT.distance[key] || key;
-            default:
-              return DICT[targetId]?.[key] || key;
-          }
         });
 
-        textarea.value = allActiveKeywords.join(", ");
-      });
+      textarea.value = allActive.join(", ");
     });
   });
 
-  // --- Generate Prompt ---
-  const output = document.getElementById("output");
+  // --- ラベル付き生成ボタン（sub-group.id ベース） ---
+  document.getElementById("generateLabel").addEventListener("click", () => {
+    const outputLines = [];
 
-  // カンマ区切り生成
+    // DOM 上のすべての sub-group を取得
+    document.querySelectorAll(".sub-group").forEach((sg) => {
+      const sgId = sg.dataset.subgroup; // sub-group の id
+      const activeKeywords = [...sg.querySelectorAll("button.active")].map(
+        (b) => b.dataset.keyword
+      );
+
+      if (activeKeywords.length > 0) {
+        outputLines.push(`${sgId}: ${activeKeywords.join(", ")}`);
+      }
+    });
+
+    output.textContent = outputLines.join("\n");
+  });
+
+  // --- カンマ区切りプロンプト生成（AI用） ---
   document.getElementById("generate").addEventListener("click", () => {
-    const blocks = [
-      "trigger",
-      "character",
-      "outfit",
-      "accessory",
-      "ground",
-      "background",
-      "sky",
-    ];
-    const formatBlock = (id) => {
-      const val = document.getElementById(id).value.trim();
-      return val ? val.replace(/,$/, "") + "," : "";
-    };
-    output.textContent = blocks.map(formatBlock).join("\n");
+    const allValues = [];
+
+    UI.groups.forEach((group) => {
+      const textarea = document.getElementById(group.id);
+      if (!textarea) return;
+      const vals = textarea.value
+        .split(",")
+        .map((v) => v.trim())
+        .filter((v) => v.length > 0);
+      allValues.push(...vals);
+    });
+
+    output.textContent = allValues.join(", ");
   });
 
-  // 英文生成
-  document.getElementById("generateEnglish")?.addEventListener("click", () => {
-    const trigger = document.getElementById("trigger").value;
-    const character = document.getElementById("character").value;
-    const outfit = document.getElementById("outfit").value;
-    const accessory = document.getElementById("accessory").value;
-    const ground = document.getElementById("ground").value;
-    const groundtexture = document.getElementById("groundtexture").value;
-    const background = document.getElementById("background").value;
-    const sky = document.getElementById("sky").value;
-
-    // --- Character ---
-    const charArr = character.split(", ").map((c) => c.trim());
-    const count = charArr.find((k) => DICT.characterCount[k]) || "";
-    const expr = charArr.find((k) => DICT.expression[k]) || "";
-    const act = charArr.find((k) => DICT.action[k]) || "";
-    const ang = charArr.find((k) => DICT.angle[k]) || "";
-    const dist = charArr.find((k) => DICT.distance?.[k]) || "";
-
-    const charSentence = count
-      ? `A ${DICT.expression[expr] || ""} ${DICT.characterCount[count] || ""} ${
-          DICT.action[act] || ""
-        }, viewed from a ${DICT.angle[ang] || ""} at ${
-          DICT.distance[dist] || ""
-        },`
-      : "";
-
-    // Outfit
-    const outfitSentence = outfit
-      .split(", ")
-      .map((o) => DICT.outfit[o])
-      .filter(Boolean)
-      .join(", ");
-
-    // Accessory
-    const accessorySentence = accessory
-      .split(", ")
-      .map((a) => DICT.accessory[a])
-      .filter(Boolean)
-      .join(", ");
-
-    // Ground
-    const groundSentence = ground
-      .split(", ")
-      .map((g) => DICT.ground[g])
-      .filter(Boolean)
-      .join(", ");
-    const groundtextureSentence = groundtexture
-      .split(", ")
-      .map((gt) => DICT.groundtexture[gt])
-      .filter(Boolean)
-      .join(", ");
-
-    // Background
-    const bgSentence = background
-      .split(", ")
-      .map((b) => DICT.background[b])
-      .filter(Boolean)
-      .join(", ");
-
-    // Sky
-    const skyArr = sky.split(", ").map((sk) => sk.trim());
-    const skySentence =
-      `shot at ${DICT.time[skyArr[0]] || ""}` +
-      (skyArr[1] ? ` under ${DICT.sky[skyArr[1]]}` : "") +
-      ",";
-
-    const triggerSentence = trigger ? `${trigger.split(", ").join(",")},` : "";
-
-    output.textContent = [
-      triggerSentence,
-      charSentence,
-      outfitSentence ? `Wearing ${outfitSentence},` : "",
-      accessorySentence ? `Accessories: ${accessorySentence},` : "",
-      `Standing on ${groundSentence}` +
-        (groundtextureSentence ? ` with ${groundtextureSentence}` : "") +
-        ",",
-      `With ${bgSentence} in the background,`,
-      skySentence,
-    ]
-      .filter(Boolean)
-      .join(" ");
-  });
-
-  // Copy Result
   document.getElementById("copy").addEventListener("click", () => {
     navigator.clipboard.writeText(output.textContent);
   });

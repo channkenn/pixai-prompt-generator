@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PixAI Prompt Generator</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Word Trigger block -->
+      <div class="group-row">
+        <div class="left-column">
+          <div class="keyword-list" data-target="trigger">
+            <h3>Word Trigger / トリガー</h3>
+            <div class="sub-group">
+              <button data-keyword="hdr">HDR</button>
+              <button data-keyword="masterpiece">Masterpiece</button>
+              <button data-keyword="best quality">Best Quality</button>
+            </div>
+          </div>
+        </div>
+        <div class="right-column">
+          <div class="block">
+            <label>Word Trigger / トリガー</label>
+            <textarea
+              id="trigger"
+              rows="2"
+              placeholder="例: hdr, masterpiece"
+            ></textarea>
+          </div>
+        </div>
+      </div>
+
+      <!-- Character block -->
+      <!-- prettier-ignore -->
+      <div class="group-row">
+        <div class="left-column">
+          <div class="keyword-list" data-target="character">
+            <h3>Character</h3>
+            <div class="sub-group" data-subgroup="characterCount">
+              <h4>人数</h4>
+              <button data-keyword="1girl" data-exclusive="true">1girl</button>
+              <button data-keyword="2girls" data-exclusive="true">2girls</button>
+            </div>
+            <div class="sub-group" data-subgroup="action">
+              <h4>動き</h4>
+              <button data-keyword="dancing" data-exclusive="true">Dancing</button>
+              <button data-keyword="running" data-exclusive="true">Running</button>
+              <button data-keyword="jumping" data-exclusive="true">Jumping</button>
+              <button data-keyword="sitting" data-exclusive="true">Sitting</button>
+              <button data-keyword="walking" data-exclusive="true">Walking</button>
+              <button data-keyword="swimming" data-exclusive="true">Swimming</button>
+            </div>
+            <div class="sub-group" data-subgroup="pose">
+                <h4>姿勢 / Pose</h4>
+                    <button data-keyword="standing" data-exclusive="true">Standing</button>
+                    <button data-keyword="sitting" data-exclusive="true">Sitting</button>
+                    <button data-keyword="kneeling" data-exclusive="true">Kneeling</button>
+                    <button data-keyword="lying_down" data-exclusive="true">Lying Down</button>
+                    <button data-keyword="crouching" data-exclusive="true">Crouching</button>
+                    <button data-keyword="leaning" data-exclusive="true">Leaning</button>
+                    <button data-keyword="arms_crossed" data-exclusive="true">Arms Crossed</button>
+                    <button data-keyword="hands_on_hips" data-exclusive="true">Hands on Hips</button>
+                    <button data-keyword="looking_up" data-exclusive="true">Looking Up</button>
+                    <button data-keyword="looking_down" data-exclusive="true">Looking Down</button>
+                    <button data-keyword="jumping" data-exclusive="true">Jumping</button>
+                    <button data-keyword="running" data-exclusive="true">Running</button>
+                    <button data-keyword="dancing" data-exclusive="true">Dancing</button>
+                    <button data-keyword="stretching" data-exclusive="true">Stretching</button>
+                    <button data-keyword="lying_on_side" data-exclusive="true">Lying on Side</button>
+                    <button data-keyword="lying_on_stomach" data-exclusive="true">Lying on Stomach</button>
+                    <button data-keyword="lying_on_back" data-exclusive="true">Lying on Back</button>
+                    <button data-keyword="bending" data-exclusive="true">Bending</button>
+                    <button data-keyword="kneeling_on_one_knee" data-exclusive="true">Kneeling on One Knee</button>
+                    <button data-keyword="leaning_forward" data-exclusive="true">Leaning Forward</button>
+                    <button data-keyword="leaning_back" data-exclusive="true">Leaning Back</button>
+                    <button data-keyword="sitting_cross_legged" data-exclusive="true">Sitting Cross-legged</button>
+                    <button data-keyword="sitting_on_knees" data-exclusive="true">Sitting on Knees</button>
+                    <button data-keyword="hands_raised" data-exclusive="true">Hands Raised</button>
+                    <button data-keyword="pointing" data-exclusive="true">Pointing</button>
+                </div>
+
+            <div class="sub-group" data-subgroup="expression">
+                <h4>表情</h4>
+                    <button data-keyword="smiling" data-exclusive="true">Smiling</button>
+                    <button data-keyword="serious" data-exclusive="true">Serious</button>
+                    <button data-keyword="angry" data-exclusive="true">Angry</button>
+                    <button data-keyword="sad" data-exclusive="true">Sad</button>
+                    <button data-keyword="surprised" data-exclusive="true">Surprised</button>
+                    <button data-keyword="confused" data-exclusive="true">Confused</button>
+                    <button data-keyword="happy" data-exclusive="true">Happy</button>
+                    <button data-keyword="laughing" data-exclusive="true">Laughing</button>
+                    <button data-keyword="crying" data-exclusive="true">Crying</button>
+                    <button data-keyword="shocked" data-exclusive="true">Shocked</button>
+                    <button data-keyword="tired" data-exclusive="true">Tired</button>
+                    <button data-keyword="determined" data-exclusive="true">Determined</button>
+                    <button data-keyword="scared" data-exclusive="true">Scared</button>
+                    <button data-keyword="neutral" data-exclusive="true">Neutral</button>
+                    <button data-keyword="embarrassed" data-exclusive="true">Embarrassed</button>
+                    <button data-keyword="thinking" data-exclusive="true">Thinking</button>
+                </div>
+
+
+            <div class="sub-group" data-subgroup="angle">
+              <h4>視点（高さ）</h4>
+              <button data-keyword="low angle" data-exclusive="true">
+                Low Angle
+              </button>
+              <button data-keyword="high angle" data-exclusive="true">
+                High Angle
+              </button>
+              <button data-keyword="eye level" data-exclusive="true">
+                Eye Level
+              </button>
+              <button data-keyword="bird's eye" data-exclusive="true">
+                Bird's Eye
+              </button>
+              <button data-keyword="worm's eye" data-exclusive="true">
+                Worm's Eye
+              </button>
+              <button data-keyword="over the shoulder" data-exclusive="true">
+                Over the Shoulder
+              </button>
+            </div>
+
+            <div class="sub-group" data-subgroup="direction">
+              <h4>視点（方向）</h4>
+              <button data-keyword="front view" data-exclusive="true">
+                Front View
+              </button>
+              <button data-keyword="side view" data-exclusive="true">
+                Side View
+              </button>
+              <button data-keyword="back view" data-exclusive="true">
+                Back View
+              </button>
+              <button data-keyword="three-quarter view" data-exclusive="true">
+                3/4 View
+              </button>
+            </div>
+            <div class="sub-group" data-subgroup="distance">
+              <h4>距離 / Shot Type</h4>
+              <button data-keyword="close-up" data-exclusive="true">
+                Close-up
+              </button>
+              <button data-keyword="medium shot" data-exclusive="true">
+                Medium Shot
+              </button>
+              <button data-keyword="long shot" data-exclusive="true">
+                Long Shot
+              </button>
+              <button data-keyword="full body" data-exclusive="true">
+                Full Body
+              </button>
+              <button data-keyword="extreme close-up" data-exclusive="true">
+                Extreme Close-up
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="right-column">
+          <div class="block">
+            <label>Character / 人物</label>
+            <textarea
+              id="character"
+              rows="6"
+              placeholder="例: 1girl, dancing, smiling, low angle"
+            ></textarea>
+          </div>
+        </div>
+      </div>
+      <!-- Outfit block -->
+      <div class="group-row">
+        <div class="left-column">
+          <div class="keyword-list" data-target="outfit">
+            <h3>Outfit / 服装</h3>
+            <div class="sub-group">
+              <button data-keyword="official outfit" data-exclusive="true">
+                Official Outfit
+              </button>
+              <button data-keyword="casual" data-exclusive="true">
+                Casual
+              </button>
+              <button data-keyword="formal" data-exclusive="true">
+                Formal
+              </button>
+              <button data-keyword="school uniform" data-exclusive="true">
+                School Uniform
+              </button>
+              <button data-keyword="school swimsuit" data-exclusive="true">
+                School Swimsuit
+              </button>
+              <button data-keyword="armor" data-exclusive="true">Armor</button>
+              <button data-keyword="kimono" data-exclusive="true">
+                Kimono
+              </button>
+              <button data-keyword="bikini" data-exclusive="true">
+                Bikini
+              </button>
+              <button data-keyword="jacket" data-exclusive="true">
+                Jacket
+              </button>
+              <button data-keyword="hoodie" data-exclusive="true">
+                Hoodie
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="right-column">
+          <div class="block">
+            <label>Outfit / 服装</label>
+            <textarea
+              id="outfit"
+              rows="4"
+              placeholder="例: casual, hat"
+            ></textarea>
+          </div>
+        </div>
+      </div>
+      <!-- Outfit block -->
+      <div class="group-row">
+        <div class="left-column">
+          <div class="keyword-list" data-target="accessory">
+            <h3>accessory / アクセサリー</h3>
+            <div class="sub-group">
+              <h4>アクセサリー</h4>
+              <button data-keyword="hat">Hat</button>
+              <button data-keyword="glasses">Glasses</button>
+              <button data-keyword="scarf">Scarf</button>
+              <button data-keyword="necklace">Necklace</button>
+              <button data-keyword="earrings">Earrings</button>
+              <button data-keyword="watch">Watch</button>
+              <button data-keyword="bracelet">Bracelet</button>
+              <button data-keyword="ring">Ring</button>
+              <button data-keyword="bag">Bag</button>
+            </div>
+          </div>
+        </div>
+        <div class="right-column">
+          <div class="block">
+            <label>accessory / アクセサリー</label>
+            <textarea
+              id="accessory"
+              rows="4"
+              placeholder="例: casual, hat"
+            ></textarea>
+          </div>
+        </div>
+      </div>
+      <!-- Ground block -->
+      <!-- prettier-ignore -->
+      <div class="group-row">
+        <div class="left-column">
+          <div class="keyword-list" data-target="ground">
+            <h3>Ground</h3>
+            <div class="sub-group">
+              <h4>地面種類</h4>
+              <button data-keyword="uyuni salt flats" data-exclusive="true">Uyuni Salt Flats</button>
+              <button data-keyword="asphalt" data-exclusive="true">Asphalt</button>
+              <button data-keyword="brick pavement" data-exclusive="true">Brick Pavement</button>
+              <button data-keyword="sand" data-exclusive="true">Sand</button>
+              <button data-keyword="gravel" data-exclusive="true">Gravel</button>
+              <button data-keyword="wooden floor" data-exclusive="true">Wooden Floor</button>
+              <button data-keyword="stone tiles" data-exclusive="true">Stone Tiles</button>
+              <button data-keyword="grass" data-exclusive="true">Grass</button>
+              <button data-keyword="snow" data-exclusive="true">Snow</button>
+              <!-- 室内追加 -->
+              <button data-keyword="carpet" data-exclusive="true">Carpet</button>
+              <button data-keyword="tiles" data-exclusive="true">Tiles</button>
+              <button data-keyword="marble" data-exclusive="true">Marbl</button>
+              <button data-keyword="concrete" data-exclusive="true">Concrete</button>
+              <button data-keyword="tatami" data-exclusive="true">Tatami</button>
+            </div>
+          </div>
+        </div>
+        <div class="right-column">
+          <div class="block">
+            <label>Ground / 地面</label>
+            <textarea
+              id="ground"
+              rows="3"
+              placeholder="例: wooden floor, wet"
+            ></textarea>
+          </div>
+        </div>
+      </div>
+
+      <!-- Ground texture block -->
+      <!-- prettier-ignore -->
+      <div class="group-row">
+        <div class="left-column">
+          <div class="keyword-list" data-target="groundtexture">
+            <h3>Ground texture</h3>
+            <div class="sub-group">
+              <h4>地面質感 (排他)</h4>
+              <button data-keyword="wet" data-exclusive="true">Wet</button>
+              <button data-keyword="dry" data-exclusive="true">Dry</button>
+              <button data-keyword="reflective" data-exclusive="true">Reflective</button>
+              <button data-keyword="rough" data-exclusive="true">Rough</button>
+              <button data-keyword="smooth" data-exclusive="true">Smooth</button>
+              <!-- 室内向け追加 -->
+              <button data-keyword="soft" data-exclusive="true">Soft</button>
+              <button data-keyword="plush" data-exclusive="true">Plush</button>
+              <button data-keyword="polished" data-exclusive="true">Polished</button>
+              <button data-keyword="shiny" data-exclusive="true">Shiny</button>
+              <button data-keyword="matte" data-exclusive="true">Matte</button>
+            </div>
+          </div>
+        </div>
+        <div class="right-column">
+          <div class="block">
+            <label>Ground texture / 地面質感</label>
+            <textarea
+              id="groundtexture"
+              rows="3"
+              placeholder="例: wet texture"
+            ></textarea>
+          </div>
+        </div>
+      </div>
+
+      <!-- Background block -->
+      <div class="group-row">
+        <div class="left-column">
+          <div class="keyword-list" data-target="background">
+            <h3>Background</h3>
+            <div class="sub-group">
+              <h4>建物・景色</h4>
+              <button data-keyword="European castle">European Castle</button>
+              <button data-keyword="mountain">Mountain</button>
+              <button data-keyword="forest">Forest</button>
+              <button data-keyword="desert">Desert</button>
+              <button data-keyword="lake">Lake</button>
+              <button data-keyword="city skyline">City Skyline</button>
+              <button data-keyword="village">Village</button>
+              <button data-keyword="temple">Temple</button>
+              <button data-keyword="waterfall">Waterfall</button>
+              <!-- 室内追加 -->
+              <button data-keyword="living_room">Living Room</button>
+              <button data-keyword="bedroom">Bedroom</button>
+              <button data-keyword="kitchen">Kitchen</button>
+              <button data-keyword="office">Office</button>
+              <button data-keyword="hallway">Hallway</button>
+              <button data-keyword="library">Library</button>
+              <button data-keyword="laboratory">Laboratory</button>
+              <button data-keyword="temple_interior">Temple Interior</button>
+            </div>
+          </div>
+        </div>
+        <div class="right-column">
+          <div class="block">
+            <label>Background / 背景</label>
+            <textarea
+              id="background"
+              rows="3"
+              placeholder="例: living room with wooden floor"
+            ></textarea>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sky block -->
+      <!-- prettier-ignore -->
+      <div class="group-row">
+        <div class="left-column">
+          <div class="keyword-list" data-target="sky">
+            <h3>Sky / 空</h3>
+            <div class="sub-group">
+              <h4>時間帯・天気・天文</h4>
+              <button data-keyword="daytime" data-exclusive="true">Day</button>
+              <button data-keyword="night" data-exclusive="true">Night</button>
+              <button data-keyword="dawn" data-exclusive="true">Dawn</button>
+              <button data-keyword="sunset" data-exclusive="true">Sunset</button>
+              <button data-keyword="clear" data-exclusive="true">Clear</button>
+              <button data-keyword="cloudy" data-exclusive="true">Cloudy</button>
+              <button data-keyword="rainy" data-exclusive="true">Rainy</button>
+              <button data-keyword="foggy" data-exclusive="true">Foggy</button>
+              <button data-keyword="snowy" data-exclusive="true">Snowy</button>
+              <button data-keyword="starry" data-exclusive="true">Starry</button>
+              <button data-keyword="moon" data-exclusive="true">Moon</button>
+              <button data-keyword="aurora" data-exclusive="true">Aurora</button>
+            </div>
+          </div>
+        </div>
+        <div class="right-column">
+          <div class="block">
+            <label>Sky / 空</label>
+            <textarea
+              id="sky"
+              rows="3"
+              placeholder="例: starry sky with moon"
+            ></textarea>
+          </div>
+        </div>
+      </div>
+
+      <button id="generate">カンマ区切りプロンプト生成</button>
+      <button id="generateEnglish">英文プロンプト生成</button>
+      <button id="copy">コピー</button>
+      <div class="output" id="output"></div>
+    </div>
+
+    <!-- 辞書を先に読み込む必要なし（import で読み込む） -->
+    <script type="module" src="js/script.js"></script>
+  </body>
+</html>

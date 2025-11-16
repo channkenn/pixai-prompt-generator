@@ -7,7 +7,7 @@ body {
 }
 
 .container {
-  max-width: 1000px;
+  max-width: 1400px;
   margin: auto;
   background: #fff;
   padding: 20px;
@@ -25,7 +25,10 @@ body {
 }
 
 .left-column {
-  flex: 2;
+  flex: 3;
+  display: flex; /* keyword-list を横並びに */
+  flex-wrap: wrap; /* 幅が足りなければ折り返す */
+  gap: 20px; /* keyword-list 間の隙間 */
 }
 
 .right-column {
@@ -49,7 +52,7 @@ input {
   border-radius: 6px;
   border: 1px solid #ccc;
   box-sizing: border-box;
-  flex: 1; /* 上位エレメントの高さにフィット */
+  flex: 1;
 }
 
 button {
@@ -66,35 +69,39 @@ button {
 }
 
 button.active {
-  background: #2f5be0;
+  background: #cab904;
 }
 
 button:hover {
-  background: #2f5be0;
+  background: #cab904;
+}
+
+.keyword-list {
+  display: flex;
+  flex-direction: column; /* 見出し + sub-group を縦に */
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 6px;
 }
 
 .keyword-list h3 {
   margin-bottom: 8px;
 }
 
-/* グループ内の子div同士を横並び */
-.keyword-list > .exclusive-group,
-.keyword-list > .sub-group {
-  display: inline-flex;
+/* sub-group は縦並び */
+.sub-group {
+  display: flex;
   flex-direction: column;
-  margin-right: 10px;
-  vertical-align: top;
-}
-
-/* exclusive-group と sub-group のボタンは縦並び */
-.keyword-list > .exclusive-group button,
-.keyword-list > .sub-group button {
-  display: block;
-  width: 100%;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 .sub-group h4 {
+  margin-bottom: 5px;
+}
+
+.sub-group button {
+  display: block;
+  width: 100%;
   margin-bottom: 5px;
 }
 
