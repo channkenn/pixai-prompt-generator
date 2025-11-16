@@ -86,6 +86,7 @@
     "walking",
     "yoga"
   ],
+
   "angle": [
     "close eye level",
     "eye level",
@@ -118,7 +119,50 @@
     "medium shot",
     "waist-up"
   ],
-
+  "orientation": [
+    "facing left",
+    "facing right",
+    "facing forward",
+    "facing backward",
+    "diagonal facing"
+  ],
+  "tilt": [
+    "slightly tilted",
+    "Dutch angle",
+    "upright",
+    "leaning forward",
+    "leaning backward"
+  ],
+  "field_of_view": [
+    "wide-angle",
+    "standard lens",
+    "telephoto lens",
+    "fisheye",
+    "macro"
+  ],
+  "focus": [
+    "shallow depth of field",
+    "deep focus",
+    "soft focus",
+    "sharp focus",
+    "bokeh background"
+  ],
+  "camera_position": [
+    "from above",
+    "from below",
+    "from side",
+    "centered",
+    "off-center"
+  ],
+  "motion": [
+    "static",
+    "panning",
+    "tracking shot",
+    "tilt-up",
+    "tilt-down",
+    "dolly in",
+    "dolly out"
+  ],
   "outfit": [
     "armor",
     "bikini",

@@ -50,15 +50,56 @@
           "id": "action",
           "label": "動作",
           "exclusive": true
-        },
+        }
+      ]
+    },
+    {
+      "id": "camera",
+      "label": "カメラワーク",
+      "subgroups": [
         {
           "id": "angle",
           "label": "視点角度",
           "exclusive": true
         },
         {
+          "id": "direction",
+          "label": "向き / 視線方向",
+          "exclusive": true
+        },
+        {
           "id": "distance",
-          "label": "距離",
+          "label": "距離 / フレーミング",
+          "exclusive": true
+        },
+        {
+          "id": "orientation",
+          "label": "向き / 体の向き",
+          "exclusive": true
+        },
+        {
+          "id": "tilt",
+          "label": "傾き / チルト",
+          "exclusive": true
+        },
+        {
+          "id": "field_of_view",
+          "label": "視野角 / レンズ",
+          "exclusive": true
+        },
+        {
+          "id": "focus",
+          "label": "焦点 / 被写界深度",
+          "exclusive": true
+        },
+        {
+          "id": "camera_position",
+          "label": "カメラ位置",
+          "exclusive": true
+        },
+        {
+          "id": "motion",
+          "label": "カメラ動き",
           "exclusive": true
         }
       ]
