@@ -151,7 +151,17 @@
         }
       ]
     },
-
+    {
+      "id": "no_background_par",
+      "label": "背景なし",
+      "subgroups": [
+        {
+          "id": "no_background",
+          "label": "背景なし",
+          "exclusive": false
+        }
+      ]
+    },
     {
       "id": "atmosphere",
       "label": "空（時間＋天候）",
