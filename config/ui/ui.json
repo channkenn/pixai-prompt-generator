@@ -38,7 +38,7 @@
         {
           "id": "subject_type",
           "label": "キャラ分類",
-          "exclusive": false
+          "exclusive": true
         },
         {
           "id": "species",
@@ -53,7 +53,7 @@
         {
           "id": "body_type",
           "label": "体型",
-          "exclusive": false
+          "exclusive": true
         }
       ]
     },
@@ -65,7 +65,29 @@
         {
           "id": "expression",
           "label": "表情",
-          "exclusive": true
+          "exclusive": true,
+          "subgroups": [
+            {
+              "id": "eyes",
+              "label": "目",
+              "exclusive": true
+            },
+            {
+              "id": "mouth",
+              "label": "口",
+              "exclusive": true
+            },
+            {
+              "id": "eyebrows",
+              "label": "眉",
+              "exclusive": true
+            },
+            {
+              "id": "cheeks",
+              "label": "頬",
+              "exclusive": true
+            }
+          ]
         },
         {
           "id": "pose",
@@ -158,17 +180,17 @@
         {
           "id": "ground",
           "label": "地面",
-          "exclusive": false
+          "exclusive": true
         },
         {
           "id": "groundtexture",
           "label": "地面テクスチャ",
-          "exclusive": false
+          "exclusive": true
         },
         {
           "id": "background",
           "label": "背景",
-          "exclusive": false
+          "exclusive": true
         },
         {
           "id": "props_background",

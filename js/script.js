@@ -41,22 +41,6 @@ document.addEventListener("DOMContentLoaded", async () => {
     const rightCol = document.createElement("div");
     rightCol.className = "right-column";
 
-    const block = document.createElement("div");
-    block.className = "block";
-
-    const labelEl = document.createElement("label");
-    labelEl.textContent = group.label;
-    block.appendChild(labelEl);
-
-    const textarea = document.createElement("textarea");
-    textarea.id = group.id;
-    textarea.rows = 4;
-    textarea.placeholder = `例: ${group.subgroups
-      .map((sg) => sg.id)
-      .join(", ")}`;
-    block.appendChild(textarea);
-    rightCol.appendChild(block);
-
     group.subgroups.forEach((sg) => {
       const keywordList = document.createElement("div");
       keywordList.className = "keyword-list";
@@ -92,16 +76,7 @@ document.addEventListener("DOMContentLoaded", async () => {
           } else {
             btn.classList.toggle("active");
           }
-
-          const allActive = [];
-          leftCol.querySelectorAll(".sub-group").forEach((sg2) => {
-            sg2
-              .querySelectorAll("button.active")
-              .forEach((b) => allActive.push(b.dataset.keyword));
-          });
-          textarea.value = allActive.join(", ");
-
-          saveState(); // 状態を保存
+          saveState();
         });
 
         subGroupDiv.appendChild(btn);
@@ -117,8 +92,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   };
 
   UI.groups.forEach(createKeywordList);
-
-  loadState(); // ページロード時に状態を復元
+  loadState();
 
   document.getElementById("generateLabel").addEventListener("click", () => {
     const outputLines = [];
@@ -135,60 +109,51 @@ document.addEventListener("DOMContentLoaded", async () => {
   });
 
   document.getElementById("generate").addEventListener("click", () => {
-    const allValues = [];
-    UI.groups.forEach((group) => {
-      const textarea = document.getElementById(group.id);
-      if (!textarea) return;
-      const vals = textarea.value
-        .split(",")
-        .map((v) => v.trim())
-        .filter((v) => v.length > 0);
-      allValues.push(...vals);
+    const allActiveKeywords = [];
+    document.querySelectorAll(".sub-group").forEach((sg) => {
+      sg.querySelectorAll("button.active").forEach((btn) => {
+        allActiveKeywords.push(btn.dataset.keyword);
+      });
     });
-    output.textContent = allValues.join(", ");
+    output.textContent = allActiveKeywords.join(", ");
   });
 
   document.getElementById("copy").addEventListener("click", () => {
     navigator.clipboard.writeText(output.textContent);
   });
-});
 
-// ランダム選択ボタンを作成
-const randomBtn = document.createElement("button");
-randomBtn.textContent = "ランダム選択";
-randomBtn.id = "randomSelect";
-document
-  .querySelector(".container")
-  .insertBefore(randomBtn, document.getElementById("generate"));
+  // ランダム選択ボタン作成
+  const randomBtn = document.createElement("button");
+  randomBtn.textContent = "ランダム選択";
+  randomBtn.id = "randomSelect";
+  document
+    .querySelector(".container")
+    .insertBefore(randomBtn, document.getElementById("generate"));
 
-// ランダム選択ボタン
-document.getElementById("randomSelect").addEventListener("click", () => {
-  document.querySelectorAll(".sub-group").forEach((sg) => {
-    const buttons = sg.querySelectorAll("button");
-    const isExclusive = buttons[0]?.dataset.exclusive === "true";
+  document.getElementById("randomSelect").addEventListener("click", () => {
+    document.querySelectorAll(".sub-group").forEach((sg) => {
+      const buttons = sg.querySelectorAll("button");
+      const isExclusive = buttons[0]?.dataset.exclusive === "true";
+      if (buttons.length === 0) return;
 
-    if (buttons.length === 0) return;
-
-    if (isExclusive) {
-      // 排他ボタンならランダムで1つだけ
-      const randomIndex = Math.floor(Math.random() * buttons.length);
-      buttons.forEach((b, i) => {
-        if (i === randomIndex) b.classList.add("active");
-        else b.classList.remove("active");
-      });
-    } else {
-      // 非排他なら 50% の確率で押す
-      buttons.forEach((b) => {
-        b.classList.toggle("active", Math.random() < 0.5);
-      });
-    }
-
-    // textarea 更新
-    const activeKeywords = [...sg.querySelectorAll("button.active")].map(
-      (b) => b.dataset.keyword
-    );
-    const targetId = sg.closest(".keyword-list").dataset.target;
-    const textarea = document.getElementById(targetId);
-    if (textarea) textarea.value = activeKeywords.join(", ");
+      if (isExclusive) {
+        const randomIndex = Math.floor(Math.random() * buttons.length);
+        buttons.forEach((b, i) => {
+          b.classList.toggle("active", i === randomIndex);
+        });
+      } else {
+        buttons.forEach((b) => {
+          b.classList.toggle("active", Math.random() < 0.5);
+        });
+      }
+    });
   });
+});
+// 全ボタンクリア
+document.getElementById("clearAll").addEventListener("click", () => {
+  document.querySelectorAll(".sub-group button").forEach((b) => {
+    b.classList.remove("active");
+  });
+  document.getElementById("output").textContent = ""; // 出力もクリア
+  localStorage.removeItem("buttonState"); // 保存状態もクリア
 });

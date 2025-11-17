@@ -25,16 +25,9 @@ body {
 }
 
 .left-column {
-  flex: 3;
   display: flex; /* keyword-list を横並びに */
   flex-wrap: wrap; /* 幅が足りなければ折り返す */
   gap: 20px; /* keyword-list 間の隙間 */
-}
-
-.right-column {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
 }
 
 label {
@@ -97,6 +90,9 @@ button:hover {
 
 .sub-group h4 {
   margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .sub-group button {
@@ -118,4 +114,11 @@ button:hover {
   background: #eef0ff;
   padding: 15px;
   border-radius: 6px;
+}
+
+/* 折りたたみ孫グループ */
+.sub-subgroups {
+  margin-left: 15px;
+  border-left: 2px dashed #ccc;
+  padding-left: 10px;
 }

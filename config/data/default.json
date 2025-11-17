@@ -516,5 +516,32 @@
 
     { "value": "score_high", "label": "高評価" },
     { "value": "score_best", "label": "最高評価" }
+  ],
+
+  "eyes": [
+    { "value": "open eyes", "label": "目を開ける" },
+    { "value": "closed eyes", "label": "目を閉じる" },
+    { "value": "winking eye", "label": "ウィンク" },
+    { "value": "angry eyes", "label": "怒った目" },
+    { "value": "sad eyes", "label": "悲しい目" },
+    { "value": "happy eyes", "label": "嬉しい目" },
+    { "value": "surprised eyes", "label": "驚いた目" }
+  ],
+  "mouth": [
+    { "value": "smile", "label": "微笑む" },
+    { "value": "frown", "label": "しかめる" },
+    { "value": "open mouth", "label": "口を開ける" },
+    { "value": "pout", "label": "すぼめる" },
+    { "value": "grin", "label": "にやり" }
+  ],
+  "eyebrows": [
+    { "value": "raised eyebrows", "label": "眉を上げる" },
+    { "value": "lowered eyebrows", "label": "眉を下げる" },
+    { "value": "angled eyebrows", "label": "角度をつける" },
+    { "value": "neutral eyebrows", "label": "中立の眉" }
+  ],
+  "cheeks": [
+    { "value": "blush", "label": "頬を赤らめる" },
+    { "value": "neutral cheeks", "label": "普通の頬" }
   ]
 }
