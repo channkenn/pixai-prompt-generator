@@ -7,32 +7,22 @@
         {
           "id": "ratio_composition",
           "label": "比率構図",
-          "exclusive": true,
-          "items": []
+          "exclusive": true
         },
         {
           "id": "leading_lines",
           "label": "視線誘導",
-          "exclusive": true,
-          "items": ["spiral composition", "leading lines to subject"]
+          "exclusive": true
         },
         {
           "id": "balance_layout",
           "label": "左右バランス",
-          "exclusive": true,
-          "items": ["symmetrical layout", "asymmetrical layout"]
+          "exclusive": true
         },
         {
           "id": "other_composition",
           "label": "その他共存可能な構図",
-          "exclusive": false,
-          "items": [
-            "balanced foreground and background",
-            "dynamic diagonal flow",
-            "central focus",
-            "layered depth",
-            "perspective depth cues"
-          ]
+          "exclusive": false
         }
       ]
     },
@@ -226,39 +216,43 @@
         {
           "id": "ratio_composition_after",
           "label": "比率構図の微調整",
-          "exclusive": true,
-          "items": ["slightly adjust subject position for balance"]
+          "exclusive": true
         },
         {
           "id": "leading_lines_after",
           "label": "視線誘導の微調整",
-          "exclusive": true,
-          "items": [
-            "minor leading line adjustment",
-            "soften diagonal flow",
-            "subtle spiral enhancement"
-          ]
+          "exclusive": true
         },
         {
           "id": "balance_layout_after",
           "label": "左右バランスの微調整",
-          "exclusive": true,
-          "items": [
-            "refine symmetry or asymmetry",
-            "fine-tune foreground weight",
-            "slight balance correction for background elements"
-          ]
+          "exclusive": true
         },
         {
           "id": "other_composition_after",
           "label": "その他共存可能な微調整",
-          "exclusive": false,
-          "items": [
-            "slightly tweak perspective depth",
-            "micro-adjust focal point",
-            "enhance visual flow",
-            "subtle layer correction"
-          ]
+          "exclusive": false
+        }
+      ]
+    },
+    {
+      "id": "style_quality_score_par",
+      "label": "作風・品質・スコア",
+      "subgroups": [
+        {
+          "id": "style_tags",
+          "label": "作風",
+          "exclusive": false
+        },
+        {
+          "id": "quality_tags",
+          "label": "品質",
+          "exclusive": false
+        },
+        {
+          "id": "score_tags",
+          "label": "スコア",
+          "exclusive": false
         }
       ]
     }
