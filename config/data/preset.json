@@ -1,0 +1,21 @@
+{
+  "preset_tags": [
+    {
+      "value": "portrait_clean",
+      "label": "ポートレート（クリーン）",
+      "active": {
+        "expression": ["smiling"],
+        "lighting": ["soft light"],
+        "camera_view": ["front"]
+      }
+    },
+    {
+      "value": "landscape_evening",
+      "label": "夕景風景",
+      "active": {
+        "mood": ["calm"],
+        "ratio_composition": ["rule of thirds"]
+      }
+    }
+  ]
+}

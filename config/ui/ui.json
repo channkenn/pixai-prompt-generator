@@ -277,6 +277,17 @@
           "exclusive": false
         }
       ]
+    },
+    {
+      "id": "preset_par",
+      "label": "プリセット",
+      "subgroups": [
+        {
+          "id": "preset_tags",
+          "label": "プリセット選択",
+          "exclusive": false
+        }
+      ]
     }
   ]
 }
