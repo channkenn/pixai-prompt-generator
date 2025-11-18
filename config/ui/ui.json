@@ -195,7 +195,34 @@
         {
           "id": "props_background",
           "label": "小物",
-          "exclusive": false
+          "exclusive": false,
+          "subgroups": [
+            {
+              "id": "nature_objects",
+              "label": "自然物",
+              "exclusive": false
+            },
+            {
+              "id": "sky_weather",
+              "label": "空・天候",
+              "exclusive": false
+            },
+            {
+              "id": "water_reflections",
+              "label": "水・反射",
+              "exclusive": false
+            },
+            {
+              "id": "lighting_effects",
+              "label": "光・演出",
+              "exclusive": false
+            },
+            {
+              "id": "manmade_structures",
+              "label": "建物・構造物",
+              "exclusive": false
+            }
+          ]
         }
       ]
     },

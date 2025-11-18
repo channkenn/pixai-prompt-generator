@@ -5,7 +5,6 @@ document.addEventListener("DOMContentLoaded", async () => {
   const resPreset = await fetch("config/data/preset.json");
   const PRESET = await resPreset.json();
 
-  // default.json と preset.json をマージ
   const DICT_MERGED = { ...DICT, ...PRESET };
 
   const resUI = await fetch("config/ui/ui.json");
@@ -14,13 +13,12 @@ document.addEventListener("DOMContentLoaded", async () => {
   const container = document.querySelector(".container");
   const output = document.getElementById("output");
 
-  // 保存・復元
   const saveState = () => {
     const state = {};
-    document.querySelectorAll(".sub-group").forEach((sg) => {
-      const activeKeywords = [...sg.querySelectorAll("button.active")].map(
-        (b) => b.dataset.keyword
-      );
+    document.querySelectorAll(".sub-group, .sub-subgroup").forEach((sg) => {
+      const activeKeywords = [...sg.querySelectorAll("button.active")]
+        .map((b) => b.dataset.keyword)
+        .filter((k) => k);
       if (activeKeywords.length > 0)
         state[sg.dataset.subgroup] = activeKeywords;
     });
@@ -29,15 +27,73 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   const loadState = () => {
     const state = JSON.parse(localStorage.getItem("buttonState") || "{}");
-    document.querySelectorAll(".sub-group").forEach((sg) => {
+    document.querySelectorAll(".sub-group, .sub-subgroup").forEach((sg) => {
       const sgState = state[sg.dataset.subgroup] || [];
-      sg.querySelectorAll("button").forEach((b) => {
-        b.classList.toggle("active", sgState.includes(b.dataset.keyword));
-      });
+      sg.querySelectorAll("button").forEach((b) =>
+        b.classList.toggle("active", sgState.includes(b.dataset.keyword))
+      );
     });
   };
 
-  // UI生成
+  const createSubGroup = (sgObj, parentElem, isNested = false) => {
+    const subDiv = document.createElement("div");
+    subDiv.className = isNested ? "sub-subgroup" : "sub-group";
+    subDiv.dataset.subgroup = sgObj.id;
+
+    const h4 = document.createElement("h4");
+    h4.textContent = sgObj.label;
+
+    subDiv.appendChild(h4);
+    parentElem.appendChild(subDiv);
+
+    const items = Array.isArray(DICT_MERGED[sgObj.id])
+      ? DICT_MERGED[sgObj.id]
+      : [];
+    items.forEach((item) => {
+      if (!item.value) return;
+      const btn = document.createElement("button");
+      btn.dataset.keyword = item.value;
+      btn.dataset.exclusive = sgObj.exclusive;
+      btn.dataset.noRandom = item.noRandom ? "true" : "false";
+      btn.textContent = item.label;
+
+      btn.addEventListener("click", () => {
+        if (sgObj.exclusive) {
+          subDiv.querySelectorAll("button").forEach((b) => {
+            if (b !== btn) b.classList.remove("active");
+          });
+        }
+        btn.classList.toggle("active");
+        saveState();
+      });
+
+      subDiv.appendChild(btn);
+    });
+
+    if (sgObj.subgroups) {
+      const nestedWrapper = document.createElement("div");
+      nestedWrapper.className = "sub-subgroups collapsed"; // 初期閉じ
+      sgObj.subgroups.forEach((sub) =>
+        createSubGroup(sub, nestedWrapper, true)
+      );
+      subDiv.appendChild(nestedWrapper);
+
+      const toggle = document.createElement("span");
+      toggle.className = "toggle"; // ← 追加して CSS 適用
+      toggle.textContent = "▶";
+      toggle.style.cursor = "pointer";
+      toggle.style.marginLeft = "8px";
+      h4.appendChild(toggle);
+
+      toggle.addEventListener("click", () => {
+        nestedWrapper.classList.toggle("collapsed");
+        toggle.textContent = nestedWrapper.classList.contains("collapsed")
+          ? "▶"
+          : "▼";
+      });
+    }
+  };
+
   const createKeywordList = (group) => {
     const wrapper = document.createElement("div");
     wrapper.className = "group-row";
@@ -57,64 +113,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       h3.textContent = group.label;
       keywordList.appendChild(h3);
 
-      const subGroupDiv = document.createElement("div");
-      subGroupDiv.className = "sub-group";
-      subGroupDiv.dataset.subgroup = sg.id;
-
-      const h4 = document.createElement("h4");
-      h4.textContent = sg.label;
-      subGroupDiv.appendChild(h4);
-
-      const items = Array.isArray(DICT_MERGED[sg.id]) ? DICT_MERGED[sg.id] : [];
-      items.forEach((item) => {
-        const btn = document.createElement("button");
-        btn.dataset.keyword = item.value;
-        btn.dataset.exclusive = sg.exclusive;
-        btn.textContent = item.label;
-
-        btn.addEventListener("click", () => {
-          if (item.active && typeof item.active === "object") {
-            // item.active に基づき各サブグループのボタンをアクティブ化
-            Object.entries(item.active).forEach(([targetSgId, keywords]) => {
-              const subgroup = document.querySelector(
-                `.sub-group[data-subgroup="${targetSgId}"]`
-              );
-              if (!subgroup) return;
-
-              // 配列として扱う
-              const kwArray = Array.isArray(keywords) ? keywords : [keywords];
-              console.log(kwArray);
-              // すべてのボタンを一旦非アクティブ（排他ではない場合は不要）
-              // subgroup
-              //   .querySelectorAll("button")
-              //   .forEach((b) => b.classList.remove("active"));
-
-              // 配列内のすべてのキーワードをアクティブに
-              kwArray.forEach((kw) => {
-                const targetBtn = subgroup.querySelector(
-                  `button[data-keyword="${kw}"]`
-                );
-                if (targetBtn) targetBtn.classList.add("active");
-              });
-            });
-          } else {
-            // 通常ボタンの挙動
-            const isExclusive = btn.dataset.exclusive === "true";
-            if (isExclusive) {
-              subGroupDiv.querySelectorAll("button").forEach((b) => {
-                if (b !== btn) b.classList.remove("active");
-              });
-            }
-            btn.classList.toggle("active");
-          }
-
-          saveState();
-        });
-
-        subGroupDiv.appendChild(btn);
-      });
-
-      keywordList.appendChild(subGroupDiv);
+      createSubGroup(sg, keywordList);
       leftCol.appendChild(keywordList);
     });
 
@@ -126,37 +125,23 @@ document.addEventListener("DOMContentLoaded", async () => {
   UI.groups.forEach(createKeywordList);
   loadState();
 
-  // プリセット適用処理（安全版）
+  // 以下は以前のプリセットや生成、ランダム選択などの処理はそのまま
   function applyPreset(preset) {
-    // まずすべてのボタンを非アクティブ化
-    document.querySelectorAll(".sub-group button").forEach((b) => {
-      b.classList.remove("active");
-    });
-
+    document
+      .querySelectorAll(".sub-group, .sub-subgroup button")
+      .forEach((b) => b.classList.remove("active"));
     if (!preset.active) return;
-
-    // preset.active の各サブグループIDとキーワードを処理
     Object.entries(preset.active).forEach(([sgId, keywords]) => {
-      const subgroup = document.querySelector(
-        `.sub-group[data-subgroup="${sgId}"]`
-      );
+      const subgroup = document.querySelector(`[data-subgroup="${sgId}"]`);
       if (!subgroup) return;
-
-      // keywords が配列でなければ配列化
       const kwArray = Array.isArray(keywords) ? keywords : [keywords];
-
       subgroup.querySelectorAll("button").forEach((btn) => {
-        if (kwArray.includes(btn.dataset.keyword)) {
-          btn.classList.add("active");
-        }
+        if (kwArray.includes(btn.dataset.keyword)) btn.classList.add("active");
       });
     });
-
-    // 状態保存
     saveState();
   }
 
-  // プリセットボタン生成
   if (PRESET.preset_tags) {
     const presetBox = document.createElement("div");
     presetBox.id = "presetBox";
@@ -171,24 +156,24 @@ document.addEventListener("DOMContentLoaded", async () => {
     });
   }
 
-  // 出力生成
   document.getElementById("generateLabel").addEventListener("click", () => {
     const out = [];
-    document.querySelectorAll(".sub-group").forEach((sg) => {
+    document.querySelectorAll(".sub-group, .sub-subgroup").forEach((sg) => {
       const sgId = sg.dataset.subgroup;
-      const active = [...sg.querySelectorAll("button.active")].map(
-        (b) => b.dataset.keyword
-      );
+      const active = [...sg.querySelectorAll("button.active")]
+        .map((b) => b.dataset.keyword)
+        .filter((k) => k);
       if (active.length > 0) out.push(`${sgId}: ${active.join(", ")}`);
     });
     output.textContent = out.join("\n");
   });
 
   document.getElementById("generate").addEventListener("click", () => {
-    const all = [];
-    document.querySelectorAll(".sub-group button.active").forEach((btn) => {
-      all.push(btn.dataset.keyword);
-    });
+    const all = [
+      ...document.querySelectorAll(".sub-group, .sub-subgroup button.active"),
+    ]
+      .map((btn) => btn.dataset.keyword)
+      .filter((k) => k);
     output.textContent = all.join(", ");
   });
 
@@ -196,18 +181,18 @@ document.addEventListener("DOMContentLoaded", async () => {
     navigator.clipboard.writeText(output.textContent);
   });
 
-  // ランダム選択
   const randomBtn = document.createElement("button");
   randomBtn.textContent = "ランダム選択";
   randomBtn.id = "randomSelect";
   container.insertBefore(randomBtn, document.getElementById("generate"));
 
   randomBtn.addEventListener("click", () => {
-    document.querySelectorAll(".sub-group").forEach((sg) => {
-      const btns = sg.querySelectorAll("button");
+    document.querySelectorAll(".sub-group, .sub-subgroup").forEach((sg) => {
+      const btns = [...sg.querySelectorAll("button")].filter(
+        (b) => b.dataset.noRandom !== "true"
+      );
       const isExclusive = btns[0]?.dataset.exclusive === "true";
       if (btns.length === 0) return;
-
       if (isExclusive) {
         const r = Math.floor(Math.random() * btns.length);
         btns.forEach((b, i) => b.classList.toggle("active", i === r));
@@ -218,10 +203,9 @@ document.addEventListener("DOMContentLoaded", async () => {
   });
 });
 
-// 全クリア
 document.getElementById("clearAll").addEventListener("click", () => {
   document
-    .querySelectorAll(".sub-group button")
+    .querySelectorAll(".sub-group, .sub-subgroup button")
     .forEach((b) => b.classList.remove("active"));
   document.getElementById("output").textContent = "";
   localStorage.removeItem("buttonState");

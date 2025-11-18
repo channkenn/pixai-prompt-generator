@@ -3,18 +3,231 @@
     {
       "value": "portrait_clean",
       "label": "ポートレート（クリーン）",
+      "exclude_from_random": true,
       "active": {
         "expression": ["smiling"],
         "lighting": ["soft light"],
-        "camera_view": ["front"]
+        "camera_position": ["centered"],
+        "distance": ["headshot"]
+      }
+    },
+    {
+      "value": "portrait_dramatic",
+      "label": "ポートレート（ドラマチック）",
+      "exclude_from_random": true,
+      "active": {
+        "expression": ["serious"],
+        "lighting": ["dramatic lighting"],
+        "angle": ["low angle"],
+        "focus": ["shallow depth of field"]
       }
     },
     {
       "value": "landscape_evening",
       "label": "夕景風景",
+      "exclude_from_random": true,
       "active": {
         "mood": ["calm"],
-        "ratio_composition": ["rule of thirds"]
+        "ratio_composition": ["rule of thirds"],
+        "sky": ["sunset"],
+        "lighting": ["golden hour"]
+      }
+    },
+    {
+      "value": "landscape_morning",
+      "label": "朝景風景",
+      "exclude_from_random": true,
+      "active": {
+        "mood": ["bright"],
+        "ratio_composition": ["golden ratio"],
+        "sky": ["sunrise"],
+        "lighting": ["soft light"]
+      }
+    },
+    {
+      "value": "action_jump",
+      "label": "ジャンプアクション",
+      "exclude_from_random": true,
+      "active": {
+        "action": ["jumping high"],
+        "pose": ["jumping"],
+        "motion": ["tracking shot"],
+        "angle": ["low angle"]
+      }
+    },
+    {
+      "value": "sci_fi_character",
+      "label": "SFキャラクター",
+      "exclude_from_random": true,
+      "active": {
+        "subject_type": ["android"],
+        "species": ["android"],
+        "outfit": ["futuristic suit"],
+        "lighting": ["neon lights"]
+      }
+    },
+    {
+      "value": "fantasy_mage",
+      "label": "ファンタジー魔法使い",
+      "exclude_from_random": true,
+      "active": {
+        "subject_type": ["mage"],
+        "species": ["human"],
+        "outfit": ["wizard outfit"],
+        "pose": ["hands_raised"],
+        "expression": ["determined"]
+      }
+    },
+    {
+      "value": "urban_night",
+      "label": "都会の夜",
+      "exclude_from_random": true,
+      "active": {
+        "background": ["urban street"],
+        "sky": ["night with neon lights"],
+        "lighting": ["neon lights"],
+        "mood": ["mysterious"]
+      }
+    },
+    {
+      "value": "cozy_interior",
+      "label": "居心地の良い室内",
+      "exclude_from_random": true,
+      "active": {
+        "background": ["cozy room"],
+        "props_background": ["books", "lamp", "rug"],
+        "lighting": ["soft light"],
+        "mood": ["calm"]
+      }
+    },
+    {
+      "value": "action_running",
+      "label": "走るアクション",
+      "exclude_from_random": true,
+      "active": {
+        "action": ["running fast"],
+        "pose": ["running"],
+        "motion": ["tracking shot"],
+        "angle": ["low angle"]
+      }
+    },
+    {
+      "value": "beach_swim",
+      "label": "ビーチ水着",
+      "exclude_from_random": true,
+      "active": {
+        "subject_type": ["girl"],
+        "outfit": ["swimsuit one-piece"],
+        "pose": ["standing"],
+        "background": ["sand"],
+        "lighting": ["bright"]
+      }
+    },
+    {
+      "value": "forest_adventure",
+      "label": "森の冒険者",
+      "exclude_from_random": true,
+      "active": {
+        "subject_type": ["adventurer outfit"],
+        "pose": ["running"],
+        "background": ["forest"],
+        "lighting": ["soft light"]
+      }
+    },
+    {
+      "value": "snowy_scene",
+      "label": "雪景色",
+      "exclude_from_random": true,
+      "active": {
+        "background": ["snowy park"],
+        "ground": ["snow"],
+        "sky": ["snowy"],
+        "lighting": ["soft light"],
+        "mood": ["calm"]
+      }
+    },
+    {
+      "value": "vampire_gothic",
+      "label": "ゴシックヴァンパイア",
+      "exclude_from_random": true,
+      "active": {
+        "species": ["vampire"],
+        "outfit": ["formal suit"],
+        "expression": ["serious"],
+        "lighting": ["dramatic lighting"],
+        "mood": ["dark"]
+      }
+    },
+    {
+      "value": "angelic_pose",
+      "label": "天使のポーズ",
+      "exclude_from_random": true,
+      "active": {
+        "subject_type": ["angel"],
+        "pose": ["arms_wide_open"],
+        "expression": ["happy"],
+        "lighting": ["backlit"],
+        "mood": ["dreamy"]
+      }
+    },
+    {
+      "value": "school_life",
+      "label": "学校の日常",
+      "exclude_from_random": true,
+      "active": {
+        "subject_type": ["schoolgirl"],
+        "outfit": ["school uniform"],
+        "pose": ["sitting_on_knees"],
+        "expression": ["smiling"],
+        "background": ["classroom"]
+      }
+    },
+    {
+      "value": "romantic_couple",
+      "label": "ロマンチックカップル",
+      "exclude_from_random": true,
+      "active": {
+        "subject_main": ["couple"],
+        "pose": ["hands_raised"],
+        "expression": ["blushing"],
+        "mood": ["romantic"],
+        "lighting": ["soft light"]
+      }
+    },
+    {
+      "value": "dynamic_dance",
+      "label": "ダイナミックダンス",
+      "exclude_from_random": true,
+      "active": {
+        "pose": ["dancing"],
+        "action": ["dancing"],
+        "motion": ["panning"],
+        "expression": ["happy"],
+        "lighting": ["cinematic"]
+      }
+    },
+    {
+      "value": "library_reading",
+      "label": "図書館で読書",
+      "exclude_from_random": true,
+      "active": {
+        "background": ["library corner"],
+        "pose": ["sitting_cross_legged"],
+        "props_background": ["books", "lamp"],
+        "lighting": ["soft light"],
+        "mood": ["calm"]
+      }
+    },
+    {
+      "value": "hero_warrior",
+      "label": "勇者・戦士",
+      "exclude_from_random": true,
+      "active": {
+        "subject_type": ["warrior"],
+        "pose": ["hands_on_hips"],
+        "outfit": ["armor"],
+        "expression": ["determined"],
+        "lighting": ["dramatic lighting"]
       }
     }
   ]

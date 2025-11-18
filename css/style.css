@@ -1,4 +1,4 @@
-/* style.css */
+/** style.css 修正版（孫階層対応・トグル表示追加・孫階層横並び・孫階層同士横並び） **/
 
 body {
   font-family: sans-serif;
@@ -25,53 +25,14 @@ body {
 }
 
 .left-column {
-  display: flex; /* keyword-list を横並びに */
-  flex-wrap: wrap; /* 幅が足りなければ折り返す */
-  gap: 20px; /* keyword-list 間の隙間 */
-}
-
-label {
-  font-weight: bold;
-  display: block;
-  margin-bottom: 5px;
-}
-
-textarea,
-select,
-input {
-  width: 100%;
-  padding: 10px;
-  margin-top: 5px;
-  border-radius: 6px;
-  border: 1px solid #ccc;
-  box-sizing: border-box;
-  flex: 1;
-}
-
-button {
-  margin: 5px 0;
-  padding: 8px 12px;
-  border: none;
-  background: #4a7aff;
-  color: #fff;
-  font-size: 14px;
-  border-radius: 6px;
-  cursor: pointer;
-  display: block;
-  width: 100%;
-}
-
-button.active {
-  background: #cab904;
-}
-
-button:hover {
-  background: #cab904;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 .keyword-list {
   display: flex;
-  flex-direction: column; /* 見出し + sub-group を縦に */
+  flex-direction: column;
   border: 1px solid #ddd;
   padding: 10px;
   border-radius: 6px;
@@ -81,7 +42,6 @@ button:hover {
   margin-bottom: 8px;
 }
 
-/* sub-group は縦並び */
 .sub-group {
   display: flex;
   flex-direction: column;
@@ -93,32 +53,64 @@ button:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  cursor: pointer;
 }
 
-.sub-group button {
-  display: block;
-  width: 100%;
-  margin-bottom: 5px;
-}
-
-.block {
-  margin-bottom: 20px;
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-}
-
-.output {
-  margin-top: 20px;
-  white-space: pre-wrap;
-  background: #eef0ff;
-  padding: 15px;
+button {
+  margin: 5px 0;
+  padding: 8px 12px;
+  border: none;
+  background: #4a7aff;
+  color: #fff;
+  font-size: 14px;
   border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
 }
 
-/* 折りたたみ孫グループ */
+button.active {
+  background: #cab904;
+}
+
+button:hover {
+  background: #cab904;
+}
+
+/* --- 孫階層用 --- */
 .sub-subgroups {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
   margin-left: 15px;
   border-left: 2px dashed #ccc;
   padding-left: 10px;
+  flex-direction: row; /* 孫階層同士も横並び */
+}
+
+.sub-subgroups.collapsed {
+  display: none;
+}
+
+.sub-subgroup {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  flex-direction: column;
+}
+
+.sub-subgroup button {
+  width: auto;
+  flex: 0 0 auto;
+}
+
+/* トグルボタン用 */
+.sub-group h4 span.toggle {
+  margin-left: 5px;
+  font-weight: bold;
+  user-select: none;
+}
+
+.hidden {
+  display: none;
 }
