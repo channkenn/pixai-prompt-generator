@@ -329,26 +329,9 @@
     { "value": "waterfall", "label": "滝" }
   ],
   "props_background": [
-    { "value": "bar stool", "label": "バースツール" },
-    { "value": "books", "label": "本" },
-    { "value": "bookshelf", "label": "本棚" },
-    { "value": "bottle", "label": "ボトル" },
     { "value": "chair", "label": "椅子" },
-    { "value": "clock", "label": "時計" },
-    { "value": "counter", "label": "カウンター" },
-    { "value": "cup", "label": "カップ" },
-    { "value": "cushion", "label": "クッション" },
-    { "value": "door", "label": "ドア" },
-    { "value": "lamp shade", "label": "ランプシェード" },
-    { "value": "lamp", "label": "ランプ" },
-    { "value": "low table", "label": "低いテーブル" },
-    { "value": "picture frame", "label": "写真立て" },
-    { "value": "plant", "label": "植物" },
-    { "value": "plate", "label": "皿" },
-    { "value": "rug", "label": "ラグ" },
     { "value": "table", "label": "テーブル" },
-    { "value": "vase", "label": "花瓶" },
-    { "value": "window", "label": "窓" }
+    { "value": "lamp", "label": "ランプ" }
   ],
   "nature_objects": [
     { "value": "cherry blossoms", "label": "桜" },
@@ -698,30 +681,69 @@
     { "value": "score_best", "label": "最高評価" }
   ],
 
-  "eyes": [
-    { "value": "open eyes", "label": "目を開ける" },
-    { "value": "closed eyes", "label": "目を閉じる" },
-    { "value": "winking eye", "label": "ウィンク" },
-    { "value": "angry eyes", "label": "怒った目" },
-    { "value": "sad eyes", "label": "悲しい目" },
-    { "value": "happy eyes", "label": "嬉しい目" },
-    { "value": "surprised eyes", "label": "驚いた目" }
+  "right_eye": [
+    { "value": "open right eye", "label": "右目を開ける" },
+    { "value": "closed right eye", "label": "右目を閉じる" },
+    { "value": "winking right eye", "label": "右目ウィンク" },
+    { "value": "angry right eye", "label": "右目怒り" },
+    { "value": "sad right eye", "label": "右目悲しい" },
+    { "value": "happy right eye", "label": "右目嬉しい" },
+    { "value": "surprised right eye", "label": "右目驚き" }
+  ],
+  "left_eye": [
+    { "value": "open left eye", "label": "左目を開ける" },
+    { "value": "closed left eye", "label": "左目を閉じる" },
+    { "value": "winking left eye", "label": "左目ウィンク" },
+    { "value": "angry left eye", "label": "左目怒り" },
+    { "value": "sad left eye", "label": "左目悲しい" },
+    { "value": "happy left eye", "label": "左目嬉しい" },
+    { "value": "surprised left eye", "label": "左目驚き" }
+  ],
+  "right_eyebrow": [
+    { "value": "raised right eyebrow", "label": "右眉を上げる" },
+    { "value": "lowered right eyebrow", "label": "右眉を下げる" },
+    { "value": "angled right eyebrow", "label": "右眉角度" },
+    { "value": "neutral right eyebrow", "label": "右眉中立" }
+  ],
+  "left_eyebrow": [
+    { "value": "raised left eyebrow", "label": "左眉を上げる" },
+    { "value": "lowered left eyebrow", "label": "左眉を下げる" },
+    { "value": "angled left eyebrow", "label": "左眉角度" },
+    { "value": "neutral left eyebrow", "label": "左眉中立" }
+  ],
+  "right_cheek": [
+    { "value": "blush right cheek", "label": "右頬を赤らめる" },
+    { "value": "neutral right cheek", "label": "右頬普通" },
+    { "value": "dimple right cheek", "label": "右頬のえくぼ" },
+    { "value": "freckles right cheek", "label": "右頬のそばかす" }
+  ],
+  "left_cheek": [
+    { "value": "blush left cheek", "label": "左頬を赤らめる" },
+    { "value": "neutral left cheek", "label": "左頬普通" },
+    { "value": "dimple left cheek", "label": "左頬のえくぼ" },
+    { "value": "freckles left cheek", "label": "左頬のそばかす" }
+  ],
+  "nose_tip": [
+    { "value": "straight", "label": "まっすぐな鼻" },
+    { "value": "pointed", "label": "尖った鼻" },
+    { "value": "rounded", "label": "丸い鼻" }
+  ],
+  "nostril_right": [
+    { "value": "flareno stril right", "label": "右の鼻孔を広げる" }
+  ],
+  "nostril_left": [
+    { "value": "flare nostril left", "label": "左の鼻孔を広げる" }
   ],
   "mouth": [
     { "value": "smile", "label": "微笑む" },
     { "value": "frown", "label": "しかめる" },
-    { "value": "open mouth", "label": "口を開ける" },
+    { "value": "open", "label": "口を開ける" },
     { "value": "pout", "label": "すぼめる" },
     { "value": "grin", "label": "にやり" }
   ],
-  "eyebrows": [
-    { "value": "raised eyebrows", "label": "眉を上げる" },
-    { "value": "lowered eyebrows", "label": "眉を下げる" },
-    { "value": "angled eyebrows", "label": "角度をつける" },
-    { "value": "neutral eyebrows", "label": "中立の眉" }
-  ],
-  "cheeks": [
-    { "value": "blush", "label": "頬を赤らめる" },
-    { "value": "neutral cheeks", "label": "普通の頬" }
+  "chin": [
+    { "value": "pointed", "label": "尖った顎" },
+    { "value": "rounded", "label": "丸い顎" },
+    { "value": "cleft", "label": "顎の割れ目" }
   ]
 }

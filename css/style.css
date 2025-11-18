@@ -114,3 +114,10 @@ button:hover {
 .hidden {
   display: none;
 }
+
+#generateLabel,
+#generateEnglish,
+#savePreset,
+#loadPreset {
+  display: none;
+}

@@ -68,8 +68,48 @@
           "exclusive": true,
           "subgroups": [
             {
-              "id": "eyes",
-              "label": "目",
+              "id": "right_eye",
+              "label": "右目",
+              "exclusive": true
+            },
+            {
+              "id": "left_eye",
+              "label": "左目",
+              "exclusive": true
+            },
+            {
+              "id": "right_eyebrow",
+              "label": "右眉",
+              "exclusive": true
+            },
+            {
+              "id": "left_eyebrow",
+              "label": "左眉",
+              "exclusive": true
+            },
+            {
+              "id": "right_cheek",
+              "label": "右頬",
+              "exclusive": true
+            },
+            {
+              "id": "left_cheek",
+              "label": "左頬",
+              "exclusive": true
+            },
+            {
+              "id": "nose_tip",
+              "label": "鼻先",
+              "exclusive": true
+            },
+            {
+              "id": "nostril_right",
+              "label": "右鼻孔",
+              "exclusive": true
+            },
+            {
+              "id": "nostril_left",
+              "label": "左鼻孔",
               "exclusive": true
             },
             {
@@ -78,17 +118,23 @@
               "exclusive": true
             },
             {
-              "id": "eyebrows",
-              "label": "眉",
+              "id": "chin",
+              "label": "顎",
               "exclusive": true
             },
             {
-              "id": "cheeks",
-              "label": "頬",
+              "id": "freckles",
+              "label": "そばかす",
+              "exclusive": true
+            },
+            {
+              "id": "dimples",
+              "label": "えくぼ",
               "exclusive": true
             }
           ]
         },
+
         {
           "id": "pose",
           "label": "ポーズ",
