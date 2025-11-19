@@ -1,0 +1,123 @@
+{
+  "groups": [
+    {
+      "id": "1_quality_parent",
+      "label": "1. 品質・画質 (Quality)",
+      "description": "最優先で処理される画質補正タグ",
+      "subgroups": [
+        {
+          "id": "quality_boosters",
+          "label": "品質ブースター",
+          "exclusive": false
+        }
+      ]
+    },
+    {
+      "id": "2_subject_parent",
+      "label": "2. 主体・基本属性 (Subject)",
+      "description": "誰を描くか（キャラクターの定義）",
+      "subgroups": [
+        {
+          "id": "base_attributes",
+          "label": "基本属性",
+          "exclusive": true
+        },
+        {
+          "id": "age_body",
+          "label": "年齢・体格",
+          "exclusive": true
+        }
+      ]
+    },
+    {
+      "id": "3_details_parent",
+      "label": "3. 顔・表情詳細 (Face Details)",
+      "description": "キャラクターの解像度を上げる詳細設定",
+      "subgroups": [
+        {
+          "id": "gaze_control",
+          "label": "視線 (Gaze)",
+          "exclusive": true
+        },
+        {
+          "id": "eye_expression",
+          "label": "目の形状・表現",
+          "exclusive": true
+        },
+        {
+          "id": "mouth_expression",
+          "label": "口元の詳細",
+          "exclusive": true
+        },
+        {
+          "id": "emotion_fx",
+          "label": "感情エフェクト (漫符)",
+          "exclusive": false
+        }
+      ]
+    },
+    {
+      "id": "4_pose_action_parent",
+      "label": "4. 動作・ポーズ (Action & Pose)",
+      "description": "体の動きや姿勢",
+      "subgroups": [
+        {
+          "id": "posture",
+          "label": "姿勢",
+          "exclusive": true
+        },
+        {
+          "id": "hand_gesture",
+          "label": "手の動き",
+          "exclusive": false
+        }
+      ]
+    },
+    {
+      "id": "5_composition_parent",
+      "label": "5. 構図・カメラ (Composition)",
+      "description": "画角とアングル",
+      "subgroups": [
+        {
+          "id": "framing",
+          "label": "フレーミング",
+          "exclusive": true
+        },
+        {
+          "id": "camera_angle",
+          "label": "アングル",
+          "exclusive": true
+        }
+      ]
+    },
+    {
+      "id": "6_background_parent",
+      "label": "6. 背景 (Background)",
+      "description": "場所と環境光",
+      "subgroups": [
+        {
+          "id": "location_type",
+          "label": "場所タイプ",
+          "exclusive": true
+        },
+        {
+          "id": "lighting_atmosphere",
+          "label": "照明・雰囲気",
+          "exclusive": false
+        }
+      ]
+    },
+    {
+      "id": "7_style_parent",
+      "label": "7. スタイル・画風 (Style)",
+      "description": "全体の塗りやタッチ",
+      "subgroups": [
+        {
+          "id": "art_style",
+          "label": "画風",
+          "exclusive": true
+        }
+      ]
+    }
+  ]
+}

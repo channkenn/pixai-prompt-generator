@@ -875,5 +875,44 @@
     { "value": "adult", "label": "成人向け" },
     { "value": "lewd", "label": "淫ら・わいせつ" },
     { "value": "provocative", "label": "挑発的" }
+  ],
+
+  "gaze": [
+    { "value": "looking at viewer", "label": "カメラ目線" },
+    { "value": "looking away", "label": "視線を逸らす" },
+    { "value": "looking back", "label": "振り返る" },
+    { "value": "side glance", "label": "流し目" },
+    { "value": "rolling eyes", "label": "呆れる・目を回す" },
+    { "value": "cross-eyed", "label": "寄り目" },
+    { "value": "crazy eyes", "label": "狂気的な目" }
+  ],
+  "mouth_details": [
+    { "value": "parted lips", "label": "少し開いた唇" },
+    { "value": "clenched teeth", "label": "歯を食いしばる" },
+    { "value": "showing teeth", "label": "歯を見せる" },
+    { "value": "tongue out", "label": "舌を出す" },
+    { "value": "biting lip", "label": "唇を噛む" },
+    { "value": ":3", "label": "猫口（ω）" },
+    { "value": "pout", "label": "むっとする" }
+  ],
+  "eye_style": [
+    { "value": "tsurime", "label": "つり目" },
+    { "value": "tareme", "label": "タレ目" },
+    { "value": "jitome", "label": "ジト目" },
+    { "value": "sanpaku", "label": "三白眼" },
+    { "value": "heart-shaped pupils", "label": "ハート目" },
+    { "value": "slit pupils", "label": "縦長の瞳孔" },
+    { "value": "empty eyes", "label": "ハイライトなし（虚ろ）" },
+    { "value": "sparkling eyes", "label": "キラキラした目" }
+  ],
+  "emotion_modifiers": [
+    { "value": "sweat", "label": "汗（焦り）" },
+    { "value": "vein", "label": "青筋（怒りマーク）" },
+    { "value": "tears", "label": "涙" },
+    { "value": "drooling", "label": "よだれ" },
+    { "value": "gloom (expression)", "label": "顔に縦線（絶望・陰り）" },
+    { "value": "nose bleed", "label": "鼻血" },
+    { "value": "shadow over eyes", "label": "目の上に影（シリアス）" },
+    { "value": "blushing", "label": "赤面（全体）" }
   ]
 }

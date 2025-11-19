@@ -141,7 +141,33 @@
             }
           ]
         },
-
+        {
+          "id": "expression2",
+          "label": "表情2",
+          "exclusive": true,
+          "subgroups": [
+            {
+              "id": "gaze",
+              "label": "目線",
+              "exclusive": true
+            },
+            {
+              "id": "mouth_details",
+              "label": "口詳細",
+              "exclusive": true
+            },
+            {
+              "id": "eye_style",
+              "label": "目詳細",
+              "exclusive": true
+            },
+            {
+              "id": "emotion_modifiers",
+              "label": "感情表現",
+              "exclusive": false
+            }
+          ]
+        },
         {
           "id": "pose",
           "label": "ポーズ",
