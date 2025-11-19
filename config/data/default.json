@@ -59,7 +59,48 @@
     { "value": "slender", "label": "細身" },
     { "value": "curvy", "label": "グラマラス" },
     { "value": "muscular", "label": "筋肉質" },
-    { "value": "petite", "label": "小柄" }
+    { "value": "petite", "label": "小柄" },
+
+    { "value": "athletic", "label": "アスリート体型" },
+    { "value": "lean", "label": "引き締まった細身" },
+    { "value": "plump", "label": "ふっくら" },
+    {
+      "value": "voluptuous",
+      "label": "肉感的・豊満（全年齢でも使用される表現）"
+    },
+    { "value": "hourglass", "label": "砂時計体型" },
+    { "value": "pear-shaped", "label": "下半身が大きい体型" },
+    { "value": "apple-shaped", "label": "上半身が大きい体型" },
+    { "value": "lanky", "label": "背が高く細長い" },
+    { "value": "bulky", "label": "大柄・がっしり" },
+
+    { "value": "toned", "label": "引き締まった体" },
+    { "value": "ripped", "label": "筋肉が非常に明確" },
+    { "value": "buff", "label": "がっしり・筋肉質（軽スラング）" }
+  ],
+  "body_type_negative": [
+    { "value": "thicc", "label": "性的ニュアンスのある豊満系スラング" },
+    {
+      "value": "bbw",
+      "label": "成人向けの大柄女性スラング（Big Beautiful Woman）"
+    },
+    { "value": "skinny", "label": "過度に細い・ボディネガティブなスラング" },
+    { "value": "flat", "label": "性的文脈で胸の小ささを指すスラング" },
+    { "value": "chunky", "label": "ぽっちゃり（侮蔑ニュアンスあり）" },
+    {
+      "value": "thick-thighs",
+      "label": "性的強調として使われる太ももスラング"
+    },
+    { "value": "milky", "label": "豊満さを性的に連想させるスラング" },
+    { "value": "juicy", "label": "体型を性的に形容するスラング" },
+    { "value": "plushy", "label": "性的な“柔らかい体型”スラング" },
+
+    { "value": "fat", "label": "侮蔑的（生成に使わせないため）" },
+    {
+      "value": "obese",
+      "label": "医学用語だが成人向けタグにも使われるため除外推奨"
+    },
+    { "value": "anorexic", "label": "拒食症の侮蔑的な指摘に使われる" }
   ],
   "expression": [
     { "value": "angry", "label": "怒り" },
@@ -745,5 +786,94 @@
     { "value": "pointed", "label": "尖った顎" },
     { "value": "rounded", "label": "丸い顎" },
     { "value": "cleft", "label": "顎の割れ目" }
+  ],
+  "body": [
+    { "value": "breast", "label": "胸・乳房" },
+    { "value": "tits", "label": "胸・乳房（スラング）1" },
+    { "value": "boobs", "label": "胸・乳房（スラング）2" },
+    { "value": "nipple", "label": "乳首" },
+    { "value": "nipp", "label": "乳首（スラング）1" },
+    { "value": "teat", "label": "乳首（スラング）2" },
+    { "value": "areola", "label": "乳輪" },
+    { "value": "penis", "label": "男性器" },
+    { "value": "dick", "label": "男性器（スラング）1" },
+    { "value": "cock", "label": "男性器（スラング）2" },
+    { "value": "vagina", "label": "女性器" },
+    { "value": "pussy", "label": "女性器（スラング）1" },
+    { "value": "cunt", "label": "女性器（スラング・卑語）1" },
+    { "value": "genitals", "label": "性器全般" },
+    { "value": "crotch", "label": "股間" },
+    { "value": "groin", "label": "股間・下半身" },
+    { "value": "cameltoe", "label": "股間が衣服で強調される状態（スラング）" },
+    { "value": "mons pubis", "label": "恥丘（股間部位）" },
+    { "value": "butt", "label": "お尻" },
+    { "value": "ass", "label": "お尻（スラング）1" },
+    { "value": "bum", "label": "お尻（スラング）1" },
+    { "value": "rear", "label": "お尻・臀部" },
+    { "value": "thighs", "label": "太もも" }
+  ],
+  "clothes": [
+    { "value": "lingerie", "label": "下着・ランジェリー" },
+    { "value": "underwear", "label": "下着" },
+    { "value": "panties", "label": "パンティ（スラング）" },
+    { "value": "bra", "label": "ブラジャー" },
+    { "value": "swimsuit", "label": "水着" },
+    { "value": "bikini", "label": "ビキニ" },
+    { "value": "open clothes", "label": "はだけた衣服" },
+    { "value": "wardrobe malfunction", "label": "衣服がはだけた状態" }
+  ],
+  "sex": [
+    { "value": "sexual act", "label": "性的行為全般" },
+    { "value": "intercourse", "label": "性交・挿入行為" },
+    { "value": "sex", "label": "性交・性的接触" },
+    { "value": "coitus", "label": "性交・挿入行為（学術的表現）" },
+    { "value": "masturbation", "label": "自慰行為" },
+    { "value": "anal sex", "label": "肛門性交" },
+    { "value": "oral sex", "label": "口腔性交" },
+    { "value": "blowjob", "label": "フェラチオ（スラング）" },
+    { "value": "cunnilingus", "label": "クンニリングス（口腔性交）" },
+    { "value": "fisting", "label": "フィスティング" },
+    {
+      "value": "pegging",
+      "label": "ペッギング（女性がストラップオンで男性の肛門に挿入）"
+    },
+    { "value": "footjob", "label": "足での性的行為" },
+    { "value": "handsjob", "label": "手での性的行為（スラング）" },
+    { "value": "group sex", "label": "複数人の性交" },
+    { "value": "threesome", "label": "3人での性交" },
+    { "value": "orgy", "label": "乱交" },
+    { "value": "fondling", "label": "愛撫" },
+    { "value": "groping", "label": "触る行為（性的）" },
+    { "value": "licking", "label": "舐める行為" },
+    { "value": "kissing", "label": "キス" },
+    { "value": "spread legs", "label": "脚を広げた挑発的ポーズ" }
+  ],
+  "culture": [
+    { "value": "hentai", "label": "成人向け漫画・アニメ" },
+    { "value": "lolicon", "label": "幼いキャラクターを性的に描写" },
+    { "value": "shotacon", "label": "幼い男の子キャラクターを性的に描写" },
+    { "value": "doujin", "label": "同人・成人向け作品の総称" },
+    { "value": "eroge", "label": "成人向けゲーム" },
+    { "value": "bukkake", "label": "複数人が射精する描写" },
+    { "value": "futanari", "label": "男性器を持つ女性キャラ" }
+  ],
+  "bdsm": [
+    { "value": "bondage", "label": "拘束" },
+    { "value": "spanking", "label": "お尻叩き" },
+    { "value": "whipping", "label": "鞭打ち" },
+    { "value": "dominance", "label": "支配" },
+    { "value": "submission", "label": "服従" },
+    { "value": "roleplay", "label": "ロールプレイ（性的）" },
+    { "value": "fetish", "label": "フェティッシュ・性的嗜好" },
+    { "value": "tickling", "label": "くすぐり（性的）" },
+    { "value": "restraints", "label": "拘束具・縛る行為" }
+  ],
+  "abstract": [
+    { "value": "nsfw", "label": "成人向け" },
+    { "value": "sexual", "label": "性的" },
+    { "value": "erotic", "label": "官能的" },
+    { "value": "adult", "label": "成人向け" },
+    { "value": "lewd", "label": "淫ら・わいせつ" },
+    { "value": "provocative", "label": "挑発的" }
   ]
 }

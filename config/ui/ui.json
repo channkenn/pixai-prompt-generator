@@ -53,7 +53,14 @@
         {
           "id": "body_type",
           "label": "体型",
-          "exclusive": true
+          "exclusive": true,
+          "subgroups": [
+            {
+              "id": "body_type_negative",
+              "label": "体型スラング",
+              "exclusive": false
+            }
+          ]
         }
       ]
     },
@@ -144,6 +151,38 @@
           "id": "action",
           "label": "動作",
           "exclusive": true
+        },
+        {
+          "id": "sexiarity",
+          "label": "性的",
+          "exclusive": false,
+          "subgroups": [
+            {
+              "id": "body",
+              "label": "部位",
+              "exclusive": false
+            },
+            {
+              "id": "clothes",
+              "label": "衣服・下着・露出",
+              "exclusive": false
+            },
+            {
+              "id": "sex",
+              "label": "性交・性行為",
+              "exclusive": false
+            },
+            {
+              "id": "culture",
+              "label": "二次創作・成人文化",
+              "exclusive": false
+            },
+            {
+              "id": "bdsm",
+              "label": "BDSM・特殊嗜好",
+              "exclusive": false
+            }
+          ]
         }
       ]
     },
