@@ -15,7 +15,24 @@
     { "value": "loli", "label": "幼女" },
     { "value": "teenager", "label": "ティーン" },
     { "value": "adult", "label": "大人" },
-    { "value": "mature", "label": "成熟" }
+    { "value": "mature", "label": "成熟" },
+    { "value": "slim", "label": "細身・痩せ型" },
+    { "value": "curvy", "label": "曲線美・グラマラス" },
+    { "value": "muscular", "label": "筋肉質" },
+    { "value": "chubby", "label": "ふくよか" },
+    { "value": "petite", "label": "小柄・華奢" },
+    { "value": "tall", "label": "高身長" }
+  ],
+  "hair_details": [
+    { "value": "long hair", "label": "ロング" },
+    { "value": "short hair", "label": "ショート" },
+    { "value": "ponytail", "label": "ポニーテール" },
+    { "value": "twin tails", "label": "ツインテール" },
+    { "value": "messy hair", "label": "乱れた髪" },
+    { "value": "wavy hair", "label": "ウェーブヘア" },
+    { "value": "shiny hair", "label": "光沢のある髪" },
+    { "value": "hair flower", "label": "髪飾り（花）" },
+    { "value": "hair ribbon", "label": "髪飾り（リボン）" }
   ],
   "gaze_control": [
     { "value": "looking at viewer", "label": "カメラ目線" },
@@ -46,6 +63,15 @@
     { "value": "biting lip", "label": "唇を噛む" },
     { "value": ":3", "label": "猫口" },
     { "value": "pout", "label": "むっとする" }
+  ],
+  "accessories": [
+    { "value": "glasses", "label": "眼鏡" },
+    { "value": "sunglasses", "label": "サングラス" },
+    { "value": "earrings", "label": "ピアス/イヤリング" },
+    { "value": "choker", "label": "チョーカー" },
+    { "value": "necklace", "label": "ネックレス" },
+    { "value": "scarf", "label": "スカーフ" },
+    { "value": "headband", "label": "ヘッドバンド" }
   ],
   "emotion_fx": [
     { "value": "blushing", "label": "赤面" },
@@ -80,6 +106,19 @@
     { "value": "from below", "label": "アオリ（下から）" },
     { "value": "dutch angle", "label": "斜め構図" },
     { "value": "fisheye", "label": "魚眼レンズ" }
+  ],
+  "composition_rules": [
+    { "value": "rule of thirds", "label": "三分割法" },
+    { "value": "golden ratio", "label": "黄金比" },
+    { "value": "dynamic pose", "label": "ダイナミックな構図" },
+    { "value": "symmetry", "label": "対称（シンメトリー）" }
+  ],
+  "focus_and_depth": [
+    { "value": "shallow depth of field", "label": "浅い被写界深度" },
+    { "value": "depth of field", "label": "被写界深度（ボケ味）" },
+    { "value": "bokeh", "label": "玉ボケ" },
+    { "value": "sharp focus", "label": "シャープな焦点" },
+    { "value": "out of focus", "label": "意図的なピンボケ" }
   ],
   "location_type": [
     { "value": "simple background", "label": "シンプル背景" },
@@ -119,6 +158,15 @@
     { "value": "neon lights", "label": "ネオンライト" },
     { "value": "fire", "label": "炎・火花" }
   ],
+  "weather_effects": [
+    { "value": "heavy rain", "label": "大雨" },
+    { "value": "snowflakes", "label": "雪（雪の結晶）" },
+    { "value": "fog", "label": "霧" },
+    { "value": "smoke", "label": "煙" },
+    { "value": "dust particles", "label": "舞い上がる塵" },
+    { "value": "lens flare", "label": "レンズフレア" },
+    { "value": "light rays", "label": "光のビーム/透過光" }
+  ],
   "art_style": [
     { "value": "anime style", "label": "アニメ塗り" },
     { "value": "flat color", "label": "フラットカラー" },
@@ -126,5 +174,33 @@
     { "value": "watercolor", "label": "水彩風" },
     { "value": "sketch", "label": "スケッチ" },
     { "value": "pixel art", "label": "ドット絵" }
+  ],
+  "uniforms": [
+    { "value": "school uniform", "label": "制服" },
+    { "value": "seifuku", "label": "セーラー服" },
+    { "value": "military uniform", "label": "軍服" },
+    { "value": "police uniform", "label": "警察官の制服" },
+    { "value": "maid uniform", "label": "メイド服" },
+    { "value": "cheongsam", "label": "チャイナドレス" },
+    { "value": "battle armor", "label": "戦闘装甲" }
+  ],
+  "top_wear": [
+    { "value": "sweater", "label": "セーター" },
+    { "value": "hoodie", "label": "パーカー" },
+    { "value": "cardigan", "label": "カーディガン" },
+    { "value": "shirt", "label": "シャツ" },
+    { "value": "t-shirt", "label": "Tシャツ" },
+    { "value": "off-shoulder", "label": "オフショルダー" },
+    { "value": "bare shoulders", "label": "肩出し" },
+    { "value": "collarbone", "label": "鎖骨" }
+  ],
+  "clothing_details": [
+    { "value": "frills", "label": "フリル" },
+    { "value": "lace", "label": "レース" },
+    { "value": "leather", "label": "レザー（革）" },
+    { "value": "sheer", "label": "シースルー（透け素材）" },
+    { "value": "wet clothes", "label": "濡れた服" },
+    { "value": "torn clothes", "label": "破れた服" },
+    { "value": "jewelry", "label": "宝石の装飾" }
   ]
 }

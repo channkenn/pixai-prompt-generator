@@ -26,12 +26,39 @@
           "id": "age_body",
           "label": "年齢・体格",
           "exclusive": true
+        },
+        {
+          "id": "hair_details",
+          "label": "髪型・髪の質感",
+          "exclusive": false
+        }
+      ]
+    },
+    {
+      "id": "8_outfit_parent",
+      "label": "3. 服装・衣装 (Outfit)",
+      "description": "キャラクターが着用している服の種類とディテール",
+      "subgroups": [
+        {
+          "id": "uniforms",
+          "label": "制服・戦闘服",
+          "exclusive": true
+        },
+        {
+          "id": "top_wear",
+          "label": "トップス・上着",
+          "exclusive": true
+        },
+        {
+          "id": "clothing_details",
+          "label": "服の質感・装飾",
+          "exclusive": false
         }
       ]
     },
     {
       "id": "3_details_parent",
-      "label": "3. 顔・表情詳細 (Face Details)",
+      "label": "4. 顔・表情詳細 (Face Details)",
       "description": "キャラクターの解像度を上げる詳細設定",
       "subgroups": [
         {
@@ -50,6 +77,11 @@
           "exclusive": true
         },
         {
+          "id": "accessories",
+          "label": "アクセサリー・装飾",
+          "exclusive": false
+        },
+        {
           "id": "emotion_fx",
           "label": "感情エフェクト (漫符)",
           "exclusive": false
@@ -58,7 +90,7 @@
     },
     {
       "id": "4_pose_action_parent",
-      "label": "4. 動作・ポーズ (Action & Pose)",
+      "label": "5. 動作・ポーズ (Action & Pose)",
       "description": "体の動きや姿勢",
       "subgroups": [
         {
@@ -75,7 +107,7 @@
     },
     {
       "id": "5_composition_parent",
-      "label": "5. 構図・カメラ (Composition)",
+      "label": "6. 構図・カメラ (Composition)",
       "description": "画角とアングル",
       "subgroups": [
         {
@@ -87,12 +119,22 @@
           "id": "camera_angle",
           "label": "アングル",
           "exclusive": true
+        },
+        {
+          "id": "composition_rules",
+          "label": "構図ルール",
+          "exclusive": false
+        },
+        {
+          "id": "focus_and_depth",
+          "label": "焦点・被写界深度",
+          "exclusive": false
         }
       ]
     },
     {
       "id": "6_background_parent",
-      "label": "6. 背景 (Background)",
+      "label": "7. 背景 (Background)",
       "description": "場所と環境光",
       "subgroups": [
         {
@@ -104,12 +146,17 @@
           "id": "lighting_atmosphere",
           "label": "照明・雰囲気",
           "exclusive": false
+        },
+        {
+          "id": "weather_effects",
+          "label": "天候・環境エフェクト",
+          "exclusive": false
         }
       ]
     },
     {
       "id": "7_style_parent",
-      "label": "7. スタイル・画風 (Style)",
+      "label": "8. スタイル・画風 (Style)",
       "description": "全体の塗りやタッチ",
       "subgroups": [
         {
