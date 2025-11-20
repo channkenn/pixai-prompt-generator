@@ -120,6 +120,11 @@
     { "value": "sharp focus", "label": "シャープな焦点" },
     { "value": "out of focus", "label": "意図的なピンボケ" }
   ],
+  "proximity_depth": [
+    { "value": "very close", "label": "非常に近い" },
+    { "value": "far away", "label": "遠景" },
+    { "value": "extreme close-up", "label": "超接写（目や口元のみ）" }
+  ],
   "location_type": [
     { "value": "simple background", "label": "シンプル背景" },
     { "value": "white background", "label": "白背景" },

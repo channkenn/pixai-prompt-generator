@@ -129,6 +129,11 @@
           "id": "focus_and_depth",
           "label": "焦点・被写界深度",
           "exclusive": false
+        },
+        {
+          "id": "proximity_depth",
+          "label": "被写体との距離",
+          "exclusive": true
         }
       ]
     },
