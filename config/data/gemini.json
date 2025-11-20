@@ -8,8 +8,12 @@
   ],
   "base_attributes": [
     { "value": "1girl", "label": "少女1人" },
+    { "value": "2girls", "label": "少女2人" },
     { "value": "1boy", "label": "少年1人" },
-    { "value": "solo", "label": "単独（ソロ）" }
+    { "value": "2boys", "label": "少年2人" },
+    { "value": "solo", "label": "単独（ソロ）" },
+    { "value": "duo", "label": "二人（デュオ）" },
+    { "value": "trio", "label": "３人（トリオ）" }
   ],
   "age_body": [
     { "value": "loli", "label": "幼女" },

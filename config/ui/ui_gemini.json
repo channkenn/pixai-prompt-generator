@@ -1,13 +1,33 @@
 {
   "groups": [
     {
-      "id": "1_quality_parent",
-      "label": "1. 品質・画質 (Quality)",
-      "description": "最優先で処理される画質補正タグ",
+      "id": "5_composition_parent",
+      "label": "1. 構図・カメラ (Composition)",
+      "description": "最優先で処理される、画角とアングル、被写体の距離など、画像の骨格を決定する要素。",
       "subgroups": [
         {
-          "id": "quality_boosters",
-          "label": "品質ブースター",
+          "id": "framing",
+          "label": "フレーミング",
+          "exclusive": true
+        },
+        {
+          "id": "camera_angle",
+          "label": "アングル",
+          "exclusive": true
+        },
+        {
+          "id": "proximity_depth",
+          "label": "被写体との距離",
+          "exclusive": true
+        },
+        {
+          "id": "composition_rules",
+          "label": "構図ルール",
+          "exclusive": false
+        },
+        {
+          "id": "focus_and_depth",
+          "label": "焦点・被写界深度",
           "exclusive": false
         }
       ]
@@ -15,7 +35,7 @@
     {
       "id": "2_subject_parent",
       "label": "2. 主体・基本属性 (Subject)",
-      "description": "誰を描くか（キャラクターの定義）",
+      "description": "誰を描くか、画像の主役となるキャラクターの基本的な定義。",
       "subgroups": [
         {
           "id": "base_attributes",
@@ -35,9 +55,26 @@
       ]
     },
     {
+      "id": "4_pose_action_parent",
+      "label": "3. 動作・ポーズ (Action & Pose)",
+      "description": "主題（キャラクター）がどのような動きや姿勢をとるか。",
+      "subgroups": [
+        {
+          "id": "posture",
+          "label": "姿勢",
+          "exclusive": true
+        },
+        {
+          "id": "hand_gesture",
+          "label": "手の動き",
+          "exclusive": false
+        }
+      ]
+    },
+    {
       "id": "8_outfit_parent",
-      "label": "3. 服装・衣装 (Outfit)",
-      "description": "キャラクターが着用している服の種類とディテール",
+      "label": "4. 服装・衣装 (Outfit)",
+      "description": "キャラクターが着用している服の種類とディテール。",
       "subgroups": [
         {
           "id": "uniforms",
@@ -58,8 +95,8 @@
     },
     {
       "id": "3_details_parent",
-      "label": "4. 顔・表情詳細 (Face Details)",
-      "description": "キャラクターの解像度を上げる詳細設定",
+      "label": "5. 顔・表情詳細 (Face Details)",
+      "description": "キャラクターの解像度を上げる詳細設定（表情、目の表現、アクセサリーなど）。",
       "subgroups": [
         {
           "id": "gaze_control",
@@ -89,58 +126,9 @@
       ]
     },
     {
-      "id": "4_pose_action_parent",
-      "label": "5. 動作・ポーズ (Action & Pose)",
-      "description": "体の動きや姿勢",
-      "subgroups": [
-        {
-          "id": "posture",
-          "label": "姿勢",
-          "exclusive": true
-        },
-        {
-          "id": "hand_gesture",
-          "label": "手の動き",
-          "exclusive": false
-        }
-      ]
-    },
-    {
-      "id": "5_composition_parent",
-      "label": "6. 構図・カメラ (Composition)",
-      "description": "画角とアングル",
-      "subgroups": [
-        {
-          "id": "framing",
-          "label": "フレーミング",
-          "exclusive": true
-        },
-        {
-          "id": "camera_angle",
-          "label": "アングル",
-          "exclusive": true
-        },
-        {
-          "id": "composition_rules",
-          "label": "構図ルール",
-          "exclusive": false
-        },
-        {
-          "id": "focus_and_depth",
-          "label": "焦点・被写界深度",
-          "exclusive": false
-        },
-        {
-          "id": "proximity_depth",
-          "label": "被写体との距離",
-          "exclusive": true
-        }
-      ]
-    },
-    {
       "id": "6_background_parent",
-      "label": "7. 背景 (Background)",
-      "description": "場所と環境光",
+      "label": "6. 背景 (Background)",
+      "description": "場所と環境光、天候など、主体の背景となる要素。",
       "subgroups": [
         {
           "id": "location_type",
@@ -161,13 +149,25 @@
     },
     {
       "id": "7_style_parent",
-      "label": "8. スタイル・画風 (Style)",
-      "description": "全体の塗りやタッチ",
+      "label": "7. スタイル・画風 (Style)",
+      "description": "全体の塗りやタッチ、イラストの様式を指定する要素。",
       "subgroups": [
         {
           "id": "art_style",
           "label": "画風",
           "exclusive": true
+        }
+      ]
+    },
+    {
+      "id": "1_quality_parent",
+      "label": "8. 品質・画質 (Quality)",
+      "description": "画像の仕上げ（品質、解像感）に関する最終調整タグ。",
+      "subgroups": [
+        {
+          "id": "quality_boosters",
+          "label": "品質ブースター",
+          "exclusive": false
         }
       ]
     }

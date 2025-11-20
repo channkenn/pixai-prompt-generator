@@ -171,8 +171,7 @@
     { "value": "swimming", "label": "泳ぐ" },
     { "value": "twirling", "label": "くるくる回る" },
     { "value": "walking", "label": "歩く" },
-    { "value": "yoga", "label": "ヨガ" },
-    { "value": "(■■■■■■)", "label": "■■■■■" }
+    { "value": "yoga", "label": "ヨガ" }
   ],
 
   "angle": [
