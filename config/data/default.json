@@ -21,6 +21,7 @@
     { "value": "layered depth", "label": "層状の奥行き" },
     { "value": "perspective depth cues", "label": "遠近感の手がかり" }
   ],
+
   "subject_main": [
     { "value": "1girl", "label": "女の子1人" },
     { "value": "1boy", "label": "男の子1人" },

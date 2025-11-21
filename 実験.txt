@@ -1,0 +1,28 @@
+(beautiful detailed hands:1.3), (photorealistic:1.1),
+2girls, full body,
+standing side by side, looking at viewer, cinematic composition,
+intimate atmosphere, portrait, from above, rule of thirds, background: (castle), vibrant colors, cinematic lighting
+(fine motion \(umamusume\): (wearing a armor:1.2),
+(((holding a large sword with two hands:1.6))),
+(hands gripping sword:1.3),
+(smirk), standing on the left:1.1),
+ AND 
+ (hishi miracle \(umamusume\): (wearing a evening dress:1.2), 
+ (((holding a steaming bowl of japanese ramen with both hands:1.6))), 
+ (ramen bowl in hands:1.4), 
+ (detailed noodles, chashu, eggs:1.3), 
+ (steaming hot, delicious aroma:1.2), 
+ (hands supporting bowl carefully:1.3), 
+ (happy smile), 
+ sittiing on the right:1.1)
+
+
+ 2girls, upper body, from above, golden ratio, shallow depth of field, city street, sunset, dust particles, anime style, (masterpiece:1.2), (best quality:1.2), (highres:1.1), (absurdres:1.2), 8k unity wallpaper, left foreground, 
+ (T_Gimlet:1.1), squatting, peace sign, looking at viewer, smile, blushing,
+ AND
+ fine motion \(umamusume\), standing, peace sign, reaching, looking at viewer, showing teeth
+
+ 2girls, cowboy shot, dutch angle, golden ratio, shallow depth of field, library city, light rays, anime style, (masterpiece:1.2), (best quality:1.2), (highres:1.1), (absurdres:1.2), 8k unity wallpaper,
+ (T_Gimlet:1.1), ballet, diagonal facing, wand,
+ AND
+ fine motion \(umamusume\), reaching, facing forward, sword

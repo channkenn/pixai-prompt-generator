@@ -1,6 +1,18 @@
 {
   "groups": [
     {
+      "id": "0_persons",
+      "label": "0. 全体人数",
+      "description": "誰を描くか、画像の主役となるキャラクターの基本的な定義。",
+      "subgroups": [
+        {
+          "id": "base_attributes",
+          "label": "基本属性",
+          "exclusive": true
+        }
+      ]
+    },
+    {
       "id": "1_composition_parent",
       "label": "1. 構図・カメラ (Composition)",
       "description": "最優先で処理される、画角とアングル、被写体の距離など、画像の骨格を決定する要素。",
@@ -32,149 +44,7 @@
         }
       ]
     },
-    {
-      "id": "2_subject_parent",
-      "label": "2. 主体・基本属性 (Subject)",
-      "description": "誰を描くか、画像の主役となるキャラクターの基本的な定義。",
-      "subgroups": [
-        {
-          "id": "positioning",
-          "label": "立ち位置・深度",
-          "exclusive": true,
-          "description": "画面内での位置（左右）と奥行き（前後）を指定します。"
-        },
-        {
-          "id": "base_attributes",
-          "label": "基本属性",
-          "exclusive": true
-        },
-        {
-          "id": "age_body",
-          "label": "年齢・体格",
-          "exclusive": true
-        },
-        {
-          "id": "skin_color",
-          "label": "肌の色",
-          "exclusive": true,
-          "description": "肌の色のトーンを指定します。"
-        },
-        {
-          "id": "hair_details",
-          "label": "髪型・髪の質感",
-          "exclusive": false
-        },
-        { "id": "hair_color", "label": "髪の色", "exclusive": true }
-      ]
-    },
-    {
-      "id": "3_pose_action_parent",
-      "label": "3. 動作・ポーズ (Action & Pose)",
-      "description": "主題（キャラクター）がどのような動きや姿勢をとるか。",
-      "subgroups": [
-        {
-          "id": "posture",
-          "label": "姿勢",
-          "exclusive": true
-        },
-        {
-          "id": "hand_gesture",
-          "label": "手の動き",
-          "exclusive": false
-        }
-      ]
-    },
-    {
-      "id": "4_outfit_parent",
-      "label": "4. 服装・衣装 (Outfit)",
-      "description": "キャラクターが着用している服の種類とディテール。",
-      "subgroups": [
-        {
-          "id": "uniforms",
-          "label": "制服・戦闘服",
-          "exclusive": true
-        },
-        {
-          "id": "top_wear",
-          "label": "トップス・上着",
-          "exclusive": true
-        },
-        {
-          "id": "bottom_wear",
-          "label": "ボトムス・下半身",
-          "exclusive": true
-        },
-        {
-          "id": "footwear",
-          "label": "靴・履物",
-          "exclusive": true
-        },
-        {
-          "id": "clothing_details",
-          "label": "服の質感・装飾",
-          "exclusive": false
-        }
-      ]
-    },
-    {
-      "id": "5_details_parent",
-      "label": "5. 顔・表情詳細 (Face Details)",
-      "description": "キャラクターの解像度を上げる詳細設定（表情、目の表現、アクセサリーなど）。",
-      "subgroups": [
-        {
-          "id": "gaze_control",
-          "label": "視線 (Gaze)",
-          "exclusive": true
-        },
-        {
-          "id": "eye_expression_per",
-          "label": "目の形状・表現",
-          "exclusive": true,
-          "description": "キャラクターの目の形、瞳孔、ハイライトなど、詳細な目の表現を指定します。",
-          "subgroups": [
-            {
-              "id": "eye_shape_and_size",
-              "label": "目の輪郭・サイズ",
-              "exclusive": true,
-              "description": "目の基本的な形や開いている程度、サイズを指定します。"
-            },
-            {
-              "id": "pupil_and_special_effects",
-              "label": "瞳孔・特殊な瞳",
-              "exclusive": true,
-              "description": "瞳孔の形状や、特定の状態にある特殊な目の表現を指定します。"
-            },
-            {
-              "id": "eye_color",
-              "label": "目の色",
-              "exclusive": true,
-              "description": "瞳の色を指定します。"
-            },
-            {
-              "id": "highlight_and_texture",
-              "label": "ハイライト・質感",
-              "exclusive": true,
-              "description": "瞳の中の光の反射（ハイライト）や質感に関する表現を指定します。"
-            }
-          ]
-        },
-        {
-          "id": "mouth_expression",
-          "label": "口元の詳細",
-          "exclusive": true
-        },
-        {
-          "id": "accessories",
-          "label": "アクセサリー・装飾",
-          "exclusive": false
-        },
-        {
-          "id": "emotion_fx",
-          "label": "感情エフェクト (漫符)",
-          "exclusive": false
-        }
-      ]
-    },
+
     {
       "id": "6_background_parent",
       "label": "6. 背景 (Background)",
@@ -217,6 +87,105 @@
         {
           "id": "quality_boosters",
           "label": "品質ブースター",
+          "exclusive": false
+        }
+      ]
+    },
+    {
+      "id": "2_subject_parent",
+      "label": "2. 主体・基本属性 (Subject)",
+      "description": "誰を描くか、画像の主役となるキャラクターの基本的な定義。",
+      "subgroups": [
+        {
+          "id": "positioning",
+          "label": "立ち位置・深度",
+          "exclusive": true,
+          "description": "画面内での位置（左右）と奥行き（前後）を指定します。"
+        },
+        {
+          "id": "base_attributes",
+          "label": "基本属性",
+          "exclusive": true
+        },
+        {
+          "id": "age_body",
+          "label": "年齢・体格",
+          "exclusive": true
+        },
+        {
+          "id": "hair_details",
+          "label": "髪型・髪の質感",
+          "exclusive": false
+        }
+      ]
+    },
+    {
+      "id": "3_pose_action_parent",
+      "label": "3. 動作・ポーズ (Action & Pose)",
+      "description": "主題（キャラクター）がどのような動きや姿勢をとるか。",
+      "subgroups": [
+        {
+          "id": "posture",
+          "label": "姿勢",
+          "exclusive": true
+        },
+        {
+          "id": "hand_gesture",
+          "label": "手の動き",
+          "exclusive": false
+        }
+      ]
+    },
+    {
+      "id": "4_outfit_parent",
+      "label": "4. 服装・衣装 (Outfit)",
+      "description": "キャラクターが着用している服の種類とディテール。",
+      "subgroups": [
+        {
+          "id": "uniforms",
+          "label": "制服・戦闘服",
+          "exclusive": true
+        },
+        {
+          "id": "top_wear",
+          "label": "トップス・上着",
+          "exclusive": true
+        },
+        {
+          "id": "clothing_details",
+          "label": "服の質感・装飾",
+          "exclusive": false
+        }
+      ]
+    },
+    {
+      "id": "5_details_parent",
+      "label": "5. 顔・表情詳細 (Face Details)",
+      "description": "キャラクターの解像度を上げる詳細設定（表情、目の表現、アクセサリーなど）。",
+      "subgroups": [
+        {
+          "id": "gaze_control",
+          "label": "視線 (Gaze)",
+          "exclusive": true
+        },
+        {
+          "id": "eye_expression",
+          "label": "目の形状・表現",
+          "exclusive": true
+        },
+        {
+          "id": "mouth_expression",
+          "label": "口元の詳細",
+          "exclusive": true
+        },
+        {
+          "id": "accessories",
+          "label": "アクセサリー・装飾",
+          "exclusive": false
+        },
+        {
+          "id": "emotion_fx",
+          "label": "感情エフェクト (漫符)",
           "exclusive": false
         }
       ]
