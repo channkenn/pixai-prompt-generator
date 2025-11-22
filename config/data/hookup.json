@@ -15,6 +15,25 @@
     { "value": "duo", "label": "二人（デュオ）" },
     { "value": "trio", "label": "３人（トリオ）" }
   ],
+  "species": [
+    { "value": "android", "label": "アンドロイド" },
+    { "value": "angel, wings, halo, angel clothes", "label": "天使" },
+    { "value": "devil horn, devil tail, devil wings", "label": "悪魔" },
+    { "value": "beastkin", "label": "獣人" },
+    { "value": "elf", "label": "エルフ" },
+    { "value": "fairy, wings, flower hair ornament", "label": "妖精" },
+    { "value": "human", "label": "人間" },
+    { "value": "oni, fangs, kimono", "label": "鬼" },
+    { "value": "robot", "label": "ロボット" },
+    { "value": "succubus, wings, horns", "label": "サキュバス" },
+    { "value": "mummy", "label": "ミイラ" },
+    { "value": "cyborg, cyborg arms, cyborg legs", "label": "サイボーグ" },
+    {
+      "value": "jiangshi, ofuda, fangs, qingdai guanmao",
+      "label": "キョンシー"
+    },
+    { "value": "vampire, fangs, cape", "label": "ヴァンパイア" }
+  ],
   "skin_color": [
     { "label": "色白", "value": "pale skin" },
     { "label": "普通", "value": "fair skin" },
@@ -170,8 +189,10 @@
     { "value": "standing", "label": "立ち" },
     { "value": "sitting", "label": "座り" },
     { "value": "squatting", "label": "しゃがみ" },
-    { "value": "lying", "label": "寝そべり" },
-    { "value": "intersex,testicles", "label": "ふたなり" },
+    { "value": "lying", "label": "寝そべり" }
+  ],
+  "sex_action": [
+    { "value": "(intersex:1.5),penis,testicles", "label": "ふたなり" },
     { "value": "missionary position", "label": "正常位" },
     { "value": "doggystyle", "label": "後背位" },
     { "value": "cowgirl position", "label": "騎乗位" },
@@ -185,9 +206,9 @@
     { "value": "spread anus", "label": "アナルくぱぁ" },
     { "value": "dildo", "label": "ディルド" },
     { "value": "vibrator", "label": "バイブ" },
-    { "value": "anal vibrator", "label": "バイブ" },
+    { "value": "anal vibrator", "label": "アナルバイブ" },
     { "value": "anal dildo", "label": "アナルディルド" },
-    { "value": "anal beads", "label": "アナルディルド" },
+    { "value": "anal beads", "label": "アナルビーズ" },
     { "value": "masturbation", "label": "オナニー" },
     { "value": "sex", "label": "sex" },
     { "value": "anal sex", "label": "anal sex" },
@@ -202,6 +223,40 @@
     { "label": "舌に射精する", "value": "cum on tongue, open mouth" },
     { "label": "事後（膣内に中出し後）", "value": "cum in pussy" },
     { "label": "事後（アナルに中出し後）", "value": "cum in anus" }
+  ],
+  "breasts_action": [
+    {
+      "label": "野外露出",
+      "value": "coat, open clothes by self, nipples, pussy"
+    },
+    {
+      "label": "ノーパンの女の子を下から見上げる",
+      "value": "standing, looking away, pussy, pussy juice, from below"
+    },
+    {
+      "label": "ハーレム（男性1人+女性2人）",
+      "value": "1 boy and 2 girls, naked, erection penis, sitting"
+    },
+    { "label": "素股", "value": "intercrural sex" },
+    { "label": "おっぱいを吸われて感じる", "value": "orgasm, sucking breasts" },
+    { "label": "メイドのおっぱいトレイ", "value": "maid, breast on tray" },
+    { "label": "乳乗せ", "value": "breasts on table, sitting" },
+    {
+      "label": "後ろから強くおっぱいを揉まれる",
+      "value": "grabbing breasts strongly, from behind"
+    },
+    {
+      "label": "後ろから強くおっぱいを揉まれて感じる",
+      "value": "orgasm, grabbing breasts, from behind"
+    },
+    {
+      "label": "巨乳を前から強く揉む",
+      "value": "grabbing breasts strongly, from front"
+    },
+    {
+      "label": "前からおっぱいを揉む クローズアップ",
+      "value": "grabbing breasts strongly, from front, close up breasts"
+    }
   ],
   "hand_gesture": [
     { "value": "peace sign", "label": "ピースサイン" },
@@ -339,7 +394,10 @@
     { "value": "pilot uniform", "label": "パイロットの制服" },
 
     { "value": "business suit", "label": "ビジネススーツ/リクルートスーツ" },
-    { "value": "ol uniform", "label": "OL制服/オフィスウェア" },
+    {
+      "value": "business suit, pencil skirt, black pantyhose",
+      "label": "OL制服/オフィスウェア"
+    },
     { "value": "flight attendant uniform", "label": "客室乗務員の制服 (CA)" },
     { "value": "train conductor uniform", "label": "車掌の制服" },
 

@@ -54,6 +54,11 @@
           "exclusive": true
         },
         {
+          "id": "species",
+          "label": "種族",
+          "exclusive": true
+        },
+        {
           "id": "skin_color",
           "label": "肌の色",
           "exclusive": true,
@@ -75,6 +80,16 @@
         {
           "id": "posture",
           "label": "姿勢",
+          "exclusive": true
+        },
+        {
+          "id": "sex_action",
+          "label": "性行為",
+          "exclusive": false
+        },
+        {
+          "id": "breasts_action",
+          "label": "乳行為",
           "exclusive": false
         },
         {
