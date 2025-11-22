@@ -75,7 +75,7 @@
         {
           "id": "posture",
           "label": "姿勢",
-          "exclusive": true
+          "exclusive": false
         },
         {
           "id": "hand_gesture",

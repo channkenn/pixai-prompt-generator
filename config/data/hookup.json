@@ -1,0 +1,479 @@
+{
+  "quality_boosters": [
+    { "value": "(masterpiece:1.2)", "label": "傑作 (x1.2)" },
+    { "value": "(best quality:1.2)", "label": "最高品質 (x1.2)" },
+    { "value": "(highres:1.1)", "label": "高解像度 (x1.1)" },
+    { "value": "(absurdres:1.2)", "label": "超高解像度 (x1.2)" },
+    { "value": "8k unity wallpaper", "label": "8K壁紙" }
+  ],
+  "base_attributes": [
+    { "value": "1girl", "label": "少女1人" },
+    { "value": "2girls", "label": "少女2人" },
+    { "value": "1boy", "label": "少年1人" },
+    { "value": "2boys", "label": "少年2人" },
+    { "value": "solo", "label": "単独（ソロ）" },
+    { "value": "duo", "label": "二人（デュオ）" },
+    { "value": "trio", "label": "３人（トリオ）" }
+  ],
+  "skin_color": [
+    { "label": "色白", "value": "pale skin" },
+    { "label": "普通", "value": "fair skin" },
+    { "label": "健康的な肌色", "value": "sun-kissed skin" },
+    { "label": "小麦色", "value": "tan skin" },
+    { "label": "濃い肌色", "value": "dark skin" }
+  ],
+  "age_body": [
+    { "value": "loli", "label": "幼女" },
+    { "value": "teenager", "label": "ティーン" },
+    { "value": "adult", "label": "大人" },
+    { "value": "mature", "label": "成熟" },
+    { "value": "slim", "label": "細身・痩せ型" },
+    { "value": "curvy", "label": "曲線美・グラマラス" },
+    { "value": "muscular", "label": "筋肉質" },
+    { "value": "chubby", "label": "ふくよか" },
+    { "value": "petite", "label": "小柄・華奢" },
+    { "value": "tall", "label": "高身長" }
+  ],
+  "hair_details": [
+    { "value": "long hair", "label": "ロング" },
+    { "value": "medium hair", "label": "ミディアム" },
+    { "value": "short hair", "label": "ショート" },
+    { "value": "ponytail", "label": "ポニーテール" },
+    { "value": "twin tails", "label": "ツインテール" },
+    { "value": "half updo", "label": "ハーフアップ" },
+    { "value": "bun", "label": "お団子/シニヨン" },
+    { "value": "braid", "label": "三つ編み/ブレイド" },
+    { "value": "hime cut", "label": "姫カット" },
+    { "value": "messy hair", "label": "乱れた髪" },
+    { "value": "wavy hair", "label": "ウェーブヘア" },
+    { "value": "curly hair", "label": "カール/巻き髪" },
+    { "value": "straight hair", "label": "ストレートヘア" },
+    { "value": "shiny hair", "label": "光沢のある髪" },
+    { "value": "ahoge", "label": "アホ毛" },
+    { "value": "hair flower", "label": "髪飾り（花）" },
+    { "value": "hair ribbon", "label": "髪飾り（リボン）" }
+  ],
+  "hair_color": [
+    { "label": "黒髪", "value": "black hair" },
+    { "label": "茶髪 (一般的な)", "value": "brown hair" },
+    { "label": "金髪", "value": "blonde hair" },
+    { "label": "銀髪・白髪", "value": "silver hair" },
+    { "label": "プラチナブロンド", "value": "platinum blonde hair" },
+    { "label": "赤髪", "value": "red hair" },
+    { "label": "青髪", "value": "blue hair" },
+    { "label": "緑髪", "value": "green hair" },
+    { "label": "ピンク髪", "value": "pink hair" },
+    { "label": "紫髪", "value": "purple hair" }
+  ],
+  "gaze_control": [
+    { "value": "looking at viewer", "label": "カメラ目線" },
+    { "value": "looking away", "label": "視線を逸らす" },
+    { "value": "looking back", "label": "振り返る" },
+    { "value": "side glance", "label": "流し目" },
+    { "value": "rolling eyes", "label": "呆れる・目を回す" },
+    { "value": "cross-eyed", "label": "寄り目" },
+    { "value": "crazy eyes", "label": "狂気的な目" }
+  ],
+  "eye_expression": [
+    { "value": "tsurime", "label": "つり目" },
+    { "value": "tareme", "label": "タレ目" },
+    { "value": "jitome", "label": "ジト目" },
+    { "value": "sanpaku", "label": "三白眼" },
+    { "value": "heart-shaped pupils", "label": "ハート目" },
+    { "value": "slit pupils", "label": "縦長の瞳孔" },
+    { "value": "empty eyes", "label": "ハイライトなし" },
+    { "value": "sparkling eyes", "label": "キラキラした目" }
+  ],
+  "eye_shape_and_size": [
+    { "value": "tsurime", "label": "つり目 (Sharp eyes)" },
+    { "value": "tareme", "label": "タレ目 (Droopy eyes)" },
+    { "value": "huge eyes", "label": "大きな目 (Large eyes)" },
+    { "value": "small eyes", "label": "小さな目 (Small eyes)" },
+    { "value": "wide open eyes", "label": "見開いた目 (Surprised/Intense)" },
+    {
+      "value": "half-closed eyes",
+      "label": "半開きの目/眠そうな目 (Tired/Bored)"
+    }
+  ],
+  "pupil_and_special_effects": [
+    { "value": "jitome", "label": "ジト目 (Glaring eyes)" },
+    { "value": "sanpaku", "label": "三白眼 (Sanpaku eyes)" },
+    { "value": "heart-shaped pupils", "label": "ハート目 (Heart pupils)" },
+    { "value": "slit pupils", "label": "縦長の瞳孔 (Slit pupils)" },
+    { "value": "glowing eyes", "label": "輝く瞳/発光 (Glow/Luminous)" },
+    { "value": "gradient eyes", "label": "グラデーションの瞳 (Two-tone eyes)" },
+    {
+      "value": "heterochromia",
+      "label": "オッドアイ/金銀妖瞳 (Different colored eyes)"
+    },
+    { "value": "clockwork eyes", "label": "機械の目/時計の目" },
+    { "value": "x-shaped pupils", "label": "バツ印の瞳孔" }
+  ],
+  "highlight_and_texture": [
+    { "value": "sparkling eyes", "label": "キラキラした目 (Shiny eyes)" },
+    {
+      "value": "single light reflection",
+      "label": "単一ハイライト (Simple reflection)"
+    },
+    {
+      "value": "multiple light reflections",
+      "label": "複数ハイライト (Complex reflections)"
+    },
+    {
+      "value": "empty eyes",
+      "label": "ハイライトなし/死んだ目 (No highlights/Dead eyes)"
+    },
+    { "value": "wet eyes", "label": "潤んだ目/濡れた目 (Moist/Teary)" },
+    { "value": "bloodshot eyes", "label": "充血した目" }
+  ],
+  "eye_color": [
+    { "label": "黒色", "value": "black eyes" },
+    { "label": "茶色", "value": "brown eyes" },
+    { "label": "青色", "value": "blue eyes" },
+    { "label": "緑色", "value": "green eyes" },
+    { "label": "赤色", "value": "red eyes" },
+    { "label": "紫色", "value": "purple eyes" },
+    { "label": "金色・黄色", "value": "golden eyes" },
+    { "label": "銀色・灰色", "value": "silver eyes" }
+  ],
+
+  "mouth_expression": [
+    { "value": "smile", "label": "微笑む" },
+    { "value": "open mouth", "label": "口を開ける" },
+    { "value": "parted lips", "label": "少し開いた唇" },
+    { "value": "clenched teeth", "label": "歯を食いしばる" },
+    { "value": "showing teeth", "label": "歯を見せる" },
+    { "value": "tongue out", "label": "舌を出す" },
+    { "value": "biting lip", "label": "唇を噛む" },
+    { "value": ":3", "label": "猫口" },
+    { "value": "pout", "label": "むっとする" }
+  ],
+  "accessories": [
+    { "value": "glasses", "label": "眼鏡" },
+    { "value": "sunglasses", "label": "サングラス" },
+    { "value": "earrings", "label": "ピアス/イヤリング" },
+    { "value": "choker", "label": "チョーカー" },
+    { "value": "necklace", "label": "ネックレス" },
+    { "value": "scarf", "label": "スカーフ" },
+    { "value": "headband", "label": "ヘッドバンド" }
+  ],
+  "emotion_fx": [
+    { "value": "blushing", "label": "赤面" },
+    { "value": "sweat", "label": "汗（焦り）" },
+    { "value": "vein", "label": "青筋（怒り）" },
+    { "value": "tears", "label": "涙" },
+    { "value": "drooling", "label": "よだれ" },
+    { "value": "gloom (expression)", "label": "顔に陰り（絶望）" },
+    { "value": "shadow over eyes", "label": "目の上に影" }
+  ],
+  "posture": [
+    { "value": "standing", "label": "立ち" },
+    { "value": "sitting", "label": "座り" },
+    { "value": "squatting", "label": "しゃがみ" },
+    { "value": "lying", "label": "寝そべり" },
+    { "value": "intersex,testicles", "label": "ふたなり" },
+    { "value": "missionary position", "label": "正常位" },
+    { "value": "doggystyle", "label": "後背位" },
+    { "value": "cowgirl position", "label": "騎乗位" },
+    { "value": "penis, handjob", "label": "手コキ" },
+    { "value": "licking penis", "label": "なめ" },
+    {
+      "value": "breasts out, nipples, pov, 1 boy, penis is between breasts, paizuri",
+      "label": "パイズリ"
+    },
+    { "value": "spread pussy", "label": "くぱぁ" },
+    { "value": "spread anus", "label": "アナルくぱぁ" },
+    { "value": "masturbation", "label": "オナニー" },
+    { "value": "sex", "label": "sex" },
+    { "value": "anal sex", "label": "anal sex" },
+    { "value": "cum", "label": "射精" },
+    { "label": "顔に射精する（顔射）", "value": "cum facial" },
+    { "label": "髪の毛に射精する", "value": "cum in hair" },
+    { "label": "口の中に射精する（口内射精）", "value": "cum in mouth" },
+    {
+      "label": "精液を飲む（ごっくん）",
+      "value": "cum in mouth, closed mouth and eyes"
+    },
+    { "label": "舌に射精する", "value": "cum on tongue, open mouth" },
+    { "label": "事後（膣内に中出し後）", "value": "cum in pussy" },
+    { "label": "事後（アナルに中出し後）", "value": "cum in anus" }
+  ],
+  "hand_gesture": [
+    { "value": "peace sign", "label": "ピースサイン" },
+    { "value": "reaching", "label": "手を伸ばす" },
+    { "value": "arms crossed", "label": "腕組み" },
+    { "value": "hand on hip", "label": "手を腰に" },
+    { "value": "hands in pockets", "label": "ポケットに手" }
+  ],
+  "framing": [
+    { "value": "portrait", "label": "ポートレート" },
+    { "value": "upper body", "label": "上半身" },
+    { "value": "cowboy shot", "label": "膝上（カウボーイ）" },
+    { "value": "full body", "label": "全身" }
+  ],
+  "camera_angle": [
+    { "value": "from above", "label": "俯瞰（上から）" },
+    { "value": "from below", "label": "アオリ（下から）" },
+    { "value": "dutch angle", "label": "斜め構図/ダッチアングル" },
+    { "value": "fisheye", "label": "魚眼レンズ" },
+    { "value": "side view", "label": "横からの視点" },
+    { "value": "from behind", "label": "後ろからの視点" }
+  ],
+  "composition_rules": [
+    { "value": "rule of thirds", "label": "三分割法" },
+    { "value": "golden ratio", "label": "黄金比" },
+    { "value": "dynamic pose", "label": "ダイナミックな構図" },
+    { "value": "symmetry", "label": "対称（シンメトリー）" }
+  ],
+  "focus_and_depth": [
+    { "value": "shallow depth of field", "label": "浅い被写界深度" },
+    { "value": "depth of field", "label": "被写界深度（ボケ味）" },
+    { "value": "bokeh", "label": "玉ボケ" },
+    { "value": "sharp focus", "label": "シャープな焦点" },
+    { "value": "out of focus", "label": "意図的なピンボケ" }
+  ],
+  "proximity_depth": [
+    { "value": "very close", "label": "非常に近い" },
+    { "value": "far away", "label": "遠景" },
+    { "value": "extreme close-up", "label": "超接写（目や口元のみ）" }
+  ],
+  "location_type": [
+    { "value": "simple background", "label": "シンプル背景" },
+    { "value": "white background", "label": "白背景" },
+    { "value": "black background", "label": "黒背景" },
+    { "value": "colored background", "label": "単色背景" },
+    { "value": "blurred background", "label": "ぼかし背景" },
+    { "value": "bedroom", "label": "寝室" },
+    { "value": "living room", "label": "リビングルーム" },
+    { "value": "kitchen", "label": "キッチン" },
+    { "value": "bathroom", "label": "バスルーム" },
+    { "value": "classroom", "label": "教室" },
+    { "value": "school hallway", "label": "学校の廊下" },
+    { "value": "school rooftop", "label": "学校の屋上" },
+    { "value": "library", "label": "図書館" },
+    { "value": "cafe", "label": "カフェ" },
+    { "value": "restaurant", "label": "レストラン" },
+    { "value": "convenience store", "label": "コンビニ" },
+    { "value": "city street", "label": "街中・通り" },
+    { "value": "alleyway", "label": "路地裏" },
+    { "value": "subway", "label": "地下鉄/駅構内" },
+    { "value": "shopping mall", "label": "ショッピングモール" },
+    { "value": "amusement park", "label": "遊園地" },
+    { "value": "park", "label": "公園" },
+    { "value": "ruins", "label": "廃墟" },
+    { "value": "forest", "label": "森" },
+    { "value": "jungle", "label": "ジャングル" },
+    { "value": "mountain", "label": "山" },
+    { "value": "cave", "label": "洞窟" },
+    { "value": "desert", "label": "砂漠" },
+    { "value": "beach", "label": "海辺・ビーチ" },
+    { "value": "flower field", "label": "花畑" },
+    { "value": "snowy field", "label": "雪原" },
+    { "value": "race track", "label": "競馬場" },
+    { "value": "starry sky", "label": "星空" },
+    { "value": "fantasy world", "label": "ファンタジー世界" },
+    { "value": "medieval castle", "label": "中世の城" },
+    { "value": "throne room", "label": "玉座の間" },
+    { "value": "magical forest", "label": "魔法の森" },
+    { "value": "elven city", "label": "エルフの都市" },
+    { "value": "cyberpunk city", "label": "サイバーパンク都市" },
+    { "value": "spaceship interior", "label": "宇宙船の内部" },
+    { "value": "laboratory", "label": "研究所/ラボ" },
+    { "value": "military base", "label": "軍事基地" },
+    { "value": "underwater", "label": "水中" },
+    { "value": "space", "label": "宇宙" },
+    { "value": "other planet", "label": "異星/別の惑星" }
+  ],
+  "lighting_atmosphere": [
+    { "value": "day", "label": "昼" },
+    { "value": "night", "label": "夜" },
+    { "value": "sunset", "label": "夕暮れ" },
+    { "value": "twilight", "label": "黄昏時" },
+    { "value": "cloudy", "label": "曇り" },
+    { "value": "rain", "label": "雨" },
+    { "value": "snow", "label": "雪" },
+    { "value": "windy", "label": "強風" },
+    { "value": "cinematic lighting", "label": "映画的照明" },
+    { "value": "backlighting", "label": "逆光" },
+    { "value": "volumetric lighting", "label": "光の筋（ゴッドレイ）" },
+    { "value": "bioluminescence", "label": "生物発光（幻想的）" },
+    { "value": "neon lights", "label": "ネオンライト" },
+    { "value": "fire", "label": "炎・火花" }
+  ],
+  "weather_effects": [
+    { "value": "heavy rain", "label": "大雨" },
+    { "value": "snowflakes", "label": "雪（雪の結晶）" },
+    { "value": "fog", "label": "霧" },
+    { "value": "smoke", "label": "煙" },
+    { "value": "dust particles", "label": "舞い上がる塵" },
+    { "value": "lens flare", "label": "レンズフレア" },
+    { "value": "light rays", "label": "光のビーム/透過光" }
+  ],
+  "art_style": [
+    { "value": "anime style", "label": "アニメ塗り" },
+    { "value": "flat color", "label": "フラットカラー" },
+    { "value": "oil painting", "label": "油絵風" },
+    { "value": "watercolor", "label": "水彩風" },
+    { "value": "sketch", "label": "スケッチ" },
+    { "value": "pixel art", "label": "ドット絵" }
+  ],
+  "uniforms": [
+    { "value": "school uniform", "label": "一般的な制服" },
+    { "value": "seifuku", "label": "セーラー服 (Sailor uniform)" },
+    { "value": "blazer", "label": "ブレザー制服" },
+    { "value": "gakuran", "label": "学ラン (Japanese male uniform)" },
+    { "value": "school swimsuit", "label": "スクール水着" },
+    { "value": "gym uniform", "label": "体操服/ブルマ" },
+    { "value": "school vest", "label": "スクールベスト/ニットベスト" },
+
+    { "value": "military uniform", "label": "軍服 (Military uniform)" },
+    { "value": "officer uniform", "label": "士官服" },
+    { "value": "naval uniform", "label": "海軍服 (Navy uniform)" },
+    { "value": "police uniform", "label": "警察官の制服" },
+    { "value": "firefighter uniform", "label": "消防士の制服" },
+    { "value": "pilot uniform", "label": "パイロットの制服" },
+
+    { "value": "business suit", "label": "ビジネススーツ/リクルートスーツ" },
+    { "value": "ol uniform", "label": "OL制服/オフィスウェア" },
+    { "value": "flight attendant uniform", "label": "客室乗務員の制服 (CA)" },
+    { "value": "train conductor uniform", "label": "車掌の制服" },
+
+    { "value": "maid uniform", "label": "メイド服" },
+    { "value": "butler uniform", "label": "執事服" },
+    { "value": "nurse uniform", "label": "ナース服/看護師の制服" },
+    { "value": "doctor coat", "label": "白衣/医師のコート" },
+    { "value": "chef uniform", "label": "シェフ/料理人の制服" },
+    { "value": "waitress uniform", "label": "ウェイトレス/給仕服" },
+    { "value": "miko uniform", "label": "巫女装束" },
+
+    { "value": "cheongsam", "label": "チャイナドレス (Qipao)" },
+    { "value": "kung fu uniform", "label": "カンフー服/武術着" },
+    { "value": "japanese kimono", "label": "着物" },
+    { "value": "yukata", "label": "浴衣" },
+
+    { "value": "gothic lolita fashion", "label": "ゴスロリ服" },
+    { "value": "magical girl uniform", "label": "魔法少女の衣装" },
+    { "value": "battle armor", "label": "戦闘装甲/パワードスーツ" },
+    { "value": "jumpsuit", "label": "つなぎ/ジャンプスーツ" },
+    { "value": "lab coat", "label": "研究者/実験用の白衣" },
+    { "value": "idol costume", "label": "アイドル衣装" }
+  ],
+  "top_wear": [
+    { "value": "sweater", "label": "セーター" },
+    { "value": "knitwear", "label": "ニット/ニットウェア" },
+    { "value": "hoodie", "label": "パーカー/フーディー" },
+    { "value": "cardigan", "label": "カーディガン" },
+
+    { "value": "shirt", "label": "シャツ (総称)" },
+    { "value": "dress shirt", "label": "Yシャツ/カッターシャツ" },
+    { "value": "blouse", "label": "ブラウス" },
+    { "value": "polo shirt", "label": "ポロシャツ" },
+    { "value": "t-shirt", "label": "Tシャツ" },
+    { "value": "long sleeve shirt", "label": "長袖シャツ" },
+    { "value": "sleeveless shirt", "label": "ノースリーブシャツ" },
+    { "value": "cropped top", "label": "クロップド丈トップス/短めの上着" },
+
+    { "value": "jacket", "label": "ジャケット (総称)" },
+    { "value": "coat", "label": "コート (総称)" },
+    { "value": "vest", "label": "ベスト/ジレ" },
+    { "value": "denim jacket", "label": "Gジャン/デニムジャケット" },
+    {
+      "value": "leather jacket",
+      "label": "レザージャケット/ライダースジャケット"
+    },
+    { "value": "bomber jacket", "label": "MA-1/ボンバージャケット" },
+
+    { "value": "off-shoulder", "label": "オフショルダー/肩出しトップス" },
+    { "value": "bare shoulders", "label": "肩出し (衣服による強調)" },
+    { "value": "collarbone", "label": "鎖骨 (強調)" },
+    { "value": "strapless", "label": "ストラップレス/肩紐なし" },
+    { "value": "halterneck", "label": "ホルターネック" },
+    { "value": "high neck", "label": "ハイネック/タートルネック" },
+    { "value": "v-neck", "label": "Vネック" },
+
+    { "value": "apron", "label": "エプロン" },
+    { "value": "scarf", "label": "スカーフ/マフラー" }
+  ],
+  "bottom_wear": [
+    { "value": "mini skirt", "label": "ミニスカート" },
+    { "value": "pleated skirt", "label": "プリーツスカート" },
+    { "value": "denim skirt", "label": "デニムスカート" },
+    { "value": "long skirt", "label": "ロングスカート" },
+    { "value": "shorts", "label": "ショートパンツ/半ズボン" },
+    { "value": "hot pants", "label": "ホットパンツ/極端に短いパンツ" },
+    { "value": "denim jeans", "label": "ジーンズ/デニムパンツ" },
+    { "value": "slacks", "label": "スラックス/オフィスパンツ" },
+    { "value": "leggings", "label": "レギンス/スパッツ" },
+    { "value": "bikini bottom", "label": "ビキニのボトム/水着の下" },
+    { "value": "fishnets", "label": "網タイツ" },
+    {
+      "value": "thigh high socks",
+      "label": "サイハイソックス/太もも丈ソックス"
+    },
+    { "value": "pantyhose", "label": "パンティストッキング" },
+    { "value": "tights", "label": "タイツ" }
+  ],
+  "lingerie_wear": [
+    { "value": "corset lingerie", "label": "コルセット" },
+    { "value": "waist cincher", "label": "ウェストニッパー" },
+    { "value": "garter belt", "label": "ガーターベルト" },
+    { "value": "bodysuit", "label": "ボディスーツ" },
+    { "value": "babydoll", "label": "ベビードール" },
+    { "value": "slip dress", "label": "スリップ" },
+    { "value": "chemise", "label": "シミーズ" },
+    { "value": "satin robe", "label": "サテンガウン" },
+    { "value": "bathrobe", "label": "バスローブ" },
+    { "value": "bathrobe", "label": "ドロワーズ" }
+  ],
+  "bra_wear": [
+    { "label": "ブラ", "value": "bra" },
+    { "label": "ストライプのブラ", "value": "striped bra" },
+    { "label": "チェックのブラ", "value": "plaid bra" },
+    { "label": "水玉のブラ", "value": "polka dot bra" },
+    { "label": "花柄のブラ", "value": "floral pattern bra" },
+    { "label": "ヒョウ柄のブラ", "value": "leopard print bra" },
+    { "label": "ゼブラ柄のブラ", "value": "zebra print bra" },
+    { "label": "迷彩柄のブラ", "value": "camouflage pattern bra" }
+  ],
+  "panties_wear": [
+    { "label": "ストライプのパンティ", "value": "striped panties" },
+    { "label": "チェックのパンティ", "value": "plaid panties" },
+    { "label": "水玉のパンティ", "value": "polka dot panties" },
+    { "label": "花柄のパンティ", "value": "floral pattern panties" },
+    { "label": "ヒョウ柄のパンティ", "value": "leopard print panties" },
+    { "label": "ゼブラ柄のパンティ", "value": "zebra print panties" },
+    { "label": "迷彩柄のパンティ", "value": "camouflage pattern panties" }
+  ],
+  "footwear": [
+    { "value": "sneakers", "label": "スニーカー" },
+    { "value": "high heels", "label": "ハイヒール" },
+    { "value": "boots", "label": "ブーツ (総称)" },
+    { "value": "long boots", "label": "ロングブーツ" },
+    { "value": "knee high boots", "label": "ニーハイブーツ/膝丈ブーツ" },
+    { "value": "sandal", "label": "サンダル" },
+    { "value": "loafer", "label": "ローファー" },
+    { "value": "geta", "label": "下駄" },
+    { "value": "zouri", "label": "草履" },
+    { "value": "barefoot", "label": "裸足" }
+  ],
+  "clothing_details": [
+    { "value": "frills", "label": "フリル" },
+    { "value": "lace", "label": "レース" },
+    { "value": "leather", "label": "レザー（革）" },
+    { "value": "sheer", "label": "シースルー（透け素材）" },
+    { "value": "wet clothes", "label": "濡れた服" },
+    { "value": "torn clothes", "label": "破れた服" },
+    { "value": "jewelry", "label": "宝石の装飾" }
+  ],
+  "positioning": [
+    { "value": "center", "label": "中央" },
+    { "value": "on the left", "label": "左側" },
+    { "value": "on the right", "label": "右側" },
+    { "value": "in the foreground", "label": "手前（前景）" },
+    { "value": "in the background", "label": "奥（背景）" },
+    { "value": "left foreground", "label": "左手前（左前景）" },
+    { "value": "right foreground", "label": "右手前（右前景）" },
+    { "value": "left background", "label": "左奥（左背景）" },
+    { "value": "right background", "label": "右奥（右背景）" }
+  ]
+}

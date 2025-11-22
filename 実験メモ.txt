@@ -1,3 +1,11 @@
+複数人対応でANDで人物ごとに設定する方法があるが上手くできている気はしない
+Position Controlで強制的に複数人用意して構図を決めてしまうと破綻する確率が多い。
+Position Controlで主役だけ用意して、生成側に残りの脇役を任すと安全に仕上がる可能性が高い
+編集でinner 
+
+3girls, anime style, (masterpiece:1.2), (best quality:1.2), (highres:1.1), (absurdres:1.2), 8k unity wallpaper,
+ (T_Gimlet:1.1), (tanino gimlet \(umamusume\):1.1), stand on right, (fine motion \(umamusume\):1.1), stand on left,(hishi miracle\(umamusume\),:1.1), eating ramen
+
 (beautiful detailed hands:1.3), (photorealistic:1.1),
 2girls, full body,
 standing side by side, looking at viewer, cinematic composition,
