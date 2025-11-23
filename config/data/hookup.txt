@@ -41,39 +41,51 @@
     { "label": "小麦色", "value": "tan skin" },
     { "label": "濃い肌色", "value": "dark skin" }
   ],
-    "breasts_type": [
+  "breasts_type": [
     { "label": "ぺたんこおっぱい（貧乳）", "value": "flat chest" },
     { "label": "小さめのおっぱい（微乳）", "value": "small breasts" },
     { "label": "普通のおっぱい", "value": "medium breasts" },
     { "label": "巨乳", "value": "large breasts" },
     { "label": "爆乳", "value": "huge breasts" },
     { "label": "超爆乳", "value": "(huge breasts)" },
-    { "label": "垂れ乳", "value": "saggy breasts" },  
-    ],
+    { "label": "垂れ乳", "value": "saggy breasts" }
+  ],
   "nipples_type": [
     { "label": "普通サイズの乳首", "value": "nipples" },
     { "label": "小さい乳首", "value": "small nipples" },
     { "label": "大きい乳首", "value": "thick nipples" },
     { "label": "勃起乳首", "value": "erection of nipple" },
-    { "label": "陥没乳首", "value": "inverted nipples" },
+    { "label": "陥没乳首", "value": "inverted nipples" }
   ],
   "areolas_type": [
     { "label": "普通サイズの乳輪", "value": "areolas" },
     { "label": "小さい乳輪", "value": "small areolas" },
     { "label": "大きい乳輪", "value": "big areola" },
     { "label": "もっと大きい乳輪", "value": "big areolaを強調" },
-    { "label": "パフィーニップル（膨らんでいる乳輪）", "value": "puffy nipples" },
-    { "label": "ぶつぶるがある乳輪", "value": "montgomery gland" },
+    {
+      "label": "パフィーニップル（膨らんでいる乳輪）",
+      "value": "puffy nipples"
+    },
+    { "label": "ぶつぶるがある乳輪", "value": "montgomery gland" }
   ],
   "nipples_areolas_color": [
     { "label": "普通の色", "value": "nipple, areolae" },
     { "label": "ピンク色の乳首と乳輪", "value": "pink nipple, pink areolae" },
-    { "label": "薄いピンク色の乳首と乳輪", "value": "pale pink nipple, pale pink areolae" },
+    {
+      "label": "薄いピンク色の乳首と乳輪",
+      "value": "pale pink nipple, pale pink areolae"
+    },
     { "label": "赤色の乳首と乳輪", "value": "red nipple, red areolae" },
     { "label": "茶色の乳首と乳輪", "value": "brown nipple, brown areolae" },
-    { "label": "焦げ茶色の乳首と乳輪", "value": "dark brown nipple, dark brown areolae" },
-    { "label": "濃い焦げ茶色の乳首と乳輪", "value": "(dark brown nipple), (dark brown areolae)" },
-    { "label": "黒色の乳首と乳輪", "value": "black nipple, black areolae" },
+    {
+      "label": "焦げ茶色の乳首と乳輪",
+      "value": "dark brown nipple, dark brown areolae"
+    },
+    {
+      "label": "濃い焦げ茶色の乳首と乳輪",
+      "value": "(dark brown nipple), (dark brown areolae)"
+    },
+    { "label": "黒色の乳首と乳輪", "value": "black nipple, black areolae" }
   ],
   "age_body": [
     { "value": "loli", "label": "幼女" },
@@ -210,7 +222,7 @@
     { "value": "scarf", "label": "スカーフ" },
     { "value": "headband", "label": "ヘッドバンド" }
   ],
-    "emotion_fx": [
+  "emotion_fx": [
     { "label": "青筋（怒り）", "value": "vein" },
     { "label": "赤面", "value": "blushing" },
     { "label": "あくびをする", "value": "yawn" },
@@ -259,20 +271,27 @@
     { "label": "よだれ", "value": "drooling" },
 
     { "label": "ワクワクする", "value": "excited" }
-],
+  ],
   "posture": [
     { "value": "standing", "label": "立ち" },
     { "value": "sitting", "label": "座り" },
     { "value": "squatting", "label": "しゃがみ" },
-    { "value": "lying", "label": "寝そべり" }
+    { "value": "lying", "label": "寝そべり" },
+    { "value": "doing squats, arms behind head", "label": "スクワット" }
   ],
   "sex_action": [
     { "value": "(intersex:1.5),penis,testicles", "label": "ふたなり" },
     { "value": "missionary position", "label": "正常位" },
     { "value": "doggystyle", "label": "後背位" },
+    { "value": "standing doggy", "label": "立ちバック" },
+    { "value": "prone bone", "label": "寝バック" },
     { "value": "cowgirl position", "label": "騎乗位" },
+    { "value": "girl on top, girl sitting on boy face", "label": "顔面騎乗位" },
     { "value": "penis, handjob", "label": "手コキ" },
     { "value": "penis, footjob, barefoot", "label": "足コキ" },
+    { "value": "penis, buttjob", "label": "尻コキ" },
+    { "value": "licking penis", "label": "なめ" },
+    { "value": "irrumatio", "label": "イラマチオ" },
     { "value": "licking penis", "label": "なめ" },
     {
       "value": "breasts out, nipples, pov, 1 boy, penis is between breasts, paizuri",
@@ -288,6 +307,7 @@
     { "value": "masturbation", "label": "オナニー" },
     { "value": "sex", "label": "sex" },
     { "value": "anal sex", "label": "anal sex" },
+    { "value": "breast milk", "label": "母乳" },
     { "value": "cum", "label": "射精" },
     { "label": "顔に射精する（顔射）", "value": "cum facial" },
     { "label": "髪の毛に射精する", "value": "cum in hair" },
@@ -332,14 +352,214 @@
     {
       "label": "前からおっぱいを揉む クローズアップ",
       "value": "grabbing breasts strongly, from front, close up breasts"
+    },
+    { "label": "おっぱいを強調する", "value": "leaning forward" },
+    { "label": "おっぱいを腕で支える", "value": "breasts hold with arms" },
+    { "label": "おっぱいを腕で寄せる", "value": "v arms" },
+    {
+      "label": "おっぱいを手で寄せる",
+      "value": "hold breasts with both hands and press breasts together"
     }
+  ],
+  "lying_action": [
+    { "label": "まんぐり返し", "value": "spread legs, legs up, holding legs" },
+    { "label": "両足を広げて持ち上げる", "value": "spread legs, legs up" },
+    { "label": "両足を揃えて持ち上げる", "value": "legs up, legs together" }
+  ],
+  "legs_action": [
+    { "label": "四つん這い（前から）", "value": "all fours" },
+    { "label": "四つん這い（後ろから）", "value": "all fours, back view" },
+    { "label": "お尻を突き出す", "value": "leaning forward, back view" },
+    { "label": "パンツの中に手を入れる", "value": "hand in pantie" },
+    { "label": "片足を上げる", "value": "leg up" }
+  ],
+  "sitting_action": [
+    { "label": "足を組んで座る", "value": "crossed legs, sitting" },
+    { "label": "足を広げて座る", "value": "spread legs, sitting" },
+    { "label": "両手を股に挟んで座る", "value": "hands between legs, sitting" },
+    { "label": "もたれかかって座る", "value": "leaning back" },
+    { "label": "足を開いてしゃがむ", "value": "squatting, spread legs" },
+    { "label": "足を閉じてしゃがむ", "value": "squatting" }
   ],
   "hand_gesture": [
     { "value": "peace sign", "label": "ピースサイン" },
     { "value": "reaching", "label": "手を伸ばす" },
     { "value": "arms crossed", "label": "腕組み" },
     { "value": "hand on hip", "label": "手を腰に" },
-    { "value": "hands in pockets", "label": "ポケットに手" }
+    { "value": "hands in pockets", "label": "ポケットに手" },
+    { "label": "ピース", "value": "v" },
+    { "label": "ダブルピース", "value": "double v" },
+    { "label": "口に指を入れる", "value": "finger in mouth" },
+    { "label": "口に指を入れられる", "value": "boy’s finger in mouth" },
+    { "label": "手で口を隠す", "value": "hand over mouth" },
+    { "label": "手を頭の後ろに回す", "value": "arms behind head" }
+  ],
+  "animan_action": [
+    {
+      "label": "陥没",
+      "value": "large areolae,puffy nipples,inverted nipples,flat chest"
+    },
+    {
+      "label": "とんがり",
+      "value": "small breasts,peaky breasts,huge nipples,elect nipples"
+    },
+    { "label": "尻", "value": "thick thight, wide hip, Huge ass" },
+    {
+      "label": "見下し",
+      "value": "Disdainful,Scoffing,look down with disdain"
+    },
+    {
+      "label": "咥え指誘惑",
+      "value": "breast squeeze,fellatio gesture,hold one's finger in one's mouth,"
+    },
+    {
+      "label": "指舐め胸揉みフェ ラ素振り",
+      "value": "breast squeeze,fellatio gesture,hand gesture ,shake my wrist,licking my fingers,"
+    },
+    {
+      "label": "屈んで胸チラ",
+      "value": "downblouse, looking down, leaning forward, no bra,"
+    },
+    {
+      "label": "引きつった笑顔でキレイキ",
+      "value": "grin,smug,jitome,glaring ,scowl,wince,embarrassed,blush,clenched teeth,gasping"
+    },
+    {
+      "label": "マンガ形式",
+      "value": "(multi view, frame, text, speech bubble, frame, focus line, comic expression, sound effect),fullbody,hetero, sex, rape, ejaculation, cross section heard in eyes, saliva, heart, trembling, trembling, vibrating,nsfw, masterpiece, best quality, good quality"
+    },
+    {
+      "label": "長ちんぽ",
+      "value": "girl on top,gigantic penis,long penis,grinding,cheek to penis,"
+    },
+    { "label": "超乳1", "value": "super strong super huge gigantic breasts" },
+    {
+      "label": "超乳2",
+      "value": "(gigantic breasts:2.9), (too huge breasts:2.9), (super gigantic breasts:2.9), (extremely huge breasts:2.9), (super huge breasts:2.9), (too gigantic breasts:2.9)"
+    },
+    {
+      "label": "メスブタ2匹ぺろぺろご奉仕",
+      "value": "2girls, nsfw, 1boy, pov boy, 1penis, veiny penis, penis with wet skin,cooperative lick, girls licking body of penis, tongue pressed to body of penis,"
+    },
+    { "label": "エロ衣装", "value": "babydoll, crochless panties" },
+    { "label": "ふたなり", "value": "nsfw, a futanari, masturmation" },
+    {
+      "label": "むちむちニーハイ",
+      "value": "wide hips, thick thighs, over-kneehighs"
+    },
+    { "label": "搾乳機", "value": "lactation, milking machine, nipples" },
+    {
+      "label": "卵",
+      "value": "transparent oviposition,egg implantation,oviposition in vaginal,"
+    },
+    { "label": "服はさみ", "value": "cleavage between clothes" },
+    {
+      "label": "抱きかかえ1",
+      "value": "1faceless man standing behind girl,man hug girl’s knees from back,man spread girl's legs,reverse suspended congress"
+    },
+    {
+      "label": "抱きかかえ2",
+      "value": "sex, vaginal, reverse suspended congress, holding another's legs"
+    },
+    {
+      "label": "脇見せ",
+      "value": "raise arm, (((spread armpit with two fingers))),realistic armpit, armpit,beatiful armpit,detailed armpit,armpit focus,upper body, teary eyes, Frustrated ,clenched teeth, furrowed brow ,trembling,full-face blush ,wince eyes, averting eyes ,embarrassed ,armpit sweat,sweat heavy,armpit steam, Side view of armpit,View from the side,Landscape,Show your side,Dutch angle,"
+    },
+    {
+      "label": "乳揺れ",
+      "value": "bouncing breasts, motion blur, speed lines"
+    },
+    {
+      "label": "ちん嗅ぎ発情",
+      "value": "upper body, from side, steam, penis, exhausted, upturned eyes, half opened eyes, open mouth, drooling, smelling penis, penis on face"
+    },
+    {
+      "label": "ちん嗅ぎ自慰",
+      "value": "cowboy shot, from side, steam, penis, exhausted, upturned eyes, half opened eyes, open mouth, drooling, smelling penis, penis on face, masturbation, fingering, grabbing one breast,"
+    },
+    {
+      "label": "ちん嗅ぎパンツ越し",
+      "value": "upper body, from side, steam, covered penis, white wet male underwear, precum, exhausted, upturned eyes, half opened eyes, open mouth, drooling, smelling penis, penis on face"
+    },
+    {
+      "label": "種付けプレス",
+      "value": "mating press, girl and invisible man having sex"
+    },
+    { "label": "複数手コキ", "value": "cooperative handjob" },
+    { "label": "複数足コキ", "value": "cooperative footjob" },
+    { "label": "複数フェラ", "value": "cooperative fellatio" },
+    { "label": "複数舐め", "value": "cooperative fellatio, out tongue" },
+    { "label": "複数パイズリ", "value": "cooperative paizuri" },
+    { "label": "エロ蹲踞", "value": "spread legs, squatting" },
+    { "label": "くぱぁ", "value": "spread pussy with fingers" },
+    { "label": "２画面？", "value": "multiple views,mtu virus" },
+    {
+      "label": "ハート",
+      "value": "upper body, front view, from side, dynamic angle, (((one nipple))), looking viewer, ((((heart)))) hands over one nipple, hands buried in one breast, one breast out, ((presenting one nipple)),"
+    },
+    {
+      "label": "ラブホ",
+      "value": "pink room, hotel room, indoors, (dark room:1.3), (darkness:1.3), (moody lighting),(pink lighting),"
+    },
+    {
+      "label": "ブラチラ",
+      "value": "curvy, blouse, button_gap, bra_shot, head_tilt, spoken_question_mark"
+    },
+    {
+      "label": "機械拘束",
+      "value": "stationary restraints, spread eagle position, wrists bound, outstretched arms"
+    },
+    {
+      "label": "マガジン形式",
+      "value": "magazine article, magazine character introduction, comment by Interview,text focus, text-only page,5koma, gravure"
+    },
+    { "label": "下着勃起", "value": "erection under clothes, bulge" },
+    { "label": "釣り上げ", "value": "upside-down, midair,restrained" },
+    {
+      "label": "赤面パニック",
+      "value": "full-face blush,panicking,wavy mouth"
+    },
+    {
+      "label": "3人",
+      "value": "3girls, (girls lineup, everyone, take your pick:1.3), presenting, bent over, standing, legs apart, against wall, from behind, looking at viewer, skirt lift, panty pull, pussy juice trail, embarrassed, heavy breathing, steaming body, sweat, body blush, public restroom, viewfinder"
+    },
+    { "label": "玉吸い", "value": "testicle sucking" },
+    {
+      "label": "スカート上げ",
+      "value": "skirt lift,lifting own clothes,panties,cowboy shot,embarrassed,alley,shadow,against wall"
+    },
+    {
+      "label": "えろす",
+      "value": "(Gesture Drawing Master, Cross Contour Master, Dynamic Anatomy, Expressive Line of Action, Foreshortening Master, Perfect Proportions, Structural Anatomy, Emotional Contour, Fluid Gesture Capture, Anatomical Accuracy, Masterful Construction Lines, Sensual Anatomy, Erotic Gesture Drawing, Orgasmic Expression Lines, Convulsion Contour)"
+    },
+    {
+      "value": "メカクレ",
+      "label": "one eye covered by hair, dark circles lower eyelid"
+    },
+    {
+      "value": "糸引き",
+      "label": "excessive cum, cum in mouth, cum string, excessive cum on penis,sweat, steam, heart, open mouth, from side, tongue, tongue out, cum on tongue, saliva, cum trail"
+    },
+    {
+      "value": "人妻",
+      "label": "long hair,(hair over shoulder:1.5), (low-tied long hair:1.8),hair scrunchie,oblong face,huge breasts,sagging breasts,breasts apart,"
+    },
+    {
+      "value": "見せ槍",
+      "label": "penis awe, (erection:1.4), from side, standing, looking at another's penis shaft, (long thick large penis:1.2), steam, wide-eyed, open mouth"
+    },
+    {
+      "value": "クスコ",
+      "label": "speculum,pussy,(push cusco into to vagina:1.2),(cervical opening inside cusco:1.2),spread leg,cum, excessive cum,cumdump, cumdrip,ejaculation"
+    },
+    {
+      "value": "エロ衣装ネット",
+      "label": "fishnet_bodystocking, nipplesless, crotchless"
+    },
+    { "value": "", "label": "" },
+    { "value": "", "label": "" },
+    { "value": "", "label": "" },
+    { "value": "", "label": "" }
   ],
   "framing": [
     { "value": "portrait", "label": "ポートレート" },
@@ -374,9 +594,13 @@
     { "value": "extreme close-up", "label": "超接写（目や口元のみ）" }
   ],
   "location_type": [
-    { "value": "locker room", "label": "更衣室・ロッカールーム"},
-    { "value": "open air hot spring changing room、wooden walls and floor", "label": "露天風呂の脱衣所"},
-    { "value": "open air hot spring, steam", "label": "露天風呂"},
+    { "value": "locker room", "label": "更衣室・ロッカールーム" },
+    { "value": "casino", "label": "カジノ" },
+    {
+      "value": "open air hot spring changing room、wooden walls and floor",
+      "label": "露天風呂の脱衣所"
+    },
+    { "value": "open air hot spring, steam", "label": "露天風呂" },
     { "value": "simple background", "label": "シンプル背景" },
     { "value": "white background", "label": "白背景" },
     { "value": "black background", "label": "黒背景" },
@@ -385,6 +609,7 @@
     { "value": "bedroom", "label": "寝室" },
     { "value": "living room", "label": "リビングルーム" },
     { "value": "kitchen", "label": "キッチン" },
+    { "value": "shower room", "label": "シャワールーム" },
     { "value": "bathroom", "label": "バスルーム" },
     { "value": "classroom", "label": "教室" },
     { "value": "school hallway", "label": "学校の廊下" },
@@ -412,6 +637,8 @@
     { "value": "starry sky", "label": "星空" },
     { "value": "fantasy world", "label": "ファンタジー世界" },
     { "value": "medieval castle", "label": "中世の城" },
+    { "value": "medieval town", "label": "中世の街" },
+    { "value": "medieval market", "label": "中世の市場" },
     { "value": "throne room", "label": "玉座の間" },
     { "value": "magical forest", "label": "魔法の森" },
     { "value": "elven city", "label": "エルフの都市" },
@@ -457,7 +684,18 @@
     { "value": "pixel art", "label": "ドット絵" }
   ],
   "uniforms": [
-    { "label": "OL制服/オフィスウェア", "value": "business suit, pencil skirt, black pantyhose" },
+    {
+      "label": "OL制服/オフィスウェア",
+      "value": "business suit, pencil skirt, black pantyhose"
+    },
+    {
+      "label": "プリンセス",
+      "value": "princess dress, accessories, jewels, tiara"
+    },
+    {
+      "label": "バニー",
+      "value": "playboy bunny, black pantyhose , rabbit tail"
+    },
     { "label": "アイドル衣装", "value": "idol costume" },
     { "label": "ウェイトレス/給仕服", "value": "waitress uniform" },
     { "label": "カンフー服/武術着", "value": "kung fu uniform" },
@@ -485,7 +723,10 @@
     { "label": "士官服", "value": "officer uniform" },
     { "label": "執事服", "value": "butler uniform" },
     { "label": "車掌の制服", "value": "train conductor uniform" },
-    { "label": "商人", "value": "merchant,turban, sleeveless crop top, baggy pants" },
+    {
+      "label": "商人",
+      "value": "merchant,turban, sleeveless crop top, baggy pants"
+    },
     { "label": "消防士の制服", "value": "firefighter uniform" },
     { "label": "戦闘装甲/パワードスーツ", "value": "battle armor" },
     { "label": "僧侶", "value": "priest, priest hat" },
@@ -494,41 +735,50 @@
     { "label": "忍者", "value": "ninja, forehead protector, sleeveless" },
     { "label": "白衣/医師のコート", "value": "doctor coat" },
     { "label": "魔法使い", "value": "mage, mage hat, cloak, long boots" },
-    { "label": "魔法使い", "value": "magical girl, frilled mini skirt, thigh-highs, hair accessories" },
+    {
+      "label": "魔法使い",
+      "value": "magical girl, frilled mini skirt, thigh-highs, hair accessories"
+    },
     { "label": "魔法少女の衣装", "value": "magical girl uniform" },
-    { "label": "踊り子", "value": "dancer, accessory, jewelry, arabian outfit, bare belly, veil" },
+    {
+      "label": "踊り子",
+      "value": "dancer, accessory, jewelry, arabian outfit, bare belly, veil"
+    },
     { "label": "浴衣", "value": "yukata" },
-    { "label": "巫女装束", "value": "miko uniform" },
+    { "label": "巫女装束", "value": "miko uniform" }
   ],
-"top_wear": [
-  { "label": "バスタオル", "value": "bath towel" },
-  { "label": "なし", "value": "naked" },
-  { "label": "Vネック", "value": "v-neck" },
-  { "label": "Yシャツ/カッターシャツ", "value": "dress shirt" },
-  { "label": "Tシャツ", "value": "t-shirt" },
-  { "label": "MA-1/ボンバージャケット", "value": "bomber jacket" },
-  { "label": "Gジャン/デニムジャケット", "value": "denim jacket" },
-  { "label": "オフショルダー/肩出しトップス", "value": "off-shoulder" },
-  { "label": "カーディガン", "value": "cardigan" },
-  { "label": "クロップド丈トップス/短めの上着", "value": "cropped top" },
-  { "label": "コート (総称)", "value": "coat" },
-  { "label": "シャツ (総称)", "value": "shirt" },
-  { "label": "ジャケット (総称)", "value": "jacket" },
-  { "label": "セーター", "value": "sweater" },
-  { "label": "タートルネック/ハイネック", "value": "high neck" },
-  { "label": "ノースリーブシャツ", "value": "sleeveless shirt" },
-  { "label": "パーカー/フーディー", "value": "hoodie" },
-  { "label": "ブラウス", "value": "blouse" },
-  { "label": "ベスト/ジレ", "value": "vest" },
-  { "label": "ポロシャツ", "value": "polo shirt" },
-  { "label": "ホルターネック", "value": "halterneck" },
-  { "label": "肩出し (衣服による強調)", "value": "bare shoulders" },
-  { "label": "鎖骨 (強調)", "value": "collarbone" },
-  { "label": "ストラップレス/肩紐なし", "value": "strapless" },
-  { "label": "レザージャケット/ライダースジャケット", "value": "leather jacket" },
-  { "label": "エプロン", "value": "apron" },
-  { "label": "スカーフ/マフラー", "value": "scarf" }
-],
+  "top_wear": [
+    { "label": "バスタオル", "value": "bath towel" },
+    { "label": "なし", "value": "naked" },
+    { "label": "Vネック", "value": "v-neck" },
+    { "label": "Yシャツ/カッターシャツ", "value": "dress shirt" },
+    { "label": "Tシャツ", "value": "t-shirt" },
+    { "label": "MA-1/ボンバージャケット", "value": "bomber jacket" },
+    { "label": "Gジャン/デニムジャケット", "value": "denim jacket" },
+    { "label": "オフショルダー/肩出しトップス", "value": "off-shoulder" },
+    { "label": "カーディガン", "value": "cardigan" },
+    { "label": "クロップド丈トップス/短めの上着", "value": "cropped top" },
+    { "label": "コート (総称)", "value": "coat" },
+    { "label": "シャツ (総称)", "value": "shirt" },
+    { "label": "ジャケット (総称)", "value": "jacket" },
+    { "label": "セーター", "value": "sweater" },
+    { "label": "タートルネック/ハイネック", "value": "high neck" },
+    { "label": "ノースリーブシャツ", "value": "sleeveless shirt" },
+    { "label": "パーカー/フーディー", "value": "hoodie" },
+    { "label": "ブラウス", "value": "blouse" },
+    { "label": "ベスト/ジレ", "value": "vest" },
+    { "label": "ポロシャツ", "value": "polo shirt" },
+    { "label": "ホルターネック", "value": "halterneck" },
+    { "label": "肩出し (衣服による強調)", "value": "bare shoulders" },
+    { "label": "鎖骨 (強調)", "value": "collarbone" },
+    { "label": "ストラップレス/肩紐なし", "value": "strapless" },
+    {
+      "label": "レザージャケット/ライダースジャケット",
+      "value": "leather jacket"
+    },
+    { "label": "エプロン", "value": "apron" },
+    { "label": "スカーフ/マフラー", "value": "scarf" }
+  ],
   "bottom_wear": [
     { "value": "mini skirt", "label": "ミニスカート" },
     { "value": "pleated skirt", "label": "プリーツスカート" },

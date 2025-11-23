@@ -117,9 +117,38 @@
           "exclusive": false
         },
         {
+          "id": "lying_action",
+          "label": "寝行為",
+          "exclusive": false
+        },
+        {
+          "id": "legs_action",
+          "label": "脚行為",
+          "exclusive": false
+        },
+        {
+          "id": "sitting_action",
+          "label": "座行為",
+          "exclusive": false
+        },
+        {
           "id": "hand_gesture",
           "label": "手の動き",
           "exclusive": false
+        },
+        {
+          "id": "animan_per",
+          "label": "あにまん",
+          "description": "https://bbs.animanch.com/board/5872048/",
+          "exclusive": false,
+          "subgroups": [
+            {
+              "id": "animan_action",
+              "label": "あにまんのやつ",
+              "description": "https://bbs.animanch.com/board/5872048/",
+              "exclusive": false
+            }
+          ]
         }
       ]
     },
