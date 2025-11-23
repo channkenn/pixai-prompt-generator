@@ -41,51 +41,39 @@
     { "label": "小麦色", "value": "tan skin" },
     { "label": "濃い肌色", "value": "dark skin" }
   ],
-  "breasts_type": [
+    "breasts_type": [
     { "label": "ぺたんこおっぱい（貧乳）", "value": "flat chest" },
     { "label": "小さめのおっぱい（微乳）", "value": "small breasts" },
     { "label": "普通のおっぱい", "value": "medium breasts" },
     { "label": "巨乳", "value": "large breasts" },
     { "label": "爆乳", "value": "huge breasts" },
     { "label": "超爆乳", "value": "(huge breasts)" },
-    { "label": "垂れ乳", "value": "saggy breasts" }
-  ],
+    { "label": "垂れ乳", "value": "saggy breasts" },  
+    ],
   "nipples_type": [
     { "label": "普通サイズの乳首", "value": "nipples" },
     { "label": "小さい乳首", "value": "small nipples" },
     { "label": "大きい乳首", "value": "thick nipples" },
     { "label": "勃起乳首", "value": "erection of nipple" },
-    { "label": "陥没乳首", "value": "inverted nipples" }
+    { "label": "陥没乳首", "value": "inverted nipples" },
   ],
   "areolas_type": [
     { "label": "普通サイズの乳輪", "value": "areolas" },
     { "label": "小さい乳輪", "value": "small areolas" },
     { "label": "大きい乳輪", "value": "big areola" },
     { "label": "もっと大きい乳輪", "value": "big areolaを強調" },
-    {
-      "label": "パフィーニップル（膨らんでいる乳輪）",
-      "value": "puffy nipples"
-    },
-    { "label": "ぶつぶるがある乳輪", "value": "montgomery gland" }
+    { "label": "パフィーニップル（膨らんでいる乳輪）", "value": "puffy nipples" },
+    { "label": "ぶつぶるがある乳輪", "value": "montgomery gland" },
   ],
   "nipples_areolas_color": [
     { "label": "普通の色", "value": "nipple, areolae" },
     { "label": "ピンク色の乳首と乳輪", "value": "pink nipple, pink areolae" },
-    {
-      "label": "薄いピンク色の乳首と乳輪",
-      "value": "pale pink nipple, pale pink areolae"
-    },
+    { "label": "薄いピンク色の乳首と乳輪", "value": "pale pink nipple, pale pink areolae" },
     { "label": "赤色の乳首と乳輪", "value": "red nipple, red areolae" },
     { "label": "茶色の乳首と乳輪", "value": "brown nipple, brown areolae" },
-    {
-      "label": "焦げ茶色の乳首と乳輪",
-      "value": "dark brown nipple, dark brown areolae"
-    },
-    {
-      "label": "濃い焦げ茶色の乳首と乳輪",
-      "value": "(dark brown nipple), (dark brown areolae)"
-    },
-    { "label": "黒色の乳首と乳輪", "value": "black nipple, black areolae" }
+    { "label": "焦げ茶色の乳首と乳輪", "value": "dark brown nipple, dark brown areolae" },
+    { "label": "濃い焦げ茶色の乳首と乳輪", "value": "(dark brown nipple), (dark brown areolae)" },
+    { "label": "黒色の乳首と乳輪", "value": "black nipple, black areolae" },
   ],
   "age_body": [
     { "value": "loli", "label": "幼女" },
@@ -222,7 +210,7 @@
     { "value": "scarf", "label": "スカーフ" },
     { "value": "headband", "label": "ヘッドバンド" }
   ],
-  "emotion_fx": [
+    "emotion_fx": [
     { "label": "青筋（怒り）", "value": "vein" },
     { "label": "赤面", "value": "blushing" },
     { "label": "あくびをする", "value": "yawn" },
@@ -271,7 +259,7 @@
     { "label": "よだれ", "value": "drooling" },
 
     { "label": "ワクワクする", "value": "excited" }
-  ],
+],
   "posture": [
     { "value": "standing", "label": "立ち" },
     { "value": "sitting", "label": "座り" },
@@ -386,12 +374,9 @@
     { "value": "extreme close-up", "label": "超接写（目や口元のみ）" }
   ],
   "location_type": [
-    { "value": "locker room", "label": "更衣室・ロッカールーム" },
-    {
-      "value": "open air hot spring changing room、wooden walls and floor",
-      "label": "露天風呂の脱衣所"
-    },
-    { "value": "open air hot spring, steam", "label": "露天風呂" },
+    { "value": "locker room", "label": "更衣室・ロッカールーム"},
+    { "value": "open air hot spring changing room、wooden walls and floor", "label": "露天風呂の脱衣所"},
+    { "value": "open air hot spring, steam", "label": "露天風呂"},
     { "value": "simple background", "label": "シンプル背景" },
     { "value": "white background", "label": "白背景" },
     { "value": "black background", "label": "黒背景" },
@@ -472,10 +457,7 @@
     { "value": "pixel art", "label": "ドット絵" }
   ],
   "uniforms": [
-    {
-      "label": "OL制服/オフィスウェア",
-      "value": "business suit, pencil skirt, black pantyhose"
-    },
+    { "label": "OL制服/オフィスウェア", "value": "business suit, pencil skirt, black pantyhose" },
     { "label": "アイドル衣装", "value": "idol costume" },
     { "label": "ウェイトレス/給仕服", "value": "waitress uniform" },
     { "label": "カンフー服/武術着", "value": "kung fu uniform" },
@@ -503,10 +485,7 @@
     { "label": "士官服", "value": "officer uniform" },
     { "label": "執事服", "value": "butler uniform" },
     { "label": "車掌の制服", "value": "train conductor uniform" },
-    {
-      "label": "商人",
-      "value": "merchant,turban, sleeveless crop top, baggy pants"
-    },
+    { "label": "商人", "value": "merchant,turban, sleeveless crop top, baggy pants" },
     { "label": "消防士の制服", "value": "firefighter uniform" },
     { "label": "戦闘装甲/パワードスーツ", "value": "battle armor" },
     { "label": "僧侶", "value": "priest, priest hat" },
@@ -515,50 +494,41 @@
     { "label": "忍者", "value": "ninja, forehead protector, sleeveless" },
     { "label": "白衣/医師のコート", "value": "doctor coat" },
     { "label": "魔法使い", "value": "mage, mage hat, cloak, long boots" },
-    {
-      "label": "魔法使い",
-      "value": "magical girl, frilled mini skirt, thigh-highs, hair accessories"
-    },
+    { "label": "魔法使い", "value": "magical girl, frilled mini skirt, thigh-highs, hair accessories" },
     { "label": "魔法少女の衣装", "value": "magical girl uniform" },
-    {
-      "label": "踊り子",
-      "value": "dancer, accessory, jewelry, arabian outfit, bare belly, veil"
-    },
+    { "label": "踊り子", "value": "dancer, accessory, jewelry, arabian outfit, bare belly, veil" },
     { "label": "浴衣", "value": "yukata" },
-    { "label": "巫女装束", "value": "miko uniform" }
+    { "label": "巫女装束", "value": "miko uniform" },
   ],
-  "top_wear": [
-    { "label": "バスタオル", "value": "bath towel" },
-    { "label": "なし", "value": "naked" },
-    { "label": "Vネック", "value": "v-neck" },
-    { "label": "Yシャツ/カッターシャツ", "value": "dress shirt" },
-    { "label": "Tシャツ", "value": "t-shirt" },
-    { "label": "MA-1/ボンバージャケット", "value": "bomber jacket" },
-    { "label": "Gジャン/デニムジャケット", "value": "denim jacket" },
-    { "label": "オフショルダー/肩出しトップス", "value": "off-shoulder" },
-    { "label": "カーディガン", "value": "cardigan" },
-    { "label": "クロップド丈トップス/短めの上着", "value": "cropped top" },
-    { "label": "コート (総称)", "value": "coat" },
-    { "label": "シャツ (総称)", "value": "shirt" },
-    { "label": "ジャケット (総称)", "value": "jacket" },
-    { "label": "セーター", "value": "sweater" },
-    { "label": "タートルネック/ハイネック", "value": "high neck" },
-    { "label": "ノースリーブシャツ", "value": "sleeveless shirt" },
-    { "label": "パーカー/フーディー", "value": "hoodie" },
-    { "label": "ブラウス", "value": "blouse" },
-    { "label": "ベスト/ジレ", "value": "vest" },
-    { "label": "ポロシャツ", "value": "polo shirt" },
-    { "label": "ホルターネック", "value": "halterneck" },
-    { "label": "肩出し (衣服による強調)", "value": "bare shoulders" },
-    { "label": "鎖骨 (強調)", "value": "collarbone" },
-    { "label": "ストラップレス/肩紐なし", "value": "strapless" },
-    {
-      "label": "レザージャケット/ライダースジャケット",
-      "value": "leather jacket"
-    },
-    { "label": "エプロン", "value": "apron" },
-    { "label": "スカーフ/マフラー", "value": "scarf" }
-  ],
+"top_wear": [
+  { "label": "バスタオル", "value": "bath towel" },
+  { "label": "なし", "value": "naked" },
+  { "label": "Vネック", "value": "v-neck" },
+  { "label": "Yシャツ/カッターシャツ", "value": "dress shirt" },
+  { "label": "Tシャツ", "value": "t-shirt" },
+  { "label": "MA-1/ボンバージャケット", "value": "bomber jacket" },
+  { "label": "Gジャン/デニムジャケット", "value": "denim jacket" },
+  { "label": "オフショルダー/肩出しトップス", "value": "off-shoulder" },
+  { "label": "カーディガン", "value": "cardigan" },
+  { "label": "クロップド丈トップス/短めの上着", "value": "cropped top" },
+  { "label": "コート (総称)", "value": "coat" },
+  { "label": "シャツ (総称)", "value": "shirt" },
+  { "label": "ジャケット (総称)", "value": "jacket" },
+  { "label": "セーター", "value": "sweater" },
+  { "label": "タートルネック/ハイネック", "value": "high neck" },
+  { "label": "ノースリーブシャツ", "value": "sleeveless shirt" },
+  { "label": "パーカー/フーディー", "value": "hoodie" },
+  { "label": "ブラウス", "value": "blouse" },
+  { "label": "ベスト/ジレ", "value": "vest" },
+  { "label": "ポロシャツ", "value": "polo shirt" },
+  { "label": "ホルターネック", "value": "halterneck" },
+  { "label": "肩出し (衣服による強調)", "value": "bare shoulders" },
+  { "label": "鎖骨 (強調)", "value": "collarbone" },
+  { "label": "ストラップレス/肩紐なし", "value": "strapless" },
+  { "label": "レザージャケット/ライダースジャケット", "value": "leather jacket" },
+  { "label": "エプロン", "value": "apron" },
+  { "label": "スカーフ/マフラー", "value": "scarf" }
+],
   "bottom_wear": [
     { "value": "mini skirt", "label": "ミニスカート" },
     { "value": "pleated skirt", "label": "プリーツスカート" },

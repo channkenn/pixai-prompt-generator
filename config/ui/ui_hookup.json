@@ -65,6 +65,30 @@
           "description": "肌の色のトーンを指定します。"
         },
         {
+          "id": "breasts_type",
+          "label": "乳タイプ",
+          "exclusive": true,
+          "description": "乳タイプを指定します。"
+        },
+        {
+          "id": "nipples_type",
+          "label": "乳首タイプ",
+          "exclusive": true,
+          "description": "乳首タイプを指定します。"
+        },
+        {
+          "id": "areolas_type",
+          "label": "乳輪タイプ",
+          "exclusive": true,
+          "description": "乳輪タイプを指定します。"
+        },
+        {
+          "id": "nipples_areolas_color",
+          "label": "乳首乳輪色",
+          "exclusive": true,
+          "description": "乳首乳輪色を指定します。"
+        },
+        {
           "id": "hair_details",
           "label": "髪型・髪の質感",
           "exclusive": false
