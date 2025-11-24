@@ -198,6 +198,6 @@ button:hover {
 }
 
 /* スクロール量が少ないときに非表示にするクラス */
-.go-to-bottom.hide {
+/* .go-to-bottom.hide {
   display: none;
-}
+} */
