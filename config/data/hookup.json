@@ -565,7 +565,8 @@
     { "label": "ダイナミックな構図", "value": "dynamic pose" },
     { "label": "三分割法", "value": "rule of thirds" },
     { "label": "対称（シンメトリー）", "value": "symmetry" },
-    { "label": "黄金比", "value": "golden ratio" }
+    { "label": "黄金比", "value": "golden ratio" },
+    { "label": "複数視点", "value": "multiple views,mtu virus" }
   ],
   "focus_and_depth": [
     { "label": "シャープな焦点", "value": "sharp focus" },
