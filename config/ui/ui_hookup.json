@@ -193,6 +193,11 @@
           "exclusive": true
         },
         {
+          "id": "hat_wear",
+          "label": "帽子・被り物",
+          "exclusive": true
+        },
+        {
           "id": "clothing_details",
           "label": "服の質感・装飾",
           "exclusive": false
