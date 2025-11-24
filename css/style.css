@@ -133,25 +133,71 @@ button:hover {
   z-index: 99;
 
   /* 初期状態では非表示にする (JSで制御) */
-  display: none;
+  /* 注: JSで表示を制御するため、初期の display: none; はHTMLやJSで制御します */
+  /* ここではボタンの中央寄せのために flex を設定しておき、JSで show/hideを制御します */
+  display: flex;
+  align-items: center; /* 垂直方向の中央揃え */
+  justify-content: center; /* 水平方向の中央揃え */
 
-  /* デザイン */
-  width: 150px;
-  height: 50px;
-  background-color: #333;
+  /* デザインを go-to-bottom に合わせる */
+  width: auto; /* 幅をテキストに合わせる */
+  padding: 10px 15px; /* 内側の余白を設定 */
+  height: auto; /* 高さを自動にする */
+
+  background-color: #d15304;
   color: white;
   border: none;
-  border-radius: 50%; /* 丸いボタンにする */
+  border-radius: 5px; /* 角丸にする */
   cursor: pointer;
-  text-align: center;
-  line-height: 50px;
-  font-size: 24px;
+
+  font-size: 14px; /* 文字サイズを小さく調整 */
+  white-space: nowrap; /* テキストが折り返さないようにする */
+
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   /* 表示・非表示をスムーズにするためのトランジション */
   transition: opacity 0.3s, visibility 0.3s;
 }
 
 /* スクロール時に表示するためのクラス (JavaScriptで切り替えます) */
+/* 注: display: block; ではなく display: flex; に変更します */
 .back-to-top.show {
-  display: block;
+  display: flex;
+}
+
+/* --- 以下、go-to-bottomのスタイル（比較用） --- */
+
+/* 左上に固定するボタンのスタイル */
+.go-to-bottom {
+  /* 常に画面に対して固定する */
+  position: fixed;
+  /* 左端から30pxの位置に配置 */
+  left: 30px;
+  /* 上端から30pxの位置に配置 */
+  top: 30px;
+  /* 他の要素の上に表示されるようにz-indexを設定 */
+  z-index: 99;
+
+  /* 初期状態では表示する (ページ最上部では非表示にするため、JSで制御) */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* デザイン */
+  width: auto;
+  padding: 10px 15px;
+  height: auto;
+  background-color: #d15304; /* トップボタンと色を変えて区別 */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  white-space: nowrap;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: opacity 0.3s, visibility 0.3s;
+}
+
+/* スクロール量が少ないときに非表示にするクラス */
+.go-to-bottom.hide {
+  display: none;
 }
