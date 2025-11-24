@@ -82,7 +82,9 @@
   { "label": "曲線美・グラマラス", "value": "curvy" },
   { "label": "筋肉質", "value": "muscular" },
   { "label": "細身・痩せ型", "value": "slim" },
-  { "label": "高身長", "value": "tall" }
+  { "label": "高身長", "value": "tall" },
+  { "label": "むちむち下半身", "value": "wide hips, thick thighs" },
+
   ],
   "hair_details": [
   { "label": "お団子/シニヨン", "value": "bun" },
@@ -231,7 +233,8 @@
   { "label": "スクワット", "value": "doing squats, arms behind head" },
   { "label": "寝そべり", "value": "lying" },
   { "label": "座り", "value": "sitting" },
-  { "label": "立ち", "value": "standing" }
+  { "label": "立ち", "value": "standing" },
+  { "label": "エロ蹲踞", "value": "spread legs, squatting" }
   ],
   "sex_action": [
   { "label": "anal sex", "value": "anal sex" },
@@ -354,7 +357,7 @@
   { "label": "引きつった笑顔でキレイキ", "value": "grin,smug,jitome,glaring ,scowl,wince,embarrassed,blush,clenched teeth,gasping" },
   { "label": "抱きかかえ1", "value": "1faceless man standing behind girl,man hug girl’s knees from back,man spread girl's legs,reverse suspended congress" },
   { "label": "抱きかかえ2", "value": "sex, vaginal, reverse suspended congress, holding another's legs" },
-  { "label": "指舐め胸揉みフェ ラ素振り", "value": "breast squeeze,fellatio gesture,hand gesture ,shake my wrist,licking my fingers," },
+  { "label": "指舐め胸揉みフェラ素振り", "value": "breast squeeze,fellatio gesture,hand gesture ,shake my wrist,licking my fingers," },
   { "label": "搾乳機", "value": "lactation, milking machine, nipples" },
   { "label": "服はさみ", "value": "cleavage between clothes" },
   { "label": "機械拘束", "value": "stationary restraints, spread eagle position, wrists bound, outstretched arms" },
@@ -395,7 +398,9 @@
   { "label": "ダイナミックな構図", "value": "dynamic pose" },
   { "label": "三分割法", "value": "rule of thirds" },
   { "label": "対称（シンメトリー）", "value": "symmetry" },
-  { "label": "黄金比", "value": "golden ratio" }
+  { "label": "黄金比", "value": "golden ratio" },
+  { "label": "複数視点", "value": "multiple views,mtu virus" }
+
   ],
   "focus_and_depth": [
   { "label": "シャープな焦点", "value": "sharp focus" },
