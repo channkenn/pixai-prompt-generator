@@ -296,6 +296,7 @@
     { "label": "なめ", "value": "licking penis" },
     { "label": "なめ", "value": "licking penis" },
     { "label": "ふたなり", "value": "(intersex:1.5),penis,testicles" },
+    { "label": "ふたなり2", "value": "full-package futanari" },
     { "label": "アナルくぱぁ", "value": "spread anus" },
     { "label": "アナルディルド", "value": "anal dildo" },
     { "label": "アナルバイブ", "value": "anal vibrator" },
@@ -313,9 +314,14 @@
     { "label": "口の中に射精する（口内射精）", "value": "cum in mouth" },
     { "label": "寝バック", "value": "prone bone" },
     { "label": "射精", "value": "cum" },
+    { "label": "早漏", "value": "premature ejaculation" },
+    { "label": "ところてん", "value": "ejaculating while penetrated" },
+    { "label": "前立腺", "value": "prostate milking" },
     { "label": "尻コキ", "value": "penis, buttjob" },
     { "label": "後背位", "value": "doggystyle" },
     { "label": "手コキ", "value": "penis, handjob" },
+    { "label": "おなほコキ", "value": "onahole handjob" },
+    { "label": "手コキ絞り", "value": "milking handjob" },
     { "label": "正常位", "value": "missionary position" },
     { "label": "母乳", "value": "breast milk" },
     { "label": "立ちバック", "value": "standing doggy" },
@@ -588,7 +594,15 @@
   "composition_rules": [
     { "label": "ダイナミックな構図", "value": "dynamic pose" },
     { "label": "三分割法", "value": "rule of thirds" },
+    {
+      "label": "多次元・分割視点",
+      "value": "side_by_side, split_composition, multi_exposure"
+    },
     { "label": "対称（シンメトリー）", "value": "symmetry" },
+    {
+      "label": "漫画的表現",
+      "value": "manga_panel, sequential_art, speedlines, concentration lines"
+    },
     { "label": "複数視点", "value": "multiple views,mtu virus" },
     { "label": "黄金比", "value": "golden ratio" }
   ],
@@ -939,23 +953,23 @@
     { "label": "靴下 (総称)", "value": "socks" }
   ],
   "hat_wear": [
-    { "label": "帽子 (汎用)", "value": "hat" },
-    { "label": "キャップ/野球帽", "value": "baseball cap" },
-    { "label": "ニット帽/ビーニー", "value": "beanie" },
-    { "label": "ベレー帽", "value": "beret" },
-    { "label": "麦わら帽子", "value": "straw hat" },
-    { "label": "シルクハット/トップハット", "value": "top hat" },
+    { "label": "うさ耳", "value": "bunny ears" },
     { "label": "カウボーイハット", "value": "cowboy hat" },
+    { "label": "キャップ/野球帽", "value": "baseball cap" },
+    { "label": "ケモ耳 (動物の耳)", "value": "animal ears" },
     { "label": "サンバイザー", "value": "sun visor" },
+    { "label": "シルクハット/トップハット", "value": "top hat" },
+    { "label": "ティアラ/王冠", "value": "tiara" },
+    { "label": "ニット帽/ビーニー", "value": "beanie" },
+    { "label": "バイザーヘルメット", "value": "helmet with visor" },
     { "label": "フード", "value": "hood" },
     { "label": "ヘッドドレス", "value": "headdress" },
-    { "label": "ティアラ/王冠", "value": "tiara" },
-    { "label": "魔女の帽子", "value": "witch hat" },
     { "label": "ヘルメット", "value": "helmet" },
-    { "label": "バイザーヘルメット", "value": "helmet with visor" },
-    { "label": "ケモ耳 (動物の耳)", "value": "animal ears" },
+    { "label": "ベレー帽", "value": "beret" },
+    { "label": "帽子 (汎用)", "value": "hat" },
     { "label": "猫耳", "value": "cat ears" },
-    { "label": "うさ耳", "value": "bunny ears" }
+    { "label": "魔女の帽子", "value": "witch hat" },
+    { "label": "麦わら帽子", "value": "straw hat" }
   ],
   "clothing_details": [
     { "label": "ぼろぼろの服", "value": "ragged clothes" },
