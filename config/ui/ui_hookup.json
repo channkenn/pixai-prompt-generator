@@ -1,9 +1,21 @@
 {
   "groups": [
     {
-      "id": "1_composition_parent",
-      "label": "1. 構図・カメラ (Composition)",
-      "description": "最優先で処理される、画角とアングル、被写体の距離など、画像の骨格を決定する要素。",
+      "id": "1_style_parent",
+      "label": "1. スタイル・画風 (Style)",
+      "description": "全体の塗りやタッチ、イラストの様式を指定する要素。**（最優先）**",
+      "subgroups": [
+        {
+          "id": "art_style",
+          "label": "画風",
+          "exclusive": false
+        }
+      ]
+    },
+    {
+      "id": "2_composition_parent",
+      "label": "2. 構図・カメラ (Composition)",
+      "description": "画角とアングル、構図ルールなど、画像の骨格を決定する要素。",
       "subgroups": [
         {
           "id": "framing",
@@ -33,8 +45,8 @@
       ]
     },
     {
-      "id": "2_subject_parent",
-      "label": "2. 主体・基本属性 (Subject)",
+      "id": "3_subject_parent",
+      "label": "3. 主体・基本属性 (Subject)",
       "description": "誰を描くか、画像の主役となるキャラクターの基本的な定義。",
       "subgroups": [
         {
@@ -93,6 +105,12 @@
               "label": "乳首乳輪色",
               "exclusive": false,
               "description": "乳首乳輪色を指定します。"
+            },
+            {
+              "id": "body_fetish",
+              "label": "身体の形状・フェチ的特徴",
+              "exclusive": false,
+              "description": "身体の形状・フェチ的特徴"
             }
           ]
         },
@@ -102,63 +120,6 @@
           "exclusive": false
         },
         { "id": "hair_color", "label": "髪の色", "exclusive": false }
-      ]
-    },
-    {
-      "id": "3_pose_action_parent",
-      "label": "3. 動作・ポーズ (Action & Pose)",
-      "description": "主題（キャラクター）がどのような動きや姿勢をとるか。",
-      "subgroups": [
-        {
-          "id": "posture",
-          "label": "姿勢",
-          "exclusive": false
-        },
-        {
-          "id": "sitting_action",
-          "label": "座行為",
-          "exclusive": false
-        },
-        {
-          "id": "hand_gesture",
-          "label": "手の動き",
-          "exclusive": false
-        },
-        {
-          "id": "eroaction_per",
-          "label": "エロ動作",
-          "description": "エロ動作を隠す用の親",
-          "exclusive": false,
-          "subgroups": [
-            {
-              "id": "sex_action",
-              "label": "性行為",
-              "exclusive": false
-            },
-            {
-              "id": "breasts_action",
-              "label": "乳行為",
-              "exclusive": false
-            },
-            {
-              "id": "lying_action",
-              "label": "寝行為",
-              "exclusive": false
-            },
-            {
-              "id": "legs_action",
-              "label": "脚行為",
-              "exclusive": false
-            },
-
-            {
-              "id": "animan_action",
-              "label": "あにまんのやつ",
-              "description": "https://bbs.animanch.com/board/5872048/",
-              "exclusive": false
-            }
-          ]
-        }
       ]
     },
     {
@@ -207,6 +168,11 @@
           "exclusive": false
         },
         {
+          "id": "special_costume_wear",
+          "label": "特殊衣装",
+          "exclusive": false
+        },
+        {
           "id": "clothing_details",
           "label": "服の質感・装飾",
           "exclusive": false
@@ -214,8 +180,80 @@
       ]
     },
     {
-      "id": "5_details_parent",
-      "label": "5. 顔・表情詳細 (Face Details)",
+      "id": "5_pose_action_parent",
+      "label": "5. 動作・ポーズ (Action & Pose)",
+      "description": "主題（キャラクター）がどのような動きや姿勢をとるか。",
+      "subgroups": [
+        {
+          "id": "posture",
+          "label": "姿勢",
+          "exclusive": false
+        },
+        {
+          "id": "standing_action",
+          "label": "立ち行為",
+          "exclusive": false
+        },
+        {
+          "id": "sitting_action",
+          "label": "座行為",
+          "exclusive": false
+        },
+        {
+          "id": "hand_gesture",
+          "label": "手の動き",
+          "exclusive": false
+        },
+        {
+          "id": "eroaction_per",
+          "label": "エロ動作",
+          "description": "エロ動作を隠す用の親",
+          "exclusive": false,
+          "subgroups": [
+            {
+              "id": "sex_action",
+              "label": "性行為",
+              "exclusive": false
+            },
+            {
+              "id": "secretion_details",
+              "label": "液体・分泌物ディテール",
+              "exclusive": false
+            },
+            {
+              "id": "breasts_action",
+              "label": "乳行為",
+              "exclusive": false
+            },
+            {
+              "id": "lying_action",
+              "label": "寝行為",
+              "exclusive": false
+            },
+            {
+              "id": "legs_action",
+              "label": "脚行為",
+              "exclusive": false
+            },
+            {
+              "id": "animan_action",
+              "label": "あにまんのやつ",
+              "description": "https://bbs.animanch.com/board/5872048/",
+              "exclusive": false
+            },
+            {
+              "id": "situation_meta",
+              "label": "構図・環境ディテール・表現形式",
+              "description": "構図・環境ディテール・表現形式",
+              "exclusive": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6_details_parent",
+      "label": "6. 顔・表情詳細 (Face Details)",
       "description": "キャラクターの解像度を上げる詳細設定（表情、目の表現、アクセサリーなど）。",
       "subgroups": [
         {
@@ -273,8 +311,8 @@
       ]
     },
     {
-      "id": "6_background_parent",
-      "label": "6. 背景 (Background)",
+      "id": "7_background_parent",
+      "label": "7. 背景 (Background)",
       "description": "場所と環境光、天候など、主体の背景となる要素。",
       "subgroups": [
         {
@@ -290,18 +328,6 @@
         {
           "id": "weather_effects",
           "label": "天候・環境エフェクト",
-          "exclusive": false
-        }
-      ]
-    },
-    {
-      "id": "7_style_parent",
-      "label": "7. スタイル・画風 (Style)",
-      "description": "全体の塗りやタッチ、イラストの様式を指定する要素。",
-      "subgroups": [
-        {
-          "id": "art_style",
-          "label": "画風",
           "exclusive": false
         }
       ]
