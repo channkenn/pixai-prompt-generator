@@ -897,7 +897,7 @@
   { "label": "01_陥没（乳首）", "value": "large areolae,puffy nipples,inverted nipples,flat chest" },
   { "label": "02_むちむちニーハイ", "value": "wide hips, thick thighs, over-kneehighs" },
   { "label": "02_尻（強調）", "value": "thick thight, wide hip, Huge ass" },
-  { "label": "03_ふたなり", "value": "nsfw, a futanari, masturmation" },
+  { "label": "03_ふたなり", "value": "nsfw, a futanari, masturbation" },
   { "label": "03_人妻（体型特徴）", "value": "long hair,(hair over shoulder:1.5), (low-tied long hair:1.8),hair scrunchie,oblong face,huge breasts,sagging breasts,breasts apart," },
   { "label": "03_長ちんぽ", "value": "girl on top,gigantic penis,long penis,grinding,cheek to penis," }
   ]
