@@ -1,10 +1,14 @@
 {
   "quality_boosters": [
-    { "label": "8K壁紙", "value": "8k unity wallpaper" },
+    {
+      "label": "0_よくばりセット",
+      "value": "(masterpiece:1.2), (best quality:1.2), (absurdres:1.2), (highres:1.1), 8k unity wallpaper"
+    },
     { "label": "傑作 (x1.2)", "value": "(masterpiece:1.2)" },
     { "label": "最高品質 (x1.2)", "value": "(best quality:1.2)" },
     { "label": "超高解像度 (x1.2)", "value": "(absurdres:1.2)" },
-    { "label": "高解像度 (x1.1)", "value": "(highres:1.1)" }
+    { "label": "高解像度 (x1.1)", "value": "(highres:1.1)" },
+    { "label": "8K壁紙", "value": "8k unity wallpaper" }
   ],
   "base_attributes": [
     { "label": "グループ", "value": "group" },
@@ -153,13 +157,29 @@
     { "label": "黒髪", "value": "black hair" }
   ],
   "gaze_control": [
-    { "label": "カメラ目線", "value": "looking at viewer" },
-    { "label": "呆れる・目を回す", "value": "rolling eyes" },
-    { "label": "寄り目", "value": "cross-eyed" },
-    { "label": "振り返る", "value": "looking back" },
-    { "label": "流し目", "value": "side glance" },
-    { "label": "狂気的な目", "value": "crazy eyes" },
-    { "label": "視線を逸らす", "value": "looking away" }
+    { "label": "01_カメラ目線", "value": "looking at viewer" },
+    { "label": "01_視線を逸らす", "value": "looking away" },
+    { "label": "01_振り返る", "value": "looking back" },
+    { "label": "01_流し目", "value": "side glance" },
+    { "label": "01_下目遣い", "value": "looking down at viewer" },
+    { "label": "01_上目遣い", "value": "looking up at viewer" },
+
+    { "label": "02_呆れる・目を回す", "value": "rolling eyes" },
+    { "label": "02_寄り目", "value": "cross-eyed" },
+    { "label": "02_目を開かない", "value": "closed eyes, peacefully" },
+    {
+      "label": "02_目線が定まらない",
+      "value": "wandering eyes, unfocused gaze"
+    },
+
+    { "label": "03_狂気的な目", "value": "crazy eyes" },
+    { "label": "03_鋭い目線", "value": "sharp gaze, intense stare" },
+    { "label": "03_潤んだ目線", "value": "moist eyes, tearful gaze" },
+    { "label": "03_半目", "value": "half-closed eyes, sleepy eyes" },
+    {
+      "label": "03_瞳を閉じて微笑む",
+      "value": "closed mouth smile, closed eyes"
+    }
   ],
   "eye_expression": [
     { "label": "つり目", "value": "tsurime" },
@@ -193,18 +213,25 @@
     { "label": "黒色", "value": "black eyes" }
   ],
   "pupil_and_special_effects": [
-    {
-      "label": "オッドアイ/金銀妖瞳 (Different colored eyes)",
-      "value": "heterochromia"
-    },
-    { "label": "グラデーションの瞳 (Two-tone eyes)", "value": "gradient eyes" },
-    { "label": "ジト目 (Glaring eyes)", "value": "jitome" },
-    { "label": "ハート目 (Heart pupils)", "value": "heart-shaped pupils" },
-    { "label": "バツ印の瞳孔", "value": "x-shaped pupils" },
-    { "label": "三白眼 (Sanpaku eyes)", "value": "sanpaku" },
-    { "label": "機械の目/時計の目", "value": "clockwork eyes" },
-    { "label": "縦長の瞳孔 (Slit pupils)", "value": "slit pupils" },
-    { "label": "輝く瞳/発光 (Glow/Luminous)", "value": "glowing eyes" }
+    { "label": "01_オッドアイ/金銀妖瞳", "value": "heterochromia" },
+    { "label": "01_グラデーションの瞳", "value": "gradient eyes" },
+    { "label": "01_縦長の瞳孔", "value": "slit pupils" },
+    { "label": "01_星の瞳孔", "value": "star-shaped pupils" },
+    { "label": "01_ダイヤ型の瞳孔", "value": "diamond pupils" },
+    { "label": "01_幾何学模様の瞳", "value": "geometric pupils" },
+
+    { "label": "02_ジト目", "value": "jitome" },
+    { "label": "02_三白眼", "value": "sanpaku" },
+    { "label": "02_ハート目", "value": "heart-shaped pupils" },
+    { "label": "02_バツ印の瞳孔", "value": "x-shaped pupils" },
+    { "label": "02_ハイライトがない目", "value": "no pupils, blank eyes" },
+    { "label": "02_泣き出しそうな目", "value": "watery eyes, teary eyes" },
+
+    { "label": "03_輝く瞳/発光", "value": "glowing eyes" },
+    { "label": "03_機械の目/時計の目", "value": "clockwork eyes" },
+    { "label": "03_渦巻きの瞳", "value": "swirl pupils, hypnotic eyes" },
+    { "label": "03_サイバーな光沢", "value": "cyber eyes, LED eyes" },
+    { "label": "03_瞳の中の景色", "value": "scenery in eyes, galaxy in eyes" }
   ],
   "highlight_and_texture": [
     { "label": "キラキラした目 (Shiny eyes)", "value": "sparkling eyes" },
@@ -303,7 +330,15 @@
     { "label": "07_陰り（目の上の影）", "value": "shadow over eyes" },
     { "label": "08_安心", "value": "relieved, sigh of relief" },
     { "label": "08_舌を出す", "value": ":p" },
-    { "label": "08_頬杖をつく", "value": "hand on cheek, chin rest" }
+    { "label": "08_頬杖をつく", "value": "hand on cheek, chin rest" },
+    { "label": "09_白い息", "value": "visible breath, steaming breath" },
+    { "label": "09_ハートを飛ばす", "value": "heart symbol, hearts floating" },
+    { "label": "09_キラキラした目", "value": "sparkling eyes, shine" },
+    { "label": "09_クエスチョンマーク", "value": "question mark symbol" },
+    { "label": "09_汗マーク（大粒）", "value": "sweat drop, huge sweat drop" },
+    { "label": "09_気絶/渦巻き目", "value": "dizzy, swirly eyes, X eyes" },
+    { "label": "09_怒りマーク（額）", "value": "anger symbol" },
+    { "label": "09_吹き出し", "value": "speech bubble, thought bubble" }
   ],
   "poses_details": [
     { "label": "しゃがみ", "value": "squatting" },
@@ -895,6 +930,100 @@
     {
       "label": "05_イースター島（モアイ）",
       "value": "easter island moai statues"
+    }
+  ],
+  "setting": [
+    { "label": "01_和室", "value": "japanese room, tatami, shoji screen" },
+    { "label": "01_縁側", "value": "engawa, wooden veranda" },
+    { "label": "01_銭湯/大浴場", "value": "public bathhouse, sento, steam" },
+    {
+      "label": "01_屋台/横丁",
+      "value": "yatai street, food stall, paper lanterns"
+    },
+    {
+      "label": "01_団地/集合住宅",
+      "value": "apartment complex, concrete building"
+    },
+    {
+      "label": "01_廃線/古い駅舎",
+      "value": "abandoned train track, old station"
+    },
+
+    { "label": "02_秘密基地", "value": "secret hideout, treehouse" },
+    {
+      "label": "02_ダンジョン",
+      "value": "dungeon, underground maze, torchlight"
+    },
+    {
+      "label": "02_空中都市",
+      "value": "sky city, floating architecture, aero city"
+    },
+    {
+      "label": "02_異世界迷宮",
+      "value": "otherworld labyrinth, magical portal"
+    },
+    { "label": "02_裁判所/法廷", "value": "courtroom, trial chamber" },
+    {
+      "label": "02_終末世界/荒野",
+      "value": "apocalyptic wasteland, ruined civilization"
+    },
+
+    {
+      "label": "03_異空間/無の世界",
+      "value": "void, nothingness, black space"
+    },
+    {
+      "label": "03_グリッド空間",
+      "value": "grid background, virtual reality, wireframe"
+    },
+    {
+      "label": "03_パステル調の雲海",
+      "value": "pastel cloudscape, dreamy atmosphere, sea of clouds"
+    },
+    {
+      "label": "03_巨大な歯車と機械",
+      "value": "giant gears, clockwork mechanism"
+    },
+
+    { "label": "04_屋上プール", "value": "rooftop pool" },
+    { "label": "04_放送室/視聴覚室", "value": "broadcasting room, AV room" },
+    { "label": "04_美術室/音楽室", "value": "art room, music room" },
+    { "label": "04_理科室/準備室", "value": "science lab, preparation room" },
+
+    { "label": "05_魔法の図書館", "value": "magical library, ancient scrolls" },
+    { "label": "05_ギルドの酒場", "value": "guild tavern, fantasy pub" },
+    {
+      "label": "05_軍艦のブリッジ",
+      "value": "warship bridge, spaceship cockpit"
+    },
+    {
+      "label": "05_近未来の工場",
+      "value": "futuristic factory, assembly line"
+    },
+
+    { "label": "06_武道場/道場", "value": "martial arts dojo, training hall" },
+    {
+      "label": "06_教会の祭壇/礼拝堂",
+      "value": "church altar, chapel interior"
+    },
+    { "label": "06_王宮の庭園/噴水", "value": "royal garden, palace fountain" },
+    {
+      "label": "06_海賊船の船室/牢屋",
+      "value": "pirate ship cabin, prison cell"
+    },
+
+    {
+      "label": "07_ファッションショーのランウェイ",
+      "value": "fashion runway, catwalk"
+    },
+    { "label": "07_サーカス/ステージ裏", "value": "circus tent, backstage" },
+    {
+      "label": "07_テレビ局のスタジオ/楽屋",
+      "value": "TV studio, dressing room"
+    },
+    {
+      "label": "07_セキュリティルーム/管制室",
+      "value": "security room, control panel"
     }
   ],
   "lighting_atmosphere": [

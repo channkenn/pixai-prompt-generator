@@ -261,6 +261,12 @@
           "description": "実在する世界的な観光地、象徴的な建物、有名な場所を指定します。"
         },
         {
+          "id": "setting",
+          "label": "服装に合わせた舞台",
+          "exclusive": false,
+          "description": "服装に合わせた舞台"
+        },
+        {
           "id": "lighting_atmosphere",
           "label": "照明・雰囲気",
           "exclusive": false
