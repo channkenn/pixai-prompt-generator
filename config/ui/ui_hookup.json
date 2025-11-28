@@ -25,6 +25,11 @@
           "exclusive": false
         },
         {
+          "id": "close_up",
+          "label": "被写体をクローズアップする",
+          "exclusive": false
+        },
+        {
           "id": "composition_rules",
           "label": "構図ルール",
           "exclusive": false
@@ -143,6 +148,55 @@
           "label": "動作・動き (全身/手)",
           "exclusive": false,
           "description": "走る、跳ぶ、髪を触る、手のジェスチャーなど動的な動作。旧 standing_action, sitting_action, hand_gestureを統合。"
+        },
+        {
+          "id": "dance",
+          "label": "舞踊",
+          "exclusive": false,
+          "subgroups": [
+            {
+              "id": "waltz_basic",
+              "label": "ワルツの基本ステップ",
+              "exclusive": false
+            },
+            {
+              "id": "hiphop_groove",
+              "label": "ヒップホップの基本グルーブ",
+              "exclusive": false
+            },
+            {
+              "id": "ballet",
+              "label": "バレエ",
+              "exclusive": false
+            },
+            {
+              "id": "yoga",
+              "label": "ヨーガ",
+              "exclusive": false
+            },
+            {
+              "id": "gymnastics_acrobatics",
+              "label": "体操・アクロバット",
+              "exclusive": false
+            }
+          ]
+        },
+        {
+          "id": "martial_arts",
+          "label": "武道",
+          "exclusive": false,
+          "subgroups": [
+            {
+              "id": "karate",
+              "label": "空手",
+              "exclusive": false
+            },
+            {
+              "id": "chinese_martial_arts",
+              "label": "中国拳法",
+              "exclusive": false
+            }
+          ]
         },
         {
           "id": "body_fluid_fx",

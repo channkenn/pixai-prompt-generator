@@ -4,11 +4,11 @@
       "label": "0_よくばりセット",
       "value": "(masterpiece:1.2), (best quality:1.2), (absurdres:1.2), (highres:1.1), 8k unity wallpaper"
     },
+    { "label": "8K壁紙", "value": "8k unity wallpaper" },
     { "label": "傑作 (x1.2)", "value": "(masterpiece:1.2)" },
     { "label": "最高品質 (x1.2)", "value": "(best quality:1.2)" },
     { "label": "超高解像度 (x1.2)", "value": "(absurdres:1.2)" },
-    { "label": "高解像度 (x1.1)", "value": "(highres:1.1)" },
-    { "label": "8K壁紙", "value": "8k unity wallpaper" }
+    { "label": "高解像度 (x1.1)", "value": "(highres:1.1)" }
   ],
   "base_attributes": [
     { "label": "グループ", "value": "group" },
@@ -158,12 +158,11 @@
   ],
   "gaze_control": [
     { "label": "01_カメラ目線", "value": "looking at viewer" },
-    { "label": "01_視線を逸らす", "value": "looking away" },
+    { "label": "01_上目遣い", "value": "looking up at viewer" },
+    { "label": "01_下目遣い", "value": "looking down at viewer" },
     { "label": "01_振り返る", "value": "looking back" },
     { "label": "01_流し目", "value": "side glance" },
-    { "label": "01_下目遣い", "value": "looking down at viewer" },
-    { "label": "01_上目遣い", "value": "looking up at viewer" },
-
+    { "label": "01_視線を逸らす", "value": "looking away" },
     { "label": "02_呆れる・目を回す", "value": "rolling eyes" },
     { "label": "02_寄り目", "value": "cross-eyed" },
     { "label": "02_目を開かない", "value": "closed eyes, peacefully" },
@@ -171,15 +170,14 @@
       "label": "02_目線が定まらない",
       "value": "wandering eyes, unfocused gaze"
     },
-
-    { "label": "03_狂気的な目", "value": "crazy eyes" },
-    { "label": "03_鋭い目線", "value": "sharp gaze, intense stare" },
-    { "label": "03_潤んだ目線", "value": "moist eyes, tearful gaze" },
     { "label": "03_半目", "value": "half-closed eyes, sleepy eyes" },
+    { "label": "03_潤んだ目線", "value": "moist eyes, tearful gaze" },
+    { "label": "03_狂気的な目", "value": "crazy eyes" },
     {
       "label": "03_瞳を閉じて微笑む",
       "value": "closed mouth smile, closed eyes"
-    }
+    },
+    { "label": "03_鋭い目線", "value": "sharp gaze, intense stare" }
   ],
   "eye_expression": [
     { "label": "つり目", "value": "tsurime" },
@@ -215,23 +213,21 @@
   "pupil_and_special_effects": [
     { "label": "01_オッドアイ/金銀妖瞳", "value": "heterochromia" },
     { "label": "01_グラデーションの瞳", "value": "gradient eyes" },
-    { "label": "01_縦長の瞳孔", "value": "slit pupils" },
-    { "label": "01_星の瞳孔", "value": "star-shaped pupils" },
     { "label": "01_ダイヤ型の瞳孔", "value": "diamond pupils" },
     { "label": "01_幾何学模様の瞳", "value": "geometric pupils" },
-
+    { "label": "01_星の瞳孔", "value": "star-shaped pupils" },
+    { "label": "01_縦長の瞳孔", "value": "slit pupils" },
     { "label": "02_ジト目", "value": "jitome" },
-    { "label": "02_三白眼", "value": "sanpaku" },
+    { "label": "02_ハイライトがない目", "value": "no pupils, blank eyes" },
     { "label": "02_ハート目", "value": "heart-shaped pupils" },
     { "label": "02_バツ印の瞳孔", "value": "x-shaped pupils" },
-    { "label": "02_ハイライトがない目", "value": "no pupils, blank eyes" },
+    { "label": "02_三白眼", "value": "sanpaku" },
     { "label": "02_泣き出しそうな目", "value": "watery eyes, teary eyes" },
-
-    { "label": "03_輝く瞳/発光", "value": "glowing eyes" },
+    { "label": "03_サイバーな光沢", "value": "cyber eyes, LED eyes" },
     { "label": "03_機械の目/時計の目", "value": "clockwork eyes" },
     { "label": "03_渦巻きの瞳", "value": "swirl pupils, hypnotic eyes" },
-    { "label": "03_サイバーな光沢", "value": "cyber eyes, LED eyes" },
-    { "label": "03_瞳の中の景色", "value": "scenery in eyes, galaxy in eyes" }
+    { "label": "03_瞳の中の景色", "value": "scenery in eyes, galaxy in eyes" },
+    { "label": "03_輝く瞳/発光", "value": "glowing eyes" }
   ],
   "highlight_and_texture": [
     { "label": "キラキラした目 (Shiny eyes)", "value": "sparkling eyes" },
@@ -331,14 +327,14 @@
     { "label": "08_安心", "value": "relieved, sigh of relief" },
     { "label": "08_舌を出す", "value": ":p" },
     { "label": "08_頬杖をつく", "value": "hand on cheek, chin rest" },
-    { "label": "09_白い息", "value": "visible breath, steaming breath" },
-    { "label": "09_ハートを飛ばす", "value": "heart symbol, hearts floating" },
     { "label": "09_キラキラした目", "value": "sparkling eyes, shine" },
     { "label": "09_クエスチョンマーク", "value": "question mark symbol" },
-    { "label": "09_汗マーク（大粒）", "value": "sweat drop, huge sweat drop" },
-    { "label": "09_気絶/渦巻き目", "value": "dizzy, swirly eyes, X eyes" },
+    { "label": "09_ハートを飛ばす", "value": "heart symbol, hearts floating" },
+    { "label": "09_吹き出し", "value": "speech bubble, thought bubble" },
     { "label": "09_怒りマーク（額）", "value": "anger symbol" },
-    { "label": "09_吹き出し", "value": "speech bubble, thought bubble" }
+    { "label": "09_気絶/渦巻き目", "value": "dizzy, swirly eyes, X eyes" },
+    { "label": "09_汗マーク（大粒）", "value": "sweat drop, huge sweat drop" },
+    { "label": "09_白い息", "value": "visible breath, steaming breath" }
   ],
   "poses_details": [
     { "label": "しゃがみ", "value": "squatting" },
@@ -683,35 +679,42 @@
     { "label": "魚眼レンズ", "value": "fisheye" }
   ],
   "composition_rules": [
-    { "label": "01_三分割法", "value": "rule of thirds" },
-    { "label": "01_黄金比/螺旋", "value": "golden ratio, fibonacci spiral" },
-    { "label": "01_対称（シンメトリー）", "value": "symmetry, reflection" },
     {
       "label": "01_ダイナミックな構図",
       "value": "dynamic pose, diagonal composition, dutch angle"
     },
-
+    { "label": "01_三分割法", "value": "rule of thirds" },
+    { "label": "01_対称（シンメトリー）", "value": "symmetry, reflection" },
+    { "label": "01_黄金比/螺旋", "value": "golden ratio, fibonacci spiral" },
+    { "label": "02_ネガティブスペース", "value": "negative space, minimalism" },
+    { "label": "02_フレーミング", "value": "framing, natural frame" },
     {
       "label": "02_リーディングライン",
       "value": "leading lines, vanishing point"
     },
-    { "label": "02_フレーミング", "value": "framing, natural frame" },
-    { "label": "02_ネガティブスペース", "value": "negative space, minimalism" },
     {
       "label": "02_前景による強調",
       "value": "foreground focus, depth of field"
     },
-
-    {
-      "label": "03_対角線構図",
-      "value": "diagonal composition, triangular composition"
-    },
+    { "label": "03_S字構図", "value": "S-curve" },
+    { "label": "03_オッドネスの法則", "value": "rule of odds" },
     {
       "label": "03_シンプル/センター配置",
       "value": "centered composition, simple background"
     },
-    { "label": "03_オッドネスの法則", "value": "rule of odds" },
-
+    {
+      "label": "03_対角線構図",
+      "value": "diagonal composition, triangular composition"
+    },
+    { "label": "04_Mtu Virus", "value": "multiple views,mtu virus" },
+    {
+      "label": "04_Mtu Virus 全身・パンツ",
+      "value": "multiple views,mtu virus, full body, pantyshot"
+    },
+    {
+      "label": "04_多次元・分割視点",
+      "value": "side by side, split composition, multi exposure, triptych"
+    },
     {
       "label": "04_漫画的表現",
       "value": "manga panel, sequential art, speedlines, concentration lines, screen tone"
@@ -719,10 +722,6 @@
     {
       "label": "04_矛盾した構図",
       "value": "impossible perspective, optical illusion, surrealism"
-    },
-    {
-      "label": "04_多次元・分割視点",
-      "value": "side by side, split composition, multi exposure, triptych"
     },
     { "label": "04_複数視点", "value": "multiple views, multiple perspectives" }
   ],
@@ -747,13 +746,115 @@
     { "label": "遠景", "value": "far away" },
     { "label": "非常に近い（顔全体）", "value": "very close" }
   ],
+  "close_up": [
+    {
+      "label": "01_唇のアップ",
+      "value": "close-up lips, glossy lips, eyes out of frame"
+    },
+    { "label": "01_瞳のアップ", "value": "close-up eye" },
+    {
+      "label": "01_耳のアップ",
+      "value": "close-up ear, closed eye, nose out of frame, from side"
+    },
+    {
+      "label": "01_顔のどアップ",
+      "value": "extreme close-up face, crown of the head out of frame"
+    },
+    { "label": "01_顔のアップ", "value": "close-up face" },
+    {
+      "label": "01_鼻のアップ",
+      "value": "close-up nose, eyes out of frame, from side"
+    },
+    {
+      "label": "02_手のアップ",
+      "value": "close-up hand, fingernails, wrist gap, head out of frame"
+    },
+    {
+      "label": "02_肘のアップ",
+      "value": "close-up elbow, bent elbow, eyes out of frame, from below, dutch angle"
+    },
+    {
+      "label": "02_肩のアップ",
+      "value": "close-up shoulder, eyes out of frame, strap gap, from side"
+    },
+    {
+      "label": "02_胸部のアップ",
+      "value": "close-up chest, eyes out of frame, glossy chest"
+    },
+    {
+      "label": "02_脇のアップ",
+      "value": "close-up armpits, armpit peek, arm up, eyes out of frame"
+    },
+    {
+      "label": "02_腕のアップ",
+      "value": "close-up arm, head out of frame, from side"
+    },
+    {
+      "label": "02_鎖骨のアップ",
+      "value": "close-up collarbone, delicate collarbone, eyes out of frame, visible nose"
+    },
+    {
+      "label": "03_お腹（腰）アップ",
+      "value": "close-up waist, eyes out of frame, navel, arched back, from below, dutch angle"
+    },
+    {
+      "label": "03_背中のアップ",
+      "value": "close-up back, nape, crown of the head out of frame, facing away, from behind"
+    },
+    {
+      "label": "03_背中・腰回りアップ",
+      "value": "close-up back, waist, head out of frame, facing away, from behind"
+    },
+    { "label": "04_お腹から上", "value": "upper body, waist" },
+    { "label": "04_胸から上", "value": "bust shot" },
+    { "label": "04_胸より上", "value": "portrait, headshot" },
+    { "label": "04_腰から上", "value": "upper body, skirt" },
+    { "label": "04_膝から上", "value": "cowboy shot" },
+    {
+      "label": "04_顔を外した上半身アップ",
+      "value": "upper body, eyes out of frame"
+    },
+    {
+      "label": "05_ヒップ（お尻）アップ",
+      "value": "lower body only, close-up butt, butt out, from behind, from below, dutch angle"
+    },
+    { "label": "05_下半身のみ（基本）", "value": "lower body only" },
+    {
+      "label": "05_太ももアップ（横）",
+      "value": "lower body only, close-up thighs, knee up, sitting, from side"
+    },
+    {
+      "label": "05_太ももアップ（正面）",
+      "value": "lower body only, close-up thighs, knees out of frame"
+    },
+    {
+      "label": "05_膝のアップ",
+      "value": "lower body only, close-up knees, sitting, straight-on, dutch angle"
+    },
+    {
+      "label": "05_膝裏のアップ",
+      "value": "lower body only, close-up kneepits, dutch angle"
+    },
+    {
+      "label": "05_裏ももアップ",
+      "value": "lower body only, close-up thighs, kneepits, sitting, from side"
+    },
+    {
+      "label": "05_足のアップ",
+      "value": "extreme close-up feet, tiptoes, pigeon-toed"
+    },
+    { "label": "06_膝が入る", "value": "knees visible" },
+    { "label": "06_膝下がフレーム外", "value": "feet out of frame" },
+    { "label": "07_クローズアップの基本（共通）", "value": "extreme close-up" },
+    { "label": "07_光の演出（逆光）", "value": "backlighting" },
+    { "label": "07_全身フレーミング", "value": "full body shot" }
+  ],
   "location_type": [
     { "label": "01_ぼかし背景", "value": "blurred background, out of focus" },
     { "label": "01_シンプル背景", "value": "simple background" },
     { "label": "01_単色背景", "value": "colored background" },
     { "label": "01_白背景", "value": "white background" },
     { "label": "01_黒背景", "value": "black background" },
-
     { "label": "02_カジノ", "value": "casino" },
     { "label": "02_カフェ", "value": "cafe, coffee shop" },
     { "label": "02_キッチン", "value": "kitchen" },
@@ -769,7 +870,6 @@
     { "label": "02_レストラン", "value": "restaurant" },
     { "label": "02_寝室", "value": "bedroom" },
     { "label": "02_研究所/ラボ", "value": "laboratory, sci-fi lab" },
-
     { "label": "03_体育館", "value": "gymnasium" },
     { "label": "03_図書館", "value": "library, bookshelf" },
     { "label": "03_地下鉄/駅構内", "value": "subway, train station" },
@@ -780,7 +880,6 @@
       "label": "03_更衣室・ロッカールーム",
       "value": "locker room, changing room"
     },
-
     {
       "label": "04_サイバーパンク都市",
       "value": "cyberpunk city, futuristic city"
@@ -795,7 +894,6 @@
     { "label": "04_軍事基地", "value": "military base" },
     { "label": "04_農場/畑", "value": "farm" },
     { "label": "04_遊園地", "value": "amusement park" },
-
     { "label": "05_ジャングル", "value": "jungle" },
     { "label": "05_プール", "value": "pool, swimming pool" },
     { "label": "05_山", "value": "mountain" },
@@ -810,7 +908,6 @@
     { "label": "05_花畑", "value": "flower field" },
     { "label": "05_雪の降る夜", "value": "snowy night" },
     { "label": "05_雪原", "value": "snowy field" },
-
     { "label": "06_エルフの都市", "value": "elven city" },
     { "label": "06_クリスタル洞窟", "value": "crystal cave" },
     { "label": "06_ファンタジー世界", "value": "fantasy world" },
@@ -827,7 +924,6 @@
     { "label": "06_異世界食堂/居酒屋", "value": "fantasy tavern" },
     { "label": "06_異星/別の惑星", "value": "other planet" },
     { "label": "06_魔法の森", "value": "magical forest" },
-
     { "label": "08_露天風呂", "value": "open air hot spring, steam, onsen" },
     {
       "label": "08_露天風呂の脱衣所",
@@ -835,143 +931,133 @@
     }
   ],
   "global_landmarks": [
-    { "label": "01_富士山", "value": "mount fuji" },
-    {
-      "label": "01_東京タワー/スカイツリー",
-      "value": "tokyo tower, tokyo skytree"
-    },
-    {
-      "label": "01_渋谷スクランブル交差点",
-      "value": "shibuya crossing, neon signs"
-    },
-    { "label": "01_浅草寺（雷門）", "value": "sensō-ji temple, kaminarimon" },
-    { "label": "01_秋葉原（電気街）", "value": "akihabara, electric town" },
-    { "label": "01_竹下通り（原宿）", "value": "takeshita street, harajuku" },
     { "label": "01_京都の竹林", "value": "arashiyama bamboo grove" },
     {
       "label": "01_伏見稲荷大社（千本鳥居）",
       "value": "fushimi inari shrine, thousand torii gates"
     },
-    { "label": "01_金閣寺（鹿苑寺）", "value": "kinkaku-ji, golden pavilion" },
     {
       "label": "01_厳島神社（鳥居）",
       "value": "itsukushima shrine, floating torii"
     },
     { "label": "01_大阪城", "value": "osaka castle" },
+    { "label": "01_富士山", "value": "mount fuji" },
     { "label": "01_札幌テレビ塔", "value": "sapporo tv tower" },
-
-    { "label": "02_エッフェル塔", "value": "eiffel tower, paris" },
-    { "label": "02_凱旋門", "value": "arc de triomphe, paris" },
-    { "label": "02_ロンドン橋", "value": "london bridge, tower bridge" },
-    { "label": "02_ビッグ・ベン", "value": "big ben, palace of westminster" },
-    { "label": "02_バッキンガム宮殿", "value": "buckingham palace, london" },
-    { "label": "02_ストーンヘンジ", "value": "stonehenge, wiltshire" },
     {
-      "label": "02_モン・サン＝ミシェル",
-      "value": "mont saint-michel, normandy"
+      "label": "01_東京タワー/スカイツリー",
+      "value": "tokyo tower, tokyo skytree"
     },
+    { "label": "01_浅草寺（雷門）", "value": "sensō-ji temple, kaminarimon" },
     {
-      "label": "02_ノイシュヴァンシュタイン城",
-      "value": "neuschwanstein castle, bavaria"
+      "label": "01_渋谷スクランブル交差点",
+      "value": "shibuya crossing, neon signs"
     },
-    { "label": "02_コロッセオ", "value": "colosseum, ancient rome" },
-    { "label": "02_ヴェネツィア（運河）", "value": "venice canal, gondola" },
-    {
-      "label": "02_サグラダ・ファミリア",
-      "value": "sagrada familia, barcelona cathedral"
-    },
+    { "label": "01_秋葉原（電気街）", "value": "akihabara, electric town" },
+    { "label": "01_竹下通り（原宿）", "value": "takeshita street, harajuku" },
+    { "label": "01_金閣寺（鹿苑寺）", "value": "kinkaku-ji, golden pavilion" },
     { "label": "02_アクロポリス", "value": "acropolis, parthenon" },
-    { "label": "02_ピサの斜塔", "value": "leaning tower of pisa, italy" },
-    { "label": "02_トレビの泉", "value": "trevi fountain, rome" },
-    { "label": "02_モハーの断崖", "value": "cliffs of moher, ireland" },
-    { "label": "02_ダブリン城", "value": "dublin castle, ireland" },
-    {
-      "label": "02_ノルウェーのフィヨルド",
-      "value": "norwegian fjords, scandinavia"
-    },
     {
       "label": "02_アンネ・フランクの家",
       "value": "anne frank house, amsterdam"
     },
-
-    { "label": "03_タイムズスクエア", "value": "times square, new york city" },
-    { "label": "03_自由の女神", "value": "statue of liberty, new york harbor" },
+    { "label": "02_エッフェル塔", "value": "eiffel tower, paris" },
+    { "label": "02_コロッセオ", "value": "colosseum, ancient rome" },
+    {
+      "label": "02_サグラダ・ファミリア",
+      "value": "sagrada familia, barcelona cathedral"
+    },
+    { "label": "02_ストーンヘンジ", "value": "stonehenge, wiltshire" },
+    { "label": "02_ダブリン城", "value": "dublin castle, ireland" },
+    { "label": "02_トレビの泉", "value": "trevi fountain, rome" },
+    {
+      "label": "02_ノイシュヴァンシュタイン城",
+      "value": "neuschwanstein castle, bavaria"
+    },
+    {
+      "label": "02_ノルウェーのフィヨルド",
+      "value": "norwegian fjords, scandinavia"
+    },
+    { "label": "02_バッキンガム宮殿", "value": "buckingham palace, london" },
+    { "label": "02_ビッグ・ベン", "value": "big ben, palace of westminster" },
+    { "label": "02_ピサの斜塔", "value": "leaning tower of pisa, italy" },
+    { "label": "02_モハーの断崖", "value": "cliffs of moher, ireland" },
+    {
+      "label": "02_モン・サン＝ミシェル",
+      "value": "mont saint-michel, normandy"
+    },
+    { "label": "02_ロンドン橋", "value": "london bridge, tower bridge" },
+    { "label": "02_ヴェネツィア（運河）", "value": "venice canal, gondola" },
+    { "label": "02_凱旋門", "value": "arc de triomphe, paris" },
+    { "label": "03_グランドキャニオン", "value": "grand canyon" },
     {
       "label": "03_ゴールデンゲートブリッジ",
       "value": "golden gate bridge, san francisco"
     },
+    { "label": "03_タイムズスクエア", "value": "times square, new york city" },
     { "label": "03_ナイアガラの滝", "value": "niagara falls" },
     {
       "label": "03_ハリウッドサイン",
       "value": "hollywood sign, hollywood hills"
     },
-    { "label": "03_グランドキャニオン", "value": "grand canyon" },
-
-    { "label": "04_万里の長城", "value": "great wall of china" },
-    { "label": "04_タージマハル", "value": "taj mahal, agra" },
-    { "label": "04_ペトラ遺跡", "value": "petra, al-khazneh" },
-    { "label": "04_紫禁城（故宮）", "value": "forbidden city, beijing" },
+    { "label": "03_自由の女神", "value": "statue of liberty, new york harbor" },
     { "label": "04_アンコールワット", "value": "angkor wat" },
+    { "label": "04_タージマハル", "value": "taj mahal, agra" },
     {
       "label": "04_ブルジュ・ハリファ",
       "value": "burj khalifa, dubai skyline"
     },
-
-    { "label": "05_ピラミッド", "value": "pyramids of giza" },
+    { "label": "04_ペトラ遺跡", "value": "petra, al-khazneh" },
+    { "label": "04_万里の長城", "value": "great wall of china" },
+    { "label": "04_紫禁城（故宮）", "value": "forbidden city, beijing" },
     {
-      "label": "05_キリスト像（リオ）",
-      "value": "christ the redeemer statue, rio de janeiro"
+      "label": "05_イースター島（モアイ）",
+      "value": "easter island moai statues"
     },
-    { "label": "05_マチュピチュ", "value": "machu picchu, peruvian andes" },
     {
       "label": "05_オペラハウス（シドニー）",
       "value": "sydney opera house, australia"
     },
     {
-      "label": "05_イースター島（モアイ）",
-      "value": "easter island moai statues"
-    }
+      "label": "05_キリスト像（リオ）",
+      "value": "christ the redeemer statue, rio de janeiro"
+    },
+    { "label": "05_ピラミッド", "value": "pyramids of giza" },
+    { "label": "05_マチュピチュ", "value": "machu picchu, peruvian andes" }
   ],
   "setting": [
     { "label": "01_和室", "value": "japanese room, tatami, shoji screen" },
-    { "label": "01_縁側", "value": "engawa, wooden veranda" },
-    { "label": "01_銭湯/大浴場", "value": "public bathhouse, sento, steam" },
-    {
-      "label": "01_屋台/横丁",
-      "value": "yatai street, food stall, paper lanterns"
-    },
     {
       "label": "01_団地/集合住宅",
       "value": "apartment complex, concrete building"
     },
     {
+      "label": "01_屋台/横丁",
+      "value": "yatai street, food stall, paper lanterns"
+    },
+    {
       "label": "01_廃線/古い駅舎",
       "value": "abandoned train track, old station"
     },
-
-    { "label": "02_秘密基地", "value": "secret hideout, treehouse" },
+    { "label": "01_縁側", "value": "engawa, wooden veranda" },
+    { "label": "01_銭湯/大浴場", "value": "public bathhouse, sento, steam" },
     {
       "label": "02_ダンジョン",
       "value": "dungeon, underground maze, torchlight"
     },
     {
+      "label": "02_異世界迷宮",
+      "value": "otherworld labyrinth, magical portal"
+    },
+    { "label": "02_秘密基地", "value": "secret hideout, treehouse" },
+    {
       "label": "02_空中都市",
       "value": "sky city, floating architecture, aero city"
     },
     {
-      "label": "02_異世界迷宮",
-      "value": "otherworld labyrinth, magical portal"
-    },
-    { "label": "02_裁判所/法廷", "value": "courtroom, trial chamber" },
-    {
       "label": "02_終末世界/荒野",
       "value": "apocalyptic wasteland, ruined civilization"
     },
-
-    {
-      "label": "03_異空間/無の世界",
-      "value": "void, nothingness, black space"
-    },
+    { "label": "02_裁判所/法廷", "value": "courtroom, trial chamber" },
     {
       "label": "03_グリッド空間",
       "value": "grid background, virtual reality, wireframe"
@@ -984,13 +1070,23 @@
       "label": "03_巨大な歯車と機械",
       "value": "giant gears, clockwork mechanism"
     },
-
+    {
+      "label": "03_異空間/無の世界",
+      "value": "void, nothingness, black space"
+    },
     { "label": "04_屋上プール", "value": "rooftop pool" },
     { "label": "04_放送室/視聴覚室", "value": "broadcasting room, AV room" },
-    { "label": "04_美術室/音楽室", "value": "art room, music room" },
     { "label": "04_理科室/準備室", "value": "science lab, preparation room" },
+    { "label": "04_美術室/音楽室", "value": "art room, music room" },
+    {
+      "label": "04_体育館/アリーナ",
+      "value": "gymnasium, sports hall, wooden floor"
+    },
+    {
+      "label": "04_ダンススタジオ",
+      "value": "dance studio, mirrored wall, ballet barre"
+    },
 
-    { "label": "05_魔法の図書館", "value": "magical library, ancient scrolls" },
     { "label": "05_ギルドの酒場", "value": "guild tavern, fantasy pub" },
     {
       "label": "05_軍艦のブリッジ",
@@ -1000,30 +1096,60 @@
       "label": "05_近未来の工場",
       "value": "futuristic factory, assembly line"
     },
+    { "label": "05_魔法の図書館", "value": "magical library, ancient scrolls" },
 
-    { "label": "06_武道場/道場", "value": "martial arts dojo, training hall" },
     {
       "label": "06_教会の祭壇/礼拝堂",
       "value": "church altar, chapel interior"
     },
-    { "label": "06_王宮の庭園/噴水", "value": "royal garden, palace fountain" },
+    { "label": "06_武道場/道場", "value": "martial arts dojo, training hall" },
     {
       "label": "06_海賊船の船室/牢屋",
       "value": "pirate ship cabin, prison cell"
     },
-
+    { "label": "06_王宮の庭園/噴水", "value": "royal garden, palace fountain" },
     {
-      "label": "07_ファッションショーのランウェイ",
-      "value": "fashion runway, catwalk"
+      "label": "06_伝統的な寺院",
+      "value": "traditional temple, pagoda, incense smoke"
     },
+
     { "label": "07_サーカス/ステージ裏", "value": "circus tent, backstage" },
+    {
+      "label": "07_セキュリティルーム/管制室",
+      "value": "security room, control panel"
+    },
     {
       "label": "07_テレビ局のスタジオ/楽屋",
       "value": "TV studio, dressing room"
     },
     {
-      "label": "07_セキュリティルーム/管制室",
-      "value": "security room, control panel"
+      "label": "07_ファッションショーのランウェイ",
+      "value": "fashion runway, catwalk"
+    },
+
+    {
+      "label": "08_劇場/コンサートホール",
+      "value": "theater stage, grand theater, spotlight"
+    },
+    {
+      "label": "08_ボールルーム/舞踏会",
+      "value": "ballroom, grand hall, chandelier, polished floor"
+    },
+    {
+      "label": "08_ストリート/壁アート",
+      "value": "urban street, brick wall, graffiti, street light"
+    },
+
+    { "label": "09_芝生/公園", "value": "grass field, large park, open air" },
+    { "label": "09_砂浜/海辺", "value": "sandy beach, seaside, yoga on beach" },
+    {
+      "label": "09_山岳/高原",
+      "value": "mountain plateau, misty forest, spiritual setting"
+    },
+
+    {
+      "label": "10_ヨガスタジオ",
+      "value": "yoga studio, warm lighting, wooden floor"
     }
   ],
   "lighting_atmosphere": [
@@ -1065,8 +1191,9 @@
     { "label": "01_セーラー服 (Sailor uniform)", "value": "seifuku" },
     { "label": "01_ブレザー制服", "value": "blazer" },
     { "label": "01_一般的な制服", "value": "school uniform" },
-    { "label": "01_体操服/ブルマ", "value": "gym uniform" },
+
     { "label": "01_学ラン (Japanese male uniform)", "value": "gakuran" },
+
     {
       "label": "02_OL制服/オフィスウェア",
       "value": "business suit, pencil skirt, black pantyhose"
@@ -1088,6 +1215,7 @@
     { "label": "02_白衣/医師のコート", "value": "doctor coat" },
     { "label": "02_研究者/実験用の白衣", "value": "lab coat" },
     { "label": "02_車掌の制服", "value": "train conductor uniform" },
+
     { "label": "03_レーシングスーツ", "value": "racing suit" },
     { "label": "03_士官服", "value": "officer uniform" },
     { "label": "03_戦闘装甲/パワードスーツ", "value": "battle armor" },
@@ -1095,6 +1223,7 @@
     { "label": "03_消防士の制服", "value": "firefighter uniform" },
     { "label": "03_警察官の制服", "value": "police uniform" },
     { "label": "03_軍服 (Military uniform)", "value": "military uniform" },
+
     { "label": "04_アーチャー/弓使い", "value": "archer costume, bow" },
     { "label": "04_修道女/シスター", "value": "nun, habit" },
     { "label": "04_僧侶", "value": "priest, priest hat" },
@@ -1113,8 +1242,17 @@
       "label": "04_魔法使い（ローブ）",
       "value": "mage, mage hat, cloak, long boots"
     },
+    {
+      "label": "04_空手着/柔道着",
+      "value": "karate gi, judo gi, martial arts uniform, white belt"
+    },
+    {
+      "label": "04_中国拳法着",
+      "value": "kung fu uniform, wushu attire, sash, kung fu shoes"
+    },
+
     { "label": "05_アオザイ", "value": "ao dai" },
-    { "label": "05_カンフー服/武術着", "value": "kung fu uniform" },
+
     { "label": "05_ゴスロリ服", "value": "gothic lolita fashion" },
     {
       "label": "05_サイバーパンク衣装",
@@ -1125,6 +1263,11 @@
     { "label": "05_チャイナドレス (Qipao)", "value": "cheongsam" },
     { "label": "05_チロリアン/ディアンドル", "value": "dirndl" },
     { "label": "05_韓服", "value": "hanbok" },
+    {
+      "label": "05_バレエ衣装/チュチュ",
+      "value": "ballet costume, tutu, leotard, pointe shoes"
+    },
+
     { "label": "06_つなぎ/ジャンプスーツ", "value": "jumpsuit" },
     { "label": "06_アイドル衣装", "value": "idol costume" },
     { "label": "06_ウェディングドレス", "value": "wedding dress, veil" },
@@ -1150,7 +1293,27 @@
       "label": "06_魔法使い（少女）",
       "value": "magical girl, frilled mini skirt, thigh-highs, hair accessories"
     },
-    { "label": "06_魔法少女の衣装", "value": "magical girl uniform" }
+    { "label": "06_魔法少女の衣装", "value": "magical girl uniform" },
+    {
+      "label": "06_体操服/ブルマ",
+      "value": "gym uniform, bloomers, gym shorts"
+    },
+    {
+      "label": "06_レオタード/タイツ",
+      "value": "leotard, tight bodysuit, spandex, tights"
+    },
+    {
+      "label": "06_ダンスウェア",
+      "value": "dancewear, dance top, spandex shorts, activewear"
+    },
+    {
+      "label": "06_ボールルームドレス",
+      "value": "ballroom dress, evening gown, flowing skirt, elegant attire"
+    },
+    {
+      "label": "06_ジャージ/トラックウェア",
+      "value": "tracksuit, sport jacket, athletic wear"
+    }
   ],
   "top_wear": [
     { "label": "01_Tシャツ", "value": "t-shirt" },
@@ -1254,6 +1417,7 @@
     { "label": "03_迷彩柄", "value": "camouflage pattern bra" }
   ],
   "panties_wear": [
+    { "label": "00_ラクダのひづめ", "value": "cameltoe" },
     { "label": "01_Tバック/Gストリング", "value": "g-string" },
     { "label": "01_ショーツ（汎用）", "value": "panties" },
     { "label": "01_タンガ", "value": "thong" },
@@ -1430,7 +1594,7 @@
       "label": "01_マンガ形式",
       "value": "(multi view, frame, text, speech bubble, frame, focus line, comic expression, sound effect),fullbody,hetero, sex, rape, ejaculation, cross section heard in eyes, saliva, heart, trembling, trembling, vibrating,nsfw, masterpiece, best quality, good quality"
     },
-    { "label": "01_２画面？", "value": "multiple views,mtu virus" },
+    { "label": "01_２画面？", "value": "multiple views, mtu virus" },
     {
       "label": "02_えろす（解剖学的強調）",
       "value": "(Gesture Drawing Master, Cross Contour Master, Dynamic Anatomy, Expressive Line of Action, Foreshortening Master, Perfect Proportions, Structural Anatomy, Emotional Contour, Fluid Gesture Capture, Anatomical Accuracy, Masterful Construction Lines, Sensual Anatomy, Erotic Gesture Drawing, Orgasmic Expression Lines, Convulsion Contour)"
@@ -1522,6 +1686,276 @@
     {
       "label": "03_長ちんぽ",
       "value": "girl on top,gigantic penis,long penis,grinding,cheek to penis,"
+    }
+  ],
+  "waltz_basic": [
+    { "label": "01_オープンターン", "value": "open turn, open natural turn" },
+    {
+      "label": "01_ナチュラルターン",
+      "value": "natural turn, right turn, turning clockwise"
+    },
+    {
+      "label": "01_リバースターン",
+      "value": "reverse turn, left turn, turning counter-clockwise"
+    },
+    {
+      "label": "02_ウィスク",
+      "value": "whisk, crossed feet, leading foot crossed in front"
+    },
+    {
+      "label": "02_クローズドチェンジ",
+      "value": "closed change, connecting steps, forward-side-close"
+    },
+    { "label": "02_シャッセ", "value": "chasse, side steps, step-close-step" },
+    {
+      "label": "03_フォールアウェイ",
+      "value": "fallaway, moving backward in opposition"
+    },
+    {
+      "label": "03_ボックスステップ",
+      "value": "box step, square step, fundamental waltz step"
+    },
+    {
+      "label": "04_パ・ド・ドゥ",
+      "value": "pas de deux, duet, couple dancing"
+    },
+    {
+      "label": "04_ホールド",
+      "value": "ballroom hold, dance frame, in close proximity"
+    },
+    {
+      "label": "04_ライズ＆フォール",
+      "value": "rise and fall, lift and lower, elegant posture"
+    }
+  ],
+  "hiphop_groove": [
+    { "label": "01_アップ", "value": "up groove, bounce up, chest lift" },
+    { "label": "01_ダウン", "value": "down groove, bounce down, chest drop" },
+    {
+      "label": "01_パドブレ",
+      "value": "pas de bourree, shuffle step, quick footwork"
+    },
+    { "label": "01_ヒット", "value": "hit, body pop, muscle contraction" },
+    {
+      "label": "02_チェストアイソレーション",
+      "value": "chest isolation, chest movement, shoulder movement"
+    },
+    {
+      "label": "02_ネックアイソレーション",
+      "value": "neck isolation, head isolation, neck pop"
+    },
+    { "label": "02_ロール", "value": "body roll, chest isolation, wave" },
+    {
+      "label": "03_クラブステップ",
+      "value": "club step, foot swivel, rotating feet"
+    },
+    {
+      "label": "03_ランニングマン",
+      "value": "running man, 80s dance move, illusion step"
+    },
+    {
+      "label": "03_ロック (Rock)",
+      "value": "rock, side-to-side body rock, weight shift"
+    }
+  ],
+  "ballet": [
+    {
+      "label": "01_第1ポジション",
+      "value": "first position, ballet stance, premiere position"
+    },
+    {
+      "label": "01_第2ポジション",
+      "value": "second position, ballet stance, deuxieme position"
+    },
+    {
+      "label": "01_第3ポジション",
+      "value": "third position, ballet stance, troisieme position"
+    },
+    {
+      "label": "01_第4ポジション",
+      "value": "fourth position, ballet stance, quatrieme position"
+    },
+    {
+      "label": "01_第5ポジション",
+      "value": "fifth position, ballet stance, cinquieme position"
+    },
+    {
+      "label": "02_タンデュ",
+      "value": "tendu, pointed foot, foot stretched, pointed toes"
+    },
+    {
+      "label": "02_ピルエット",
+      "value": "pirouette, turning, spinning on one foot"
+    },
+    {
+      "label": "02_プリエ",
+      "value": "plie, bending the knees, demi-plie, grand-plie"
+    },
+    {
+      "label": "02_ルルベ",
+      "value": "releve, rising to the balls of the feet, on the toes"
+    },
+    {
+      "label": "03_アティチュード",
+      "value": "attitude, standing on one leg, bent knee lift"
+    },
+    {
+      "label": "03_アラベスク",
+      "value": "arabesque, leg raised behind, pointed foot"
+    },
+    { "label": "03_バランセ", "value": "balance, swaying step, waltz step" },
+    {
+      "label": "03_パ・ド・ドゥ",
+      "value": "pas de deux, duet, couple dancing, lifted by partner"
+    },
+    { "label": "04_チュチュ", "value": "tutu, ballet dress, ballet skirt" },
+    { "label": "04_トゥシューズ", "value": "pointe shoes, on pointe" }
+  ],
+  "karate": [
+    { "label": "01_手刀打ち", "value": "shuto uchi, knife hand strike" },
+    { "label": "01_正拳突き", "value": "seikenduki, straight punch" },
+    { "label": "01_肘打ち", "value": "hiji ate, elbow strike" },
+    { "label": "01_逆突き", "value": "gyakuzuki, reverse punch" },
+    { "label": "01_鉤突き/フック", "value": "kage zuki, hook punch" },
+    { "label": "02_上段受け", "value": "jodan uke, rising block" },
+    { "label": "02_下段払い", "value": "gedan barai, downward block" },
+    { "label": "02_外受け", "value": "soto uke, outside block" },
+    { "label": "03_前蹴り", "value": "mae geri, front kick" },
+    { "label": "03_回し蹴り", "value": "mawashi geri, roundhouse kick" },
+    { "label": "03_横蹴り", "value": "yoko geri, side kick" },
+    { "label": "03_飛び蹴り", "value": "tobi geri, jumping kick" },
+    { "label": "04_前屈立ち", "value": "zenkutsu dachi, forward stance" },
+    { "label": "04_猫足立ち", "value": "nekoashi dachi, cat stance" },
+    { "label": "04_騎馬立ち", "value": "kiba dachi, horse stance" }
+  ],
+  "chinese_martial_arts": [
+    {
+      "label": "01_弓歩（ゴンブー）",
+      "value": "gongbu, bow stance, forward step"
+    },
+    {
+      "label": "01_虚歩（シューブー）",
+      "value": "xubu, empty stance, back stance"
+    },
+    {
+      "label": "01_馬歩（マーブー）",
+      "value": "mabu, horse stance, low stance"
+    },
+    {
+      "label": "02_掌（ジャン）",
+      "value": "zhang, open palm strike, open hand block"
+    },
+    {
+      "label": "02_推手（トゥイショウ）",
+      "value": "tui shou, pushing hands, gentle contact"
+    },
+    {
+      "label": "02_突き（チュアン）",
+      "value": "chuan, kung fu punch, closed fist strike"
+    },
+    {
+      "label": "03_掃腿（サオトゥイ）",
+      "value": "sao tui, sweeping leg, low kick"
+    },
+    {
+      "label": "03_飛脚（フェイジャオ）",
+      "value": "fei jiao, flying kick, jump with splits"
+    },
+    {
+      "label": "04_太極拳（タイジージェン）",
+      "value": "taijiquan, tai chi, slow movement, flowing form"
+    },
+    {
+      "label": "04_少林拳（シャオリンチュアン）",
+      "value": "shaolinquan, shaolin kung fu, aggressive stance, powerful"
+    },
+    {
+      "label": "04_詠春拳（ヨンチュンチュアン）",
+      "value": "wing chun, close-quarters combat, narrow stance"
+    },
+    {
+      "label": "05_刀（ダオ）",
+      "value": "dao, broadsword, single-edged sword"
+    },
+    {
+      "label": "05_剣（ジエン）",
+      "value": "jian, straight sword, double-edged sword"
+    },
+    {
+      "label": "05_拳法着",
+      "value": "kung fu uniform, wushu attire, sash, kung fu shoes"
+    }
+  ],
+  "yoga": [
+    {
+      "label": "01_三角のポーズ",
+      "value": "triangle pose, trikonasana, side bend"
+    },
+    {
+      "label": "01_戦士のポーズ II",
+      "value": "warrior II pose, virabhadrasana II, lunging pose"
+    },
+    {
+      "label": "01_木のポーズ",
+      "value": "tree pose, vrksasana, single leg balance"
+    },
+    {
+      "label": "02_コブラのポーズ",
+      "value": "cobra pose, bhujangasana, gentle backbend"
+    },
+    {
+      "label": "02_ダウンドッグ",
+      "value": "downward-facing dog, adho mukha svanasana, inverted V-pose"
+    },
+    {
+      "label": "02_弓のポーズ",
+      "value": "bow pose, dhanurasana, deep backbend"
+    },
+    {
+      "label": "03_蓮華座",
+      "value": "lotus position, padmasana, crossed legs"
+    },
+    {
+      "label": "03_鋤のポーズ",
+      "value": "plow pose, halasana, legs over head"
+    },
+    {
+      "label": "03_頭立ち（ヘッドスタンド）",
+      "value": "headstand, sirsasana, inverted pose"
+    },
+    {
+      "label": "04_ヨガマット",
+      "value": "yoga mat, rolled up mat, in a studio"
+    }
+  ],
+  "gymnastics_acrobatics": [
+    {
+      "label": "01_ブリッジ",
+      "value": "bridge, back arch, bend over backward"
+    },
+    { "label": "01_前後開脚", "value": "front split, sagittal split" },
+    {
+      "label": "01_開脚（スプリット）",
+      "value": "split, leg split, full split, straddle"
+    },
+    { "label": "02_倒立", "value": "handstand, inverted, balancing on hands" },
+    {
+      "label": "02_側転",
+      "value": "cartwheel, turning sideways, hands on ground"
+    },
+    { "label": "02_平均台", "value": "balance beam, on the beam" },
+    { "label": "03_バク転", "value": "back handspring, back flip" },
+    {
+      "label": "03_宙返り（フリップ）",
+      "value": "flip, somersault, airborne rotation"
+    },
+    {
+      "label": "03_跳馬/跳び箱",
+      "value": "vault, jumping over, landing on mat"
+    },
+    {
+      "label": "04_レオタード",
+      "value": "leotard, gymnastics uniform, tight bodysuit"
     }
   ]
 }
