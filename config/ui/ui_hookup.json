@@ -109,6 +109,7 @@
       "description": "キャラクターが着用している服の種類とディテール。",
       "subgroups": [
         { "id": "uniforms", "label": "制服・戦闘服", "exclusive": false },
+        { "id": "clothes_pattern", "label": "服の模様", "exclusive": false },
         { "id": "top_wear", "label": "トップス・上着", "exclusive": false },
         {
           "id": "bottom_wear",
@@ -323,6 +324,11 @@
         {
           "id": "lighting_atmosphere",
           "label": "照明・雰囲気",
+          "exclusive": false
+        },
+        {
+          "id": "background_effect",
+          "label": "背景エフェクト",
           "exclusive": false
         },
         {
