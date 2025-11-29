@@ -19,14 +19,33 @@
       <!-- プリセット保存・読み込み -->
 
       <button id="generate">カンマ区切りプロンプト生成</button>
-      <button id="generateLabel">Generate with Labels</button>
-      <button id="generateEnglish">英文プロンプト生成</button>
       <button id="copy">コピー</button>
       <button id="clearAll">全てクリア</button>
       <div class="output" id="output"></div>
-      <!-- プリセット読み込み結果表示用 -->
-      <button id="savePreset">プリセット保存</button>
-      <button id="loadPreset">プリセット読み込み</button>
+    </div>
+    <!-- 履歴/プリセット管理セクション (preset.jsが依存する要素) -->
+    <div>
+      <h2>履歴/プリセット管理</h2>
+
+      <!-- プリセット保存 -->
+      <div>
+        <!-- ID: presetName (必須) -->
+        <input
+          type="text"
+          id="presetName"
+          placeholder="履歴/プリセット名を入力"
+        />
+        <!-- ID: savePresetBtn (必須) -->
+        <button id="savePresetBtn">現在のプロンプトを保存</button>
+      </div>
+
+      <!-- 履歴リスト -->
+      <h3>保存された履歴</h3>
+      <!-- ID: historyListContainer (必須) -->
+      <div id="historyListContainer">
+        <!-- 履歴アイテムはJSによってここにレンダリングされます -->
+        <p>読み込み中...</p>
+      </div>
     </div>
     <button id="backToTopBtn" class="back-to-top" title="トップへ戻る">
       topへ

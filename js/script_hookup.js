@@ -1,3 +1,5 @@
+import { renderHistory, setupPresetListeners } from "./preset.js";
+
 document.addEventListener("DOMContentLoaded", async () => {
   const resDict = await fetch("config/data/hookup.json");
   const DICT = await resDict.json();
@@ -49,17 +51,15 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     const items = Array.isArray(DICT_MERGED[sgObj.id])
       ? DICT_MERGED[sgObj.id]
-      : [];
-    // ボタン生成時
+      : []; // ボタン生成時
     items.forEach((item) => {
       if (!item.value) return;
       const btn = document.createElement("button");
       btn.dataset.keyword = item.value;
       btn.dataset.exclusive = sgObj.exclusive;
       btn.dataset.noRandom = item.noRandom ? "true" : "false";
-      btn.textContent = item.label;
+      btn.textContent = item.label; // item.active があれば dataset に保持する
 
-      // item.active があれば dataset に保持する
       if (item.active && typeof item.active === "object") {
         btn.dataset.active = JSON.stringify(item.active);
       }
@@ -145,8 +145,19 @@ document.addEventListener("DOMContentLoaded", async () => {
     wrapper.appendChild(leftCol);
     wrapper.appendChild(rightCol);
     container.insertBefore(wrapper, document.getElementById("generate"));
-  };
+  }; // --- 🚀 generateOutput 関数の定義を追加 (修正点) 🚀 ---
 
+  const generateOutput = () => {
+    const all = [
+      ...document.querySelectorAll(
+        ".sub-group button.active, .sub-subgroup button.active"
+      ),
+    ]
+      .map((btn) => btn.dataset.keyword)
+      .filter((k) => k);
+    output.textContent = all.join(", ");
+    return output.textContent; // 生成された文字列を返す
+  }; // -----------------------------------------------------
   UI.groups.forEach(createKeywordList);
   loadState();
 
@@ -176,29 +187,11 @@ document.addEventListener("DOMContentLoaded", async () => {
     }
 
     saveState();
-  }
-
-  document.getElementById("generateLabel").addEventListener("click", () => {
-    const out = [];
-    document.querySelectorAll(".sub-group, .sub-subgroup").forEach((sg) => {
-      const sgId = sg.dataset.subgroup;
-      const active = [...sg.querySelectorAll("button.active")]
-        .map((b) => b.dataset.keyword)
-        .filter((k) => k);
-      if (active.length > 0) out.push(`${sgId}: ${active.join(", ")}`);
-    });
-    output.textContent = out.join("\n");
-  });
+  } // generateOutput 関数を使うように修正 (ロジックの重複を解消)
 
   document.getElementById("generate").addEventListener("click", () => {
-    const all = [
-      ...document.querySelectorAll(
-        ".sub-group button.active, .sub-subgroup button.active"
-      ),
-    ]
-      .map((btn) => btn.dataset.keyword)
-      .filter((k) => k);
-    output.textContent = all.join(", ");
+    generateOutput();
+    saveState(); // 状態を保存
   });
 
   document.getElementById("copy").addEventListener("click", () => {
@@ -213,26 +206,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     allButtons.forEach((btn) => btn.classList.remove("active"));
     output.textContent = "";
     localStorage.removeItem("buttonState");
-  });
-
-  const randomBtn = document.createElement("button");
-  randomBtn.textContent = "ランダム選択";
-  randomBtn.id = "randomSelect";
-  container.appendChild(randomBtn);
-
-  randomBtn.addEventListener("click", () => {
-    document.querySelectorAll(".sub-group, .sub-subgroup").forEach((sg) => {
-      const btns = [...sg.querySelectorAll("button")].filter(
-        (b) => b.dataset.noRandom !== "true"
-      );
-      const isExclusive = btns[0]?.dataset.exclusive === "true";
-      if (btns.length === 0) return;
-      if (isExclusive) {
-        const r = Math.floor(Math.random() * btns.length);
-        btns.forEach((b, i) => b.classList.toggle("active", i === r));
-      } else {
-        btns.forEach((b) => b.classList.toggle("active", Math.random() < 0.5));
-      }
-    });
-  });
+  }); // 履歴管理の初期化とリスナー設定を preset.js に任せる // generateOutput が定義されたため、エラーが解消
+  setupPresetListeners(generateOutput, saveState);
+  renderHistory(saveState);
 });

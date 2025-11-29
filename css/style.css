@@ -119,7 +119,7 @@ button:hover {
 #generateEnglish,
 #savePreset,
 #loadPreset {
-  display: none;
+  display: flex;
 }
 /* ボタンの基本スタイル */
 .back-to-top {
@@ -201,3 +201,53 @@ button:hover {
 /* .go-to-bottom.hide {
   display: none;
 } */
+
+/* History Management Styles */
+/* History Management Styles (修正版: Tailwindクラスをターゲット) */
+
+/* ラベルは flex-grow が適用されているため、このボタンの固定化で自動的にスペースを占めるはずです */
+/* --- 履歴ボタンのスタイル調整 --- */
+
+/* 既存のボタンの見た目を適用するため、globalな button スタイルはそのまま利用します */
+
+/* 履歴アイテム全体を包むラッパー (削除ボタンをボタンと横並びにするためのFlexコンテナとして機能させる) */
+.history-item-wrapper {
+  margin-bottom: 5px; /* 履歴ボタン同士の間隔 */
+}
+
+/* 履歴ボタンと削除ボタンを横並びにするためのラッパー */
+.history-item-flex-wrapper {
+  display: flex;
+  align-items: center; /* 垂直方向の中央揃え */
+  gap: 8px; /* ボタンと削除アイコンの間隔 */
+}
+
+/* 履歴ボタン自体 */
+.history-button {
+  /* globalな button スタイル（width: 100%; text-align: left; など）が適用されます */
+  flex-grow: 1; /* 親の幅いっぱいに広がる */
+  margin: 0; /* ラッパーで間隔を制御するため、マージンをリセット */
+}
+
+/* 削除ボタン */
+.delete-history-btn {
+  /* 既存のボタンのスタイルを上書きして、アイコンとして機能させる */
+  width: 24px; /* 固定幅 */
+  height: 24px; /* 固定高さ */
+  padding: 0; /* パディングをリセット */
+  margin: 0; /* マージンをリセット */
+
+  /* 既存のボタンの背景色/テキスト色を上書き */
+  background: #dc2626; /* 赤 */
+  color: white;
+
+  border-radius: 50%; /* 正円にする */
+  flex-shrink: 0; /* 縮まないようにする */
+  display: flex; /* SVGアイコンを中央に配置 */
+  justify-content: center;
+  align-items: center;
+}
+
+.delete-history-btn:hover {
+  background: #b91c1c;
+}
