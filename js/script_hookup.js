@@ -49,16 +49,28 @@ document.addEventListener("DOMContentLoaded", async () => {
     subDiv.appendChild(h4);
     parentElem.appendChild(subDiv);
 
+    // 🌟 初期表示するボタンの最大数を定義
+    const MAX_VISIBLE_BUTTONS = 8;
+    let buttonCount = 0;
+    const hiddenButtons = []; // 初期非表示にするボタンを格納する配列
+
     const items = Array.isArray(DICT_MERGED[sgObj.id])
       ? DICT_MERGED[sgObj.id]
-      : []; // ボタン生成時
+      : [];
     items.forEach((item) => {
       if (!item.value) return;
       const btn = document.createElement("button");
       btn.dataset.keyword = item.value;
       btn.dataset.exclusive = sgObj.exclusive;
       btn.dataset.noRandom = item.noRandom ? "true" : "false";
-      btn.textContent = item.label; // item.active があれば dataset に保持する
+      btn.textContent = item.label;
+
+      // 🌟 9個目以降のボタンに初期非表示クラスを付与
+      if (buttonCount >= MAX_VISIBLE_BUTTONS) {
+        btn.classList.add("hidden-initial");
+        hiddenButtons.push(btn);
+      }
+      buttonCount++;
 
       if (item.active && typeof item.active === "object") {
         btn.dataset.active = JSON.stringify(item.active);
@@ -95,6 +107,31 @@ document.addEventListener("DOMContentLoaded", async () => {
       subDiv.appendChild(btn);
     });
 
+    // 🌟 トグルボタンの追加とイベントリスナーの設定
+    if (hiddenButtons.length > 0) {
+      const toggleButton = document.createElement("button");
+      toggleButton.className = "toggle-more-buttons";
+      toggleButton.textContent = `さらに ${hiddenButtons.length} 件表示`;
+
+      subDiv.appendChild(toggleButton); // subDiv の末尾に追加
+
+      toggleButton.addEventListener("click", () => {
+        const isCollapsed =
+          hiddenButtons[0].classList.contains("hidden-initial");
+
+        // hidden-initial クラスを付け替えて表示/非表示を切り替え
+        hiddenButtons.forEach((b) => {
+          b.classList.toggle("hidden-initial");
+        });
+
+        if (isCollapsed) {
+          toggleButton.textContent = "閉じる";
+        } else {
+          toggleButton.textContent = `さらに ${hiddenButtons.length} 件表示`;
+        }
+      });
+    }
+
     if (sgObj.subgroups) {
       const nestedWrapper = document.createElement("div");
       nestedWrapper.className = "sub-subgroups collapsed";
@@ -123,12 +160,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     const wrapper = document.createElement("div");
     wrapper.className = "group-row";
 
-    const leftCol = document.createElement("div");
-    leftCol.className = "left-column";
-
-    const rightCol = document.createElement("div");
-    rightCol.className = "right-column"; // --- ★ ここから追加・修正 ---
-
+    // 1. keywordList の作成と見出し(h3)の追加をループの外側に出す
     const keywordList = document.createElement("div");
     keywordList.className = "keyword-list";
     keywordList.dataset.target = group.id;
@@ -137,34 +169,50 @@ document.addEventListener("DOMContentLoaded", async () => {
     h3.textContent = group.label;
     keywordList.appendChild(h3);
 
+    // 2. keywordList の直下でコンテンツ全体を囲むラッパーを作成（トグル制御対象）
+    const mainContentWrapper = document.createElement("div");
+    mainContentWrapper.className = "main-content-wrapper collapsed"; // 新しいラッパー
+
     const toggle = document.createElement("span");
     toggle.className = "toggle";
-    toggle.textContent = "▶"; // 初期状態で折りたたまれている
+    toggle.textContent = "▶";
     toggle.style.cursor = "pointer";
     toggle.style.marginLeft = "8px";
-    h3.appendChild(toggle); // サブグループ本体を囲むラッパーを追加し、初期状態で折りたたむ
+    h3.appendChild(toggle);
 
-    const subgroupsWrapper = document.createElement("div");
-    subgroupsWrapper.className = "subgroups-main-wrapper collapsed"; // ★ 'collapsed' を付与
+    // mainContentWrapper のスタイルを設定して、中の要素を横並びにする
+    mainContentWrapper.style.display = "flex";
+    mainContentWrapper.style.flexWrap = "wrap";
+    mainContentWrapper.style.gap = "20px"; // keyword-list ブロック間の間隔
 
+    // 3. ループ内で sub-group を作成し、新しいラッパーに追加する
     group.subgroups.forEach((sg) => {
-      createSubGroup(sg, subgroupsWrapper); // subgroupsWrapper に追加
+      // sub-group を直接作成する
+      // ※ここでは subgroupsWrapper は使わず、sub-group を直接 mainContentWrapper に追加するため
+      // createSubGroup の呼び出し方法を調整（createSubGroupの戻り値を受け取る必要あり）
+      // ただし createSubGroup は戻り値を返さないため、そのまま呼び出し、
+      // mainContentWrapper に直接要素を追加します。
+
+      // ★ 注意: createSubGroup は引数の parentElem に子要素を追加します
+      createSubGroup(sg, mainContentWrapper);
     });
 
-    keywordList.appendChild(subgroupsWrapper); // ラッパーを keywordList に追加
-    leftCol.appendChild(keywordList); // トグルのイベントリスナーを設定
+    // 4. 新しいラッパーを keywordList に追加
+    keywordList.appendChild(mainContentWrapper);
 
+    // 5. keywordList を wrapper (group-row) に追加
+    wrapper.appendChild(keywordList);
+
+    // 6. トグルのイベントリスナーを設定（新しいラッパーを制御）
     toggle.addEventListener("click", () => {
-      subgroupsWrapper.classList.toggle("collapsed");
-      toggle.textContent = subgroupsWrapper.classList.contains("collapsed")
+      mainContentWrapper.classList.toggle("collapsed");
+      toggle.textContent = mainContentWrapper.classList.contains("collapsed")
         ? "▶"
         : "▼";
-    }); // --- ★ ここまで追加・修正 ---
-    wrapper.appendChild(leftCol);
-    wrapper.appendChild(rightCol);
-    container.insertBefore(wrapper, document.getElementById("generate"));
-  }; // --- 🚀 generateOutput 関数の定義を追加 (修正点) 🚀 ---
+    });
 
+    container.insertBefore(wrapper, document.getElementById("generate"));
+  };
   const generateOutput = () => {
     const all = [
       ...document.querySelectorAll(

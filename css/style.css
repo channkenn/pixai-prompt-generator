@@ -16,7 +16,8 @@ body {
 }
 
 .group-row {
-  display: flex;
+  display: flex; /* ★ 追加: keyword-list を横並びにするため */
+  flex-wrap: wrap; /* ★ 追加: 画面幅に応じて折り返すため */
   gap: 20px;
   margin-bottom: 20px;
   border: 2px solid #ccc;
@@ -253,4 +254,41 @@ button:hover {
 }
 .subgroups-main-wrapper.collapsed {
   display: none;
+}
+
+/* 新しいラッパーが非表示になるように設定 */
+.main-content-wrapper.collapsed {
+  display: none !important; /* display:flex を上書きして非表示にする */
+}
+
+/* keyword-list のスタイルを調整（不要であれば削除可） */
+.keyword-list {
+  /* flex-direction: column; が設定されているか確認し、必要なら削除 */
+  display: block; /* Flexboxコンテナ内で全体を占有させるため */
+  width: 100%;
+}
+
+/* --- キーワードボタンの折りたたみ機能用スタイル --- */
+
+/* 9個目以降のボタンに適用される、初期非表示のスタイル */
+.sub-group button.hidden-initial,
+.sub-subgroup button.hidden-initial {
+  display: none;
+}
+
+/* トグルボタンのスタイル調整 */
+/* キーワードボタンと区別し、常に横幅いっぱいに表示されるようにします */
+button.toggle-more-buttons {
+  /* 既存の button スタイルを上書き */
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 5px; /* sub-groupのgapが効くように下マージンを調整 */
+  background: #555; /* 色を変えて区別 */
+  color: #fff;
+  flex-shrink: 0; /* sub-group内のFlexboxで縮まないように */
+}
+
+button.toggle-more-buttons:hover {
+  background: #333;
 }
