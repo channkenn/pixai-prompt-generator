@@ -1412,12 +1412,48 @@
     { "label": "霧", "value": "fog" }
   ],
   "art_style": [
-    { "label": "アニメ塗り", "value": "anime style" },
-    { "label": "スケッチ", "value": "sketch" },
-    { "label": "ドット絵", "value": "pixel art" },
-    { "label": "フラットカラー", "value": "flat color" },
-    { "label": "水彩風", "value": "watercolor" },
-    { "label": "油絵風", "value": "oil painting" }
+    { "label": "01_アニメ塗り（一般）", "value": "anime style, manga style" },
+    {
+      "label": "01_セル画風/セル塗り",
+      "value": "cel shading, cell-shaded, strong shadows"
+    },
+    { "label": "01_フラットカラー", "value": "flat color, simple shading" },
+    {
+      "label": "01_厚塗り",
+      "value": "heavy paint, thick strokes, textured paint"
+    },
+    {
+      "label": "01_透明感のある塗り",
+      "value": "transparent colors, translucent, clear skin"
+    },
+    {
+      "label": "02_パステル画風",
+      "value": "pastel drawing, soft colors, powdery texture"
+    },
+    {
+      "label": "02_墨絵/筆致",
+      "value": "sumi-e, ink wash, strong brush strokes"
+    },
+    { "label": "02_水彩風", "value": "watercolor, wash effect" },
+    { "label": "02_油絵風", "value": "oil painting, canvas texture" },
+    {
+      "label": "03_ざらつきテクスチャ",
+      "value": "grainy, film grain, noise, gritty"
+    },
+    { "label": "03_コピック風", "value": "copic marker, marker art" },
+    {
+      "label": "03_スケッチ/鉛筆画",
+      "value": "sketch, pencil drawing, monochrome, line art"
+    },
+    {
+      "label": "04_スクリーン・トーン",
+      "value": "screen tone, manga hatching, monochrome comic"
+    },
+    { "label": "04_ドット絵/ボクセル", "value": "pixel art, voxel, 8-bit" },
+    {
+      "label": "04_ベクターアート",
+      "value": "vector art, clean lines, geometric"
+    }
   ],
   "clothes_pattern": [
     { "label": "01_七宝（しっぽう）", "value": "shippo (pattern)" },

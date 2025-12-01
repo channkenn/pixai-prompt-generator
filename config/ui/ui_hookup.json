@@ -9,6 +9,16 @@
           "id": "art_style",
           "label": "画風",
           "exclusive": false
+        },
+        {
+          "id": "rendering_quality",
+          "label": "描写品質・細部",
+          "exclusive": false
+        },
+        {
+          "id": "color_palette",
+          "label": "画色調・色彩風",
+          "exclusive": false
         }
       ]
     },
