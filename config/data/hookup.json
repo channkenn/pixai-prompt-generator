@@ -674,8 +674,11 @@
     { "label": "アオリ（下から）", "value": "from below" },
     { "label": "俯瞰（上から）", "value": "from above" },
     { "label": "後ろからの視点", "value": "from behind" },
-    { "label": "斜め構図/ダッチアングル", "value": "dutch angle" },
+    { "label": "正面からの視点", "value": "from front, straight-on" },
     { "label": "横からの視点", "value": "side view" },
+    { "label": "左からの視点", "value": "from left" },
+    { "label": "右からの視点", "value": "from right" },
+    { "label": "斜め構図/ダッチアングル", "value": "dutch angle" },
     { "label": "魚眼レンズ", "value": "fisheye" }
   ],
   "composition_rules": [

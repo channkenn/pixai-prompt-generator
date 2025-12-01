@@ -251,3 +251,6 @@ button:hover {
 .delete-history-btn:hover {
   background: #b91c1c;
 }
+.subgroups-main-wrapper.collapsed {
+  display: none;
+}

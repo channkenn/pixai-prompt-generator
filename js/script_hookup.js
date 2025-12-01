@@ -127,21 +127,39 @@ document.addEventListener("DOMContentLoaded", async () => {
     leftCol.className = "left-column";
 
     const rightCol = document.createElement("div");
-    rightCol.className = "right-column";
+    rightCol.className = "right-column"; // --- ★ ここから追加・修正 ---
+
+    const keywordList = document.createElement("div");
+    keywordList.className = "keyword-list";
+    keywordList.dataset.target = group.id;
+
+    const h3 = document.createElement("h3");
+    h3.textContent = group.label;
+    keywordList.appendChild(h3);
+
+    const toggle = document.createElement("span");
+    toggle.className = "toggle";
+    toggle.textContent = "▶"; // 初期状態で折りたたまれている
+    toggle.style.cursor = "pointer";
+    toggle.style.marginLeft = "8px";
+    h3.appendChild(toggle); // サブグループ本体を囲むラッパーを追加し、初期状態で折りたたむ
+
+    const subgroupsWrapper = document.createElement("div");
+    subgroupsWrapper.className = "subgroups-main-wrapper collapsed"; // ★ 'collapsed' を付与
 
     group.subgroups.forEach((sg) => {
-      const keywordList = document.createElement("div");
-      keywordList.className = "keyword-list";
-      keywordList.dataset.target = group.id;
-
-      const h3 = document.createElement("h3");
-      h3.textContent = group.label;
-      keywordList.appendChild(h3);
-
-      createSubGroup(sg, keywordList);
-      leftCol.appendChild(keywordList);
+      createSubGroup(sg, subgroupsWrapper); // subgroupsWrapper に追加
     });
 
+    keywordList.appendChild(subgroupsWrapper); // ラッパーを keywordList に追加
+    leftCol.appendChild(keywordList); // トグルのイベントリスナーを設定
+
+    toggle.addEventListener("click", () => {
+      subgroupsWrapper.classList.toggle("collapsed");
+      toggle.textContent = subgroupsWrapper.classList.contains("collapsed")
+        ? "▶"
+        : "▼";
+    }); // --- ★ ここまで追加・修正 ---
     wrapper.appendChild(leftCol);
     wrapper.appendChild(rightCol);
     container.insertBefore(wrapper, document.getElementById("generate"));
