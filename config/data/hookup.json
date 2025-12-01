@@ -2244,5 +2244,86 @@
       "label": "04_レオタード",
       "value": "leotard, gymnastics uniform, tight bodysuit"
     }
+  ],
+  "rendering_quality": [
+    {
+      "label": "01_低画質/粗い",
+      "value": "low quality, worst quality, blurry, jpeg artifacts"
+    },
+    {
+      "label": "01_最高傑作",
+      "value": "(masterpiece:1.3), (best quality:1.4)"
+    },
+    {
+      "label": "01_高画質",
+      "value": "high resolution, highres, 8k, absurdres"
+    },
+    {
+      "label": "02_シンプルな描写",
+      "value": "simple drawing, less details, minimalism"
+    },
+    {
+      "label": "02_高精細",
+      "value": "highly detailed, intricate details, complex details"
+    },
+    {
+      "label": "03_CG/デジタル",
+      "value": "digital art, computer generated, rendered in 3D"
+    },
+    {
+      "label": "03_写真のようにリアル",
+      "value": "photorealistic, hyperrealism, realistic shading"
+    },
+    {
+      "label": "03_映画的画質",
+      "value": "cinematic quality, film grain, cinematic lighting"
+    },
+    {
+      "label": "04_完璧な手",
+      "value": "perfect hands, detailed fingers, perfect anatomy"
+    },
+    { "label": "04_完璧な顔", "value": "perfect face, detailed eyes, symmetry" }
+  ],
+  "color_palette": [
+    {
+      "label": "01_モノクロ/セピア",
+      "value": "monochrome, grayscale, sepia tone"
+    },
+    {
+      "label": "01_落ち着いた/低彩度",
+      "value": "muted colors, desaturated, soft colors"
+    },
+    {
+      "label": "01_鮮やか/高彩度",
+      "value": "vibrant colors, vivid, hyper-saturated"
+    },
+    {
+      "label": "02_パステルカラー",
+      "value": "pastel colors, light colors, soft palette"
+    },
+    {
+      "label": "02_寒色系（青系）",
+      "value": "cool colors, blue tint, cold light"
+    },
+    {
+      "label": "02_暖色系（赤系）",
+      "value": "warm colors, golden hour, reddish light"
+    },
+    {
+      "label": "03_ダーク/重厚",
+      "value": "dark atmosphere, heavy shadow, low key"
+    },
+    {
+      "label": "03_ネオンライト",
+      "value": "neon lighting, glow, vibrant glow"
+    },
+    {
+      "label": "03_劇的な照明",
+      "value": "dramatic lighting, cinematic lighting, strong contrast"
+    },
+    {
+      "label": "03_明るい/ハイキー",
+      "value": "bright, high key, airy, ethereal"
+    }
   ]
 }
