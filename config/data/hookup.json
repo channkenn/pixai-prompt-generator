@@ -11,18 +11,34 @@
     { "label": "高解像度 (x1.1)", "value": "(highres:1.1)" }
   ],
   "base_attributes": [
-    { "label": "グループ", "value": "group" },
-    { "label": "二人（デュオ）", "value": "duo" },
-    { "label": "単独（ソロ）", "value": "solo" },
-    { "label": "少女1人", "value": "1girl" },
-    { "label": "少女2人", "value": "2girls" },
-    { "label": "少女3人", "value": "3girls" },
-    { "label": "少年1人", "value": "1boy" },
-    { "label": "少年2人", "value": "2boys" },
-    { "label": "少年3人", "value": "3boys" },
-    { "label": "男女1組", "value": "1girl and 1boy" },
-    { "label": "複数人", "value": "multiple characters" },
-    { "label": "３人（トリオ）", "value": "trio" }
+    { "label": "01_単独（ソロ）", "value": "solo" },
+    { "label": "01_少女1人", "value": "1girl" },
+    { "label": "01_少年1人", "value": "1boy" },
+    { "label": "02_二人（デュオ）", "value": "duo, 2 people" },
+    { "label": "02_少女2人（yuri）", "value": "2girls, yuri" },
+    { "label": "02_少年2人（yaoi）", "value": "2boys, yaoi" },
+    { "label": "02_男女1組（hetero）", "value": "1girl and 1boy, hetero" },
+    { "label": "03_グループ", "value": "group" },
+    { "label": "03_少女3人", "value": "3girls" },
+    { "label": "03_少年3人", "value": "3boys" },
+    {
+      "label": "03_複数人（hetero）",
+      "value": "multiple characters, group, hetero"
+    },
+    {
+      "label": "03_複数人（yaoi）",
+      "value": "multiple characters, group, yaoi"
+    },
+    {
+      "label": "03_複数人（yuri）",
+      "value": "multiple characters, group, yuri"
+    },
+    { "label": "03_３人（トリオ）", "value": "trio, 3 people" },
+    { "label": "04_先生と生徒", "value": "teacher and student" },
+    { "label": "04_女性（大人）と少女", "value": "adult woman and young girl" },
+    { "label": "04_支配/服従の二人", "value": "master and slave, domination" },
+    { "label": "04_男性（大人）と少年", "value": "adult man and young boy" },
+    { "label": "04_血縁関係の二人", "value": "siblings, family relationship" }
   ],
   "species": [
     { "label": "アンドロイド", "value": "android" },
@@ -97,17 +113,48 @@
     { "label": "黒色の乳首と乳輪", "value": "black nipple, black areolae" }
   ],
   "age_body": [
-    { "label": "ふくよか", "value": "chubby" },
-    { "label": "むちむち下半身", "value": "wide hips, thick thighs" },
-    { "label": "ティーン", "value": "teenager" },
-    { "label": "大人", "value": "adult" },
-    { "label": "小柄・華奢", "value": "petite" },
-    { "label": "幼女", "value": "loli" },
-    { "label": "成熟", "value": "mature" },
-    { "label": "曲線美・グラマラス", "value": "curvy" },
-    { "label": "筋肉質", "value": "muscular" },
-    { "label": "細身・痩せ型", "value": "slim" },
-    { "label": "高身長", "value": "tall" }
+    { "label": "01_ティーン", "value": "teenager, adolescent" },
+    { "label": "01_大人", "value": "adult, young adult" },
+    { "label": "01_幼女", "value": "loli, young child" },
+    { "label": "01_成熟", "value": "mature, milf, cougar" },
+    { "label": "01_高齢", "value": "elderly, old woman, old man" },
+    { "label": "02_がっちり/大柄", "value": "bulky, large build" },
+    { "label": "02_小柄・華奢", "value": "petite, frail" },
+    { "label": "02_筋肉質", "value": "muscular, athletic build" },
+    { "label": "02_細身・痩せ型", "value": "slim, skinny" },
+    { "label": "02_高身長", "value": "tall, towering" },
+    { "label": "03_ふくよか", "value": "chubby, fat, overweight" },
+    {
+      "label": "03_曲線美・グラマラス",
+      "value": "curvy, hourglass figure, voluptuous"
+    },
+    { "label": "03_標準体型", "value": "average body type" },
+    {
+      "label": "03_皮膚の食い込み",
+      "value": "skindentation, skin pressed, soft skin"
+    },
+    { "label": "03_脂肪多め", "value": "fluffy, plump, thick" },
+    { "label": "04_お腹周り", "value": "belly fat, love handles" },
+    {
+      "label": "04_むちむち下半身",
+      "value": "wide hips, thick thighs, large butt"
+    },
+    { "label": "04_キャメル・トウ", "value": "cameltoe, visible mound" },
+    { "label": "04_割れた腹筋", "value": "abs, six pack, toned stomach" },
+    { "label": "04_小胸/貧乳", "value": "small breasts, flat chest" },
+    { "label": "04_日焼け跡", "value": "tanlines, suntan, swimsuit tan" },
+    { "label": "04_細い腰", "value": "small waist, thin waist" },
+    {
+      "label": "04_背骨・背中のくぼみ",
+      "value": "back dimples, visible spine, arched back"
+    },
+    { "label": "04_脇のシワ・肉感", "value": "armpit crease, armpit fat" },
+    {
+      "label": "04_血管・筋",
+      "value": "veins, popping veins, visible tendons"
+    },
+    { "label": "04_豊胸/巨乳", "value": "large breasts, huge breasts" },
+    { "label": "04_長い脚・美脚", "value": "long legs, beautiful legs" }
   ],
   "hair_details": [
     { "label": "01_ショート", "value": "short hair" },
@@ -351,6 +398,68 @@
     { "label": "走る", "value": "running" },
     { "label": "飛び跳ねる", "value": "jumping, mid-air" }
   ],
+  "relationship_pose": [
+    {
+      "label": "01_女性に抱きしめられる (相手女性)",
+      "value": "1girl, first-person view, POV, embracing, hugging, looking down at viewer"
+    },
+    {
+      "label": "01_女性に押し倒される (相手女性)",
+      "value": "1girl, first-person view, POV, straddling, mounting, being pinned down"
+    },
+    {
+      "label": "01_女性主観 POV",
+      "value": "1girl or 1boy, female body, first-person view, POV"
+    },
+    {
+      "label": "01_男性にキスされる",
+      "value": "1boy, first-person view, POV, kissing, mouth to mouth"
+    },
+    {
+      "label": "01_男性に抱きしめられる",
+      "value": "1boy, first-person view, POV, embracing, hugging, looking down at viewer"
+    },
+    {
+      "label": "01_男性に押し倒される",
+      "value": "1boy, first-person view, POV, straddling, mounting, being pinned down"
+    },
+    {
+      "label": "02_女性にキスされる",
+      "value": "1girl, first-person view, POV, kissing, mouth to mouth"
+    },
+    {
+      "label": "02_女性に抱きしめられる",
+      "value": "1girl, first-person view, POV, embracing, hugging, looking down at viewer"
+    },
+    {
+      "label": "02_女性に押し倒される",
+      "value": "1girl, first-person view, POV, straddling, mounting, being pinned down"
+    },
+    {
+      "label": "02_男性に抱きしめられる (相手男性)",
+      "value": "1boy, first-person view, POV, embracing, hugging, looking down at viewer"
+    },
+    {
+      "label": "02_男性に押し倒される (相手男性)",
+      "value": "1boy, first-person view, POV, straddling, mounting, being pinned down"
+    },
+    {
+      "label": "02_男性主観 POV",
+      "value": "1girl or 1boy, male body, first-person view, POV"
+    },
+    {
+      "label": "03_お互いを見る",
+      "value": "2people, looking at each other, eye contact"
+    },
+    {
+      "label": "03_後ろから抱きつく",
+      "value": "2people, from behind, back hug, embracing"
+    },
+    {
+      "label": "03_指を絡ませる",
+      "value": "2people, intertwined fingers, hand holding"
+    }
+  ],
   "sex_action": [
     { "label": "01_anal sex", "value": "anal sex" },
     { "label": "01_なめ（フェラチオ）", "value": "fellatio" },
@@ -409,9 +518,7 @@
     { "label": "04_舌に射精する", "value": "cum on tongue, open mouth" },
     { "label": "04_顔に射精する（顔射）", "value": "cum facial" },
     { "label": "04_髪の毛に射精する", "value": "cum in hair" },
-    { "label": "05_ふたなり", "value": "(intersex:1.5),penis,testicles" },
-    { "label": "05_ふたなり2", "value": "full-package futanari" },
-    { "label": "05_ふたなり3", "value": "nsfw, futanari masturbation" },
+    { "label": "05_ふたなり", "value": "full-package futanari" },
     { "label": "05_乳揉みフェラ (複合)", "value": "paizuri and fellatio" },
     { "label": "05_獣姦 (bestiality)", "value": "bestiality, animal penis" },
     {
@@ -423,6 +530,96 @@
       "label": "05_逆レイプ（女攻め）",
       "value": "reverse rape, non-consensual sex, dominant female"
     }
+  ],
+  "special_sex": [
+    {
+      "label": "01_ギャングバン",
+      "value": "gangbang, multiple males, large group"
+    },
+    {
+      "label": "01_コンドームあり",
+      "value": "condom, wearing condom, protected sex"
+    },
+    { "label": "01_コンドームなし", "value": "uncensored, no condom" },
+    {
+      "label": "01_トリプルペネ",
+      "value": "triple penetration, double penetration"
+    },
+    { "label": "01_三人（スリーサム）", "value": "threesome, 3 people" },
+    { "label": "01_乱暴な行為", "value": "rough sex, aggressive penetration" },
+    {
+      "label": "01_公衆の場での行為",
+      "value": "public sex, outdoor sex, voyeur"
+    },
+    { "label": "01_寝起き", "value": "waking up sex, sleepy, in bed" },
+    { "label": "01_強制的な行為", "value": "non-consensual sex, rape" },
+    {
+      "label": "01_複数人（集団）",
+      "value": "group sex, orgy, multiple penetrations"
+    },
+    {
+      "label": "01_触手による行為",
+      "value": "tentacle sex, monster penetration"
+    },
+    {
+      "label": "01_露出行為（エキシビ）",
+      "value": "exhibitionism, public exposure, voyeurism"
+    },
+    { "label": "02_アナル特殊具", "value": "butt plug, anal beads" },
+    { "label": "02_ディルド", "value": "dildo, toy in vagina, toy in ass" },
+    { "label": "02_バイブ", "value": "vibrator, electric massager, toy use" },
+    {
+      "label": "02_ローション（強調）",
+      "value": "lots of lube, extremely slippery"
+    },
+    { "label": "02_尻叩き/鞭打ち", "value": "spanking, paddle, whip" },
+    { "label": "02_拘束", "value": "bondage, tied up, handcuffs, rope" },
+    { "label": "02_猿轡/ギャグ", "value": "gag, ball gag, muzzle" },
+    { "label": "02_目隠し", "value": "blindfold, blindfolded" },
+    { "label": "02_首輪/リード", "value": "collar, leash, chained" },
+    { "label": "03_アナル（強調）", "value": "anal creampie, deep anal" },
+    {
+      "label": "03_スカトロ（軽度）",
+      "value": "scatology, light scat, bathroom theme"
+    },
+    { "label": "03_中出し", "value": "creampie, cum inside, cum in pussy" },
+    { "label": "03_大量の精液", "value": "huge cum, cum puddle, cum dripping" },
+    { "label": "03_強制射精", "value": "forced cum, orgasm denial, edge" },
+    {
+      "label": "03_潮吹き",
+      "value": "watersports, squirting, pee, bladder release"
+    },
+    { "label": "03_顔射", "value": "cum on face, facial, cumshot" },
+    {
+      "label": "04_オイル使用",
+      "value": "oiled body, slippery, oil massage, wrestling"
+    },
+    { "label": "04_ディープキス", "value": "deep kissing, french kissing" },
+    { "label": "04_ペッティング/摩擦", "value": "petting, grinding, humping" },
+    {
+      "label": "04_ローター（玩具）",
+      "value": "clitoral stimulation, vibrator on clit"
+    },
+    { "label": "04_乳コキ", "value": "titty fuck, breast fuck, titjob" },
+    {
+      "label": "04_尻コキ",
+      "value": "buttjob, assjob, rubbing penis between buttocks"
+    },
+    {
+      "label": "04_手コキ（ミルキング）",
+      "value": "milking handjob, handjob, mutual masturbation"
+    },
+    {
+      "label": "04_服の摩擦",
+      "value": "rubbing through clothes, clothed grinding"
+    },
+    { "label": "04_腋コキ", "value": "armpit fuck, armpit penetration" },
+    {
+      "label": "04_舌コキ",
+      "value": "lick, body lick, licking chest, licking navel"
+    },
+    { "label": "04_足への執着", "value": "foot fetish, sole lick, toes" },
+    { "label": "04_足コキ", "value": "footjob, jerking off with feet" }
   ],
   "body_fluid_fx": [
     { "label": "01_大量の潮吹き", "value": "extreme squirting" },
@@ -673,12 +870,12 @@
   "camera_angle": [
     { "label": "アオリ（下から）", "value": "from below" },
     { "label": "俯瞰（上から）", "value": "from above" },
-    { "label": "後ろからの視点", "value": "from behind" },
-    { "label": "正面からの視点", "value": "from front, straight-on" },
-    { "label": "横からの視点", "value": "side view" },
-    { "label": "左からの視点", "value": "from left" },
     { "label": "右からの視点", "value": "from right" },
+    { "label": "左からの視点", "value": "from left" },
+    { "label": "後ろからの視点", "value": "from behind" },
     { "label": "斜め構図/ダッチアングル", "value": "dutch angle" },
+    { "label": "横からの視点", "value": "side view" },
+    { "label": "正面からの視点", "value": "from front, straight-on" },
     { "label": "魚眼レンズ", "value": "fisheye" }
   ],
   "composition_rules": [
@@ -853,44 +1050,44 @@
     { "label": "07_全身フレーミング", "value": "full body shot" }
   ],
   "background_effect": [
-    { "label": "01_光の輪", "value": "light halo (effect)" },
-    { "label": "01_光の線", "value": "light lines (effect)" },
-    { "label": "01_光の粒子", "value": "light particles (effect)" },
-    { "label": "01_光の筋", "value": "light shafts (effect)" },
-    { "label": "01_玉ボケ", "value": "bokeh (effect)" },
-    { "label": "01_夜景", "value": "nightscape (effect)" },
-    { "label": "01_オーロラ", "value": "aurora (effect)" },
-    { "label": "01_光のカーテン", "value": "light curtain (effect)" },
-    { "label": "01_夕焼け", "value": "sunset (effect)" },
-    { "label": "01_青空", "value": "blue sky (effect)" },
-    { "label": "01_青い光", "value": "blue light (effect)" },
-    { "label": "01_赤い光", "value": "red light (effect)" },
     { "label": "01_オレンジの光", "value": "orange light (effect)" },
-    { "label": "01_紫の光", "value": "purple light (effect)" },
+    { "label": "01_オーロラ", "value": "aurora (effect)" },
     { "label": "01_ピンクの光", "value": "pink light (effect)" },
-    { "label": "01_暖色系の光", "value": "warm light (effect)" },
+    { "label": "01_光のカーテン", "value": "light curtain (effect)" },
+    { "label": "01_光の筋", "value": "light shafts (effect)" },
+    { "label": "01_光の粒子", "value": "light particles (effect)" },
+    { "label": "01_光の線", "value": "light lines (effect)" },
+    { "label": "01_光の輪", "value": "light halo (effect)" },
+    { "label": "01_夕焼け", "value": "sunset (effect)" },
+    { "label": "01_夜景", "value": "nightscape (effect)" },
     { "label": "01_寒色系の光", "value": "cool light (effect)" },
-    { "label": "02_雨", "value": "rain (effect)" },
-    { "label": "02_雪", "value": "snow (effect)" },
-    { "label": "02_霧", "value": "mist (effect)" },
-    { "label": "02_雷", "value": "lightning (effect)" },
+    { "label": "01_暖色系の光", "value": "warm light (effect)" },
+    { "label": "01_玉ボケ", "value": "bokeh (effect)" },
+    { "label": "01_紫の光", "value": "purple light (effect)" },
+    { "label": "01_赤い光", "value": "red light (effect)" },
+    { "label": "01_青い光", "value": "blue light (effect)" },
+    { "label": "01_青空", "value": "blue sky (effect)" },
     { "label": "02_吹雪", "value": "blizzard (effect)" },
     { "label": "02_稲妻", "value": "thunder (effect)" },
+    { "label": "02_雨", "value": "rain (effect)" },
+    { "label": "02_雪", "value": "snow (effect)" },
+    { "label": "02_雷", "value": "lightning (effect)" },
+    { "label": "02_霧", "value": "mist (effect)" },
     { "label": "03_グラデーション", "value": "gradation (effect)" },
-    { "label": "03_水面反射", "value": "water reflection (effect)" },
     { "label": "03_グリッチエフェクト", "value": "glitch effect (effect)" },
+    { "label": "03_セピア", "value": "sepia (effect)" },
     { "label": "03_デジタルノイズ", "value": "digital noise (effect)" },
     { "label": "03_ノイズ", "value": "noise (effect)" },
-    { "label": "03_セピア", "value": "sepia (effect)" },
-    { "label": "03_白黒", "value": "monochrome (effect)" },
-    { "label": "03_ヴィネット", "value": "vignette (effect)" },
-    { "label": "03_被写界深度（DoF）", "value": "depth of field (effect)" },
     { "label": "03_フィルムグレイン", "value": "film grain (effect)" },
+    { "label": "03_ヴィネット", "value": "vignette (effect)" },
+    { "label": "03_水面反射", "value": "water reflection (effect)" },
+    { "label": "03_白黒", "value": "monochrome (effect)" },
     { "label": "03_色収差", "value": "chromatic aberration (effect)" },
-    { "label": "04_蝶", "value": "butterfly (effect)" },
-    { "label": "04_鳥", "value": "bird (effect)" },
+    { "label": "03_被写界深度（DoF）", "value": "depth of field (effect)" },
     { "label": "04_花びら", "value": "falling petals (effect)" },
-    { "label": "04_葉", "value": "leaves (effect)" }
+    { "label": "04_葉", "value": "leaves (effect)" },
+    { "label": "04_蝶", "value": "butterfly (effect)" },
+    { "label": "04_鳥", "value": "bird (effect)" }
   ],
   "location_type": [
     { "label": "01_ぼかし背景", "value": "blurred background, out of focus" },
@@ -1117,19 +1314,18 @@
       "label": "03_異空間/無の世界",
       "value": "void, nothingness, black space"
     },
-    { "label": "04_屋上プール", "value": "rooftop pool" },
-    { "label": "04_放送室/視聴覚室", "value": "broadcasting room, AV room" },
-    { "label": "04_理科室/準備室", "value": "science lab, preparation room" },
-    { "label": "04_美術室/音楽室", "value": "art room, music room" },
-    {
-      "label": "04_体育館/アリーナ",
-      "value": "gymnasium, sports hall, wooden floor"
-    },
     {
       "label": "04_ダンススタジオ",
       "value": "dance studio, mirrored wall, ballet barre"
     },
-
+    {
+      "label": "04_体育館/アリーナ",
+      "value": "gymnasium, sports hall, wooden floor"
+    },
+    { "label": "04_屋上プール", "value": "rooftop pool" },
+    { "label": "04_放送室/視聴覚室", "value": "broadcasting room, AV room" },
+    { "label": "04_理科室/準備室", "value": "science lab, preparation room" },
+    { "label": "04_美術室/音楽室", "value": "art room, music room" },
     { "label": "05_ギルドの酒場", "value": "guild tavern, fantasy pub" },
     {
       "label": "05_軍艦のブリッジ",
@@ -1140,7 +1336,10 @@
       "value": "futuristic factory, assembly line"
     },
     { "label": "05_魔法の図書館", "value": "magical library, ancient scrolls" },
-
+    {
+      "label": "06_伝統的な寺院",
+      "value": "traditional temple, pagoda, incense smoke"
+    },
     {
       "label": "06_教会の祭壇/礼拝堂",
       "value": "church altar, chapel interior"
@@ -1151,11 +1350,6 @@
       "value": "pirate ship cabin, prison cell"
     },
     { "label": "06_王宮の庭園/噴水", "value": "royal garden, palace fountain" },
-    {
-      "label": "06_伝統的な寺院",
-      "value": "traditional temple, pagoda, incense smoke"
-    },
-
     { "label": "07_サーカス/ステージ裏", "value": "circus tent, backstage" },
     {
       "label": "07_セキュリティルーム/管制室",
@@ -1169,27 +1363,24 @@
       "label": "07_ファッションショーのランウェイ",
       "value": "fashion runway, catwalk"
     },
-
     {
-      "label": "08_劇場/コンサートホール",
-      "value": "theater stage, grand theater, spotlight"
+      "label": "08_ストリート/壁アート",
+      "value": "urban street, brick wall, graffiti, street light"
     },
     {
       "label": "08_ボールルーム/舞踏会",
       "value": "ballroom, grand hall, chandelier, polished floor"
     },
     {
-      "label": "08_ストリート/壁アート",
-      "value": "urban street, brick wall, graffiti, street light"
+      "label": "08_劇場/コンサートホール",
+      "value": "theater stage, grand theater, spotlight"
     },
-
-    { "label": "09_芝生/公園", "value": "grass field, large park, open air" },
-    { "label": "09_砂浜/海辺", "value": "sandy beach, seaside, yoga on beach" },
     {
       "label": "09_山岳/高原",
       "value": "mountain plateau, misty forest, spiritual setting"
     },
-
+    { "label": "09_砂浜/海辺", "value": "sandy beach, seaside, yoga on beach" },
+    { "label": "09_芝生/公園", "value": "grass field, large park, open air" },
     {
       "label": "10_ヨガスタジオ",
       "value": "yoga studio, warm lighting, wooden floor"
@@ -1229,28 +1420,28 @@
     { "label": "油絵風", "value": "oil painting" }
   ],
   "clothes_pattern": [
-    { "label": "01_麻の葉", "value": "asanoha (pattern)" },
-    { "label": "01_青海波", "value": "seigaiha (pattern)" },
-    { "label": "01_鱗（うろこ）", "value": "scale pattern (pattern)" },
-    { "label": "01_市松（いちまつ）", "value": "ichimatsu (pattern)" },
+    { "label": "01_七宝（しっぽう）", "value": "shippo (pattern)" },
     { "label": "01_亀甲（きっこう）", "value": "kikko (pattern)" },
+    { "label": "01_市松（いちまつ）", "value": "ichimatsu (pattern)" },
     { "label": "01_毘沙門亀甲", "value": "bishamon kikko (pattern)" },
+    { "label": "01_矢絣（やがすり）", "value": "yagasuri (pattern)" },
     { "label": "01_立涌（たてわく）", "value": "tatewaku (pattern)" },
     { "label": "01_籠目（かごめ）", "value": "kagome (pattern)" },
-    { "label": "01_矢絣（やがすり）", "value": "yagasuri (pattern)" },
-    { "label": "01_七宝（しっぽう）", "value": "shippo (pattern)" },
-    { "label": "02_水玉", "value": "dot (pattern)" },
-    { "label": "02_チェック", "value": "check (pattern)" },
+    { "label": "01_青海波", "value": "seigaiha (pattern)" },
+    { "label": "01_鱗（うろこ）", "value": "scale pattern (pattern)" },
+    { "label": "01_麻の葉", "value": "asanoha (pattern)" },
+    { "label": "02_ひし形", "value": "rhombus (pattern)" },
+    { "label": "02_アニマル柄", "value": "animal print (pattern)" },
     { "label": "02_ストライプ", "value": "stripe (pattern)" },
+    { "label": "02_タータンチェック", "value": "tartan (pattern)" },
+    { "label": "02_チェック", "value": "check (pattern)" },
+    { "label": "02_ペイズリー", "value": "paisley (pattern)" },
     { "label": "02_ボーダー", "value": "border (pattern)" },
     { "label": "02_レース", "value": "lace (pattern)" },
-    { "label": "02_ひし形", "value": "rhombus (pattern)" },
     { "label": "02_千鳥格子", "value": "houndstooth (pattern)" },
     { "label": "02_格子柄", "value": "plaid (pattern)" },
-    { "label": "02_タータンチェック", "value": "tartan (pattern)" },
-    { "label": "02_ペイズリー", "value": "paisley (pattern)" },
-    { "label": "02_花柄", "value": "flower (pattern)" },
-    { "label": "02_アニマル柄", "value": "animal print (pattern)" }
+    { "label": "02_水玉", "value": "dot (pattern)" },
+    { "label": "02_花柄", "value": "flower (pattern)" }
   ],
   "uniforms": [
     { "label": "01_スクールベスト/ニットベスト", "value": "school vest" },
@@ -1258,9 +1449,7 @@
     { "label": "01_セーラー服 (Sailor uniform)", "value": "seifuku" },
     { "label": "01_ブレザー制服", "value": "blazer" },
     { "label": "01_一般的な制服", "value": "school uniform" },
-
     { "label": "01_学ラン (Japanese male uniform)", "value": "gakuran" },
-
     {
       "label": "02_OL制服/オフィスウェア",
       "value": "business suit, pencil skirt, black pantyhose"
@@ -1282,7 +1471,6 @@
     { "label": "02_白衣/医師のコート", "value": "doctor coat" },
     { "label": "02_研究者/実験用の白衣", "value": "lab coat" },
     { "label": "02_車掌の制服", "value": "train conductor uniform" },
-
     { "label": "03_レーシングスーツ", "value": "racing suit" },
     { "label": "03_士官服", "value": "officer uniform" },
     { "label": "03_戦闘装甲/パワードスーツ", "value": "battle armor" },
@@ -1290,8 +1478,11 @@
     { "label": "03_消防士の制服", "value": "firefighter uniform" },
     { "label": "03_警察官の制服", "value": "police uniform" },
     { "label": "03_軍服 (Military uniform)", "value": "military uniform" },
-
     { "label": "04_アーチャー/弓使い", "value": "archer costume, bow" },
+    {
+      "label": "04_中国拳法着",
+      "value": "kung fu uniform, wushu attire, sash, kung fu shoes"
+    },
     { "label": "04_修道女/シスター", "value": "nun, habit" },
     { "label": "04_僧侶", "value": "priest, priest hat" },
     { "label": "04_剣道着/袴", "value": "kendo uniform, hakama" },
@@ -1304,22 +1495,16 @@
     },
     { "label": "04_着物", "value": "japanese kimono" },
     { "label": "04_神官/聖職者", "value": "cleric, priestess" },
+    {
+      "label": "04_空手着/柔道着",
+      "value": "karate gi, judo gi, martial arts uniform, white belt"
+    },
     { "label": "04_騎士", "value": "knights, armor" },
     {
       "label": "04_魔法使い（ローブ）",
       "value": "mage, mage hat, cloak, long boots"
     },
-    {
-      "label": "04_空手着/柔道着",
-      "value": "karate gi, judo gi, martial arts uniform, white belt"
-    },
-    {
-      "label": "04_中国拳法着",
-      "value": "kung fu uniform, wushu attire, sash, kung fu shoes"
-    },
-
     { "label": "05_アオザイ", "value": "ao dai" },
-
     { "label": "05_ゴスロリ服", "value": "gothic lolita fashion" },
     {
       "label": "05_サイバーパンク衣装",
@@ -1329,17 +1514,24 @@
     { "label": "05_スチームパンク", "value": "steampunk, goggles, corset" },
     { "label": "05_チャイナドレス (Qipao)", "value": "cheongsam" },
     { "label": "05_チロリアン/ディアンドル", "value": "dirndl" },
-    { "label": "05_韓服", "value": "hanbok" },
     {
       "label": "05_バレエ衣装/チュチュ",
       "value": "ballet costume, tutu, leotard, pointe shoes"
     },
-
+    { "label": "05_韓服", "value": "hanbok" },
     { "label": "06_つなぎ/ジャンプスーツ", "value": "jumpsuit" },
     { "label": "06_アイドル衣装", "value": "idol costume" },
     { "label": "06_ウェディングドレス", "value": "wedding dress, veil" },
     { "label": "06_サッカーユニフォーム", "value": "soccer uniform" },
     { "label": "06_サンタコス", "value": "santa costume" },
+    {
+      "label": "06_ジャージ/トラックウェア",
+      "value": "tracksuit, sport jacket, athletic wear"
+    },
+    {
+      "label": "06_ダンスウェア",
+      "value": "dancewear, dance top, spandex shorts, activewear"
+    },
     { "label": "06_チアリーダー", "value": "cheerleader uniform, pom poms" },
     {
       "label": "06_バニー",
@@ -1349,8 +1541,20 @@
       "label": "06_プリンセス",
       "value": "princess dress, accessories, jewels, tiara"
     },
+    {
+      "label": "06_ボールルームドレス",
+      "value": "ballroom dress, evening gown, flowing skirt, elegant attire"
+    },
     { "label": "06_マリンルック/セーラー風", "value": "sailor clothes" },
     { "label": "06_メイド服", "value": "maid uniform" },
+    {
+      "label": "06_レオタード/タイツ",
+      "value": "leotard, tight bodysuit, spandex, tights"
+    },
+    {
+      "label": "06_体操服/ブルマ",
+      "value": "gym uniform, bloomers, gym shorts"
+    },
     {
       "label": "06_踊り子",
       "value": "dancer, accessory, jewelry, arabian outfit, bare belly, veil"
@@ -1360,27 +1564,7 @@
       "label": "06_魔法使い（少女）",
       "value": "magical girl, frilled mini skirt, thigh-highs, hair accessories"
     },
-    { "label": "06_魔法少女の衣装", "value": "magical girl uniform" },
-    {
-      "label": "06_体操服/ブルマ",
-      "value": "gym uniform, bloomers, gym shorts"
-    },
-    {
-      "label": "06_レオタード/タイツ",
-      "value": "leotard, tight bodysuit, spandex, tights"
-    },
-    {
-      "label": "06_ダンスウェア",
-      "value": "dancewear, dance top, spandex shorts, activewear"
-    },
-    {
-      "label": "06_ボールルームドレス",
-      "value": "ballroom dress, evening gown, flowing skirt, elegant attire"
-    },
-    {
-      "label": "06_ジャージ/トラックウェア",
-      "value": "tracksuit, sport jacket, athletic wear"
-    }
+    { "label": "06_魔法少女の衣装", "value": "magical girl uniform" }
   ],
   "top_wear": [
     { "label": "01_Tシャツ", "value": "t-shirt" },

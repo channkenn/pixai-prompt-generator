@@ -145,6 +145,12 @@
           "description": "体育座り、あぐら、うずくまるなどの静的な姿勢。旧 posture, sitting_actionの一部。"
         },
         {
+          "id": "relationship_pose",
+          "label": "関係性・ポーズ",
+          "exclusive": false,
+          "description": "2人以上のキャラクター間の関係性を示すポーズ。旧 relationship_tagsを移動。"
+        },
+        {
           "id": "action_motion",
           "label": "動作・動き (全身/手)",
           "exclusive": false,
@@ -213,6 +219,11 @@
           "exclusive": false,
           "subgroups": [
             { "id": "sex_action", "label": "性行為", "exclusive": false },
+            {
+              "id": "special_sex",
+              "label": "特殊性行為",
+              "exclusive": false
+            },
             { "id": "breasts_action", "label": "乳行為", "exclusive": false },
             { "id": "lying_action", "label": "寝行為", "exclusive": false },
             { "id": "legs_action", "label": "脚行為", "exclusive": false },
