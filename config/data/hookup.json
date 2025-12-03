@@ -1,14 +1,42 @@
 {
   "quality_boosters": [
     {
-      "label": "0_よくばりセット",
-      "value": "(masterpiece:1.2), (best quality:1.2), (absurdres:1.2), (highres:1.1), 8k unity wallpaper"
+      "label": "0_よくばりセットE (強化版)",
+      "value": "(masterpiece:1.1), (best quality:1.1), (absurdres:1.1), highres, 8k unity wallpaper"
+    },
+    {
+      "label": "0_よくばりセットS (節約版)",
+      "value": "masterpiece, best quality, absurdres, highres, 8k unity wallpaper"
     },
     { "label": "8K壁紙", "value": "8k unity wallpaper" },
-    { "label": "傑作 (x1.2)", "value": "(masterpiece:1.2)" },
-    { "label": "最高品質 (x1.2)", "value": "(best quality:1.2)" },
-    { "label": "超高解像度 (x1.2)", "value": "(absurdres:1.2)" },
-    { "label": "高解像度 (x1.1)", "value": "(highres:1.1)" }
+    { "label": "傑作 (強化 x1.1)", "value": "(masterpiece:1.1)" },
+    { "label": "最高品質 (強化 x1.1)", "value": "(best quality:1.1)" },
+    { "label": "超高解像度", "value": "absurdres" },
+    { "label": "高解像度", "value": "highres" },
+    {
+      "label": "背景の緻密さ (強化)",
+      "value": "(detailed background:1.2), intricate background"
+    },
+    {
+      "label": "前景の緻密さ (強化)",
+      "value": "(detailed foreground:1.2), intricate foreground"
+    },
+    {
+      "label": "表情の緻密さ",
+      "value": "extremely detailed eyes, detailed facial features"
+    },
+    {
+      "label": "衣服の質感",
+      "value": "(intricate clothing details:1.1), detailed fabric"
+    },
+    {
+      "label": "肌の質感",
+      "value": "detailed skin texture, beautiful skin"
+    },
+    {
+      "label": "ライティングの緻密さ",
+      "value": "(detailed lighting:1.2), complex light and shadow"
+    }
   ],
   "base_attributes": [
     { "label": "01_単独（ソロ）", "value": "solo" },
@@ -1455,6 +1483,16 @@
       "value": "vector art, clean lines, geometric"
     }
   ],
+  "artist_style": [
+    {
+      "label": "01_荒木飛呂彦風",
+      "value": "jojo pose, jojo style, dramatic shading, bold lines"
+    },
+    {
+      "label": "04_葛飾北斎風（浮世絵）",
+      "value": "Hokusai, Ukiyo-e, woodblock print, bold lines, flat perspective"
+    }
+  ],
   "clothes_pattern": [
     { "label": "01_七宝（しっぽう）", "value": "shippo (pattern)" },
     { "label": "01_亀甲（きっこう）", "value": "kikko (pattern)" },
@@ -2325,5 +2363,154 @@
       "label": "03_明るい/ハイキー",
       "value": "bright, high key, airy, ethereal"
     }
+  ],
+  "hair_length": [
+    { "label": "インバーテッドボブ", "value": "inverted bob" },
+    { "label": "ウルフカット", "value": "wolf cut, layered hair" },
+    { "label": "ショート", "value": "short hair" },
+    { "label": "ベリーショート", "value": "very short hair, pixie cut" },
+    { "label": "ボウルカット", "value": "bowl cut" },
+    { "label": "ボブカット", "value": "bob cut" },
+    { "label": "マレットカット", "value": "mullet" },
+    { "label": "ミディアム", "value": "medium hair, shoulder length hair" },
+    { "label": "ロング", "value": "long hair" },
+    { "label": "体を超える長さ", "value": "absurdly long hair" },
+    { "label": "姫カット", "value": "hime cut, blunt bangs" },
+    { "label": "超ロング", "value": "very long hair, floor length hair" },
+    { "label": "非対称スタイル", "value": "asymmetrical hair" }
+  ],
+  "hair_arrangement": [
+    { "label": "お団子/シニヨン", "value": "bun, double bun" },
+    { "label": "アップヘア", "value": "updo, french twist" },
+    { "label": "クラウンブレイド", "value": "crown braid" },
+    { "label": "コーンお団子", "value": "cone hair bun" },
+    { "label": "コーンロウ", "value": "cornrows" },
+    { "label": "サイドバン", "value": "side bun" },
+    { "label": "サイドブレイド", "value": "side braid" },
+    { "label": "サイドポニーテール", "value": "side ponytail" },
+    { "label": "ショートポニー", "value": "short ponytail" },
+    { "label": "シングルお団子", "value": "single hair bun" },
+    { "label": "ダブルお団子", "value": "double bun" },
+    { "label": "ツインテール", "value": "twintails, pigtails" },
+    { "label": "トップノット", "value": "topknot" },
+    { "label": "トリプルお団子", "value": "triple bun" },
+    { "label": "ドリルツインテール", "value": "twin drills, vertical spirals" },
+    { "label": "ドレッドヘア", "value": "dreadlocks" },
+    { "label": "ドーナツお団子", "value": "donut hair bun" },
+    { "label": "ハイバン", "value": "high bun" },
+    { "label": "ハイポニーテール", "value": "high ponytail" },
+    { "label": "ハーフアップ", "value": "half updo" },
+    { "label": "ヘアリング", "value": "hair rings" },
+    { "label": "ポニーテール", "value": "ponytail" },
+    { "label": "リボン結び", "value": "ribbon hair, bow hair" },
+    { "label": "ローツインテール", "value": "low twintails" },
+    { "label": "ローバン", "value": "low bun" },
+    { "label": "ローポニーテール", "value": "low ponytail" },
+    { "label": "三つ編み/ブレイド", "value": "braid, french braid" },
+    { "label": "両側アップ", "value": "two side up" },
+    { "label": "二股ポニー", "value": "split ponytail" },
+    { "label": "折り返したポニー", "value": "folded ponytail" },
+    { "label": "片側アップ", "value": "one side up" },
+    { "label": "編み込みお団子", "value": "braided bun" }
+  ],
+  "bangs_sidelocks": [
+    { "label": "ぱっつん前髪", "value": "blunt bangs" },
+    { "label": "アホ毛", "value": "ahoge" },
+    { "label": "アンテナ髪", "value": "antenna hair" },
+    { "label": "カーテンバングス", "value": "curtained hair" },
+    { "label": "カーブ前髪", "value": "arched bangs" },
+    { "label": "ドリルサイドロック", "value": "drill sidelocks" },
+    { "label": "ハートアホ毛", "value": "heart ahoge" },
+    { "label": "ピン留め前髪", "value": "bangs pinned back" },
+    { "label": "分け目前髪", "value": "parted bangs" },
+    { "label": "前髪あり", "value": "bangs" },
+    { "label": "斜め前髪", "value": "diagonal bangs" },
+    { "label": "横に流した前髪", "value": "swept bangs" },
+    { "label": "横髪（サイドロック）", "value": "sidelocks" },
+    { "label": "片側サイドロック", "value": "single sidelock" },
+    { "label": "片目にかかる髪", "value": "hair over one eye" },
+    { "label": "短い前髪", "value": "short bangs" },
+    { "label": "超アホ毛", "value": "huge ahoge" },
+    { "label": "長い前髪", "value": "long bangs" }
+  ],
+  "hair_texture": [
+    {
+      "label": "ふわふわ/ボリューム",
+      "value": "fluffy hair, puffy hair, soft hair"
+    },
+    { "label": "ウェーブヘア", "value": "wavy hair, loose waves" },
+    { "label": "カーリーヘア", "value": "curly hair" },
+    { "label": "ストレートヘア", "value": "straight hair" },
+    { "label": "ツンツンした毛先", "value": "spiked hair" },
+    { "label": "ハネた髪", "value": "flipped hair" },
+    { "label": "乱れた髪", "value": "messy hair, wild hair" },
+    { "label": "光沢のある髪/天使の輪", "value": "shiny hair" },
+    { "label": "尖った髪", "value": "pointy hair" },
+    { "label": "濡れた髪", "value": "wet hair, dripping hair" },
+    { "label": "触角/横髪", "value": "antennae hair, sidelocks" },
+    { "label": "風になびく", "value": "floating hair, hair in the wind" }
+  ],
+  "hair_fantasy": [
+    { "label": "エネルギーヘア", "value": "energy hair" },
+    { "label": "クラウドヘア", "value": "cloud hair" },
+    { "label": "クリスタルヘア", "value": "crystal hair" },
+    { "label": "グローイングヘア", "value": "glowing hair" },
+    { "label": "スターリーヘア", "value": "starry hair" },
+    { "label": "スネークヘア", "value": "snake hair" },
+    { "label": "プラントヘア", "value": "plant hair" },
+    { "label": "メカニカルヘア", "value": "mechanical hair" },
+    { "label": "リキッドヘア", "value": "liquid hair" },
+    { "label": "リビングヘア", "value": "living hair" },
+    { "label": "炎の髪", "value": "fiery hair" },
+    { "label": "食べ物テーマの髪", "value": "food-themed hair" }
+  ],
+  "preset_normal": [],
+  "preset_sex": [
+    {
+      "label": "手コキ吐精",
+      "value": "(masterpiece:1.2), (best quality:1.2), (absurdres:1.2), (highres:1.1), 8k unity wallpaper, (Milking handjob:1.3), 1girl, 1boy, hetero, clothed female nude male, (smile), (:p), (reach-around:1.2), (behind another:1.1), face in ass, penis, testicles, bathroom, cum in white toilet bowl, from side, skirt, hair ornament, (head out of frame:0.9)"
+    },
+    {
+      "label": "押し倒され",
+      "value": "1girl, first-person view, POV, straddling, mounting, being pinned down, BREAK (Marie (dies irae):1.2), Blonde hair, long hair, green eyes, tareme, detailed eyes, smile, ahoge, scar on the neck"
+    },
+    {
+      "label": "朝チュン",
+      "value": "1 girl, solo, Marie (dies irae), Blonde hair, long hair, green eyes, ahoge, big breasts, scar on the neck, back lighting, at morning, on bed, lying, on side, under covers, bed invitation, looking at viewer, from side, smile, half-closed eyes, open mouth, Nose blush, heavy breathing, very sweaty, sweatdrop, sweat, steam, steaming body, pillow"
+    }
+  ],
+  "sex_time": [
+    { "label": "1_朝チュン", "value": "morning sex" },
+    { "label": "2_昼間の行為", "value": "day sex, afternoon delight" },
+    { "label": "3_夜の行為", "value": "night sex, evening sex" },
+    { "label": "4_真夜中の行為", "value": "midnight sex, late night" },
+    { "label": "5_日の出の行為", "value": "sunrise sex, dawn sex" },
+    { "label": "6_休憩中の行為", "value": "lunchtime sex, breaktime sex" },
+    { "label": "7_朝食前の行為", "value": "pre-breakfast sex, morning rush" },
+    { "label": "8_夜更かし", "value": "all-nighter sex" }
+  ],
+  "sex_place": [
+    { "label": "10_キッチン", "value": "kitchen counter, dining table" },
+    { "label": "11_病院", "value": "hospital bed, examination room" },
+    { "label": "12_ホテル", "value": "hotel room, minibar access" },
+    { "label": "13_バス/電車", "value": "on the train, bus seat" },
+    { "label": "14_隠し部屋", "value": "secret room, hidden passage" },
+    { "label": "1_野外", "value": "exposed, public exposure, in the open" },
+    { "label": "2_トイレ", "value": "stall sex, restroom encounter" },
+    { "label": "3_シャワー", "value": "steamy shower, wet and wild" },
+    { "label": "4_路上", "value": "alleyway sex, backseat sex" },
+    { "label": "5_更衣室", "value": "fitting room, changing room" },
+    { "label": "6_教室", "value": "classroom sex, under the desk" },
+    { "label": "7_職場", "value": "office sex, on the copier" },
+    { "label": "8_階段・廊下", "value": "stairwell sex, hallway encounter" },
+    { "label": "9_旅館", "value": "ryokan futon, tatami room" }
+  ],
+  "sex_atmosphere": [
+    { "label": "1_荒れた場所", "value": "messy room, cluttered space" },
+    { "label": "2_濡れた場所", "value": "wet surface, damp floor" },
+    { "label": "3_密室感", "value": "cramped space, narrow gap" },
+    { "label": "4_特定の光と影", "value": "shadowy corner, deep shadows" },
+    { "label": "5_悪天候", "value": "rainy day, thunderstorm" },
+    { "label": "6_時間の経過", "value": "long time passing, morning after" }
   ]
 }

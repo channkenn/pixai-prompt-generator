@@ -1,13 +1,30 @@
 {
   "groups": [
     {
-      "id": "1_style_parent",
-      "label": "1. スタイル・画風 (Style)",
-      "description": "全体の塗りやタッチ、イラストの様式を指定する要素。**（最優先）**",
+      "id": "1_quality_parent",
+      "label": "1. 品質・画質 (Quality)",
+      "description": "画像の仕上げ（品質、解像感）に関する最終調整タグ。**（最優先グループ）**",
+      "subgroups": [
+        {
+          "id": "quality_boosters",
+          "label": "品質ブースター",
+          "exclusive": false
+        }
+      ]
+    },
+    {
+      "id": "2_style_parent",
+      "label": "2. スタイル・画風 (Style)",
+      "description": "全体の塗りやタッチ、イラストの様式を指定する要素。",
       "subgroups": [
         {
           "id": "art_style",
           "label": "画風",
+          "exclusive": false
+        },
+        {
+          "id": "artist_style",
+          "label": "アーティスト・作風",
           "exclusive": false
         },
         {
@@ -23,38 +40,9 @@
       ]
     },
     {
-      "id": "2_composition_parent",
-      "label": "2. 構図・カメラ (Composition)",
-      "description": "画角とアングル、構図ルールなど、画像の骨格を決定する要素。",
-      "subgroups": [
-        { "id": "framing", "label": "フレーミング", "exclusive": false },
-        { "id": "camera_angle", "label": "アングル", "exclusive": false },
-        {
-          "id": "proximity_depth",
-          "label": "被写体との距離",
-          "exclusive": false
-        },
-        {
-          "id": "close_up",
-          "label": "被写体をクローズアップする",
-          "exclusive": false
-        },
-        {
-          "id": "composition_rules",
-          "label": "構図ルール",
-          "exclusive": false
-        },
-        {
-          "id": "focus_and_depth",
-          "label": "焦点・被写界深度",
-          "exclusive": false
-        }
-      ]
-    },
-    {
       "id": "3_subject_parent",
       "label": "3. 主体・基本属性 (Subject)",
-      "description": "誰を描くか、画像の主役となるキャラクターの基本的な定義。",
+      "description": "誰を描くか、画像の主役となるキャラクターの基本的な定義。**（構図より先）**",
       "subgroups": [
         {
           "id": "positioning",
@@ -109,36 +97,72 @@
             }
           ]
         },
-        { "id": "hair_details", "label": "髪型・髪の質感", "exclusive": false },
-        { "id": "hair_color", "label": "髪の色", "exclusive": false }
+        {
+          "id": "hair_details_parent",
+          "label": "2. 髪のディテール (Hair Details)",
+          "description": "髪の長さ、カット、アレンジ、質感、非現実表現を指定する要素。",
+          "subgroups": [
+            {
+              "id": "hair_details",
+              "label": "髪型・髪の質感",
+              "exclusive": false
+            },
+            { "id": "hair_color", "label": "髪の色", "exclusive": false },
+
+            {
+              "id": "hair_length",
+              "label": "01_長さと分量",
+              "exclusive": false
+            },
+            {
+              "id": "hair_arrangement",
+              "label": "02_基本アレンジ",
+              "exclusive": false
+            },
+            {
+              "id": "bangs_sidelocks",
+              "label": "03_前髪と横髪",
+              "exclusive": false
+            },
+            {
+              "id": "hair_texture",
+              "label": "04_質感と状態",
+              "exclusive": false
+            },
+            {
+              "id": "hair_fantasy",
+              "label": "05_非現実・特殊表現",
+              "exclusive": false
+            }
+          ]
+        }
       ]
     },
     {
-      "id": "4_outfit_parent",
-      "label": "4. 服装・衣装 (Outfit)",
-      "description": "キャラクターが着用している服の種類とディテール。",
+      "id": "4_composition_parent",
+      "label": "4. 構図・カメラ (Composition)",
+      "description": "画角とアングル、構図ルールなど、画像の骨格を決定する要素。",
       "subgroups": [
-        { "id": "uniforms", "label": "制服・戦闘服", "exclusive": false },
-        { "id": "clothes_pattern", "label": "服の模様", "exclusive": false },
-        { "id": "top_wear", "label": "トップス・上着", "exclusive": false },
+        { "id": "framing", "label": "フレーミング", "exclusive": false },
+        { "id": "camera_angle", "label": "アングル", "exclusive": false },
         {
-          "id": "bottom_wear",
-          "label": "ボトムス・下半身",
-          "exclusive": false
-        },
-        { "id": "lingerie_wear", "label": "ランジェリー", "exclusive": false },
-        { "id": "bra_wear", "label": "ブラ", "exclusive": false },
-        { "id": "panties_wear", "label": "パンティ", "exclusive": false },
-        { "id": "footwear", "label": "靴・履物", "exclusive": false },
-        { "id": "hat_wear", "label": "帽子・被り物", "exclusive": false },
-        {
-          "id": "special_costume_wear",
-          "label": "特殊衣装",
+          "id": "proximity_depth",
+          "label": "被写体との距離",
           "exclusive": false
         },
         {
-          "id": "clothing_details",
-          "label": "服の質感・装飾",
+          "id": "close_up",
+          "label": "被写体をクローズアップする",
+          "exclusive": false
+        },
+        {
+          "id": "composition_rules",
+          "label": "構図ルール",
+          "exclusive": false
+        },
+        {
+          "id": "focus_and_depth",
+          "label": "焦点・被写界深度",
           "exclusive": false
         }
       ]
@@ -248,14 +272,102 @@
               "label": "構図・環境ディテール・表現形式",
               "description": "構図・環境ディテール・表現形式",
               "exclusive": false
+            },
+            {
+              "id": "situation_detail",
+              "label": "構図・環境ディテール詳細",
+              "description": "構図・環境ディテール・表現形式",
+              "exclusive": false,
+              "subgroups": [
+                {
+                  "id": "sex_time",
+                  "label": "時間に関するもの",
+                  "exclusive": false
+                },
+                {
+                  "id": "sex_place",
+                  "label": "場所に関するもの",
+                  "exclusive": false
+                },
+                {
+                  "id": "sex_atmosphere",
+                  "label": "雰囲気に関するもの",
+                  "exclusive": false
+                }
+              ]
             }
           ]
         }
       ]
     },
     {
-      "id": "6_details_parent",
-      "label": "6. 顔・表情詳細 (Face Details)",
+      "id": "6_outfit_parent",
+      "label": "6. 服装・衣装 (Outfit)",
+      "description": "キャラクターが着用している服の種類とディテール。",
+      "subgroups": [
+        { "id": "uniforms", "label": "制服・戦闘服", "exclusive": false },
+        { "id": "clothes_pattern", "label": "服の模様", "exclusive": false },
+        { "id": "top_wear", "label": "トップス・上着", "exclusive": false },
+        {
+          "id": "bottom_wear",
+          "label": "ボトムス・下半身",
+          "exclusive": false
+        },
+        { "id": "lingerie_wear", "label": "ランジェリー", "exclusive": false },
+        { "id": "bra_wear", "label": "ブラ", "exclusive": false },
+        { "id": "panties_wear", "label": "パンティ", "exclusive": false },
+        { "id": "footwear", "label": "靴・履物", "exclusive": false },
+        { "id": "hat_wear", "label": "帽子・被り物", "exclusive": false },
+        {
+          "id": "special_costume_wear",
+          "label": "特殊衣装",
+          "exclusive": false
+        },
+        {
+          "id": "clothing_details",
+          "label": "服の質感・装飾",
+          "exclusive": false
+        }
+      ]
+    },
+    {
+      "id": "7_background_parent",
+      "label": "7. 背景 (Background)",
+      "description": "場所と環境光、天候など、主体の背景となる要素。",
+      "subgroups": [
+        { "id": "location_type", "label": "場所タイプ", "exclusive": false },
+        {
+          "id": "global_landmarks",
+          "label": "観光地・世界遺産",
+          "exclusive": false,
+          "description": "実在する世界的な観光地、象徴的な建物、有名な場所を指定します。"
+        },
+        {
+          "id": "setting",
+          "label": "服装に合わせた舞台",
+          "exclusive": false,
+          "description": "服装に合わせた舞台"
+        },
+        {
+          "id": "lighting_atmosphere",
+          "label": "照明・雰囲気",
+          "exclusive": false
+        },
+        {
+          "id": "background_effect",
+          "label": "背景エフェクト",
+          "exclusive": false
+        },
+        {
+          "id": "weather_effects",
+          "label": "天候・環境エフェクト",
+          "exclusive": false
+        }
+      ]
+    },
+    {
+      "id": "8_details_parent",
+      "label": "8. 顔・表情詳細 (Face Details)",
       "description": "キャラクターの解像度を上げる詳細設定（表情、目の表現、アクセサリーなど）。",
       "subgroups": [
         {
@@ -325,48 +437,18 @@
       ]
     },
     {
-      "id": "7_background_parent",
-      "label": "7. 背景 (Background)",
-      "description": "場所と環境光、天候など、主体の背景となる要素。",
-      "subgroups": [
-        { "id": "location_type", "label": "場所タイプ", "exclusive": false },
-        {
-          "id": "global_landmarks",
-          "label": "観光地・世界遺産",
-          "exclusive": false,
-          "description": "実在する世界的な観光地、象徴的な建物、有名な場所を指定します。"
-        },
-        {
-          "id": "setting",
-          "label": "服装に合わせた舞台",
-          "exclusive": false,
-          "description": "服装に合わせた舞台"
-        },
-        {
-          "id": "lighting_atmosphere",
-          "label": "照明・雰囲気",
-          "exclusive": false
-        },
-        {
-          "id": "background_effect",
-          "label": "背景エフェクト",
-          "exclusive": false
-        },
-        {
-          "id": "weather_effects",
-          "label": "天候・環境エフェクト",
-          "exclusive": false
-        }
-      ]
-    },
-    {
-      "id": "8_quality_parent",
-      "label": "8. 品質・画質 (Quality)",
-      "description": "画像の仕上げ（品質、解像感）に関する最終調整タグ。",
+      "id": "9_preset_parent",
+      "label": "9. プリセット",
+      "description": "シチュエーションなど成功したプロンプトを逐一追加していく",
       "subgroups": [
         {
-          "id": "quality_boosters",
-          "label": "品質ブースター",
+          "id": "preset_normal",
+          "label": "普通のプリセット",
+          "exclusive": false
+        },
+        {
+          "id": "preset_sex",
+          "label": "sexのプリセット",
           "exclusive": false
         }
       ]
