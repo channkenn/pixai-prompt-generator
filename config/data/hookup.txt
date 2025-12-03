@@ -185,19 +185,20 @@
   "eye_expression": [
   { "label": "01_ぐるぐる目", "value": "swirl eyes, dizzy" },
   { "label": "01_アヘ顔目", "value": "ahegao eyes, crossed eyes" },
-  { "label": "01_キラキラした目", "value": "sparkling eyes, shiny eyes" },
-  { "label": "01_ジト目", "value": "jitome, contempt" },
-  { "label": "01_ハイライトなし", "value": "empty eyes, dull eyes" },
   { "label": "01_ハートハイライト", "value": "heart highlight in eyes" },
-  { "label": "01_三白眼", "value": "sanpaku" },
-  { "label": "01_光のない目", "value": "soulless eyes, no pupil" },
-  { "label": "01_半目/うっすら", "value": "squinting, eyes barely open" },
-  { "label": "01_死んだ目", "value": "dead eyes" },
-  { "label": "01_涙目", "value": "teary eyes, crying" },
-  { "label": "01_濁った目", "value": "cloudy eyes, murky eyes" },
-  { "label": "01_照れ/上目遣い", "value": "blush, looking up, shy" },
-  { "label": "01_狂気/ゾクゾク", "value": "crazy eyes, menacing eyes" },
-  { "label": "01_鋭い目つき", "value": "sharp gaze, glaring, focused eyes" }
+  { "label": "02_ウィンク", "value": "winking, one eye closed" },
+  { "label": "02_キラキラした目", "value": "sparkling eyes, shiny eyes" },
+  { "label": "02_涙目", "value": "teary eyes, crying" },
+  { "label": "02_照れ/上目遣い", "value": "blush, looking up, shy" },
+  { "label": "03_三白眼", "value": "sanpaku" },
+  { "label": "03_半目/うっすら", "value": "squinting, eyes barely open" },
+  { "label": "03_鋭い目つき", "value": "sharp gaze, glaring, focused eyes" },
+  { "label": "04_ジト目", "value": "jitome, contempt" },
+  { "label": "04_ハイライトなし", "value": "empty eyes, dull eyes" },
+  { "label": "04_光のない目", "value": "soulless eyes, no pupil" },
+  { "label": "04_死んだ目", "value": "dead eyes" },
+  { "label": "04_濁った目", "value": "cloudy eyes, murky eyes" },
+  { "label": "04_狂気/ゾクゾク", "value": "crazy eyes, menacing eyes" }
   ],
   "eye_shape_and_size": [
   { "label": "01_つり目", "value": "tsurime, sharp eyes" },
@@ -927,8 +928,7 @@
   { "label": "04_ベクターアート", "value": "vector art, clean lines, geometric" }
   ],
   "artist_style": [
-  { "label": "01_荒木飛呂彦風", "value": "jojo pose, jojo style, dramatic shading, bold lines" },
-  { "label": "04_葛飾北斎風（浮世絵）", "value": "Hokusai, Ukiyo-e, woodblock print, bold lines, flat perspective" }
+  { "label": "01_荒木飛呂彦風", "value": "jojo pose, jojo style, dramatic shading, bold lines" }
   ],
   "clothes_pattern": [
   { "label": "01_七宝（しっぽう）", "value": "shippo (pattern)" },
@@ -1374,6 +1374,7 @@
   { "label": "02_高精細", "value": "highly detailed, intricate details, complex details" },
   { "label": "03_CG/デジタル", "value": "digital art, computer generated, rendered in 3D" },
   { "label": "03_写真のようにリアル", "value": "photorealistic, hyperrealism, realistic shading" },
+  { "label": "03_強い陰影", "value": "intense shadows" },
   { "label": "03_映画的画質", "value": "cinematic quality, film grain, cinematic lighting" },
   { "label": "04_完璧な手", "value": "perfect hands, detailed fingers, perfect anatomy" },
   { "label": "04_完璧な顔", "value": "perfect face, detailed eyes, symmetry" }
@@ -1381,8 +1382,10 @@
   "color_palette": [
   { "label": "01_モノクロ/セピア", "value": "monochrome, grayscale, sepia tone" },
   { "label": "01_落ち着いた/低彩度", "value": "muted colors, desaturated, soft colors" },
+  { "label": "01_高コントラスト", "value": "high contrast" },
   { "label": "01_鮮やか/高彩度", "value": "vibrant colors, vivid, hyper-saturated" },
   { "label": "02_パステルカラー", "value": "pastel colors, light colors, soft palette" },
+  { "label": "02_モノクロ", "value": "monochrome, black and white" },
   { "label": "02_寒色系（青系）", "value": "cool colors, blue tint, cold light" },
   { "label": "02_暖色系（赤系）", "value": "warm colors, golden hour, reddish light" },
   { "label": "03_ダーク/重厚", "value": "dark atmosphere, heavy shadow, low key" },

@@ -252,43 +252,39 @@
     { "label": "03_鋭い目線", "value": "sharp gaze, intense stare" }
   ],
   "eye_expression": [
-    { "label": "01_ハイライトなし", "value": "empty eyes, dull eyes" },
-    { "label": "01_ジト目", "value": "jitome, contempt" },
-    { "label": "01_キラキラした目", "value": "sparkling eyes, shiny eyes" },
-    { "label": "01_三白眼", "value": "sanpaku" },
-    { "label": "01_涙目", "value": "teary eyes, crying" },
-    { "label": "01_狂気/ゾクゾク", "value": "crazy eyes, menacing eyes" },
-    { "label": "01_死んだ目", "value": "dead eyes" },
-    { "label": "01_照れ/上目遣い", "value": "blush, looking up, shy" },
-    { "label": "01_ハートハイライト", "value": "heart highlight in eyes" },
-    { "label": "01_鋭い目つき", "value": "sharp gaze, glaring, focused eyes" },
-    { "label": "01_濁った目", "value": "cloudy eyes, murky eyes" },
     { "label": "01_ぐるぐる目", "value": "swirl eyes, dizzy" },
     { "label": "01_アヘ顔目", "value": "ahegao eyes, crossed eyes" },
-    { "label": "01_光のない目", "value": "soulless eyes, no pupil" },
-    { "label": "01_半目/うっすら", "value": "squinting, eyes barely open" }
+    { "label": "01_ハートハイライト", "value": "heart highlight in eyes" },
+    { "label": "02_ウィンク", "value": "winking, one eye closed" },
+    { "label": "02_キラキラした目", "value": "sparkling eyes, shiny eyes" },
+    { "label": "02_涙目", "value": "teary eyes, crying" },
+    { "label": "02_照れ/上目遣い", "value": "blush, looking up, shy" },
+    { "label": "03_三白眼", "value": "sanpaku" },
+    { "label": "03_半目/うっすら", "value": "squinting, eyes barely open" },
+    { "label": "03_鋭い目つき", "value": "sharp gaze, glaring, focused eyes" },
+    { "label": "04_ジト目", "value": "jitome, contempt" },
+    { "label": "04_ハイライトなし", "value": "empty eyes, dull eyes" },
+    { "label": "04_光のない目", "value": "soulless eyes, no pupil" },
+    { "label": "04_死んだ目", "value": "dead eyes" },
+    { "label": "04_濁った目", "value": "cloudy eyes, murky eyes" },
+    { "label": "04_狂気/ゾクゾク", "value": "crazy eyes, menacing eyes" }
   ],
   "eye_shape_and_size": [
     { "label": "01_つり目", "value": "tsurime, sharp eyes" },
     { "label": "01_タレ目", "value": "tareme, droopy eyes" },
     { "label": "01_丸い目", "value": "round eyes, circular eyes" },
     { "label": "01_切れ長の目", "value": "almond eyes, narrow eyes" },
-
     { "label": "02_半開き", "value": "half-closed eyes, sleepy eyes" },
     { "label": "02_見開き", "value": "wide open eyes, opened eyes" },
-
     { "label": "03_ハート瞳", "value": "heart-shaped pupils, heart eyes" },
     { "label": "03_縦長瞳孔", "value": "slit pupils, cat pupils" },
-
     { "label": "04_大きな目", "value": "huge eyes, large pupils" },
     { "label": "04_小さな目", "value": "small eyes, tiny eyes" },
-
     { "label": "05_一重", "value": "monolid, hooded eyes" },
     { "label": "05_二重", "value": "double eyelids" },
-
     { "label": "06_まつげ強調", "value": "long eyelashes, thick eyelashes" },
-    { "label": "06_瞼detail", "value": "detailed eyelids, eyeliner" },
-    { "label": "06_片目隠し", "value": "one eye covered, single eye visible" }
+    { "label": "06_片目隠し", "value": "one eye covered, single eye visible" },
+    { "label": "06_瞼detail", "value": "detailed eyelids, eyeliner" }
   ],
   "eye_color": [
     { "label": "紫色", "value": "purple eyes" },
@@ -337,35 +333,33 @@
     }
   ],
   "mouth_expression": [
-    { "label": "01_猫口", "value": ":3, cat mouth" },
     { "label": "01_タラコ唇", "value": "pouty lips, full lips" },
-    { "label": "01_歯を見せる", "value": "showing teeth" },
     { "label": "01_不敵な歯", "value": "fanged smile, sharp teeth" },
     { "label": "01_八重歯", "value": "fang" },
-    { "label": "01_少し開いた唇", "value": "parted lips" },
-    { "label": "01_無表情/閉口", "value": "closed mouth, neutral expression" },
-    { "label": "01_口を開ける", "value": "open mouth" },
     { "label": "01_口をO型に", "value": "O-shaped mouth, surprise" },
-
+    { "label": "01_口を開ける", "value": "open mouth" },
+    { "label": "01_少し開いた唇", "value": "parted lips" },
+    { "label": "01_歯を見せる", "value": "showing teeth" },
+    { "label": "01_無表情/閉口", "value": "closed mouth, neutral expression" },
+    { "label": "01_猫口", "value": ":3, cat mouth" },
     { "label": "02_キス/接吻", "value": "kissing" },
+    { "label": "02_何かを噛む", "value": "chewing, eating, biting" },
     { "label": "02_口笛を吹く", "value": "whistling" },
     { "label": "02_吸い込む", "value": "inhaling, drinking" },
     { "label": "02_唇を噛む", "value": "biting lip" },
     { "label": "02_指を舐める", "value": "licking fingers, finger in mouth" },
+    { "label": "02_歯を食いしばる", "value": "clenched teeth" },
+    { "label": "02_煙草を吸う", "value": "smoking, cigarette in mouth" },
     { "label": "02_舌なめずり", "value": "licking lips" },
     { "label": "02_舌を出す", "value": "tongue out" },
-    { "label": "02_歯を食いしばる", "value": "clenched teeth" },
-    { "label": "02_何かを噛む", "value": "chewing, eating, biting" },
-    { "label": "02_煙草を吸う", "value": "smoking, cigarette in mouth" },
-
-    { "label": "03_唾液/よだれ", "value": "saliva, drooling" },
     { "label": "03_よだれかけ", "value": "messy mouth, slobbering" },
-    { "label": "03_血の表現", "value": "blood, bleeding mouth" },
     { "label": "03_口紅", "value": "lipstick, colored lips" },
     {
       "label": "03_吐息/息切れ",
       "value": "breathing heavily, panting, huffing"
-    }
+    },
+    { "label": "03_唾液/よだれ", "value": "saliva, drooling" },
+    { "label": "03_血の表現", "value": "blood, bleeding mouth" }
   ],
   "accessories": [
     { "label": "サングラス", "value": "sunglasses" },
@@ -1513,10 +1507,6 @@
     {
       "label": "01_荒木飛呂彦風",
       "value": "jojo pose, jojo style, dramatic shading, bold lines"
-    },
-    {
-      "label": "04_葛飾北斎風（浮世絵）",
-      "value": "Hokusai, Ukiyo-e, woodblock print, bold lines, flat perspective"
     }
   ],
   "clothes_pattern": [
@@ -2338,6 +2328,7 @@
       "label": "03_写真のようにリアル",
       "value": "photorealistic, hyperrealism, realistic shading"
     },
+    { "label": "03_強い陰影", "value": "intense shadows" },
     {
       "label": "03_映画的画質",
       "value": "cinematic quality, film grain, cinematic lighting"
@@ -2357,6 +2348,7 @@
       "label": "01_落ち着いた/低彩度",
       "value": "muted colors, desaturated, soft colors"
     },
+    { "label": "01_高コントラスト", "value": "high contrast" },
     {
       "label": "01_鮮やか/高彩度",
       "value": "vibrant colors, vivid, hyper-saturated"
@@ -2365,6 +2357,7 @@
       "label": "02_パステルカラー",
       "value": "pastel colors, light colors, soft palette"
     },
+    { "label": "02_モノクロ", "value": "monochrome, black and white" },
     {
       "label": "02_寒色系（青系）",
       "value": "cool colors, blue tint, cold light"
