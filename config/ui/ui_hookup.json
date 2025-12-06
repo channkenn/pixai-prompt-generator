@@ -1,48 +1,9 @@
 {
   "groups": [
     {
-      "id": "1_quality_parent",
-      "label": "1. 品質・画質 (Quality)",
-      "description": "画像の仕上げ（品質、解像感）に関する最終調整タグ。**（最優先グループ）**",
-      "subgroups": [
-        {
-          "id": "quality_boosters",
-          "label": "品質ブースター",
-          "exclusive": false
-        }
-      ]
-    },
-    {
-      "id": "2_style_parent",
-      "label": "2. スタイル・画風 (Style)",
-      "description": "全体の塗りやタッチ、イラストの様式を指定する要素。",
-      "subgroups": [
-        {
-          "id": "art_style",
-          "label": "画風",
-          "exclusive": false
-        },
-        {
-          "id": "artist_style",
-          "label": "アーティスト・作風",
-          "exclusive": false
-        },
-        {
-          "id": "rendering_quality",
-          "label": "描写品質・細部",
-          "exclusive": false
-        },
-        {
-          "id": "color_palette",
-          "label": "画色調・色彩風",
-          "exclusive": false
-        }
-      ]
-    },
-    {
-      "id": "3_subject_parent",
-      "label": "3. 主体・基本属性 (Subject)",
-      "description": "誰を描くか、画像の主役となるキャラクターの基本的な定義。**（構図より先）**",
+      "id": "1_subject_parent",
+      "label": "1. 主役・基本属性 (Subject) - (PixAI推奨: 主役)",
+      "description": "誰を描くか、画像の主役となるキャラクターの基本的な定義。**（最優先）**",
       "subgroups": [
         {
           "id": "positioning",
@@ -99,7 +60,7 @@
         },
         {
           "id": "hair_details_parent",
-          "label": "2. 髪のディテール (Hair Details)",
+          "label": "髪のディテール (Hair Details)",
           "description": "髪の長さ、カット、アレンジ、質感、非現実表現を指定する要素。",
           "subgroups": [
             {
@@ -139,8 +100,109 @@
       ]
     },
     {
+      "id": "2_details_parent",
+      "label": "2. 顔・表情詳細 (Face Details) - (主役の細部)",
+      "description": "キャラクターの解像度を上げる詳細設定（表情、目の表現、アクセサリーなど）。",
+      "subgroups": [
+        {
+          "id": "face_control",
+          "label": "表情・コントロール",
+          "exclusive": false,
+          "subgroups": [
+            {
+              "id": "gaze_control",
+              "label": "視線 (Gaze)",
+              "exclusive": false
+            },
+            {
+              "id": "mouth_expression",
+              "label": "口元の詳細",
+              "exclusive": false
+            },
+            {
+              "id": "emotion_fx",
+              "label": "感情エフェクト (漫符)",
+              "exclusive": false
+            }
+          ]
+        },
+        {
+          "id": "eye_detail",
+          "label": "目の表現 (色・形状・質感)",
+          "exclusive": false,
+          "subgroups": [
+            {
+              "id": "eye_expression",
+              "label": "目の感情表現",
+              "exclusive": false,
+              "description": "目つきや感情（笑顔、泣き顔、恐怖など）に特化した表現を指定します。"
+            },
+            {
+              "id": "eye_shape_and_size",
+              "label": "目の輪郭・サイズ",
+              "exclusive": false,
+              "description": "目の基本的な形や開いている程度、サイズを指定します。"
+            },
+            {
+              "id": "eye_color",
+              "label": "目の色",
+              "exclusive": false,
+              "description": "瞳の色を指定します。"
+            },
+            {
+              "id": "pupil_and_special_effects",
+              "label": "瞳孔・特殊な瞳",
+              "exclusive": false,
+              "description": "瞳孔の形状（猫目など）や、特定の状態にある特殊な目の表現を指定します。"
+            },
+            {
+              "id": "highlight_and_texture",
+              "label": "ハイライト・質感",
+              "exclusive": false,
+              "description": "瞳の中の光の反射（ハイライト）や質感に関する表現を指定します。"
+            }
+          ]
+        },
+        {
+          "id": "accessories",
+          "label": "アクセサリー・装飾",
+          "exclusive": false
+        }
+      ]
+    },
+    {
+      "id": "3_outfit_parent",
+      "label": "3. 服装・衣装 (Outfit) - (主役の細部)",
+      "description": "キャラクターが着用している服の種類とディテール。",
+      "subgroups": [
+        { "id": "uniforms", "label": "制服・戦闘服", "exclusive": false },
+        { "id": "clothes_pattern", "label": "服の模様", "exclusive": false },
+        { "id": "top_wear", "label": "トップス・上着", "exclusive": false },
+        {
+          "id": "bottom_wear",
+          "label": "ボトムス・下半身",
+          "exclusive": false
+        },
+        { "id": "lingerie_wear", "label": "ランジェリー", "exclusive": false },
+        { "id": "bra_wear", "label": "ブラ", "exclusive": false },
+        { "id": "panties_wear", "label": "パンティ", "exclusive": false },
+        { "id": "footwear", "label": "靴・履物", "exclusive": false },
+        { "id": "hat_wear", "label": "帽子・被り物", "exclusive": false },
+        {
+          "id": "special_costume_wear",
+          "label": "特殊衣装",
+          "exclusive": false
+        },
+        {
+          "id": "clothing_details",
+          "label": "服の質感・装飾",
+          "exclusive": false
+        }
+      ]
+    },
+    {
       "id": "4_composition_parent",
-      "label": "4. 構図・カメラ (Composition)",
+      "label": "4. 構図・カメラ (Composition) - (枠組み)",
       "description": "画角とアングル、構図ルールなど、画像の骨格を決定する要素。",
       "subgroups": [
         { "id": "framing", "label": "フレーミング", "exclusive": false },
@@ -169,7 +231,7 @@
     },
     {
       "id": "5_pose_action_parent",
-      "label": "5. 動作・ポーズ (Action & Pose)",
+      "label": "5. 動作・ポーズ (Action & Pose) - (PixAI推奨: 動作)",
       "description": "主題（キャラクター）がどのような動きや姿勢をとるか。",
       "subgroups": [
         {
@@ -188,7 +250,24 @@
           "id": "action_motion",
           "label": "動作・動き (全身/手)",
           "exclusive": false,
-          "description": "走る、跳ぶ、髪を触る、手のジェスチャーなど動的な動作。旧 standing_action, sitting_action, hand_gestureを統合。"
+          "description": "走る、跳ぶ、髪を触る、手のジェスチャーなど動的な動作。旧 standing_action, sitting_action, hand_gestureを統合。",
+          "subgroups": [
+            {
+              "id": "full_body_action",
+              "label": "01_全身の動作",
+              "exclusive": false
+            },
+            {
+              "id": "sitting_squatting_pose",
+              "label": "02_座る・しゃがむ・寝るポーズ",
+              "exclusive": false
+            },
+            {
+              "id": "hand_gesture",
+              "label": "03_手のジェスチャー",
+              "exclusive": false
+            }
+          ]
         },
         {
           "id": "dance",
@@ -301,38 +380,8 @@
       ]
     },
     {
-      "id": "6_outfit_parent",
-      "label": "6. 服装・衣装 (Outfit)",
-      "description": "キャラクターが着用している服の種類とディテール。",
-      "subgroups": [
-        { "id": "uniforms", "label": "制服・戦闘服", "exclusive": false },
-        { "id": "clothes_pattern", "label": "服の模様", "exclusive": false },
-        { "id": "top_wear", "label": "トップス・上着", "exclusive": false },
-        {
-          "id": "bottom_wear",
-          "label": "ボトムス・下半身",
-          "exclusive": false
-        },
-        { "id": "lingerie_wear", "label": "ランジェリー", "exclusive": false },
-        { "id": "bra_wear", "label": "ブラ", "exclusive": false },
-        { "id": "panties_wear", "label": "パンティ", "exclusive": false },
-        { "id": "footwear", "label": "靴・履物", "exclusive": false },
-        { "id": "hat_wear", "label": "帽子・被り物", "exclusive": false },
-        {
-          "id": "special_costume_wear",
-          "label": "特殊衣装",
-          "exclusive": false
-        },
-        {
-          "id": "clothing_details",
-          "label": "服の質感・装飾",
-          "exclusive": false
-        }
-      ]
-    },
-    {
-      "id": "7_background_parent",
-      "label": "7. 背景 (Background)",
+      "id": "6_background_parent",
+      "label": "6. 背景 (Background) - (PixAI推奨: 場所)",
       "description": "場所と環境光、天候など、主体の背景となる要素。",
       "subgroups": [
         { "id": "location_type", "label": "場所タイプ", "exclusive": false },
@@ -366,72 +415,40 @@
       ]
     },
     {
-      "id": "8_details_parent",
-      "label": "8. 顔・表情詳細 (Face Details)",
-      "description": "キャラクターの解像度を上げる詳細設定（表情、目の表現、アクセサリーなど）。",
+      "id": "7_style_parent",
+      "label": "7. スタイル・画風 (Style) - (PixAI推奨: 美学・スタイル)",
+      "description": "全体の塗りやタッチ、イラストの様式を指定する要素。",
       "subgroups": [
         {
-          "id": "face_control",
-          "label": "表情・コントロール",
-          "exclusive": false,
-          "subgroups": [
-            {
-              "id": "gaze_control",
-              "label": "視線 (Gaze)",
-              "exclusive": false
-            },
-            {
-              "id": "mouth_expression",
-              "label": "口元の詳細",
-              "exclusive": false
-            },
-            {
-              "id": "emotion_fx",
-              "label": "感情エフェクト (漫符)",
-              "exclusive": false
-            }
-          ]
+          "id": "art_style",
+          "label": "画風",
+          "exclusive": false
         },
         {
-          "id": "eye_detail",
-          "label": "目の表現 (色・形状・質感)",
-          "exclusive": false,
-          "subgroups": [
-            {
-              "id": "eye_expression",
-              "label": "目の感情表現",
-              "exclusive": false,
-              "description": "目つきや感情（笑顔、泣き顔、恐怖など）に特化した表現を指定します。"
-            },
-            {
-              "id": "eye_shape_and_size",
-              "label": "目の輪郭・サイズ",
-              "exclusive": false,
-              "description": "目の基本的な形や開いている程度、サイズを指定します。"
-            },
-            {
-              "id": "eye_color",
-              "label": "目の色",
-              "exclusive": false,
-              "description": "瞳の色を指定します。"
-            },
-            {
-              "id": "pupil_and_special_effects",
-              "label": "瞳孔・特殊な瞳",
-              "exclusive": false,
-              "description": "瞳孔の形状（猫目など）や、特定の状態にある特殊な目の表現を指定します。"
-            },
-            {
-              "id": "highlight_and_texture",
-              "label": "ハイライト・質感",
-              "exclusive": false,
-              "description": "瞳の中の光の反射（ハイライト）や質感に関する表現を指定します。"
-            }
-          ]
+          "id": "artist_style",
+          "label": "アーティスト・作風",
+          "exclusive": false
         },
         {
-          "id": "accessories",
-          "label": "アクセサリー・装飾",
+          "id": "rendering_quality",
+          "label": "描写品質・細部",
+          "exclusive": false
+        },
+        {
+          "id": "color_palette",
+          "label": "画色調・色彩風",
+          "exclusive": false
+        }
+      ]
+    },
+    {
+      "id": "8_quality_parent",
+      "label": "8. 品質・画質 (Quality) - (美学・スタイル/最終調整)",
+      "description": "画像の仕上げ（品質、解像感）に関する最終調整タグ。",
+      "subgroups": [
+        {
+          "id": "quality_boosters",
+          "label": "品質ブースター",
           "exclusive": false
         }
       ]

@@ -333,7 +333,7 @@
     }
   ],
   "mouth_expression": [
-    { "label": "01_タラコ唇", "value": "pouty lips, full lips" },
+    { "label": "01_タラコ唇", "value": "pouty lips" },
     { "label": "01_不敵な歯", "value": "fanged smile, sharp teeth" },
     { "label": "01_八重歯", "value": "fang" },
     { "label": "01_口をO型に", "value": "O-shaped mouth, surprise" },
@@ -343,10 +343,12 @@
     { "label": "01_無表情/閉口", "value": "closed mouth, neutral expression" },
     { "label": "01_猫口", "value": ":3, cat mouth" },
     { "label": "02_キス/接吻", "value": "kissing" },
+    { "label": "02_キス待ち", "value": "kissing, smooch, chu" },
     { "label": "02_何かを噛む", "value": "chewing, eating, biting" },
     { "label": "02_口笛を吹く", "value": "whistling" },
     { "label": "02_吸い込む", "value": "inhaling, drinking" },
     { "label": "02_唇を噛む", "value": "biting lip" },
+    { "label": "02_唇を尖らす", "value": "puckered lips, puckering" },
     { "label": "02_指を舐める", "value": "licking fingers, finger in mouth" },
     { "label": "02_歯を食いしばる", "value": "clenched teeth" },
     { "label": "02_煙草を吸う", "value": "smoking, cigarette in mouth" },
@@ -743,97 +745,6 @@
     { "label": "足で何かを挟む", "value": "holding object with feet" },
     { "label": "足を開く（強調）", "value": "spread legs, wide open legs" },
     { "label": "足首を掴む", "value": "grabbing own ankle" }
-  ],
-  "action_motion": [
-    {
-      "label": "01_つま先立ち",
-      "value": "tip toes, standing on toes, stretching"
-    },
-    { "label": "01_ジャンプ/跳ぶ", "value": "jumping, mid-air, leaping" },
-    {
-      "label": "01_仁王立ち",
-      "value": "hands on hips, legs apart, standing, power pose"
-    },
-    { "label": "01_休めの姿勢", "value": "at ease stance, hands behind back" },
-    {
-      "label": "01_体重移動",
-      "value": "weight shift, leaning to the side, balancing"
-    },
-    { "label": "01_泳ぐ", "value": "swimming, diving, underwater" },
-    { "label": "01_片膝を曲げる", "value": "bent knee, slight knee bend" },
-    {
-      "label": "01_片足立ち",
-      "value": "standing on one leg, one leg up, flamingo stance"
-    },
-    {
-      "label": "01_脚をクロス (立)",
-      "value": "crossed legs, standing, ankle cross"
-    },
-    { "label": "01_走る", "value": "running, sprinting, in motion" },
-    { "label": "02_あぐら", "value": "cross-legged, sitting on floor" },
-    {
-      "label": "02_もたれかかって座る",
-      "value": "leaning back, sitting, slouching"
-    },
-    {
-      "label": "02_両手を股に挟んで座る",
-      "value": "hands between legs, sitting"
-    },
-    {
-      "label": "02_体育座り",
-      "value": "seiza, arms around knees, knees to chest"
-    },
-    { "label": "02_台座に浅く座る", "value": "perching, sitting on edge" },
-    {
-      "label": "02_座って後ろを向く",
-      "value": "sitting, turned away, back view, sitting"
-    },
-    { "label": "02_正座", "value": "seiza, kneeling" },
-    {
-      "label": "02_片膝を立てて座る",
-      "value": "one knee up, sitting, raised knee"
-    },
-    {
-      "label": "02_膝に肘をつく",
-      "value": "elbows on knees, sitting, thinking pose, sitting"
-    },
-    {
-      "label": "02_足を広げて座る",
-      "value": "spread legs, sitting, wide stance, sitting"
-    },
-    {
-      "label": "02_足を組んで座る",
-      "value": "crossed legs, sitting, leg crossing"
-    },
-    { "label": "02_足を閉じてしゃがむ", "value": "squatting, tight squat" },
-    {
-      "label": "02_足を開いてしゃがむ",
-      "value": "squatting, spread legs, frog squat"
-    },
-    { "label": "03_ダブルピース", "value": "double v, v sign" },
-    { "label": "03_ピース", "value": "v, peace sign" },
-    { "label": "03_ポケットに手", "value": "hands in pockets, hand in pocket" },
-    { "label": "03_口に指を入れられる", "value": "boy’s finger in mouth" },
-    { "label": "03_口に指を入れる", "value": "finger in mouth, biting finger" },
-    { "label": "03_手で口を隠す", "value": "hand over mouth, covering mouth" },
-    {
-      "label": "03_手を伸ばす",
-      "value": "reaching, hand outstretched, beckoning"
-    },
-    { "label": "03_手を腰に", "value": "hand on hip, hand on waist" },
-    {
-      "label": "03_手を頭の後ろに回す",
-      "value": "arms behind head, hands on head"
-    },
-    { "label": "03_腕組み", "value": "arms crossed, folded arms" },
-    {
-      "label": "03_頬杖をつく",
-      "value": "hand on cheek, resting chin on hand, leaning on table"
-    },
-    {
-      "label": "03_髪を触る",
-      "value": "touching hair, tossing hair, sweeping hair aside"
-    }
   ],
   "animan_action": [
     {
@@ -2535,5 +2446,104 @@
     { "label": "4_特定の光と影", "value": "shadowy corner, deep shadows" },
     { "label": "5_悪天候", "value": "rainy day, thunderstorm" },
     { "label": "6_時間の経過", "value": "long time passing, morning after" }
+  ],
+  "full_body_action": [
+    {
+      "label": "01_つま先立ち",
+      "value": "tip toes, standing on toes, stretching"
+    },
+    { "label": "01_ジャンプ/跳ぶ", "value": "jumping, mid-air, leaping" },
+    {
+      "label": "01_仁王立ち",
+      "value": "hands on hips, legs apart, standing, power pose"
+    },
+    { "label": "01_休めの姿勢", "value": "at ease stance, hands behind back" },
+    {
+      "label": "01_体重移動",
+      "value": "weight shift, leaning to the side, balancing"
+    },
+    { "label": "01_泳ぐ", "value": "swimming, diving, underwater" },
+    { "label": "01_片膝を曲げる", "value": "bent knee, slight knee bend" },
+    {
+      "label": "01_片足立ち",
+      "value": "standing on one leg, one leg up, flamingo stance"
+    },
+    {
+      "label": "01_脚をクロス (立)",
+      "value": "crossed legs, standing, ankle cross"
+    },
+    { "label": "01_走る", "value": "running, sprinting, in motion" }
+  ],
+  "sitting_squatting_pose": [
+    { "label": "02_あぐら", "value": "cross-legged, sitting on floor" },
+    {
+      "label": "02_もたれかかって座る",
+      "value": "leaning back, sitting, slouching"
+    },
+    {
+      "label": "02_両手を股に挟んで座る",
+      "value": "hands between legs, sitting"
+    },
+    {
+      "label": "02_体育座り",
+      "value": "seiza, arms around knees, knees to chest"
+    },
+    { "label": "02_台座に浅く座る", "value": "perching, sitting on edge" },
+    {
+      "label": "02_座って後ろを向く",
+      "value": "sitting, turned away, back view, sitting"
+    },
+    { "label": "02_正座", "value": "seiza, kneeling" },
+    {
+      "label": "02_片膝を立てて座る",
+      "value": "one knee up, sitting, raised knee"
+    },
+    {
+      "label": "02_膝に肘をつく",
+      "value": "elbows on knees, sitting, thinking pose, sitting"
+    },
+    {
+      "label": "02_足を広げて座る",
+      "value": "spread legs, sitting, wide stance, sitting"
+    },
+    {
+      "label": "02_足を組んで座る",
+      "value": "crossed legs, sitting, leg crossing"
+    },
+    { "label": "02_足を閉じてしゃがむ", "value": "squatting, tight squat" },
+    {
+      "label": "02_足を開いてしゃがむ",
+      "value": "squatting, spread legs, frog squat"
+    }
+  ],
+  "hand_gesture": [
+    { "label": "03_ダブルピース", "value": "double v, v sign" },
+    { "label": "03_ピース", "value": "v, peace sign" },
+    { "label": "03_ポケットに手", "value": "hands in pockets, hand in pocket" },
+    { "label": "03_口に指を入れられる", "value": "boy’s finger in mouth" },
+    { "label": "03_口に指を入れる", "value": "finger in mouth, biting finger" },
+    { "label": "03_手で口を隠す", "value": "hand over mouth, covering mouth" },
+    {
+      "label": "03_手を伸ばす",
+      "value": "reaching, hand outstretched, beckoning"
+    },
+    { "label": "03_手を腰に", "value": "hand on hip, hand on waist" },
+    {
+      "label": "03_手を頭の後ろに回す",
+      "value": "arms behind head, hands on head"
+    },
+    {
+      "label": "03_指先合わせ",
+      "value": "index fingers together, shy, nervous"
+    },
+    { "label": "03_腕組み", "value": "arms crossed, folded arms" },
+    {
+      "label": "03_頬杖をつく",
+      "value": "hand on cheek, resting chin on hand, leaning on table"
+    },
+    {
+      "label": "03_髪を触る",
+      "value": "touching hair, tossing hair, sweeping hair aside"
+    }
   ]
 }
