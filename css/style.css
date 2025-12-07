@@ -292,3 +292,83 @@ button.toggle-more-buttons {
 button.toggle-more-buttons:hover {
   background: #333;
 }
+
+/* --- ツールチップ機能 (JSON value 表示) 用スタイル --- */
+
+/* 1. ラッパー要素: ツールチップをボタンに対して相対位置に配置するために必要 */
+/* ラッパー自体を横並びのボタンのように扱うため、ボタンの margin をここで再現 */
+.tooltip-wrapper {
+  position: relative;
+  display: inline-block; /* ボタンに合わせてサイズを調整 */
+  margin: 5px 0; /* 元のボタンの上下マージンを再現 */
+  width: 100%; /* ボタンが100%になるようにラッパーも100%にする */
+}
+
+/* sub-subgroup 内ではボタンを横並びにするため、幅の指定を変更 */
+.sub-subgroup .tooltip-wrapper {
+  width: auto;
+  flex: 0 0 auto;
+  margin: 0; /* sub-subgroup の gap で間隔を調整するため、マージンをリセット */
+}
+
+/* 2. ツールチップ要素 (item.value) の初期状態 */
+.tooltip-value {
+  /* 初期状態 */
+  visibility: hidden; /* 非表示 */
+  opacity: 0; /* 透明度も0 */
+
+  /* 装飾と位置 */
+  /* width: max-content; <--- 削除 */
+
+  /* 🌟 修正箇所: 最大幅を設定し、折り返しを有効化 🌟 */
+  max-width: 300px; /* ツールチップの最大幅を設定 (必要に応じて変更) */
+  min-width: 300px;
+  white-space: normal; /* テキストを折り返すようにする */
+  word-wrap: break-word; /* 長い単語でも強制的に折り返す */
+
+  background-color: #333;
+  color: #fff;
+  text-align: left; /* 複数行になった場合、左揃えの方が見やすいことが多い */
+  border-radius: 4px;
+  padding: 5px 10px;
+
+  /* ボタンに対する絶対位置 */
+  position: absolute;
+  z-index: 100; /* 他の要素より手前に表示 */
+  bottom: 125%; /* ボタンの上側に表示 */
+  left: 50%;
+  transform: translateX(-50%); /* 中央揃えにする */
+
+  /* アニメーション */
+  transition: opacity 0.2s, visibility 0.2s;
+  pointer-events: none; /* ツールチップ自体が邪魔にならないようにする */
+}
+
+/* 3. ホバー時の動作を制御 */
+/* ラッパーがホバーされたら、その中の .tooltip-valueを表示する */
+.tooltip-wrapper:hover .tooltip-value {
+  visibility: visible; /* 表示 */
+  opacity: 1; /* 透明度を元に戻す */
+}
+
+/* 4. 子要素のボタンのスタイル調整 */
+/* ラッパーが幅を持つため、ボタン自体の幅を調整 */
+.tooltip-wrapper button {
+  /* sub-group内のボタンは幅100%を維持 */
+  width: 100%;
+  margin: 0; /* ラッパーでマージンを制御するためリセット */
+}
+
+/* sub-subgroup内のボタンは横並びのため、幅の指定を上書き */
+.sub-subgroup .tooltip-wrapper button {
+  width: auto;
+  flex: 0 0 auto;
+}
+
+/* --- キーワードボタンの折りたたみ機能 (ラッパー対応) --- */
+
+/* 9個目以降のボタンのラッパーに適用される、初期非表示のスタイル */
+/* JavaScript側で .tooltip-wrapper に hidden-initial が付与されるため、これに対応 */
+.tooltip-wrapper.hidden-initial {
+  display: none !important;
+}

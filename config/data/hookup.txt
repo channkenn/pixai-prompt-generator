@@ -386,6 +386,7 @@
   ],
   "sex_action": [
   { "label": "00_anal sex", "value": "anal sex" },
+  { "label": "00_性行為 (sex)", "value": "sex" },
   { "label": "01_なめ（フェラチオ）", "value": "fellatio" },
   { "label": "01_アナル舐め", "value": "anilingus" },
   { "label": "01_イラマチオ", "value": "irrumatio" },
@@ -397,7 +398,6 @@
   { "label": "01_寝バック", "value": "prone bone" },
   { "label": "01_座位 (sitting sex)", "value": "sitting sex" },
   { "label": "01_後背位", "value": "doggystyle" },
-  { "label": "00_性行為 (sex)", "value": "sex" },
   { "label": "01_抱きつき正常位", "value": "spooning position" },
   { "label": "01_正常位", "value": "missionary position" },
   { "label": "01_立ちバック", "value": "standing doggy" },
@@ -559,18 +559,18 @@
   "framing": [
   { "label": "01_ポートレート", "value": "portrait" },
   { "label": "02_上半身", "value": "upper body" },
-  { "label": "04_全身", "value": "full body" },
-  { "label": "03_膝上（カウボーイ）", "value": "cowboy shot" }
+  { "label": "03_膝上（カウボーイ）", "value": "cowboy shot" },
+  { "label": "04_全身", "value": "full body" }
   ],
   "camera_angle": [
-  { "label": "07_アオリ（下から）", "value": "from below" },
-  { "label": "06_俯瞰（上から）", "value": "from above" },
+  { "label": "01_斜め構図/ダッチアングル", "value": "dutch angle" },
+  { "label": "01_正面からの視点", "value": "from front, straight-on" },
+  { "label": "02_後ろからの視点", "value": "from behind" },
+  { "label": "03_横からの視点", "value": "side view" },
   { "label": "04_右からの視点", "value": "from right" },
   { "label": "05_左からの視点", "value": "from left" },
-  { "label": "02_後ろからの視点", "value": "from behind" },
-  { "label": "01_斜め構図/ダッチアングル", "value": "dutch angle" },
-  { "label": "03_横からの視点", "value": "side view" },
-  { "label": "01_正面からの視点", "value": "from front, straight-on" },
+  { "label": "06_俯瞰（上から）", "value": "from above" },
+  { "label": "07_アオリ（下から）", "value": "from below" },
   { "label": "08_魚眼レンズ", "value": "fisheye" }
   ],
   "composition_rules": [

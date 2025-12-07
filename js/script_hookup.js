@@ -59,16 +59,40 @@ document.addEventListener("DOMContentLoaded", async () => {
       : [];
     items.forEach((item) => {
       if (!item.value) return;
+
+      // ----------------------------------------------------
+      // ⭐ ここからツールチップ機能の追加
+
+      // 1. ラッパー要素を作成し、ボタンとツールチップを格納する
+      const wrapper = document.createElement("div");
+      // CSSでホバー時の表示を制御するためのクラス
+      wrapper.className = "tooltip-wrapper";
+
+      // 2. ボタンを作成 (既存のロジック)
       const btn = document.createElement("button");
       btn.dataset.keyword = item.value;
       btn.dataset.exclusive = sgObj.exclusive;
       btn.dataset.noRandom = item.noRandom ? "true" : "false";
       btn.textContent = item.label;
 
+      // 3. ツールチップ要素を作成し、item.value をセット
+      const tooltip = document.createElement("span");
+      tooltip.className = "tooltip-value";
+      // JSONから取得した value を表示
+      tooltip.textContent = item.value;
+
+      // 4. ラッパーにボタンとツールチップを追加
+      wrapper.appendChild(btn);
+      wrapper.appendChild(tooltip);
+
+      // ----------------------------------------------------
+
       // 🌟 9個目以降のボタンに初期非表示クラスを付与
       if (buttonCount >= MAX_VISIBLE_BUTTONS) {
-        btn.classList.add("hidden-initial");
-        hiddenButtons.push(btn);
+        // ボタンではなく、ラッパーに非表示クラスを付与
+        wrapper.classList.add("hidden-initial");
+        // 非表示にする要素をラッパーで管理
+        hiddenButtons.push(wrapper);
       }
       buttonCount++;
 
@@ -94,7 +118,8 @@ document.addEventListener("DOMContentLoaded", async () => {
           // 通常のボタン押下処理
           if (sgObj.exclusive) {
             const subDiv = btn.closest(".sub-group, .sub-subgroup");
-            subDiv.querySelectorAll("button").forEach((b) => {
+            // ラッパー内のボタンに対して処理を行う
+            subDiv.querySelectorAll(".tooltip-wrapper button").forEach((b) => {
               if (b !== btn) b.classList.remove("active");
             });
           }
@@ -104,7 +129,8 @@ document.addEventListener("DOMContentLoaded", async () => {
         saveState();
       });
 
-      subDiv.appendChild(btn);
+      // 5. subDiv にボタンの代わりにラッパーを追加
+      subDiv.appendChild(wrapper);
     });
 
     // 🌟 トグルボタンの追加とイベントリスナーの設定
@@ -120,8 +146,9 @@ document.addEventListener("DOMContentLoaded", async () => {
           hiddenButtons[0].classList.contains("hidden-initial");
 
         // hidden-initial クラスを付け替えて表示/非表示を切り替え
-        hiddenButtons.forEach((b) => {
-          b.classList.toggle("hidden-initial");
+        hiddenButtons.forEach((w) => {
+          // w はラッパー要素 (wrapper)
+          w.classList.toggle("hidden-initial");
         });
 
         if (isCollapsed) {
@@ -155,6 +182,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       });
     }
   };
+  // -----------------------------------------------------
 
   const createKeywordList = (group) => {
     const wrapper = document.createElement("div");
@@ -188,11 +216,6 @@ document.addEventListener("DOMContentLoaded", async () => {
     // 3. ループ内で sub-group を作成し、新しいラッパーに追加する
     group.subgroups.forEach((sg) => {
       // sub-group を直接作成する
-      // ※ここでは subgroupsWrapper は使わず、sub-group を直接 mainContentWrapper に追加するため
-      // createSubGroup の呼び出し方法を調整（createSubGroupの戻り値を受け取る必要あり）
-      // ただし createSubGroup は戻り値を返さないため、そのまま呼び出し、
-      // mainContentWrapper に直接要素を追加します。
-
       // ★ 注意: createSubGroup は引数の parentElem に子要素を追加します
       createSubGroup(sg, mainContentWrapper);
     });
@@ -214,9 +237,10 @@ document.addEventListener("DOMContentLoaded", async () => {
     container.insertBefore(wrapper, document.getElementById("generate"));
   };
   const generateOutput = () => {
+    // ツールチップ追加によりボタンがラッパー内に入ったためセレクタを修正
     const all = [
       ...document.querySelectorAll(
-        ".sub-group button.active, .sub-subgroup button.active"
+        ".sub-group .tooltip-wrapper button.active, .sub-subgroup .tooltip-wrapper button.active"
       ),
     ]
       .map((btn) => btn.dataset.keyword)
@@ -229,8 +253,11 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   function applyPreset(btn) {
     // 全ボタンのアクティブ解除
+    // ツールチップ追加によりボタンがラッパー内に入ったためセレクタを修正
     document
-      .querySelectorAll(".sub-group, .sub-subgroup button")
+      .querySelectorAll(
+        ".sub-group .tooltip-wrapper button, .sub-subgroup .tooltip-wrapper button"
+      )
       .forEach((b) => b.classList.remove("active"));
 
     const activeData = btn.dataset.active
@@ -267,12 +294,16 @@ document.addEventListener("DOMContentLoaded", async () => {
   const clearBtn = document.getElementById("clearAll");
   clearBtn.addEventListener("click", () => {
     const allButtons = document.querySelectorAll(
-      ".sub-group button, .sub-subgroup button"
+      // ツールチップ追加によりボタンがラッパー内に入ったためセレクタを修正
+      ".sub-group .tooltip-wrapper button, .sub-subgroup .tooltip-wrapper button"
     );
     allButtons.forEach((btn) => btn.classList.remove("active"));
     output.textContent = "";
     localStorage.removeItem("buttonState");
-  }); // 履歴管理の初期化とリスナー設定を preset.js に任せる // generateOutput が定義されたため、エラーが解消
+  });
+
+  // 履歴管理の初期化とリスナー設定を preset.js に任せる
+  // generateOutput が定義されたため、エラーが解消
   setupPresetListeners(generateOutput, saveState);
   renderHistory(saveState);
 });
