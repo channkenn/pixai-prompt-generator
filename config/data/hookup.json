@@ -148,6 +148,7 @@
     { "label": "02_筋肉質", "value": "muscular, athletic build" },
     { "label": "02_細身・痩せ型", "value": "slim, skinny" },
     { "label": "02_高身長", "value": "tall, towering" },
+    { "label": "03_お腹マフィントップ", "value": "muffin top" },
     { "label": "03_ふくよか", "value": "chubby, fat, overweight" },
     {
       "label": "03_曲線美・グラマラス",
@@ -164,6 +165,7 @@
       "label": "04_むちむち下半身",
       "value": "wide hips, thick thighs, large butt"
     },
+    { "label": "04_ももぷく", "value": "skindentation" },
     { "label": "04_キャメル・トウ", "value": "cameltoe, visible mound" },
     { "label": "04_割れた腹筋", "value": "abs, six pack, toned stomach" },
     { "label": "04_小胸/貧乳", "value": "small breasts, flat chest" },
@@ -512,39 +514,51 @@
   ],
   "sex_action": [
     { "label": "00_anal sex", "value": "anal sex" },
-    { "label": "01_なめ（フェラチオ）", "value": "fellatio" },
-    { "label": "01_アナル舐め", "value": "anilingus" },
-    { "label": "01_イラマチオ", "value": "irrumatio" },
-    { "label": "01_ガチ舐め（強調）", "value": "aggressively licking" },
-    { "label": "01_クンニ", "value": "cunnilingus" },
-    { "label": "01_ディープスロート", "value": "deepthroat" },
-    {
-      "label": "01_パイズリ",
-      "value": "breasts out, nipples, pov, 1 boy, penis is between breasts, paizuri"
-    },
-    { "label": "01_リバース騎乗位", "value": "reverse cowgirl" },
-    { "label": "01_寝バック", "value": "prone bone" },
-    { "label": "01_座位 (sitting sex)", "value": "sitting sex" },
-    { "label": "01_後背位", "value": "doggystyle" },
     { "label": "00_性行為 (sex)", "value": "sex" },
+    { "label": "05_ふたなり", "value": "full-package futanari" }
+  ],
+  "missionary_sex": [
     { "label": "01_抱きつき正常位", "value": "spooning position" },
-    { "label": "01_正常位", "value": "missionary position" },
-    { "label": "01_立ちバック", "value": "standing doggy" },
+    { "label": "01_正常位", "value": "missionary position" }
+  ],
+  "doggystyle_sex": [
+    { "label": "01_寝バック", "value": "prone bone" },
+    { "label": "01_後背位", "value": "doggystyle" },
+    { "label": "01_立ちバック", "value": "standing doggy" }
+  ],
+  "cowgirl_sex": [
+    { "label": "01_リバース騎乗位", "value": "reverse cowgirl" },
+    { "label": "01_騎乗位", "value": "cowgirl position" }
+  ],
+  "sitting_sex": [{ "label": "01_座位 (sitting sex)", "value": "sitting sex" }],
+  "lying_sex": [
+    {
+      "label": "01_足を広げた側位",
+      "value": "lie on side, spooning, spread legs"
+    },
+    {
+      "label": "01_足を閉じた側位",
+      "value": "lie on side, spooning, close legs"
+    }
+  ],
+  "other_sex": [
     { "label": "01_素股", "value": "intercrural sex" },
     {
       "label": "01_顔面騎乗位",
       "value": "girl on top, girl sitting on boy face"
     },
-    { "label": "01_騎乗位", "value": "cowgirl position" },
-    { "label": "02_おなほコキ", "value": "onahole handjob" },
-    { "label": "02_くぱぁ", "value": "spread pussy" },
-    { "label": "02_アナルくぱぁ", "value": "spread anus" },
-    { "label": "02_オナニー", "value": "masturbation" },
-    { "label": "02_前立腺", "value": "prostate milking" },
-    { "label": "02_尻コキ", "value": "penis, buttjob" },
-    { "label": "02_手コキ", "value": "penis, handjob" },
-    { "label": "02_手コキ絞り", "value": "milking handjob" },
-    { "label": "02_足コキ", "value": "penis, footjob, barefoot" },
+    { "label": "05_獣姦 (bestiality)", "value": "bestiality, animal penis" },
+    {
+      "label": "05_複数挿入 (DP/TP)",
+      "value": "double penetration, triple penetration, multiple penetration"
+    },
+    { "label": "05_逆パイズリ", "value": "reverse paizuri, anilingus" },
+    {
+      "label": "05_逆レイプ（女攻め）",
+      "value": "reverse rape, non-consensual sex, dominant female"
+    }
+  ],
+  "tools_sex": [
     { "label": "03_アナルディルド", "value": "anal dildo" },
     { "label": "03_アナルバイブ", "value": "anal vibrator" },
     { "label": "03_アナルビーズ", "value": "anal beads" },
@@ -553,8 +567,9 @@
     {
       "label": "03_異物混入 (オブジェクト)",
       "value": "object insertion, sex toy, object in vagina"
-    },
-    { "label": "04_ところてん", "value": "ejaculating while penetrated" },
+    }
+  ],
+  "cum_sex": [
     { "label": "04_事後（アナルに中出し後）", "value": "cum in anus" },
     { "label": "04_事後（膣内に中出し後）", "value": "cum in pussy" },
     { "label": "04_口の中に射精する（口内射精）", "value": "cum in mouth" },
@@ -567,19 +582,30 @@
     },
     { "label": "04_舌に射精する", "value": "cum on tongue, open mouth" },
     { "label": "04_顔に射精する（顔射）", "value": "cum facial" },
-    { "label": "04_髪の毛に射精する", "value": "cum in hair" },
-    { "label": "05_ふたなり", "value": "full-package futanari" },
-    { "label": "05_乳揉みフェラ (複合)", "value": "paizuri and fellatio" },
-    { "label": "05_獣姦 (bestiality)", "value": "bestiality, animal penis" },
+    { "label": "04_ところてん", "value": "ejaculating while penetrated" },
+    { "label": "04_髪の毛に射精する", "value": "cum in hair" }
+  ],
+  "pre_sex": [
+    { "label": "02_おなほコキ", "value": "onahole handjob" },
+    { "label": "02_くぱぁ", "value": "spread pussy" },
+    { "label": "02_なめ（フェラチオ）", "value": "fellatio" },
+    { "label": "02_アナルくぱぁ", "value": "spread anus" },
+    { "label": "02_アナル舐め", "value": "anilingus" },
+    { "label": "02_イラマチオ", "value": "irrumatio" },
+    { "label": "02_オナニー", "value": "masturbation" },
+    { "label": "02_ガチ舐め（強調）", "value": "aggressively licking" },
+    { "label": "02_クンニ", "value": "cunnilingus" },
+    { "label": "02_ディープスロート", "value": "deepthroat" },
     {
-      "label": "05_複数挿入 (DP/TP)",
-      "value": "double penetration, triple penetration, multiple penetration"
+      "label": "02_パイズリ",
+      "value": "breasts out, nipples, pov, 1 boy, penis is between breasts, paizuri"
     },
-    { "label": "05_逆パイズリ", "value": "reverse paizuri, anilingus" },
-    {
-      "label": "05_逆レイプ（女攻め）",
-      "value": "reverse rape, non-consensual sex, dominant female"
-    }
+    { "label": "02_前立腺", "value": "prostate milking" },
+    { "label": "02_尻コキ", "value": "penis, buttjob" },
+    { "label": "02_手コキ", "value": "penis, handjob" },
+    { "label": "02_手コキ絞り", "value": "milking handjob" },
+    { "label": "02_足コキ", "value": "penis, footjob, barefoot" },
+    { "label": "05_乳揉みフェラ (複合)", "value": "paizuri and fellatio" }
   ],
   "special_sex": [
     {
@@ -820,18 +846,18 @@
   "framing": [
     { "label": "01_ポートレート", "value": "portrait" },
     { "label": "02_上半身", "value": "upper body" },
-    { "label": "04_全身", "value": "full body" },
-    { "label": "03_膝上（カウボーイ）", "value": "cowboy shot" }
+    { "label": "03_膝上（カウボーイ）", "value": "cowboy shot" },
+    { "label": "04_全身", "value": "full body" }
   ],
   "camera_angle": [
-    { "label": "07_アオリ（下から）", "value": "from below" },
-    { "label": "06_俯瞰（上から）", "value": "from above" },
+    { "label": "01_斜め構図/ダッチアングル", "value": "dutch angle" },
+    { "label": "01_正面からの視点", "value": "from front, straight-on" },
+    { "label": "02_後ろからの視点", "value": "from behind" },
+    { "label": "03_横からの視点", "value": "side view" },
     { "label": "04_右からの視点", "value": "from right" },
     { "label": "05_左からの視点", "value": "from left" },
-    { "label": "02_後ろからの視点", "value": "from behind" },
-    { "label": "01_斜め構図/ダッチアングル", "value": "dutch angle" },
-    { "label": "03_横からの視点", "value": "side view" },
-    { "label": "01_正面からの視点", "value": "from front, straight-on" },
+    { "label": "06_俯瞰（上から）", "value": "from above" },
+    { "label": "07_アオリ（下から）", "value": "from below" },
     { "label": "08_魚眼レンズ", "value": "fisheye" }
   ],
   "composition_rules": [
@@ -1646,6 +1672,7 @@
     { "label": "03_ボディスーツ", "value": "bodysuit" },
     { "label": "04_ストッキング", "value": "stockings" },
     { "label": "04_タイツ", "value": "tights" },
+    { "label": "04_ボディストッキング", "value": "under bodystocking" },
     { "label": "04_メッシュストッキング", "value": "fishnets" }
   ],
   "bra_wear": [

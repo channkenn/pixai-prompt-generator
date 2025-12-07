@@ -331,7 +331,28 @@
           "description": "性的な行為やフェチ的な動作。",
           "exclusive": false,
           "subgroups": [
-            { "id": "sex_action", "label": "性行為", "exclusive": false },
+            {
+              "id": "sex_action",
+              "label": "性行為",
+              "exclusive": false
+            },
+            {
+              "id": "missionary_sex",
+              "label": "正常位",
+              "exclusive": false
+            },
+            {
+              "id": "doggystyle_sex",
+              "label": "後背位",
+              "exclusive": false
+            },
+            { "id": "cowgirl_sex", "label": "騎乗位", "exclusive": false },
+            { "id": "sitting_sex", "label": "座位", "exclusive": false },
+            { "id": "lying_sex", "label": "側位", "exclusive": false },
+            { "id": "other_sex", "label": "その他", "exclusive": false },
+            { "id": "tools_sex", "label": "道具", "exclusive": false },
+            { "id": "pre_sex", "label": "前戯", "exclusive": false },
+            { "id": "cum_sex", "label": "精液", "exclusive": false },
             {
               "id": "special_sex",
               "label": "特殊性行為",
