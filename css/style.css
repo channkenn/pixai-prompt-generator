@@ -1,4 +1,4 @@
-/** style.css 修正版（孫階層対応・トグル表示追加・孫階層横並び・孫階層同士横並び） **/
+/** style.css 修正版（孫階層対応・トグル表示追加・孫階層横並び・ボタン幅統一） **/
 
 body {
   font-family: sans-serif;
@@ -93,14 +93,27 @@ button:hover {
   display: none;
 }
 
+/* 🌟 修正: sub-subgroup を Grid コンテナに変更し、ボタン幅を統一する 🌟 */
+/* --- 孫階層用 (.sub-subgroup) の修正 (再々強化) --- */
 .sub-subgroup {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  flex-direction: column;
+  display: grid;
+  gap: 8px; /* ボタン間の間隔 */
+
+  /* 🌟 強化 1: 高さの決定をコンテンツに任せる (間延びを防ぐ最も確実な方法) 🌟 */
+  height: min-content;
+
+  /* 🌟 強化 2: Grid内のアイテムを縦方向の上端に揃える 🌟 */
+  align-items: start;
+
+  /* 幅の統一のための設定 */
+  grid-template-columns: minmax(min-content, max-content);
+
+  width: auto;
+  flex: 0 0 auto;
 }
 
 .sub-subgroup button {
+  /* Grid設定により上書きされるため、autoはそのまま残します */
   width: auto;
   flex: 0 0 auto;
 }
@@ -200,7 +213,7 @@ button:hover {
 
 /* スクロール量が少ないときに非表示にするクラス */
 /* .go-to-bottom.hide {
-  display: none;
+display: none;
 } */
 
 /* History Management Styles */
@@ -299,16 +312,17 @@ button.toggle-more-buttons:hover {
 /* ラッパー自体を横並びのボタンのように扱うため、ボタンの margin をここで再現 */
 .tooltip-wrapper {
   position: relative;
-  display: inline-block; /* ボタンに合わせてサイズを調整 */
+  display: inline-block; /* 縦積みではなく、横並びを許可するため inline-block に変更 */
   margin: 5px 0; /* 元のボタンの上下マージンを再現 */
-  width: 100%; /* ボタンが100%になるようにラッパーも100%にする */
+  width: 100%; /* 子要素のボタンの幅100%を維持 */
 }
 
-/* sub-subgroup 内ではボタンを横並びにするため、幅の指定を変更 */
+/* 🌟 修正: sub-subgroup 内のラッパーのスタイルを上書き 🌟 */
+/* Gridの列幅に合わせるため、幅を100%に設定 */
 .sub-subgroup .tooltip-wrapper {
-  width: auto;
-  flex: 0 0 auto;
-  margin: 0; /* sub-subgroup の gap で間隔を調整するため、マージンをリセット */
+  width: 100%; /* Grid の列幅に合わせる */
+  flex: none; /* Flexboxの設定を解除 */
+  margin: 0; /* sub-subgroup の gap で間隔を制御するため、マージンをリセット */
 }
 
 /* 2. ツールチップ要素 (item.value) の初期状態 */
@@ -317,31 +331,33 @@ button.toggle-more-buttons:hover {
   visibility: hidden; /* 非表示 */
   opacity: 0; /* 透明度も0 */
 
-  /* 装飾と位置 */
-  /* width: max-content; <--- 削除 */
+  /* 🌟 修正箇所: 幅の柔軟性と折り返し 🌟 */
 
-  /* 🌟 修正箇所: 最大幅を設定し、折り返しを有効化 🌟 */
-  max-width: 300px; /* ツールチップの最大幅を設定 (必要に応じて変更) */
-  min-width: 300px;
+  /* ツールチップの最大幅を設定 (これ以上広くならない) */
+  max-width: 300px;
+
+  /* 最小幅を、例えば、ボタンのラベルより少し広い程度に設定 */
+  min-width: 100px;
+
   white-space: normal; /* テキストを折り返すようにする */
   word-wrap: break-word; /* 長い単語でも強制的に折り返す */
 
   background-color: #333;
   color: #fff;
-  text-align: left; /* 複数行になった場合、左揃えの方が見やすいことが多い */
+  text-align: left;
   border-radius: 4px;
   padding: 5px 10px;
 
   /* ボタンに対する絶対位置 */
   position: absolute;
-  z-index: 100; /* 他の要素より手前に表示 */
-  bottom: 125%; /* ボタンの上側に表示 */
+  z-index: 100;
+  bottom: 125%;
   left: 50%;
-  transform: translateX(-50%); /* 中央揃えにする */
+  transform: translateX(-50%);
 
   /* アニメーション */
   transition: opacity 0.2s, visibility 0.2s;
-  pointer-events: none; /* ツールチップ自体が邪魔にならないようにする */
+  pointer-events: none;
 }
 
 /* 3. ホバー時の動作を制御 */
@@ -359,16 +375,15 @@ button.toggle-more-buttons:hover {
   margin: 0; /* ラッパーでマージンを制御するためリセット */
 }
 
-/* sub-subgroup内のボタンは横並びのため、幅の指定を上書き */
+/* 🌟 修正: sub-subgroup内のボタンはGridの幅に合わせる 🌟 */
 .sub-subgroup .tooltip-wrapper button {
-  width: auto;
-  flex: 0 0 auto;
+  width: 100%; /* Gridの列幅に合わせる */
+  flex: none;
 }
 
 /* --- キーワードボタンの折りたたみ機能 (ラッパー対応) --- */
 
 /* 9個目以降のボタンのラッパーに適用される、初期非表示のスタイル */
-/* JavaScript側で .tooltip-wrapper に hidden-initial が付与されるため、これに対応 */
 .tooltip-wrapper.hidden-initial {
   display: none !important;
 }

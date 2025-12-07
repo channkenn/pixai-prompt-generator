@@ -518,19 +518,116 @@
     { "label": "05_ふたなり", "value": "full-package futanari" }
   ],
   "missionary_sex": [
+    {
+      "label": "01_だいしゅきホールド",
+      "value": "missionary position, hug, legs lock, kiss"
+    },
+    {
+      "label": "01_まんぐり返しの正常位",
+      "value": "missionary position, spread legs, legs up"
+    },
+    {
+      "label": "01_クリトリスを刺激しながらの正常位",
+      "value": "missionary position, masturbation"
+    },
+    {
+      "label": "01_女の子が足を抱える正常位",
+      "value": "missionary position, holding own legs"
+    },
+    {
+      "label": "01_手を隠した正常位",
+      "value": "missionary position, arms behind head"
+    },
     { "label": "01_抱きつき正常位", "value": "spooning position" },
-    { "label": "01_正常位", "value": "missionary position" }
+    { "label": "01_正常位", "value": "missionary position" },
+    {
+      "label": "01_男性におっぱいを揉まれながらの正常位",
+      "value": "missionary position, boy grabbing girls breasts by hands"
+    },
+    {
+      "label": "01_自分でおっぱいを揉みながらの正常位",
+      "value": "missionary position, grabbing own breasts by hands"
+    },
+    {
+      "label": "01_足を閉じた正常位",
+      "value": "missionary position, close legs"
+    }
   ],
   "doggystyle_sex": [
+    {
+      "label": "01_前から見た後背位前から見た",
+      "value": "doggystyle, from front"
+    },
     { "label": "01_寝バック", "value": "prone bone" },
-    { "label": "01_後背位", "value": "doggystyle" },
+    { "label": "01_後背位後ろから見た", "value": "doggystyle, back shot" },
+    { "label": "01_枕を抱えた寝バック", "value": "prone bone, holding pillow" },
     { "label": "01_立ちバック", "value": "standing doggy" }
   ],
   "cowgirl_sex": [
+    {
+      "label": "01_M字開脚の騎乗位",
+      "value": "cowgirl position, squatting, spread legs"
+    },
     { "label": "01_リバース騎乗位", "value": "reverse cowgirl" },
+    {
+      "label": "01_前かがみの騎乗位",
+      "value": "cowgirl position, leaning forward"
+    },
+    {
+      "label": "01_男性におっぱいを揉まれながらの騎乗位",
+      "value": "cowgirl position, boy grabbing girls breasts by hands"
+    },
+    { "label": "01_背面騎乗位", "value": "cowgirl position, back shot" },
+    {
+      "label": "01_自分でおっぱいを揉みながらの騎乗位",
+      "value": "cowgirl position, grabbing own breasts by hands"
+    },
     { "label": "01_騎乗位", "value": "cowgirl position" }
   ],
-  "sitting_sex": [{ "label": "01_座位 (sitting sex)", "value": "sitting sex" }],
+  "sitting_sex": [
+    {
+      "label": "01_キスをしながら対面座位",
+      "value": "sitting position, hug, face to face, straddle, kissing"
+    },
+    {
+      "label": "01_対面座位",
+      "value": "sitting position, hug, face to face, straddle"
+    },
+    { "label": "01_座位 (sitting sex)", "value": "sitting sex" },
+    {
+      "label": "01_背面座位",
+      "value": "sitting position, hug from behind, face to face, straddle"
+    }
+  ],
+  "standing_sex": [
+    {
+      "label": "01_前から見た立ちバック",
+      "value": "standing doggy, from front"
+    },
+    { "label": "01_対面立位", "value": "standing position, hug from front" },
+    {
+      "label": "01_後ろから見た立ちバック",
+      "value": "standing doggy, back shot"
+    },
+    {
+      "label": "01_片脚を上げた立位",
+      "value": "standing position, one leg up"
+    },
+    {
+      "label": "01_男性がおっぱいを揉みながらの立ちバック",
+      "value": "standing doggy, grabbing, boy grabbing girls breasts by hands"
+    },
+    {
+      "label": "01_男性がおっぱいを揉みながらの背面立位",
+      "value": "standing position, hug from behind, boy grabbing girls breasts by hands"
+    },
+    { "label": "01_背面立位", "value": "standing position, hug from behind" },
+    {
+      "label": "01_背面駅弁",
+      "value": "suspended congress, 1 boy hug girl from behind"
+    },
+    { "label": "01_駅弁", "value": "suspended congress" }
+  ],
   "lying_sex": [
     {
       "label": "01_足を広げた側位",
@@ -570,10 +667,12 @@
     }
   ],
   "cum_sex": [
+    { "label": "04_ところてん", "value": "ejaculating while penetrated" },
     { "label": "04_事後（アナルに中出し後）", "value": "cum in anus" },
     { "label": "04_事後（膣内に中出し後）", "value": "cum in pussy" },
     { "label": "04_口の中に射精する（口内射精）", "value": "cum in mouth" },
     { "label": "04_射精", "value": "cum" },
+    { "label": "04_カウパー", "value": "((precum))" },
     { "label": "04_早漏", "value": "premature ejaculation" },
     { "label": "04_母乳", "value": "breast milk" },
     {
@@ -582,7 +681,6 @@
     },
     { "label": "04_舌に射精する", "value": "cum on tongue, open mouth" },
     { "label": "04_顔に射精する（顔射）", "value": "cum facial" },
-    { "label": "04_ところてん", "value": "ejaculating while penetrated" },
     { "label": "04_髪の毛に射精する", "value": "cum in hair" }
   ],
   "pre_sex": [
@@ -697,7 +795,7 @@
   "body_fluid_fx": [
     { "label": "01_大量の潮吹き", "value": "extreme squirting" },
     { "label": "01_潮吹き（fountain）", "value": "fountain, squirting" },
-    { "label": "02_カウパー", "value": "precum" },
+    { "label": "02_カウパー", "value": "((precum))" },
     { "label": "02_濡れた性器", "value": "wet pussy, wet anus, wet vagina" },
     {
       "label": "02_膣汁/愛液",
@@ -2418,7 +2516,12 @@
     { "label": "炎の髪", "value": "fiery hair" },
     { "label": "食べ物テーマの髪", "value": "food-themed hair" }
   ],
-  "preset_normal": [],
+  "preset_normal": [
+    {
+      "label": "アンダータイツのチャイナドレス",
+      "value": "cleavage-less china dress,china dress,sheer bodysuit under china dress,covered cleavage,"
+    }
+  ],
   "preset_sex": [
     {
       "label": "手コキ吐精",
@@ -2427,6 +2530,10 @@
     {
       "label": "押し倒され",
       "value": "1girl, first-person view, POV, straddling, mounting, being pinned down, BREAK (Marie (dies irae):1.2), Blonde hair, long hair, green eyes, tareme, detailed eyes, smile, ahoge, scar on the neck"
+    },
+    {
+      "label": "押し倒し",
+      "value": "on bed, on back, from above, blush, kabedon, pov, hands embarrassed, smile"
     },
     {
       "label": "朝チュン",

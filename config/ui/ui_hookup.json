@@ -348,6 +348,7 @@
             },
             { "id": "cowgirl_sex", "label": "騎乗位", "exclusive": false },
             { "id": "sitting_sex", "label": "座位", "exclusive": false },
+            { "id": "standing_sex", "label": "座位", "exclusive": false },
             { "id": "lying_sex", "label": "側位", "exclusive": false },
             { "id": "other_sex", "label": "その他", "exclusive": false },
             { "id": "tools_sex", "label": "道具", "exclusive": false },
