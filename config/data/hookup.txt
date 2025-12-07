@@ -389,7 +389,7 @@
   "sex_action": [
   { "label": "00_anal sex", "value": "anal sex" },
   { "label": "00_性行為 (sex)", "value": "sex" },
-  { "label": "05_ふたなり", "value": "full-package futanari" }
+  { "label": "05_ふたなり", "value": "full-package futanari, small penis" }
   ],
   "missionary_sex": [
   { "label": "01_だいしゅきホールド", "value": "missionary position, hug, legs lock, kiss" },
@@ -404,8 +404,8 @@
   { "label": "01_足を閉じた正常位", "value": "missionary position, close legs" }
   ],
   "doggystyle_sex": [
-  { "label": "01_前から見た後背位前から見た", "value": "doggystyle, from front" },
   { "label": "01_寝バック", "value": "prone bone" },
+  { "label": "01_後背位前から見た", "value": "doggystyle, from front" },
   { "label": "01_後背位後ろから見た", "value": "doggystyle, back shot" },
   { "label": "01_枕を抱えた寝バック", "value": "prone bone, holding pillow" },
   { "label": "01_立ちバック", "value": "standing doggy" }
@@ -949,29 +949,28 @@
   { "label": "01_荒木飛呂彦風", "value": "jojo pose, jojo style, dramatic shading, bold lines" }
   ],
   "color_pattern": [
-    { "label": "01_赤", "value": "red" },
-    { "label": "01_青", "value": "blue" },
-    { "label": "01_黄", "value": "yellow" },
-    { "label": "01_緑", "value": "green" },
-    { "label": "01_紫", "value": "purple" },
-    { "label": "01_橙/オレンジ", "value": "orange" },
-    { "label": "01_桃/ピンク", "value": "pink" },
-    { "label": "01_茶/ブラウン", "value": "brown" },
-    { "label": "01_黒", "value": "black" },
-    { "label": "01_白", "value": "white" },
-    { "label": "01_灰/グレー", "value": "gray" },
-    { "label": "01_水色/シアン", "value": "cyan" },
-    { "label": "01_金色/ゴールド", "value": "gold" },
-    { "label": "01_銀色/シルバー", "value": "silver" },
-    
-    { "label": "02_濃い/暗い", "value": "dark" },
-    { "label": "02_薄い/明るい", "value": "light" },
-    { "label": "02_鮮やかな/ネオン", "value": "vivid" },
-    { "label": "02_パステルカラー", "value": "pastel" },
-    { "label": "02_モノクロ", "value": "monochrome" },
-    { "label": "02_グラデーション", "value": "gradient" },
-    { "label": "02_無色/透明", "value": "clear" }
-],
+  { "label": "01_桃/ピンク", "value": "pink" },
+  { "label": "01_橙/オレンジ", "value": "orange" },
+  { "label": "01_水色/シアン", "value": "cyan" },
+  { "label": "01_灰/グレー", "value": "gray" },
+  { "label": "01_白", "value": "white" },
+  { "label": "01_紫", "value": "purple" },
+  { "label": "01_緑", "value": "green" },
+  { "label": "01_茶/ブラウン", "value": "brown" },
+  { "label": "01_赤", "value": "red" },
+  { "label": "01_金色/ゴールド", "value": "gold" },
+  { "label": "01_銀色/シルバー", "value": "silver" },
+  { "label": "01_青", "value": "blue" },
+  { "label": "01_黄", "value": "yellow" },
+  { "label": "01_黒", "value": "black" },
+  { "label": "02_グラデーション", "value": "gradient" },
+  { "label": "02_パステルカラー", "value": "pastel" },
+  { "label": "02_モノクロ", "value": "monochrome" },
+  { "label": "02_濃い/暗い", "value": "dark" },
+  { "label": "02_無色/透明", "value": "clear" },
+  { "label": "02_薄い/明るい", "value": "light" },
+  { "label": "02_鮮やかな/ネオン", "value": "vivid" }
+  ],
   "clothes_pattern": [
   { "label": "01_七宝（しっぽう）", "value": "shippo pattern" },
   { "label": "01_亀甲（きっこう）", "value": "kikko pattern" },

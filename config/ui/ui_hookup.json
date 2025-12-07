@@ -433,12 +433,6 @@
             }
           ]
         },
-        {
-          "id": "body_fluid_fx",
-          "label": "体液・液体効果 (全身の液体)",
-          "exclusive": false,
-          "description": "涙、汗、鼻水、性的分泌物など、体液全般。旧 secretion_detailsを移動・拡張。"
-        },
 
         {
           "id": "eroaction_per",
@@ -468,7 +462,12 @@
             { "id": "other_sex", "label": "その他", "exclusive": false },
             { "id": "tools_sex", "label": "道具", "exclusive": false },
             { "id": "pre_sex", "label": "前戯", "exclusive": false },
-            { "id": "cum_sex", "label": "精液", "exclusive": false },
+            { "id": "cum_sex", "label": "射精", "exclusive": false },
+            {
+              "id": "body_fluid_fx",
+              "label": "体液・液体効果",
+              "exclusive": false
+            },
             {
               "id": "special_sex",
               "label": "特殊性行為",
