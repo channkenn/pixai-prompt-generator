@@ -47,9 +47,8 @@ document.addEventListener("DOMContentLoaded", async () => {
     h4.textContent = sgObj.label;
 
     subDiv.appendChild(h4);
-    parentElem.appendChild(subDiv);
+    parentElem.appendChild(subDiv); // 🌟 初期表示するボタンの最大数を定義
 
-    // 🌟 初期表示するボタンの最大数を定義
     const MAX_VISIBLE_BUTTONS = 8;
     let buttonCount = 0;
     const hiddenButtons = []; // 初期非表示にするボタンを格納する配列
@@ -58,40 +57,27 @@ document.addEventListener("DOMContentLoaded", async () => {
       ? DICT_MERGED[sgObj.id]
       : [];
     items.forEach((item) => {
-      if (!item.value) return;
+      if (!item.value) return; // ---------------------------------------------------- // ⭐ ここからツールチップ機能の追加 // 1. ラッパー要素を作成し、ボタンとツールチップを格納する
 
-      // ----------------------------------------------------
-      // ⭐ ここからツールチップ機能の追加
+      const wrapper = document.createElement("div"); // CSSでホバー時の表示を制御するためのクラス
+      wrapper.className = "tooltip-wrapper"; // 2. ボタンを作成 (既存のロジック)
 
-      // 1. ラッパー要素を作成し、ボタンとツールチップを格納する
-      const wrapper = document.createElement("div");
-      // CSSでホバー時の表示を制御するためのクラス
-      wrapper.className = "tooltip-wrapper";
-
-      // 2. ボタンを作成 (既存のロジック)
       const btn = document.createElement("button");
       btn.dataset.keyword = item.value;
       btn.dataset.exclusive = sgObj.exclusive;
       btn.dataset.noRandom = item.noRandom ? "true" : "false";
-      btn.textContent = item.label;
+      btn.textContent = item.label; // 3. ツールチップ要素を作成し、item.value をセット
 
-      // 3. ツールチップ要素を作成し、item.value をセット
       const tooltip = document.createElement("span");
-      tooltip.className = "tooltip-value";
-      // JSONから取得した value を表示
-      tooltip.textContent = item.value;
+      tooltip.className = "tooltip-value"; // JSONから取得した value を表示
+      tooltip.textContent = item.value; // 4. ラッパーにボタンとツールチップを追加
 
-      // 4. ラッパーにボタンとツールチップを追加
       wrapper.appendChild(btn);
-      wrapper.appendChild(tooltip);
+      wrapper.appendChild(tooltip); // ---------------------------------------------------- // 🌟 9個目以降のボタンに初期非表示クラスを付与
 
-      // ----------------------------------------------------
-
-      // 🌟 9個目以降のボタンに初期非表示クラスを付与
       if (buttonCount >= MAX_VISIBLE_BUTTONS) {
         // ボタンではなく、ラッパーに非表示クラスを付与
-        wrapper.classList.add("hidden-initial");
-        // 非表示にする要素をラッパーで管理
+        wrapper.classList.add("hidden-initial"); // 非表示にする要素をラッパーで管理
         hiddenButtons.push(wrapper);
       }
       buttonCount++;
@@ -117,8 +103,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         } else {
           // 通常のボタン押下処理
           if (sgObj.exclusive) {
-            const subDiv = btn.closest(".sub-group, .sub-subgroup");
-            // ラッパー内のボタンに対して処理を行う
+            const subDiv = btn.closest(".sub-group, .sub-subgroup"); // ラッパー内のボタンに対して処理を行う
             subDiv.querySelectorAll(".tooltip-wrapper button").forEach((b) => {
               if (b !== btn) b.classList.remove("active");
             });
@@ -127,13 +112,11 @@ document.addEventListener("DOMContentLoaded", async () => {
         }
 
         saveState();
-      });
+      }); // 5. subDiv にボタンの代わりにラッパーを追加
 
-      // 5. subDiv にボタンの代わりにラッパーを追加
       subDiv.appendChild(wrapper);
-    });
+    }); // 🌟 トグルボタンの追加とイベントリスナーの設定
 
-    // 🌟 トグルボタンの追加とイベントリスナーの設定
     if (hiddenButtons.length > 0) {
       const toggleButton = document.createElement("button");
       toggleButton.className = "toggle-more-buttons";
@@ -143,9 +126,8 @@ document.addEventListener("DOMContentLoaded", async () => {
 
       toggleButton.addEventListener("click", () => {
         const isCollapsed =
-          hiddenButtons[0].classList.contains("hidden-initial");
+          hiddenButtons[0].classList.contains("hidden-initial"); // hidden-initial クラスを付け替えて表示/非表示を切り替え
 
-        // hidden-initial クラスを付け替えて表示/非表示を切り替え
         hiddenButtons.forEach((w) => {
           // w はラッパー要素 (wrapper)
           w.classList.toggle("hidden-initial");
@@ -181,23 +163,19 @@ document.addEventListener("DOMContentLoaded", async () => {
           : "▼";
       });
     }
-  };
-  // -----------------------------------------------------
-
+  }; // -----------------------------------------------------
   const createKeywordList = (group) => {
     const wrapper = document.createElement("div");
-    wrapper.className = "group-row";
+    wrapper.className = "group-row"; // 1. keywordList の作成と見出し(h3)の追加をループの外側に出す
 
-    // 1. keywordList の作成と見出し(h3)の追加をループの外側に出す
     const keywordList = document.createElement("div");
     keywordList.className = "keyword-list";
     keywordList.dataset.target = group.id;
 
     const h3 = document.createElement("h3");
     h3.textContent = group.label;
-    keywordList.appendChild(h3);
+    keywordList.appendChild(h3); // 2. keywordList の直下でコンテンツ全体を囲むラッパーを作成（トグル制御対象）
 
-    // 2. keywordList の直下でコンテンツ全体を囲むラッパーを作成（トグル制御対象）
     const mainContentWrapper = document.createElement("div");
     mainContentWrapper.className = "main-content-wrapper collapsed"; // 新しいラッパー
 
@@ -206,27 +184,22 @@ document.addEventListener("DOMContentLoaded", async () => {
     toggle.textContent = "▶";
     toggle.style.cursor = "pointer";
     toggle.style.marginLeft = "8px";
-    h3.appendChild(toggle);
+    h3.appendChild(toggle); // mainContentWrapper のスタイルを設定して、中の要素を横並びにする
 
-    // mainContentWrapper のスタイルを設定して、中の要素を横並びにする
     mainContentWrapper.style.display = "flex";
     mainContentWrapper.style.flexWrap = "wrap";
-    mainContentWrapper.style.gap = "20px"; // keyword-list ブロック間の間隔
+    mainContentWrapper.style.gap = "20px"; // keyword-list ブロック間の間隔 // 3. ループ内で sub-group を作成し、新しいラッパーに追加する
 
-    // 3. ループ内で sub-group を作成し、新しいラッパーに追加する
     group.subgroups.forEach((sg) => {
       // sub-group を直接作成する
       // ★ 注意: createSubGroup は引数の parentElem に子要素を追加します
       createSubGroup(sg, mainContentWrapper);
-    });
+    }); // 4. 新しいラッパーを keywordList に追加
 
-    // 4. 新しいラッパーを keywordList に追加
-    keywordList.appendChild(mainContentWrapper);
+    keywordList.appendChild(mainContentWrapper); // 5. keywordList を wrapper (group-row) に追加
 
-    // 5. keywordList を wrapper (group-row) に追加
-    wrapper.appendChild(keywordList);
+    wrapper.appendChild(keywordList); // 6. トグルのイベントリスナーを設定（新しいラッパーを制御）
 
-    // 6. トグルのイベントリスナーを設定（新しいラッパーを制御）
     toggle.addEventListener("click", () => {
       mainContentWrapper.classList.toggle("collapsed");
       toggle.textContent = mainContentWrapper.classList.contains("collapsed")
@@ -285,10 +258,14 @@ document.addEventListener("DOMContentLoaded", async () => {
   document.getElementById("generate").addEventListener("click", () => {
     generateOutput();
     saveState(); // 状態を保存
-  });
+  }); // ⭐ コピーボタンのイベントリスナーを修正
 
   document.getElementById("copy").addEventListener("click", () => {
-    navigator.clipboard.writeText(output.textContent);
+    // outputの内容を取得
+    let content = output.textContent; // "■,"を全て空文字列に置換（削除） // 正規表現 /■,/g を使用して、文字列内のすべての "■," にマッチさせる
+    const cleanedContent = content.replace(/■,/g, ""); // クリップボードに修正後の内容をコピー
+
+    navigator.clipboard.writeText(cleanedContent);
   });
 
   const clearBtn = document.getElementById("clearAll");
@@ -300,10 +277,8 @@ document.addEventListener("DOMContentLoaded", async () => {
     allButtons.forEach((btn) => btn.classList.remove("active"));
     output.textContent = "";
     localStorage.removeItem("buttonState");
-  });
+  }); // 履歴管理の初期化とリスナー設定を preset.js に任せる // generateOutput が定義されたため、エラーが解消
 
-  // 履歴管理の初期化とリスナー設定を preset.js に任せる
-  // generateOutput が定義されたため、エラーが解消
   setupPresetListeners(generateOutput, saveState);
   renderHistory(saveState);
 });
