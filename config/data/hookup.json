@@ -515,7 +515,7 @@
   "sex_action": [
     { "label": "00_anal sex", "value": "anal sex" },
     { "label": "00_性行為 (sex)", "value": "sex" },
-    { "label": "05_ふたなり", "value": "full-package futanari" }
+    { "label": "05_ふたなり", "value": "full-package futanari, small penis" }
   ],
   "missionary_sex": [
     {
@@ -668,11 +668,11 @@
   ],
   "cum_sex": [
     { "label": "04_ところてん", "value": "ejaculating while penetrated" },
+    { "label": "04_カウパー", "value": "precum, precum drip" },
     { "label": "04_事後（アナルに中出し後）", "value": "cum in anus" },
     { "label": "04_事後（膣内に中出し後）", "value": "cum in pussy" },
     { "label": "04_口の中に射精する（口内射精）", "value": "cum in mouth" },
     { "label": "04_射精", "value": "cum" },
-    { "label": "04_カウパー", "value": "((precum))" },
     { "label": "04_早漏", "value": "premature ejaculation" },
     { "label": "04_母乳", "value": "breast milk" },
     {
@@ -684,26 +684,27 @@
     { "label": "04_髪の毛に射精する", "value": "cum in hair" }
   ],
   "pre_sex": [
-    { "label": "02_おなほコキ", "value": "onahole handjob" },
-    { "label": "02_くぱぁ", "value": "spread pussy" },
+    { "label": "01_くぱぁ", "value": "spread pussy" },
+    { "label": "01_くぱぁアナル", "value": "spread anus" },
+    { "label": "01_ぽっかり", "value": "gaping" },
     { "label": "02_なめ（フェラチオ）", "value": "fellatio" },
-    { "label": "02_アナルくぱぁ", "value": "spread anus" },
     { "label": "02_アナル舐め", "value": "anilingus" },
     { "label": "02_イラマチオ", "value": "irrumatio" },
-    { "label": "02_オナニー", "value": "masturbation" },
     { "label": "02_ガチ舐め（強調）", "value": "aggressively licking" },
     { "label": "02_クンニ", "value": "cunnilingus" },
     { "label": "02_ディープスロート", "value": "deepthroat" },
+    { "label": "02_乳揉みフェラ (複合)", "value": "paizuri and fellatio" },
+    { "label": "03_おなほコキ", "value": "onahole handjob" },
+    { "label": "03_オナニー", "value": "masturbation" },
     {
-      "label": "02_パイズリ",
+      "label": "03_パイズリ",
       "value": "breasts out, nipples, pov, 1 boy, penis is between breasts, paizuri"
     },
-    { "label": "02_前立腺", "value": "prostate milking" },
-    { "label": "02_尻コキ", "value": "penis, buttjob" },
-    { "label": "02_手コキ", "value": "penis, handjob" },
-    { "label": "02_手コキ絞り", "value": "milking handjob" },
-    { "label": "02_足コキ", "value": "penis, footjob, barefoot" },
-    { "label": "05_乳揉みフェラ (複合)", "value": "paizuri and fellatio" }
+    { "label": "03_前立腺", "value": "prostate milking" },
+    { "label": "03_尻コキ", "value": "penis, buttjob" },
+    { "label": "03_手コキ", "value": "penis, handjob" },
+    { "label": "03_手コキ絞り", "value": "milking handjob" },
+    { "label": "03_足コキ", "value": "penis, footjob, barefoot" }
   ],
   "special_sex": [
     {
@@ -1541,29 +1542,53 @@
       "value": "jojo pose, jojo style, dramatic shading, bold lines"
     }
   ],
+  "color_pattern": [
+    { "label": "01_赤", "value": "red" },
+    { "label": "01_青", "value": "blue" },
+    { "label": "01_黄", "value": "yellow" },
+    { "label": "01_緑", "value": "green" },
+    { "label": "01_紫", "value": "purple" },
+    { "label": "01_橙/オレンジ", "value": "orange" },
+    { "label": "01_桃/ピンク", "value": "pink" },
+    { "label": "01_茶/ブラウン", "value": "brown" },
+    { "label": "01_黒", "value": "black" },
+    { "label": "01_白", "value": "white" },
+    { "label": "01_灰/グレー", "value": "gray" },
+    { "label": "01_水色/シアン", "value": "cyan" },
+    { "label": "01_金色/ゴールド", "value": "gold" },
+    { "label": "01_銀色/シルバー", "value": "silver" },
+
+    { "label": "02_濃い/暗い", "value": "dark" },
+    { "label": "02_薄い/明るい", "value": "light" },
+    { "label": "02_鮮やかな/ネオン", "value": "vivid" },
+    { "label": "02_パステルカラー", "value": "pastel" },
+    { "label": "02_モノクロ", "value": "monochrome" },
+    { "label": "02_グラデーション", "value": "gradient" },
+    { "label": "02_無色/透明", "value": "clear" }
+  ],
   "clothes_pattern": [
-    { "label": "01_七宝（しっぽう）", "value": "shippo (pattern)" },
-    { "label": "01_亀甲（きっこう）", "value": "kikko (pattern)" },
-    { "label": "01_市松（いちまつ）", "value": "ichimatsu (pattern)" },
-    { "label": "01_毘沙門亀甲", "value": "bishamon kikko (pattern)" },
-    { "label": "01_矢絣（やがすり）", "value": "yagasuri (pattern)" },
-    { "label": "01_立涌（たてわく）", "value": "tatewaku (pattern)" },
-    { "label": "01_籠目（かごめ）", "value": "kagome (pattern)" },
-    { "label": "01_青海波", "value": "seigaiha (pattern)" },
-    { "label": "01_鱗（うろこ）", "value": "scale pattern (pattern)" },
-    { "label": "01_麻の葉", "value": "asanoha (pattern)" },
-    { "label": "02_ひし形", "value": "rhombus (pattern)" },
-    { "label": "02_アニマル柄", "value": "animal print (pattern)" },
-    { "label": "02_ストライプ", "value": "stripe (pattern)" },
-    { "label": "02_タータンチェック", "value": "tartan (pattern)" },
-    { "label": "02_チェック", "value": "check (pattern)" },
-    { "label": "02_ペイズリー", "value": "paisley (pattern)" },
-    { "label": "02_ボーダー", "value": "border (pattern)" },
-    { "label": "02_レース", "value": "lace (pattern)" },
-    { "label": "02_千鳥格子", "value": "houndstooth (pattern)" },
-    { "label": "02_格子柄", "value": "plaid (pattern)" },
-    { "label": "02_水玉", "value": "dot (pattern)" },
-    { "label": "02_花柄", "value": "flower (pattern)" }
+    { "label": "01_七宝（しっぽう）", "value": "shippo pattern" },
+    { "label": "01_亀甲（きっこう）", "value": "kikko pattern" },
+    { "label": "01_市松（いちまつ）", "value": "ichimatsu pattern" },
+    { "label": "01_毘沙門亀甲", "value": "bishamon kikko pattern" },
+    { "label": "01_矢絣（やがすり）", "value": "yagasuri pattern" },
+    { "label": "01_立涌（たてわく）", "value": "tatewaku pattern" },
+    { "label": "01_籠目（かごめ）", "value": "kagome pattern" },
+    { "label": "01_青海波", "value": "seigaiha pattern" },
+    { "label": "01_鱗（うろこ）", "value": "scale pattern pattern" },
+    { "label": "01_麻の葉", "value": "asanoha pattern" },
+    { "label": "02_ひし形", "value": "rhombus pattern" },
+    { "label": "02_アニマル柄", "value": "animal print pattern" },
+    { "label": "02_ストライプ", "value": "stripe pattern" },
+    { "label": "02_タータンチェック", "value": "tartan pattern" },
+    { "label": "02_チェック", "value": "check pattern" },
+    { "label": "02_ペイズリー", "value": "paisley pattern" },
+    { "label": "02_ボーダー", "value": "border pattern" },
+    { "label": "02_レース", "value": "lace pattern" },
+    { "label": "02_千鳥格子", "value": "houndstooth pattern" },
+    { "label": "02_格子柄", "value": "plaid pattern" },
+    { "label": "02_水玉", "value": "dot pattern" },
+    { "label": "02_花柄", "value": "flower pattern" }
   ],
   "uniforms": [
     { "label": "01_スクールベスト/ニットベスト", "value": "school vest" },

@@ -175,19 +175,134 @@
       "label": "3. 服装・衣装 (Outfit) - (主役の細部)",
       "description": "キャラクターが着用している服の種類とディテール。",
       "subgroups": [
-        { "id": "uniforms", "label": "制服・戦闘服", "exclusive": false },
-        { "id": "clothes_pattern", "label": "服の模様", "exclusive": false },
-        { "id": "top_wear", "label": "トップス・上着", "exclusive": false },
         {
-          "id": "bottom_wear",
-          "label": "ボトムス・下半身",
-          "exclusive": false
+          "id": "uniforms_per",
+          "label": "制服・戦闘服",
+          "exclusive": false,
+          "subgroups": [
+            { "id": "color_pattern", "label": "服の色", "exclusive": false },
+            {
+              "id": "clothes_pattern",
+              "label": "服の模様",
+              "exclusive": false
+            },
+            { "id": "uniforms", "label": "制服・戦闘服", "exclusive": false }
+          ]
         },
-        { "id": "lingerie_wear", "label": "ランジェリー", "exclusive": false },
-        { "id": "bra_wear", "label": "ブラ", "exclusive": false },
-        { "id": "panties_wear", "label": "パンティ", "exclusive": false },
-        { "id": "footwear", "label": "靴・履物", "exclusive": false },
-        { "id": "hat_wear", "label": "帽子・被り物", "exclusive": false },
+        {
+          "id": "top_wear_per",
+          "label": "トップス・上着",
+          "exclusive": false,
+          "subgroups": [
+            { "id": "color_pattern", "label": "服の色", "exclusive": false },
+            {
+              "id": "clothes_pattern",
+              "label": "服の模様",
+              "exclusive": false
+            },
+            {
+              "id": "top_wear",
+              "label": "トップス・上着",
+              "exclusive": false
+            }
+          ]
+        },
+        {
+          "id": "bottom_wear_per",
+          "label": "ボトムス・下半身",
+          "exclusive": false,
+          "subgroups": [
+            { "id": "color_pattern", "label": "服の色", "exclusive": false },
+            {
+              "id": "clothes_pattern",
+              "label": "服の模様",
+              "exclusive": false
+            },
+            {
+              "id": "bottom_wear",
+              "label": "ボトムス・下半身",
+              "exclusive": false
+            }
+          ]
+        },
+        {
+          "id": "lingerie_wear_per",
+          "label": "ランジェリー",
+          "exclusive": false,
+          "subgroups": [
+            { "id": "color_pattern", "label": "服の色", "exclusive": false },
+            {
+              "id": "clothes_pattern",
+              "label": "服の模様",
+              "exclusive": false
+            },
+            {
+              "id": "lingerie_wear",
+              "label": "ランジェリー",
+              "exclusive": false
+            }
+          ]
+        },
+        {
+          "id": "bra_wear_per",
+          "label": "ブラ",
+          "exclusive": false,
+          "subgroups": [
+            { "id": "color_pattern", "label": "服の色", "exclusive": false },
+            {
+              "id": "clothes_pattern",
+              "label": "服の模様",
+              "exclusive": false
+            },
+            {
+              "id": "bra_wear",
+              "label": "ブラ",
+              "exclusive": false
+            }
+          ]
+        },
+        {
+          "id": "panties_wear_per",
+          "label": "パンティ",
+          "exclusive": false,
+          "subgroups": [
+            { "id": "color_pattern", "label": "服の色", "exclusive": false },
+            {
+              "id": "clothes_pattern",
+              "label": "服の模様",
+              "exclusive": false
+            },
+            { "id": "panties_wear", "label": "パンティ", "exclusive": false }
+          ]
+        },
+        {
+          "id": "footwear_per",
+          "label": "靴・履物",
+          "exclusive": false,
+          "subgroups": [
+            { "id": "color_pattern", "label": "服の色", "exclusive": false },
+            {
+              "id": "clothes_pattern",
+              "label": "服の模様",
+              "exclusive": false
+            },
+            { "id": "footwear", "label": "靴・履物", "exclusive": false }
+          ]
+        },
+        {
+          "id": "hat_wear_per",
+          "label": "帽子・被り物",
+          "exclusive": false,
+          "subgroups": [
+            { "id": "color_pattern", "label": "服の色", "exclusive": false },
+            {
+              "id": "clothes_pattern",
+              "label": "服の模様",
+              "exclusive": false
+            },
+            { "id": "hat_wear", "label": "帽子・被り物", "exclusive": false }
+          ]
+        },
         {
           "id": "special_costume_wear",
           "label": "特殊衣装",
