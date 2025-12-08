@@ -5,13 +5,13 @@
       "label": "1. 主役・基本属性 (Subject) - (PixAI推奨: 主役)",
       "description": "誰を描くか、画像の主役となるキャラクターの基本的な定義。**（最優先）**",
       "subgroups": [
+        { "id": "base_attributes", "label": "基本属性", "exclusive": false },
         {
           "id": "positioning",
           "label": "立ち位置・深度",
           "exclusive": false,
           "description": "画面内での位置（左右）と奥行き（前後）を指定します。"
         },
-        { "id": "base_attributes", "label": "基本属性", "exclusive": false },
         { "id": "age_body", "label": "年齢・体格", "exclusive": false },
         { "id": "species", "label": "種族", "exclusive": false },
         {
