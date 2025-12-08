@@ -1981,16 +1981,16 @@
     { "label": "01_1_AAの上にBB（on）", "value": "(BB on the AA:1.2)" },
     { "label": "01_2_AAの下にBB（under）", "value": "(BB under the AA:1.2)" },
     {
-      "label": "01_5_AAの前にBB",
-      "value": "(AA and BB in front of the AA:1.2)"
-    },
-    {
       "label": "01_3_AAの右にBB",
       "value": "(AA and BB to the right of the AA:1.2)"
     },
     {
       "label": "01_4_AAの左にBB",
       "value": "(AA and BB to the left of the AA:1.2)"
+    },
+    {
+      "label": "01_5_AAの前にBB",
+      "value": "(AA and BB in front of the AA:1.2)"
     },
     { "label": "01_6_AAの後ろにBB", "value": "(AA and BB behind the AA:1.2)" },
     { "label": "02_画面の上部（XX）", "value": "XX at the top" },
