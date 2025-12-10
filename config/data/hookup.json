@@ -1,6 +1,10 @@
 {
   "quality_boosters": [
     {
+      "label": "0_PixAI用",
+      "value": "masterpiece, high quality, best quality, ultra details, amazing, stunning, super high resolution, 8K wallpaper, 8K CG, top quality photorealistic illustration, very detailed background, maximum detailed shadows, cinematic postprocessing, beautiful detailed eyes:1.2, crystal eyes:1.3"
+    },
+    {
       "label": "0_よくばりセットE (強化版)",
       "value": "(masterpiece:1.1), (best quality:1.1), (absurdres:1.1), highres, 8k unity wallpaper"
     },
@@ -200,16 +204,16 @@
     { "label": "06_姫カット", "value": "hime cut, blunt bangs" }
   ],
   "hair_color": [
-    { "label": "01_01_黒髪", "value": "black hair" },
-    { "label": "01_02_茶髪 (一般的)", "value": "brown hair" },
-    { "label": "01_03_金髪", "value": "blonde hair" },
-    { "label": "01_04_プラチナブロンド", "value": "platinum blonde hair" },
-    { "label": "01_05_銀髪・白髪", "value": "silver hair, white hair" },
-    { "label": "01_06_赤髪", "value": "red hair" },
-    { "label": "01_07_青髪", "value": "blue hair" },
-    { "label": "01_08_緑髪", "value": "green hair" },
-    { "label": "01_09_紫髪", "value": "purple hair" },
-    { "label": "01_10_ピンク髪", "value": "pink hair" },
+    { "label": "01_01_黒髪", "value": "black■" },
+    { "label": "01_02_茶髪 (一般的)", "value": "brown■" },
+    { "label": "01_03_金髪", "value": "blonde■" },
+    { "label": "01_04_プラチナブロンド", "value": "platinum blonde■" },
+    { "label": "01_05_銀髪・白髪", "value": "silver white■" },
+    { "label": "01_06_赤髪", "value": "red■" },
+    { "label": "01_07_青髪", "value": "blue■" },
+    { "label": "01_08_緑髪", "value": "green■" },
+    { "label": "01_09_紫髪", "value": "purple■" },
+    { "label": "01_10_ピンク髪", "value": "pink■" },
     {
       "label": "02_11_メッシュ/ハイライト",
       "value": "streaks, hair streaks, highlight"
@@ -1511,8 +1515,12 @@
   ],
   "art_style": [
     {
-      "label": "00_解剖学的な正確さ",
-      "value": "Gesture Drawing Master, Cross Contour Master, Dynamic Anatomy, Expressive Line of Action, Foreshortening Master, Perfect Proportions, Structural Anatomy, Emotional Contour, Fluid Gesture Capture, Anatomical Accuracy, Masterful Construction Lines, Sensual Anatomy, Erotic Gesture Drawing, Orgasmic Expression Lines, Convulsion Contour"
+      "label": "00_解剖学的正確さ（性的表現版）",
+      "value": "Sensual Anatomy, Erotic Gesture Drawing, Orgasmic Expression Lines, Convulsion Contour"
+    },
+    {
+      "label": "00_解剖学的正確さ（通常版）",
+      "value": "Gesture Drawing Master, Cross Contour Master, Dynamic Anatomy, Expressive Line of Action, Foreshortening Master, Perfect Proportions, Structural Anatomy, Emotional Contour, Fluid Gesture Capture, Anatomical Accuracy, Masterful Construction Lines"
     },
     { "label": "01_アニメ塗り（一般）", "value": "anime style, manga style" },
     {
@@ -1612,35 +1620,35 @@
     { "label": "05_類似色/同系色", "value": "analogous colors■" }
   ],
   "clothes_pattern": [
-    { "label": "01_V字・斜線（矢絣）", "value": "chevron pattern" },
-    { "label": "01_六角形（亀甲）", "value": "hexagon pattern" },
+    { "label": "01_V字・斜線（矢絣）", "value": "chevron pattern■" },
+    { "label": "01_六角形（亀甲）", "value": "hexagon pattern■" },
     {
       "label": "01_円形繋ぎ（七宝・青海波など）",
-      "value": "interlocking circles"
+      "value": "interlocking circles■"
     },
     {
       "label": "01_星形・幾何学植物（麻の葉）",
-      "value": "geometric leaf pattern"
+      "value": "geometric leaf pattern■"
     },
-    { "label": "01_正方形（市松）", "value": "checkerboard pattern" },
-    { "label": "01_波線・縦曲線（立涌）", "value": "wavy vertical stripes" },
-    { "label": "01_網目（籠目）", "value": "mesh pattern" },
+    { "label": "01_正方形（市松）", "value": "checkerboard pattern■" },
+    { "label": "01_波線・縦曲線（立涌）", "value": "wavy vertical stripes■" },
+    { "label": "01_網目（籠目）", "value": "mesh pattern■" },
     {
       "label": "01_菱形繋ぎ（鱗・毘沙門亀甲など）",
-      "value": "diamond pattern"
+      "value": "diamond pattern■"
     },
-    { "label": "02_ひし形", "value": "rhombus print" },
-    { "label": "02_アニマル柄", "value": "animal print" },
-    { "label": "02_ストライプ", "value": "striped" },
-    { "label": "02_タータンチェック", "value": "tartan plaid" },
-    { "label": "02_チェック", "value": "checked pattern" },
-    { "label": "02_ペイズリー", "value": "paisley print" },
-    { "label": "02_ボーダー", "value": "horizontal stripes" },
-    { "label": "02_レース", "value": "lace trim" },
-    { "label": "02_千鳥格子", "value": "houndstooth" },
-    { "label": "02_格子柄", "value": "plaid pattern" },
-    { "label": "02_水玉", "value": "polka dot" },
-    { "label": "02_花柄", "value": "floral print" }
+    { "label": "02_ひし形", "value": "rhombus print■" },
+    { "label": "02_アニマル柄", "value": "animal print■" },
+    { "label": "02_ストライプ", "value": "striped■" },
+    { "label": "02_タータンチェック", "value": "tartan plaid■" },
+    { "label": "02_チェック", "value": "checked pattern■" },
+    { "label": "02_ペイズリー", "value": "paisley print■" },
+    { "label": "02_ボーダー", "value": "horizontal stripes■" },
+    { "label": "02_レース", "value": "lace trim■" },
+    { "label": "02_千鳥格子", "value": "houndstooth■" },
+    { "label": "02_格子柄", "value": "plaid pattern■" },
+    { "label": "02_水玉", "value": "polka dot■" },
+    { "label": "02_花柄", "value": "floral print■" }
   ],
   "uniforms": [
     { "label": "01_スクールベスト/ニットベスト", "value": "school vest" },

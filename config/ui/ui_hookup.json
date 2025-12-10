@@ -63,12 +63,12 @@
           "label": "髪のディテール (Hair Details)",
           "description": "髪の長さ、カット、アレンジ、質感、非現実表現を指定する要素。",
           "subgroups": [
+            { "id": "hair_color", "label": "髪の色", "exclusive": false },
             {
               "id": "hair_details",
               "label": "髪型・髪の質感",
               "exclusive": false
             },
-            { "id": "hair_color", "label": "髪の色", "exclusive": false },
             {
               "id": "tone_and_texture",
               "label": "色の修飾・表現",
