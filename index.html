@@ -7,8 +7,10 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <a href="./gemini.html">gemini提案版</a>
-    <a href="./multi.html">複数人版</a>
+    <a href="./index.html">ChatGPT提案版</a>
+    <button id="goToBottomBtn" class="go-to-bottom" title="最下部へ移動">
+      最下部へ移動
+    </button>
     <div class="container">
       <!-- JSONから自動生成されるサブグループ -->
       <div id="ui-root"></div>
@@ -16,18 +18,41 @@
       <!-- 操作ボタン -->
       <!-- プリセット保存・読み込み -->
 
-      <div class="preset-output" id="presetOutput"></div>
       <button id="generate">カンマ区切りプロンプト生成</button>
-      <button id="generateLabel">Generate with Labels</button>
-      <button id="generateEnglish">英文プロンプト生成</button>
-      <button id="clearAll">全てクリア</button>
       <button id="copy">コピー</button>
+      <button id="clearAll">全てクリア</button>
       <div class="output" id="output"></div>
-      <!-- プリセット読み込み結果表示用 -->
-      <button id="savePreset">プリセット保存</button>
-      <button id="loadPreset">プリセット読み込み</button>
     </div>
+    <!-- 履歴/プリセット管理セクション (preset.jsが依存する要素) -->
+    <div>
+      <h2>履歴/プリセット管理</h2>
 
-    <script type="module" src="js/script.js"></script>
+      <!-- プリセット保存 -->
+      <div>
+        <!-- ID: presetName (必須) -->
+        <input
+          type="text"
+          id="presetName"
+          placeholder="履歴/プリセット名を入力"
+        />
+        <!-- ID: savePresetBtn (必須) -->
+        <button id="savePresetBtn">現在のプロンプトを保存</button>
+      </div>
+
+      <!-- 履歴リスト -->
+      <h3>保存された履歴</h3>
+      <!-- ID: historyListContainer (必須) -->
+      <div id="historyListContainer">
+        <!-- 履歴アイテムはJSによってここにレンダリングされます -->
+        <p>読み込み中...</p>
+      </div>
+    </div>
+    <button id="backToTopBtn" class="back-to-top" title="トップへ戻る">
+      topへ
+    </button>
+    <p></p>
+    <script type="module" src="js/script_hookup.js"></script>
+    <script type="module" src="js/back_to_top.js"></script>
+    <script type="module" src="js/go_to_bottom.js"></script>
   </body>
 </html>

@@ -15,7 +15,11 @@
   { "label": "衣服の質感", "value": "(intricate clothing details:1.1), detailed fabric" },
   { "label": "表情の緻密さ", "value": "extremely detailed eyes, detailed facial features" },
   { "label": "超高解像度", "value": "absurdres" },
-  { "label": "高解像度", "value": "highres" }
+  { "label": "高解像度", "value": "highres" },
+  { "label": "🎨ジェスチャーの達人", "value": "Gesture Drawing Master, Fluid Gesture Capture, Expressive Line of Action" },
+  { "label": "🎨感情と調和", "value": "Emotional Contour, Perfect Proportions" },
+  { "label": "🎨立体・奥行き表現", "value": "Cross Contour Master, Foreshortening Master, Masterful Construction Lines" },
+  { "label": "🎨解剖学と構造", "value": "Structural Anatomy, Dynamic Anatomy, Anatomical Accuracy" }
   ],
   "base_attributes": [
   { "label": "01_単独（ソロ）", "value": "solo" },

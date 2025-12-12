@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PixAI Prompt Generator</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <a href="./gemini.html">gemini提案版</a>
+    <a href="./multi.html">複数人版</a>
+    <div class="container">
+      <!-- JSONから自動生成されるサブグループ -->
+      <div id="ui-root"></div>
+
+      <!-- 操作ボタン -->
+      <!-- プリセット保存・読み込み -->
+
+      <div class="preset-output" id="presetOutput"></div>
+      <button id="generate">カンマ区切りプロンプト生成</button>
+      <button id="generateLabel">Generate with Labels</button>
+      <button id="generateEnglish">英文プロンプト生成</button>
+      <button id="clearAll">全てクリア</button>
+      <button id="copy">コピー</button>
+      <div class="output" id="output"></div>
+      <!-- プリセット読み込み結果表示用 -->
+      <button id="savePreset">プリセット保存</button>
+      <button id="loadPreset">プリセット読み込み</button>
+    </div>
+
+    <script type="module" src="js/script.js"></script>
+  </body>
+</html>

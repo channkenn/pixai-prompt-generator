@@ -585,6 +585,38 @@
           "description": "服装に合わせた舞台"
         },
         {
+          "id": "environment_objects",
+          "label": "環境オブジェクト・備品",
+          "exclusive": false,
+          "description": "背景に配置される家具、自然物、建物内の設備など、環境を構成するオブジェクト。",
+          "subgroups": [
+            {
+              "id": "indoor_objects",
+              "label": "01_室内・家具・備品",
+              "exclusive": false,
+              "description": "部屋の中にあるオブジェクト（家具、家電、装飾品など）。"
+            },
+            {
+              "id": "kitchen_objects",
+              "label": "01_01厨房備品",
+              "exclusive": false,
+              "description": "部屋の中にあるオブジェクト（家具、家電、装飾品など）。"
+            },
+            {
+              "id": "outdoor_objects",
+              "label": "02_屋外・自然・都市",
+              "exclusive": false,
+              "description": "室外にあるオブジェクト（木、岩、乗り物、建物の一部、道路など）。"
+            },
+            {
+              "id": "celestial_objects",
+              "label": "03_天体・宇宙",
+              "exclusive": false,
+              "description": "空や宇宙空間にあるオブジェクト（星、惑星、銀河、雲、月など）。"
+            }
+          ]
+        },
+        {
           "id": "lighting_atmosphere",
           "label": "照明・雰囲気",
           "exclusive": false

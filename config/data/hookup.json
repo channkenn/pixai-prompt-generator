@@ -45,7 +45,23 @@
       "value": "extremely detailed eyes, detailed facial features"
     },
     { "label": "超高解像度", "value": "absurdres" },
-    { "label": "高解像度", "value": "highres" }
+    { "label": "高解像度", "value": "highres" },
+    {
+      "label": "🎨ジェスチャーの達人",
+      "value": "Gesture Drawing Master, Fluid Gesture Capture, Expressive Line of Action"
+    },
+    {
+      "label": "🎨感情と調和",
+      "value": "Emotional Contour, Perfect Proportions"
+    },
+    {
+      "label": "🎨立体・奥行き表現",
+      "value": "Cross Contour Master, Foreshortening Master, Masterful Construction Lines"
+    },
+    {
+      "label": "🎨解剖学と構造",
+      "value": "Structural Anatomy, Dynamic Anatomy, Anatomical Accuracy"
+    }
   ],
   "base_attributes": [
     { "label": "01_単独（ソロ）", "value": "solo" },
@@ -2784,5 +2800,123 @@
       "label": "03_髪を触る",
       "value": "touching hair, tossing hair, sweeping hair aside"
     }
+  ],
+  "indoor_objects": [
+    { "label": "家具・調度品_椅子", "value": "chair" },
+    { "label": "家具・調度品_机", "value": "desk" },
+    { "label": "家具・調度品_テーブル", "value": "table" },
+    { "label": "家具・調度品_ベッド", "value": "bed" },
+    { "label": "家具・調度品_ソファ", "value": "sofa" },
+    { "label": "家具・調度品_本棚", "value": "bookshelf" },
+    { "label": "家具・調度品_キャビネット", "value": "cabinet" },
+    { "label": "家具・調度品_クッション", "value": "cushion" },
+    { "label": "家具・調度品_絨毯/ラグ", "value": "rug" },
+    { "label": "家具・調度品_カーテン", "value": "curtain" },
+    { "label": "電化製品・設備_テレビ", "value": "television" },
+    { "label": "電化製品・設備_パソコン/PC", "value": "computer" },
+    { "label": "電化製品・設備_モニター", "value": "monitor" },
+    { "label": "電化製品・設備_キーボード", "value": "keyboard" },
+    { "label": "電化製品・設備_スマートフォン", "value": "smartphone" },
+    { "label": "電化製品・設備_ランプ/スタンド", "value": "lamp" },
+    { "label": "電化製品・設備_シャンデリア", "value": "chandelier" },
+    { "label": "電化製品・設備_エアコン", "value": "air conditioner" },
+    { "label": "電化製品・設備_換気扇", "value": "fan" },
+    { "label": "電化製品・設備_暖炉", "value": "fireplace" },
+    { "label": "装飾品・雑貨_花瓶", "value": "vase" },
+    { "label": "装飾品・雑貨_絵画/ポスター", "value": "painting" },
+    { "label": "装飾品・雑貨_写真立て", "value": "photo frame" },
+    { "label": "装飾品・雑貨_鏡", "value": "mirror" },
+    { "label": "装飾品・雑貨_本", "value": "book" },
+    { "label": "装飾品・雑貨_ぬいぐるみ", "value": "stuffed toy" },
+    { "label": "装飾品・雑貨_植物/鉢植え", "value": "potted plant" },
+    { "label": "装飾品・雑貨_キャンドル", "value": "candle" },
+    { "label": "装飾品・雑貨_おもちゃ", "value": "toy" },
+    { "label": "装飾品・雑貨_コップ/マグ", "value": "mug" }
+  ],
+  "outdoor_objects": [
+    { "label": "自然の要素_木", "value": "tree" },
+    { "label": "自然の要素_花", "value": "flower" },
+    { "label": "自然の要素_草/芝生", "value": "grass, lawn" },
+    { "label": "自然の要素_岩/石", "value": "rock, stone" },
+    { "label": "自然の要素_山", "value": "mountain" },
+    { "label": "自然の要素_森/林", "value": "forest, woods" },
+    { "label": "自然の要素_水面/湖", "value": "lake, pond" },
+    { "label": "自然の要素_滝", "value": "waterfall" },
+    { "label": "自然の要素_砂浜", "value": "beach, sand" },
+    { "label": "自然の要素_畑/農地", "value": "field, farmland" },
+    { "label": "都市の構造物_ビル/高層ビル", "value": "building, skyscraper" },
+    { "label": "都市の構造物_家/住宅", "value": "house, residential area" },
+    { "label": "都市の構造物_道路/舗装", "value": "road, pavement" },
+    { "label": "都市の構造物_橋", "value": "bridge" },
+    { "label": "都市の構造物_電柱", "value": "utility pole" },
+    { "label": "都市の構造物_信号機", "value": "traffic light" },
+    { "label": "都市の構造物_ベンチ", "value": "bench" },
+    { "label": "都市の構造物_街灯", "value": "street lamp" },
+    { "label": "都市の構造物_ゴミ箱", "value": "trash can" },
+    { "label": "都市の構造物_フェンス/柵", "value": "fence, railing" },
+    { "label": "乗り物_自動車", "value": "car" },
+    { "label": "乗り物_バス", "value": "bus" },
+    { "label": "乗り物_トラック", "value": "truck" },
+    { "label": "乗り物_電車/列車", "value": "train, railroad car" },
+    { "label": "乗り物_自転車", "value": "bicycle" },
+    { "label": "乗り物_バイク/オートバイ", "value": "motorcycle" },
+    { "label": "乗り物_船", "value": "ship, boat" },
+    { "label": "乗り物_飛行機/航空機", "value": "airplane, aircraft" },
+    { "label": "乗り物_路面電車", "value": "tram" },
+    { "label": "乗り物_気球", "value": "hot air balloon" }
+  ],
+  "celestial_objects": [
+    { "label": "天体_太陽", "value": "sun" },
+    { "label": "天体_月", "value": "moon" },
+    { "label": "天体_地球", "value": "earth" },
+    { "label": "天体_惑星 (一般)", "value": "planet" },
+    { "label": "天体_星 (一般)", "value": "star" },
+    { "label": "天体_彗星", "value": "comet" },
+    { "label": "天体_流星/流れ星", "value": "meteor, shooting star" },
+    { "label": "天体_小惑星", "value": "asteroid" },
+    { "label": "天体_土星 (輪)", "value": "saturn, saturn rings" },
+    { "label": "天体_星座", "value": "constellation" },
+    { "label": "宇宙_銀河", "value": "galaxy" },
+    { "label": "宇宙_天の川", "value": "milky way" },
+    { "label": "宇宙_星雲", "value": "nebula" },
+    { "label": "宇宙_ブラックホール", "value": "black hole" },
+    { "label": "宇宙_宇宙空間", "value": "space" },
+    { "label": "宇宙_SF的宇宙船", "value": "spaceship, ufo" },
+    { "label": "宇宙_宇宙ステーション", "value": "space station" },
+    { "label": "宇宙_異星の風景", "value": "alien planet, exoplanet surface" },
+    { "label": "宇宙_宇宙塵/星屑", "value": "cosmic dust, stardust" },
+    { "label": "宇宙_ワームホール", "value": "wormhole" },
+    { "label": "大気現象_雲 (一般)", "value": "cloud" },
+    { "label": "大気現象_積乱雲", "value": "cumulonimbus" },
+    { "label": "大気現象_オーロラ", "value": "aurora" },
+    { "label": "大気現象_虹", "value": "rainbow" },
+    { "label": "大気現象_雷/稲妻", "value": "lightning, thunder" },
+    { "label": "大気現象_日食/月食", "value": "eclipse" },
+    { "label": "大気現象_夕焼け/朝焼け", "value": "sunset sky, sunrise sky" },
+    { "label": "大気現象_霞/もや", "value": "haze, mist" },
+    { "label": "大気現象_蜃気楼", "value": "mirage" },
+    {
+      "label": "大気現象_光芒/天使の梯子",
+      "value": "crepuscular rays, god rays"
+    }
+  ],
+  "kitchen_objects": [
+    {
+      "label": "厨房_調理台/カウンター",
+      "value": "kitchen counter, work table"
+    },
+    { "label": "厨房_冷蔵庫", "value": "refrigerator, fridge" },
+    { "label": "厨房_ガスレンジ/コンロ", "value": "stove, gas range" },
+    { "label": "厨房_オーブン", "value": "oven" },
+    { "label": "厨房_電子レンジ", "value": "microwave oven" },
+    { "label": "厨房_シンク/流し台", "value": "sink, washbasin" },
+    { "label": "厨房_換気扇/フード", "value": "range hood, ventilation" },
+    { "label": "厨房_鍋/フライパン", "value": "pot, pan, cooking utensils" },
+    { "label": "厨房_包丁/ナイフ", "value": "knife, kitchen knife" },
+    { "label": "厨房_まな板", "value": "cutting board" },
+    { "label": "厨房_食器棚", "value": "cabinet, cupboard" },
+    { "label": "厨房_スパイスラック", "value": "spice rack" },
+    { "label": "厨房_コーヒーメーカー", "value": "coffee maker" },
+    { "label": "厨房_ティーセット", "value": "tea set" }
   ]
 }
