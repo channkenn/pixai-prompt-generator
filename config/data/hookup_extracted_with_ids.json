@@ -25,13 +25,21 @@
       "label": "0_よくばりセットS (節約版)",
       "value": "masterpiece, best quality, absurdres, highres, 8k unity wallpaper"
     },
-    { "id": 6, "label": "8K壁紙", "value": "8k unity wallpaper" },
+    {
+      "id": 6,
+      "label": "8K壁紙",
+      "value": "8k unity wallpaper"
+    },
     {
       "id": 7,
       "label": "ライティングの緻密さ",
       "value": "(detailed lighting:1.2), complex light and shadow"
     },
-    { "id": 8, "label": "傑作 (強化 x1.1)", "value": "(masterpiece:1.1)" },
+    {
+      "id": 8,
+      "label": "傑作 (強化 x1.1)",
+      "value": "(masterpiece:1.1)"
+    },
     {
       "id": 9,
       "label": "前景の緻密さ (強化)",
@@ -62,8 +70,16 @@
       "label": "表情の緻密さ",
       "value": "extremely detailed eyes, detailed facial features"
     },
-    { "id": 15, "label": "超高解像度", "value": "absurdres" },
-    { "id": 16, "label": "高解像度", "value": "highres" },
+    {
+      "id": 15,
+      "label": "超高解像度",
+      "value": "absurdres"
+    },
+    {
+      "id": 16,
+      "label": "高解像度",
+      "value": "highres"
+    },
     {
       "id": 17,
       "label": "🎨ジェスチャーの達人",
@@ -86,20 +102,56 @@
     }
   ],
   "base_attributes": [
-    { "id": 21, "label": "01_単独（ソロ）", "value": "solo" },
-    { "id": 22, "label": "01_少女1人", "value": "1girl" },
-    { "id": 23, "label": "01_少年1人", "value": "1boy" },
-    { "id": 24, "label": "02_二人（デュオ）", "value": "duo, 2 people" },
-    { "id": 25, "label": "02_少女2人（yuri）", "value": "2girls, yuri" },
-    { "id": 26, "label": "02_少年2人（yaoi）", "value": "2boys, yaoi" },
+    {
+      "id": 21,
+      "label": "01_単独（ソロ）",
+      "value": "solo"
+    },
+    {
+      "id": 22,
+      "label": "01_少女1人",
+      "value": "1girl"
+    },
+    {
+      "id": 23,
+      "label": "01_少年1人",
+      "value": "1boy"
+    },
+    {
+      "id": 24,
+      "label": "02_二人（デュオ）",
+      "value": "duo, 2 people"
+    },
+    {
+      "id": 25,
+      "label": "02_少女2人（yuri）",
+      "value": "2girls, yuri"
+    },
+    {
+      "id": 26,
+      "label": "02_少年2人（yaoi）",
+      "value": "2boys, yaoi"
+    },
     {
       "id": 27,
       "label": "02_男女1組（hetero）",
       "value": "1girl and 1boy, hetero"
     },
-    { "id": 28, "label": "03_グループ", "value": "group" },
-    { "id": 29, "label": "03_少女3人", "value": "3girls" },
-    { "id": 30, "label": "03_少年3人", "value": "3boys" },
+    {
+      "id": 28,
+      "label": "03_グループ",
+      "value": "group"
+    },
+    {
+      "id": 29,
+      "label": "03_少女3人",
+      "value": "3girls"
+    },
+    {
+      "id": 30,
+      "label": "03_少年3人",
+      "value": "3boys"
+    },
     {
       "id": 31,
       "label": "03_複数人（hetero）",
@@ -115,8 +167,16 @@
       "label": "03_複数人（yuri）",
       "value": "multiple characters, group, yuri"
     },
-    { "id": 34, "label": "03_３人（トリオ）", "value": "trio, 3 people" },
-    { "id": 35, "label": "04_先生と生徒", "value": "teacher and student" },
+    {
+      "id": 34,
+      "label": "03_３人（トリオ）",
+      "value": "trio, 3 people"
+    },
+    {
+      "id": 35,
+      "label": "04_先生と生徒",
+      "value": "teacher and student"
+    },
     {
       "id": 36,
       "label": "04_女性（大人）と少女",
@@ -139,8 +199,16 @@
     }
   ],
   "species": [
-    { "id": 40, "label": "アンドロイド", "value": "android" },
-    { "id": 41, "label": "エルフ", "value": "elf" },
+    {
+      "id": 40,
+      "label": "アンドロイド",
+      "value": "android"
+    },
+    {
+      "id": 41,
+      "label": "エルフ",
+      "value": "elf"
+    },
     {
       "id": 42,
       "label": "キョンシー",
@@ -151,12 +219,36 @@
       "label": "サイボーグ",
       "value": "cyborg, cyborg arms, cyborg legs"
     },
-    { "id": 44, "label": "サキュバス", "value": "succubus, wings, horns" },
-    { "id": 45, "label": "ミイラ", "value": "mummy" },
-    { "id": 46, "label": "ロボット", "value": "robot" },
-    { "id": 47, "label": "ヴァンパイア", "value": "vampire, fangs, cape" },
-    { "id": 48, "label": "人間", "value": "human" },
-    { "id": 49, "label": "天使", "value": "angel, wings, halo, angel clothes" },
+    {
+      "id": 44,
+      "label": "サキュバス",
+      "value": "succubus, wings, horns"
+    },
+    {
+      "id": 45,
+      "label": "ミイラ",
+      "value": "mummy"
+    },
+    {
+      "id": 46,
+      "label": "ロボット",
+      "value": "robot"
+    },
+    {
+      "id": 47,
+      "label": "ヴァンパイア",
+      "value": "vampire, fangs, cape"
+    },
+    {
+      "id": 48,
+      "label": "人間",
+      "value": "human"
+    },
+    {
+      "id": 49,
+      "label": "天使",
+      "value": "angel, wings, halo, angel clothes"
+    },
     {
       "id": 50,
       "label": "妖精",
@@ -167,43 +259,139 @@
       "label": "悪魔",
       "value": "devil horn, devil tail, devil wings"
     },
-    { "id": 52, "label": "獣人", "value": "beastkin" },
-    { "id": 53, "label": "鬼", "value": "oni, fangs, kimono" }
+    {
+      "id": 52,
+      "label": "獣人",
+      "value": "beastkin"
+    },
+    {
+      "id": 53,
+      "label": "鬼",
+      "value": "oni, fangs, kimono"
+    }
   ],
   "skin_color": [
-    { "id": 54, "label": "健康的な肌色", "value": "sun-kissed skin" },
-    { "id": 55, "label": "小麦色", "value": "tan skin" },
-    { "id": 56, "label": "普通", "value": "fair skin" },
-    { "id": 57, "label": "濃い肌色", "value": "dark skin" },
-    { "id": 58, "label": "色白", "value": "pale skin" }
+    {
+      "id": 54,
+      "label": "健康的な肌色",
+      "value": "sun-kissed skin"
+    },
+    {
+      "id": 55,
+      "label": "小麦色",
+      "value": "tan skin"
+    },
+    {
+      "id": 56,
+      "label": "普通",
+      "value": "fair skin"
+    },
+    {
+      "id": 57,
+      "label": "濃い肌色",
+      "value": "dark skin"
+    },
+    {
+      "id": 58,
+      "label": "色白",
+      "value": "pale skin"
+    }
   ],
   "breasts_type": [
-    { "id": 59, "label": "ぺたんこおっぱい（貧乳）", "value": "flat chest" },
-    { "id": 60, "label": "垂れ乳", "value": "saggy breasts" },
-    { "id": 61, "label": "小さめのおっぱい（微乳）", "value": "small breasts" },
-    { "id": 62, "label": "巨乳", "value": "large breasts" },
-    { "id": 63, "label": "普通のおっぱい", "value": "medium breasts" },
-    { "id": 64, "label": "爆乳", "value": "huge breasts" },
-    { "id": 65, "label": "超爆乳", "value": "(huge breasts)" }
+    {
+      "id": 59,
+      "label": "ぺたんこおっぱい（貧乳）",
+      "value": "flat chest"
+    },
+    {
+      "id": 60,
+      "label": "垂れ乳",
+      "value": "saggy breasts"
+    },
+    {
+      "id": 61,
+      "label": "小さめのおっぱい（微乳）",
+      "value": "small breasts"
+    },
+    {
+      "id": 62,
+      "label": "巨乳",
+      "value": "large breasts"
+    },
+    {
+      "id": 63,
+      "label": "普通のおっぱい",
+      "value": "medium breasts"
+    },
+    {
+      "id": 64,
+      "label": "爆乳",
+      "value": "huge breasts"
+    },
+    {
+      "id": 65,
+      "label": "超爆乳",
+      "value": "(huge breasts)"
+    }
   ],
   "nipples_type": [
-    { "id": 66, "label": "勃起乳首", "value": "erection of nipple" },
-    { "id": 67, "label": "大きい乳首", "value": "thick nipples" },
-    { "id": 68, "label": "小さい乳首", "value": "small nipples" },
-    { "id": 69, "label": "普通サイズの乳首", "value": "nipples" },
-    { "id": 70, "label": "陥没乳首", "value": "inverted nipples" }
+    {
+      "id": 66,
+      "label": "勃起乳首",
+      "value": "erection of nipple"
+    },
+    {
+      "id": 67,
+      "label": "大きい乳首",
+      "value": "thick nipples"
+    },
+    {
+      "id": 68,
+      "label": "小さい乳首",
+      "value": "small nipples"
+    },
+    {
+      "id": 69,
+      "label": "普通サイズの乳首",
+      "value": "nipples"
+    },
+    {
+      "id": 70,
+      "label": "陥没乳首",
+      "value": "inverted nipples"
+    }
   ],
   "areolas_type": [
-    { "id": 71, "label": "ぶつぶるがある乳輪", "value": "montgomery gland" },
-    { "id": 72, "label": "もっと大きい乳輪", "value": "big areolaを強調" },
+    {
+      "id": 71,
+      "label": "ぶつぶるがある乳輪",
+      "value": "montgomery gland"
+    },
+    {
+      "id": 72,
+      "label": "もっと大きい乳輪",
+      "value": "big areolaを強調"
+    },
     {
       "id": 73,
       "label": "パフィーニップル（膨らんでいる乳輪）",
       "value": "puffy nipples"
     },
-    { "id": 74, "label": "大きい乳輪", "value": "big areola" },
-    { "id": 75, "label": "小さい乳輪", "value": "small areolas" },
-    { "id": 76, "label": "普通サイズの乳輪", "value": "areolas" }
+    {
+      "id": 74,
+      "label": "大きい乳輪",
+      "value": "big areola"
+    },
+    {
+      "id": 75,
+      "label": "小さい乳輪",
+      "value": "small areolas"
+    },
+    {
+      "id": 76,
+      "label": "普通サイズの乳輪",
+      "value": "areolas"
+    }
   ],
   "nipples_areolas_color": [
     {
@@ -211,7 +399,11 @@
       "label": "ピンク色の乳首と乳輪",
       "value": "pink nipple, pink areolae"
     },
-    { "id": 78, "label": "普通の色", "value": "nipple, areolae" },
+    {
+      "id": 78,
+      "label": "普通の色",
+      "value": "nipple, areolae"
+    },
     {
       "id": 79,
       "label": "濃い焦げ茶色の乳首と乳輪",
@@ -244,37 +436,101 @@
     }
   ],
   "age_body": [
-    { "id": 85, "label": "01_ティーン", "value": "teenager, adolescent" },
-    { "id": 86, "label": "01_大人", "value": "adult, young adult" },
-    { "id": 87, "label": "01_幼女", "value": "loli, young child" },
-    { "id": 88, "label": "01_成熟", "value": "mature, milf, cougar" },
-    { "id": 89, "label": "01_高齢", "value": "elderly, old woman, old man" },
-    { "id": 90, "label": "02_がっちり/大柄", "value": "bulky, large build" },
-    { "id": 91, "label": "02_小柄・華奢", "value": "petite, frail" },
-    { "id": 92, "label": "02_筋肉質", "value": "muscular, athletic build" },
-    { "id": 93, "label": "02_細身・痩せ型", "value": "slim, skinny" },
-    { "id": 94, "label": "02_高身長", "value": "tall, towering" },
-    { "id": 95, "label": "03_お腹マフィントップ", "value": "muffin top" },
-    { "id": 96, "label": "03_ふくよか", "value": "chubby, fat, overweight" },
+    {
+      "id": 85,
+      "label": "01_ティーン",
+      "value": "teenager, adolescent"
+    },
+    {
+      "id": 86,
+      "label": "01_大人",
+      "value": "adult, young adult"
+    },
+    {
+      "id": 87,
+      "label": "01_幼女",
+      "value": "loli, young child"
+    },
+    {
+      "id": 88,
+      "label": "01_成熟",
+      "value": "mature, milf, cougar"
+    },
+    {
+      "id": 89,
+      "label": "01_高齢",
+      "value": "elderly, old woman, old man"
+    },
+    {
+      "id": 90,
+      "label": "02_がっちり/大柄",
+      "value": "bulky, large build"
+    },
+    {
+      "id": 91,
+      "label": "02_小柄・華奢",
+      "value": "petite, frail"
+    },
+    {
+      "id": 92,
+      "label": "02_筋肉質",
+      "value": "muscular, athletic build"
+    },
+    {
+      "id": 93,
+      "label": "02_細身・痩せ型",
+      "value": "slim, skinny"
+    },
+    {
+      "id": 94,
+      "label": "02_高身長",
+      "value": "tall, towering"
+    },
+    {
+      "id": 95,
+      "label": "03_お腹マフィントップ",
+      "value": "muffin top"
+    },
+    {
+      "id": 96,
+      "label": "03_ふくよか",
+      "value": "chubby, fat, overweight"
+    },
     {
       "id": 97,
       "label": "03_曲線美・グラマラス",
       "value": "curvy, hourglass figure, voluptuous"
     },
-    { "id": 98, "label": "03_標準体型", "value": "average body type" },
+    {
+      "id": 98,
+      "label": "03_標準体型",
+      "value": "average body type"
+    },
     {
       "id": 99,
       "label": "03_皮膚の食い込み",
       "value": "skindentation, skin pressed, soft skin"
     },
-    { "id": 100, "label": "03_脂肪多め", "value": "fluffy, plump, thick" },
-    { "id": 101, "label": "04_お腹周り", "value": "belly fat, love handles" },
+    {
+      "id": 100,
+      "label": "03_脂肪多め",
+      "value": "fluffy, plump, thick"
+    },
+    {
+      "id": 101,
+      "label": "04_お腹周り",
+      "value": "belly fat, love handles"
+    },
     {
       "id": 102,
       "label": "04_むちむち下半身",
       "value": "wide hips, thick thighs, large butt"
     },
-    { "id": 103, "label": "04_ももぷく", "value": "skindentation" },
+    {
+      "id": 103,
+      "label": "04_ももぷく",
+      "value": "skindentation"
+    },
     {
       "id": 104,
       "label": "04_キャメル・トウ",
@@ -295,7 +551,11 @@
       "label": "04_日焼け跡",
       "value": "tanlines, suntan, swimsuit tan"
     },
-    { "id": 108, "label": "04_細い腰", "value": "small waist, thin waist" },
+    {
+      "id": 108,
+      "label": "04_細い腰",
+      "value": "small waist, thin waist"
+    },
     {
       "id": 109,
       "label": "04_背骨・背中のくぼみ",
@@ -323,36 +583,88 @@
     }
   ],
   "hair_details": [
-    { "id": 114, "label": "01_ショート", "value": "short hair" },
-    { "id": 115, "label": "02_ボブカット", "value": "bob cut" },
+    {
+      "id": 114,
+      "label": "01_ショート",
+      "value": "short hair"
+    },
+    {
+      "id": 115,
+      "label": "02_ボブカット",
+      "value": "bob cut"
+    },
     {
       "id": 116,
       "label": "03_ミディアム",
       "value": "medium hair, shoulder length hair"
     },
-    { "id": 117, "label": "04_ロング", "value": "long hair" },
+    {
+      "id": 117,
+      "label": "04_ロング",
+      "value": "long hair"
+    },
     {
       "id": 118,
       "label": "05_超ロング",
       "value": "very long hair, floor length hair"
     },
-    { "id": 119, "label": "06_姫カット", "value": "hime cut, blunt bangs" }
+    {
+      "id": 119,
+      "label": "06_姫カット",
+      "value": "hime cut, blunt bangs"
+    }
   ],
   "hair_color": [
-    { "id": 120, "label": "01_01_黒髪", "value": "black■" },
-    { "id": 121, "label": "01_02_茶髪 (一般的)", "value": "brown■" },
-    { "id": 122, "label": "01_03_金髪", "value": "blonde■" },
+    {
+      "id": 120,
+      "label": "01_01_黒髪",
+      "value": "black■"
+    },
+    {
+      "id": 121,
+      "label": "01_02_茶髪 (一般的)",
+      "value": "brown■"
+    },
+    {
+      "id": 122,
+      "label": "01_03_金髪",
+      "value": "blonde■"
+    },
     {
       "id": 123,
       "label": "01_04_プラチナブロンド",
       "value": "platinum blonde■"
     },
-    { "id": 124, "label": "01_05_銀髪・白髪", "value": "silver white■" },
-    { "id": 125, "label": "01_06_赤髪", "value": "red■" },
-    { "id": 126, "label": "01_07_青髪", "value": "blue■" },
-    { "id": 127, "label": "01_08_緑髪", "value": "green■" },
-    { "id": 128, "label": "01_09_紫髪", "value": "purple■" },
-    { "id": 129, "label": "01_10_ピンク髪", "value": "pink■" },
+    {
+      "id": 124,
+      "label": "01_05_銀髪・白髪",
+      "value": "silver white■"
+    },
+    {
+      "id": 125,
+      "label": "01_06_赤髪",
+      "value": "red■"
+    },
+    {
+      "id": 126,
+      "label": "01_07_青髪",
+      "value": "blue■"
+    },
+    {
+      "id": 127,
+      "label": "01_08_緑髪",
+      "value": "green■"
+    },
+    {
+      "id": 128,
+      "label": "01_09_紫髪",
+      "value": "purple■"
+    },
+    {
+      "id": 129,
+      "label": "01_10_ピンク髪",
+      "value": "pink■"
+    },
     {
       "id": 130,
       "label": "02_11_メッシュ/ハイライト",
@@ -368,7 +680,11 @@
       "label": "02_13_グラデーション",
       "value": "ombre hair, gradient hair color"
     },
-    { "id": 133, "label": "02_14_毛先染め", "value": "dip dye, dyed tips" },
+    {
+      "id": 133,
+      "label": "02_14_毛先染め",
+      "value": "dip dye, dyed tips"
+    },
     {
       "id": 134,
       "label": "02_15_ツートンカラー",
@@ -386,14 +702,46 @@
     }
   ],
   "gaze_control": [
-    { "id": 137, "label": "01_カメラ目線", "value": "looking at viewer" },
-    { "id": 138, "label": "01_上目遣い", "value": "looking up at viewer" },
-    { "id": 139, "label": "01_下目遣い", "value": "looking down at viewer" },
-    { "id": 140, "label": "01_振り返る", "value": "looking back" },
-    { "id": 141, "label": "01_流し目", "value": "side glance" },
-    { "id": 142, "label": "01_視線を逸らす", "value": "looking away" },
-    { "id": 143, "label": "02_呆れる・目を回す", "value": "rolling eyes" },
-    { "id": 144, "label": "02_寄り目", "value": "cross-eyed" },
+    {
+      "id": 137,
+      "label": "01_カメラ目線",
+      "value": "looking at viewer"
+    },
+    {
+      "id": 138,
+      "label": "01_上目遣い",
+      "value": "looking up at viewer"
+    },
+    {
+      "id": 139,
+      "label": "01_下目遣い",
+      "value": "looking down at viewer"
+    },
+    {
+      "id": 140,
+      "label": "01_振り返る",
+      "value": "looking back"
+    },
+    {
+      "id": 141,
+      "label": "01_流し目",
+      "value": "side glance"
+    },
+    {
+      "id": 142,
+      "label": "01_視線を逸らす",
+      "value": "looking away"
+    },
+    {
+      "id": 143,
+      "label": "02_呆れる・目を回す",
+      "value": "rolling eyes"
+    },
+    {
+      "id": 144,
+      "label": "02_寄り目",
+      "value": "cross-eyed"
+    },
     {
       "id": 145,
       "label": "02_目を開かない",
@@ -404,41 +752,73 @@
       "label": "02_目線が定まらない",
       "value": "wandering eyes, unfocused gaze"
     },
-    { "id": 147, "label": "03_半目", "value": "half-closed eyes, sleepy eyes" },
+    {
+      "id": 147,
+      "label": "03_半目",
+      "value": "half-closed eyes, sleepy eyes"
+    },
     {
       "id": 148,
       "label": "03_潤んだ目線",
       "value": "moist eyes, tearful gaze"
     },
-    { "id": 149, "label": "03_狂気的な目", "value": "crazy eyes" },
+    {
+      "id": 149,
+      "label": "03_狂気的な目",
+      "value": "crazy eyes"
+    },
     {
       "id": 150,
       "label": "03_瞳を閉じて微笑む",
       "value": "closed mouth smile, closed eyes"
     },
-    { "id": 151, "label": "03_鋭い目線", "value": "sharp gaze, intense stare" }
+    {
+      "id": 151,
+      "label": "03_鋭い目線",
+      "value": "sharp gaze, intense stare"
+    }
   ],
   "eye_expression": [
-    { "id": 152, "label": "01_ぐるぐる目", "value": "swirl eyes, dizzy" },
-    { "id": 153, "label": "01_アヘ顔目", "value": "ahegao eyes, crossed eyes" },
+    {
+      "id": 152,
+      "label": "01_ぐるぐる目",
+      "value": "swirl eyes, dizzy"
+    },
+    {
+      "id": 153,
+      "label": "01_アヘ顔目",
+      "value": "ahegao eyes, crossed eyes"
+    },
     {
       "id": 154,
       "label": "01_ハートハイライト",
       "value": "heart highlight in eyes"
     },
-    { "id": 155, "label": "02_ウィンク", "value": "winking, one eye closed" },
+    {
+      "id": 155,
+      "label": "02_ウィンク",
+      "value": "winking, one eye closed"
+    },
     {
       "id": 156,
       "label": "02_キラキラした目",
       "value": "sparkling eyes, shiny eyes"
     },
-    { "id": 157, "label": "02_涙目", "value": "teary eyes, crying" },
+    {
+      "id": 157,
+      "label": "02_涙目",
+      "value": "teary eyes, crying"
+    },
     {
       "id": 158,
       "label": "02_照れ/上目遣い",
       "value": "blush, looking up, shy"
     },
-    { "id": 159, "label": "03_三白眼", "value": "sanpaku" },
+    {
+      "id": 159,
+      "label": "03_三白眼",
+      "value": "sanpaku"
+    },
     {
       "id": 160,
       "label": "03_半目/うっすら",
@@ -449,15 +829,31 @@
       "label": "03_鋭い目つき",
       "value": "sharp gaze, glaring, focused eyes"
     },
-    { "id": 162, "label": "04_ジト目", "value": "jitome, contempt" },
+    {
+      "id": 162,
+      "label": "04_ジト目",
+      "value": "jitome, contempt"
+    },
     {
       "id": 163,
       "label": "04_ハイライトなし",
       "value": "empty eyes, dull eyes"
     },
-    { "id": 164, "label": "04_光のない目", "value": "soulless eyes, no pupil" },
-    { "id": 165, "label": "04_死んだ目", "value": "dead eyes" },
-    { "id": 166, "label": "04_濁った目", "value": "cloudy eyes, murky eyes" },
+    {
+      "id": 164,
+      "label": "04_光のない目",
+      "value": "soulless eyes, no pupil"
+    },
+    {
+      "id": 165,
+      "label": "04_死んだ目",
+      "value": "dead eyes"
+    },
+    {
+      "id": 166,
+      "label": "04_濁った目",
+      "value": "cloudy eyes, murky eyes"
+    },
     {
       "id": 167,
       "label": "04_狂気/ゾクゾク",
@@ -465,9 +861,21 @@
     }
   ],
   "eye_shape_and_size": [
-    { "id": 168, "label": "01_つり目", "value": "tsurime, sharp eyes" },
-    { "id": 169, "label": "01_タレ目", "value": "tareme, droopy eyes" },
-    { "id": 170, "label": "01_丸い目", "value": "round eyes, circular eyes" },
+    {
+      "id": 168,
+      "label": "01_つり目",
+      "value": "tsurime, sharp eyes"
+    },
+    {
+      "id": 169,
+      "label": "01_タレ目",
+      "value": "tareme, droopy eyes"
+    },
+    {
+      "id": 170,
+      "label": "01_丸い目",
+      "value": "round eyes, circular eyes"
+    },
     {
       "id": 171,
       "label": "01_切れ長の目",
@@ -478,17 +886,41 @@
       "label": "02_半開き",
       "value": "half-closed eyes, sleepy eyes"
     },
-    { "id": 173, "label": "02_見開き", "value": "wide open eyes, opened eyes" },
+    {
+      "id": 173,
+      "label": "02_見開き",
+      "value": "wide open eyes, opened eyes"
+    },
     {
       "id": 174,
       "label": "03_ハート瞳",
       "value": "heart-shaped pupils, heart eyes"
     },
-    { "id": 175, "label": "03_縦長瞳孔", "value": "slit pupils, cat pupils" },
-    { "id": 176, "label": "04_大きな目", "value": "huge eyes, large pupils" },
-    { "id": 177, "label": "04_小さな目", "value": "small eyes, tiny eyes" },
-    { "id": 178, "label": "05_一重", "value": "monolid, hooded eyes" },
-    { "id": 179, "label": "05_二重", "value": "double eyelids" },
+    {
+      "id": 175,
+      "label": "03_縦長瞳孔",
+      "value": "slit pupils, cat pupils"
+    },
+    {
+      "id": 176,
+      "label": "04_大きな目",
+      "value": "huge eyes, large pupils"
+    },
+    {
+      "id": 177,
+      "label": "04_小さな目",
+      "value": "small eyes, tiny eyes"
+    },
+    {
+      "id": 178,
+      "label": "05_一重",
+      "value": "monolid, hooded eyes"
+    },
+    {
+      "id": 179,
+      "label": "05_二重",
+      "value": "double eyelids"
+    },
     {
       "id": 180,
       "label": "06_まつげ強調",
@@ -499,34 +931,110 @@
       "label": "06_片目隠し",
       "value": "one eye covered, single eye visible"
     },
-    { "id": 182, "label": "06_瞼detail", "value": "detailed eyelids, eyeliner" }
+    {
+      "id": 182,
+      "label": "06_瞼detail",
+      "value": "detailed eyelids, eyeliner"
+    }
   ],
   "eye_color": [
-    { "id": 183, "label": "紫色", "value": "purple eyes" },
-    { "id": 184, "label": "緑色", "value": "green eyes" },
-    { "id": 185, "label": "茶色", "value": "brown eyes" },
-    { "id": 186, "label": "赤色", "value": "red eyes" },
-    { "id": 187, "label": "金色・黄色", "value": "golden eyes" },
-    { "id": 188, "label": "銀色・灰色", "value": "silver eyes" },
-    { "id": 189, "label": "青色", "value": "blue eyes" },
-    { "id": 190, "label": "黒色", "value": "black eyes" }
+    {
+      "id": 183,
+      "label": "紫色",
+      "value": "purple eyes"
+    },
+    {
+      "id": 184,
+      "label": "緑色",
+      "value": "green eyes"
+    },
+    {
+      "id": 185,
+      "label": "茶色",
+      "value": "brown eyes"
+    },
+    {
+      "id": 186,
+      "label": "赤色",
+      "value": "red eyes"
+    },
+    {
+      "id": 187,
+      "label": "金色・黄色",
+      "value": "golden eyes"
+    },
+    {
+      "id": 188,
+      "label": "銀色・灰色",
+      "value": "silver eyes"
+    },
+    {
+      "id": 189,
+      "label": "青色",
+      "value": "blue eyes"
+    },
+    {
+      "id": 190,
+      "label": "黒色",
+      "value": "black eyes"
+    }
   ],
   "pupil_and_special_effects": [
-    { "id": 191, "label": "01_オッドアイ/金銀妖瞳", "value": "heterochromia" },
-    { "id": 192, "label": "01_グラデーションの瞳", "value": "gradient eyes" },
-    { "id": 193, "label": "01_ダイヤ型の瞳孔", "value": "diamond pupils" },
-    { "id": 194, "label": "01_幾何学模様の瞳", "value": "geometric pupils" },
-    { "id": 195, "label": "01_星の瞳孔", "value": "star-shaped pupils" },
-    { "id": 196, "label": "01_縦長の瞳孔", "value": "slit pupils" },
-    { "id": 197, "label": "02_ジト目", "value": "jitome" },
+    {
+      "id": 191,
+      "label": "01_オッドアイ/金銀妖瞳",
+      "value": "heterochromia"
+    },
+    {
+      "id": 192,
+      "label": "01_グラデーションの瞳",
+      "value": "gradient eyes"
+    },
+    {
+      "id": 193,
+      "label": "01_ダイヤ型の瞳孔",
+      "value": "diamond pupils"
+    },
+    {
+      "id": 194,
+      "label": "01_幾何学模様の瞳",
+      "value": "geometric pupils"
+    },
+    {
+      "id": 195,
+      "label": "01_星の瞳孔",
+      "value": "star-shaped pupils"
+    },
+    {
+      "id": 196,
+      "label": "01_縦長の瞳孔",
+      "value": "slit pupils"
+    },
+    {
+      "id": 197,
+      "label": "02_ジト目",
+      "value": "jitome"
+    },
     {
       "id": 198,
       "label": "02_ハイライトがない目",
       "value": "no pupils, blank eyes"
     },
-    { "id": 199, "label": "02_ハート目", "value": "heart-shaped pupils" },
-    { "id": 200, "label": "02_バツ印の瞳孔", "value": "x-shaped pupils" },
-    { "id": 201, "label": "02_三白眼", "value": "sanpaku" },
+    {
+      "id": 199,
+      "label": "02_ハート目",
+      "value": "heart-shaped pupils"
+    },
+    {
+      "id": 200,
+      "label": "02_バツ印の瞳孔",
+      "value": "x-shaped pupils"
+    },
+    {
+      "id": 201,
+      "label": "02_三白眼",
+      "value": "sanpaku"
+    },
     {
       "id": 202,
       "label": "02_泣き出しそうな目",
@@ -537,7 +1045,11 @@
       "label": "03_サイバーな光沢",
       "value": "cyber eyes, LED eyes"
     },
-    { "id": 204, "label": "03_機械の目/時計の目", "value": "clockwork eyes" },
+    {
+      "id": 204,
+      "label": "03_機械の目/時計の目",
+      "value": "clockwork eyes"
+    },
     {
       "id": 205,
       "label": "03_渦巻きの瞳",
@@ -548,7 +1060,11 @@
       "label": "03_瞳の中の景色",
       "value": "scenery in eyes, galaxy in eyes"
     },
-    { "id": 207, "label": "03_輝く瞳/発光", "value": "glowing eyes" }
+    {
+      "id": 207,
+      "label": "03_輝く瞳/発光",
+      "value": "glowing eyes"
+    }
   ],
   "highlight_and_texture": [
     {
@@ -561,7 +1077,11 @@
       "label": "ハイライトなし/死んだ目 (No highlights/Dead eyes)",
       "value": "empty eyes"
     },
-    { "id": 210, "label": "充血した目", "value": "bloodshot eyes" },
+    {
+      "id": 210,
+      "label": "充血した目",
+      "value": "bloodshot eyes"
+    },
     {
       "id": 211,
       "label": "単一ハイライト (Simple reflection)",
@@ -579,8 +1099,16 @@
     }
   ],
   "mouth_expression": [
-    { "id": 214, "label": "01_タラコ唇", "value": "full lips, thick lips" },
-    { "id": 215, "label": "01_口を開ける", "value": "open mouth" },
+    {
+      "id": 214,
+      "label": "01_タラコ唇",
+      "value": "full lips, thick lips"
+    },
+    {
+      "id": 215,
+      "label": "01_口を開ける",
+      "value": "open mouth"
+    },
     {
       "id": 216,
       "label": "01_小さな丸い口",
@@ -591,7 +1119,11 @@
       "label": "01_少し開いた唇",
       "value": "parted lips, slightly open mouth"
     },
-    { "id": 218, "label": "01_猫口", "value": "cat mouth, :3 expression" },
+    {
+      "id": 218,
+      "label": "01_猫口",
+      "value": "cat mouth, :3 expression"
+    },
     {
       "id": 219,
       "label": "01_閉じた口（無表情）",
@@ -602,83 +1134,235 @@
       "label": "02_不敵な歯/犬歯",
       "value": "sharp teeth, fanged smile"
     },
-    { "id": 221, "label": "02_八重歯", "value": "fang, single fang" },
-    { "id": 222, "label": "02_歯を見せる", "value": "showing teeth" },
-    { "id": 223, "label": "02_舌を出す", "value": "tongue out" },
+    {
+      "id": 221,
+      "label": "02_八重歯",
+      "value": "fang, single fang"
+    },
+    {
+      "id": 222,
+      "label": "02_歯を見せる",
+      "value": "showing teeth"
+    },
+    {
+      "id": 223,
+      "label": "02_舌を出す",
+      "value": "tongue out"
+    },
     {
       "id": 224,
       "label": "03_何かを咥える",
       "value": "object in mouth, holding with mouth"
     },
-    { "id": 225, "label": "03_唇を噛む", "value": "biting lip" },
+    {
+      "id": 225,
+      "label": "03_唇を噛む",
+      "value": "biting lip"
+    },
     {
       "id": 226,
       "label": "03_唇を尖らす",
       "value": "puckered lips, puckering"
     },
-    { "id": 227, "label": "03_歯を食いしばる", "value": "clenched teeth" }
+    {
+      "id": 227,
+      "label": "03_歯を食いしばる",
+      "value": "clenched teeth"
+    }
   ],
   "accessories": [
-    { "id": 228, "label": "サングラス", "value": "sunglasses" },
-    { "id": 229, "label": "スカーフ", "value": "scarf" },
-    { "id": 230, "label": "チェーン", "value": "chain" },
-    { "id": 231, "label": "チョーカー", "value": "choker" },
-    { "id": 232, "label": "ネックレス", "value": "necklace" },
-    { "id": 233, "label": "ピアス/イヤリング", "value": "earrings" },
-    { "id": 234, "label": "ブレスレット", "value": "bracelet" },
-    { "id": 235, "label": "ヘッドバンド", "value": "headband" },
-    { "id": 236, "label": "リボン", "value": "ribbon" },
-    { "id": 237, "label": "懐中時計", "value": "pocket watch" },
-    { "id": 238, "label": "手袋", "value": "gloves" },
-    { "id": 239, "label": "指抜き手袋", "value": "fingerless gloves" },
-    { "id": 240, "label": "指輪", "value": "ring" },
-    { "id": 241, "label": "眼鏡", "value": "glasses" },
-    { "id": 242, "label": "腰ベルト", "value": "belt" },
-    { "id": 243, "label": "花冠", "value": "flower crown" }
+    {
+      "id": 228,
+      "label": "サングラス",
+      "value": "sunglasses"
+    },
+    {
+      "id": 229,
+      "label": "スカーフ",
+      "value": "scarf"
+    },
+    {
+      "id": 230,
+      "label": "チェーン",
+      "value": "chain"
+    },
+    {
+      "id": 231,
+      "label": "チョーカー",
+      "value": "choker"
+    },
+    {
+      "id": 232,
+      "label": "ネックレス",
+      "value": "necklace"
+    },
+    {
+      "id": 233,
+      "label": "ピアス/イヤリング",
+      "value": "earrings"
+    },
+    {
+      "id": 234,
+      "label": "ブレスレット",
+      "value": "bracelet"
+    },
+    {
+      "id": 235,
+      "label": "ヘッドバンド",
+      "value": "headband"
+    },
+    {
+      "id": 236,
+      "label": "リボン",
+      "value": "ribbon"
+    },
+    {
+      "id": 237,
+      "label": "懐中時計",
+      "value": "pocket watch"
+    },
+    {
+      "id": 238,
+      "label": "手袋",
+      "value": "gloves"
+    },
+    {
+      "id": 239,
+      "label": "指抜き手袋",
+      "value": "fingerless gloves"
+    },
+    {
+      "id": 240,
+      "label": "指輪",
+      "value": "ring"
+    },
+    {
+      "id": 241,
+      "label": "眼鏡",
+      "value": "glasses"
+    },
+    {
+      "id": 242,
+      "label": "腰ベルト",
+      "value": "belt"
+    },
+    {
+      "id": 243,
+      "label": "花冠",
+      "value": "flower crown"
+    }
   ],
   "emotion_fx": [
-    { "id": 244, "label": "00_喜び/笑顔", "value": "happy, smile" },
-    { "id": 245, "label": "00_怒り", "value": "angry, glaring" },
-    { "id": 246, "label": "00_悲しみ/泣き顔", "value": "sad, crying" },
-    { "id": 247, "label": "00_驚き", "value": "surprise, wide eyed" },
-    { "id": 248, "label": "01_ショック/驚き", "value": "shocked, wide eyed" },
-    { "id": 249, "label": "01_ドヤ顔/得意げ", "value": "smug" },
+    {
+      "id": 244,
+      "label": "00_喜び/笑顔",
+      "value": "happy, smile"
+    },
+    {
+      "id": 245,
+      "label": "00_怒り",
+      "value": "angry, glaring"
+    },
+    {
+      "id": 246,
+      "label": "00_悲しみ/泣き顔",
+      "value": "sad, crying"
+    },
+    {
+      "id": 247,
+      "label": "00_驚き",
+      "value": "surprise, wide eyed"
+    },
+    {
+      "id": 248,
+      "label": "01_ショック/驚き",
+      "value": "shocked, wide eyed"
+    },
+    {
+      "id": 249,
+      "label": "01_ドヤ顔/得意げ",
+      "value": "smug"
+    },
     {
       "id": 250,
       "label": "01_ワクワクする/興奮",
       "value": "excited, ecstatic"
     },
-    { "id": 251, "label": "01_困惑", "value": "confused, worried" },
-    { "id": 252, "label": "01_怒り/激怒", "value": "angry, furious" },
+    {
+      "id": 251,
+      "label": "01_困惑",
+      "value": "confused, worried"
+    },
+    {
+      "id": 252,
+      "label": "01_怒り/激怒",
+      "value": "angry, furious"
+    },
     {
       "id": 253,
       "label": "01_怒り（目元）",
       "value": "angry eyes, narrow eyes"
     },
-    { "id": 254, "label": "01_恐怖", "value": "fear, scared" },
-    { "id": 255, "label": "01_泣く/涙", "value": "cry, tears, tear up" },
+    {
+      "id": 254,
+      "label": "01_恐怖",
+      "value": "fear, scared"
+    },
+    {
+      "id": 255,
+      "label": "01_泣く/涙",
+      "value": "cry, tears, tear up"
+    },
     {
       "id": 256,
       "label": "01_無表情",
       "value": "expressionless, neutral expression"
     },
-    { "id": 257, "label": "01_皮肉な笑み", "value": "sarcastic smile" },
-    { "id": 258, "label": "01_真剣/決意", "value": "serious, determined" },
-    { "id": 259, "label": "01_笑顔", "value": "smile, happy" },
-    { "id": 260, "label": "01_絶望/落胆", "value": "despair, disappointed" },
-    { "id": 261, "label": "02_はにかみ（微笑）", "value": "nervous smile" },
+    {
+      "id": 257,
+      "label": "01_皮肉な笑み",
+      "value": "sarcastic smile"
+    },
+    {
+      "id": 258,
+      "label": "01_真剣/決意",
+      "value": "serious, determined"
+    },
+    {
+      "id": 259,
+      "label": "01_笑顔",
+      "value": "smile, happy"
+    },
+    {
+      "id": 260,
+      "label": "01_絶望/落胆",
+      "value": "despair, disappointed"
+    },
+    {
+      "id": 261,
+      "label": "02_はにかみ（微笑）",
+      "value": "nervous smile"
+    },
     {
       "id": 262,
       "label": "02_影（目の上）",
       "value": "shadow over eyes, gloom (expression)"
     },
-    { "id": 263, "label": "02_焦り（汗）", "value": "sweat, nervous sweat" },
+    {
+      "id": 263,
+      "label": "02_焦り（汗）",
+      "value": "sweat, nervous sweat"
+    },
     {
       "id": 264,
       "label": "02_照れる/恥ずかしい",
       "value": "shy, embarrassed, flustered"
     },
-    { "id": 265, "label": "02_赤面", "value": "blushing" },
+    {
+      "id": 265,
+      "label": "02_赤面",
+      "value": "blushing"
+    },
     {
       "id": 266,
       "label": "03_キラキラした目",
@@ -721,31 +1405,71 @@
     }
   ],
   "poses_details": [
-    { "id": 274, "label": "しゃがみ", "value": "squatting" },
-    { "id": 275, "label": "ひざ立ち", "value": "kneeling" },
-    { "id": 276, "label": "エロ蹲踞", "value": "spread legs, squatting" },
+    {
+      "id": 274,
+      "label": "しゃがみ",
+      "value": "squatting"
+    },
+    {
+      "id": 275,
+      "label": "ひざ立ち",
+      "value": "kneeling"
+    },
+    {
+      "id": 276,
+      "label": "エロ蹲踞",
+      "value": "spread legs, squatting"
+    },
     {
       "id": 277,
       "label": "スクワット",
       "value": "doing squats, arms behind head"
     },
-    { "id": 278, "label": "四つん這い", "value": "on all fours" },
-    { "id": 279, "label": "寝そべり", "value": "lying" },
-    { "id": 280, "label": "屈む", "value": "bending over" },
-    { "id": 281, "label": "座り", "value": "sitting" },
+    {
+      "id": 278,
+      "label": "四つん這い",
+      "value": "on all fours"
+    },
+    {
+      "id": 279,
+      "label": "寝そべり",
+      "value": "lying"
+    },
+    {
+      "id": 280,
+      "label": "屈む",
+      "value": "bending over"
+    },
+    {
+      "id": 281,
+      "label": "座り",
+      "value": "sitting"
+    },
     {
       "id": 282,
       "label": "振り返る",
       "value": "looking back, glancing over shoulder"
     },
-    { "id": 283, "label": "立ち", "value": "standing" },
+    {
+      "id": 283,
+      "label": "立ち",
+      "value": "standing"
+    },
     {
       "id": 284,
       "label": "背を向ける",
       "value": "turned away, back to viewer"
     },
-    { "id": 285, "label": "走る", "value": "running" },
-    { "id": 286, "label": "飛び跳ねる", "value": "jumping, mid-air" }
+    {
+      "id": 285,
+      "label": "走る",
+      "value": "running"
+    },
+    {
+      "id": 286,
+      "label": "飛び跳ねる",
+      "value": "jumping, mid-air"
+    }
   ],
   "relationship_pose": [
     {
@@ -825,8 +1549,16 @@
     }
   ],
   "sex_action": [
-    { "id": 302, "label": "00_anal sex", "value": "anal sex" },
-    { "id": 303, "label": "00_性行為 (sex)", "value": "sex" },
+    {
+      "id": 302,
+      "label": "00_anal sex",
+      "value": "anal sex"
+    },
+    {
+      "id": 303,
+      "label": "00_性行為 (sex)",
+      "value": "sex"
+    },
     {
       "id": 304,
       "label": "05_ふたなり",
@@ -859,8 +1591,16 @@
       "label": "01_手を隠した正常位",
       "value": "missionary position, arms behind head"
     },
-    { "id": 310, "label": "01_抱きつき正常位", "value": "spooning position" },
-    { "id": 311, "label": "01_正常位", "value": "missionary position" },
+    {
+      "id": 310,
+      "label": "01_抱きつき正常位",
+      "value": "spooning position"
+    },
+    {
+      "id": 311,
+      "label": "01_正常位",
+      "value": "missionary position"
+    },
     {
       "id": 312,
       "label": "01_男性におっぱいを揉まれながらの正常位",
@@ -878,7 +1618,11 @@
     }
   ],
   "doggystyle_sex": [
-    { "id": 315, "label": "01_寝バック", "value": "prone bone" },
+    {
+      "id": 315,
+      "label": "01_寝バック",
+      "value": "prone bone"
+    },
     {
       "id": 316,
       "label": "01_後背位前から見た",
@@ -894,7 +1638,11 @@
       "label": "01_枕を抱えた寝バック",
       "value": "prone bone, holding pillow"
     },
-    { "id": 319, "label": "01_立ちバック", "value": "standing doggy" }
+    {
+      "id": 319,
+      "label": "01_立ちバック",
+      "value": "standing doggy"
+    }
   ],
   "cowgirl_sex": [
     {
@@ -969,7 +1717,11 @@
       "label": "01_対面座位",
       "value": "sitting position, hug, face to face, straddle"
     },
-    { "id": 334, "label": "01_座位 (sitting sex)", "value": "sitting sex" },
+    {
+      "id": 334,
+      "label": "01_座位 (sitting sex)",
+      "value": "sitting sex"
+    },
     {
       "id": 335,
       "label": "01_背面座位",
@@ -1017,7 +1769,11 @@
       "label": "01_背面駅弁",
       "value": "suspended congress, 1 boy hug girl from behind"
     },
-    { "id": 344, "label": "01_駅弁", "value": "suspended congress" }
+    {
+      "id": 344,
+      "label": "01_駅弁",
+      "value": "suspended congress"
+    }
   ],
   "lying_sex": [
     {
@@ -1032,7 +1788,11 @@
     }
   ],
   "other_sex": [
-    { "id": 347, "label": "01_素股", "value": "intercrural sex" },
+    {
+      "id": 347,
+      "label": "01_素股",
+      "value": "intercrural sex"
+    },
     {
       "id": 348,
       "label": "01_顔面騎乗位",
@@ -1060,11 +1820,31 @@
     }
   ],
   "tools_sex": [
-    { "id": 353, "label": "03_アナルディルド", "value": "anal dildo" },
-    { "id": 354, "label": "03_アナルバイブ", "value": "anal vibrator" },
-    { "id": 355, "label": "03_アナルビーズ", "value": "anal beads" },
-    { "id": 356, "label": "03_ディルド", "value": "dildo in vagina" },
-    { "id": 357, "label": "03_バイブ", "value": "vibrator in vagina" },
+    {
+      "id": 353,
+      "label": "03_アナルディルド",
+      "value": "anal dildo"
+    },
+    {
+      "id": 354,
+      "label": "03_アナルバイブ",
+      "value": "anal vibrator"
+    },
+    {
+      "id": 355,
+      "label": "03_アナルビーズ",
+      "value": "anal beads"
+    },
+    {
+      "id": 356,
+      "label": "03_ディルド",
+      "value": "dildo in vagina"
+    },
+    {
+      "id": 357,
+      "label": "03_バイブ",
+      "value": "vibrator in vagina"
+    },
     {
       "id": 358,
       "label": "03_異物混入 (オブジェクト)",
@@ -1077,7 +1857,11 @@
       "label": "04_ところてん",
       "value": "ejaculating while penetrated"
     },
-    { "id": 360, "label": "04_カウパー", "value": "precum, precum drip" },
+    {
+      "id": 360,
+      "label": "04_カウパー",
+      "value": "precum, precum drip"
+    },
     {
       "id": 361,
       "label": "04_事後（アナルに中出し後）",
@@ -1093,9 +1877,21 @@
       "label": "04_口の中に射精する（口内射精）",
       "value": "cum in mouth"
     },
-    { "id": 364, "label": "04_射精", "value": "cum" },
-    { "id": 365, "label": "04_早漏", "value": "premature ejaculation" },
-    { "id": 366, "label": "04_母乳", "value": "breast milk" },
+    {
+      "id": 364,
+      "label": "04_射精",
+      "value": "cum"
+    },
+    {
+      "id": 365,
+      "label": "04_早漏",
+      "value": "premature ejaculation"
+    },
+    {
+      "id": 366,
+      "label": "04_母乳",
+      "value": "breast milk"
+    },
     {
       "id": 367,
       "label": "04_精液を飲む（ごっくん）",
@@ -1106,40 +1902,108 @@
       "label": "04_舌に射精する",
       "value": "cum on tongue, open mouth"
     },
-    { "id": 369, "label": "04_顔に射精する（顔射）", "value": "cum facial" },
-    { "id": 370, "label": "04_髪の毛に射精する", "value": "cum in hair" }
+    {
+      "id": 369,
+      "label": "04_顔に射精する（顔射）",
+      "value": "cum facial"
+    },
+    {
+      "id": 370,
+      "label": "04_髪の毛に射精する",
+      "value": "cum in hair"
+    }
   ],
   "pre_sex": [
-    { "id": 371, "label": "01_くぱぁ", "value": "spread pussy" },
-    { "id": 372, "label": "01_くぱぁアナル", "value": "spread anus" },
-    { "id": 373, "label": "01_ぽっかり", "value": "gaping" },
-    { "id": 374, "label": "02_なめ（フェラチオ）", "value": "fellatio" },
-    { "id": 375, "label": "02_アナル舐め", "value": "anilingus" },
-    { "id": 376, "label": "02_イラマチオ", "value": "irrumatio" },
+    {
+      "id": 371,
+      "label": "01_くぱぁ",
+      "value": "spread pussy"
+    },
+    {
+      "id": 372,
+      "label": "01_くぱぁアナル",
+      "value": "spread anus"
+    },
+    {
+      "id": 373,
+      "label": "01_ぽっかり",
+      "value": "gaping"
+    },
+    {
+      "id": 374,
+      "label": "02_なめ（フェラチオ）",
+      "value": "fellatio"
+    },
+    {
+      "id": 375,
+      "label": "02_アナル舐め",
+      "value": "anilingus"
+    },
+    {
+      "id": 376,
+      "label": "02_イラマチオ",
+      "value": "irrumatio"
+    },
     {
       "id": 377,
       "label": "02_ガチ舐め（強調）",
       "value": "aggressively licking"
     },
-    { "id": 378, "label": "02_クンニ", "value": "cunnilingus" },
-    { "id": 379, "label": "02_ディープスロート", "value": "deepthroat" },
+    {
+      "id": 378,
+      "label": "02_クンニ",
+      "value": "cunnilingus"
+    },
+    {
+      "id": 379,
+      "label": "02_ディープスロート",
+      "value": "deepthroat"
+    },
     {
       "id": 380,
       "label": "02_乳揉みフェラ (複合)",
       "value": "paizuri and fellatio"
     },
-    { "id": 381, "label": "03_おなほコキ", "value": "onahole handjob" },
-    { "id": 382, "label": "03_オナニー", "value": "masturbation" },
+    {
+      "id": 381,
+      "label": "03_おなほコキ",
+      "value": "onahole handjob"
+    },
+    {
+      "id": 382,
+      "label": "03_オナニー",
+      "value": "masturbation"
+    },
     {
       "id": 383,
       "label": "03_パイズリ",
       "value": "breasts out, nipples, pov, 1 boy, penis is between breasts, paizuri"
     },
-    { "id": 384, "label": "03_前立腺", "value": "prostate milking" },
-    { "id": 385, "label": "03_尻コキ", "value": "penis, buttjob" },
-    { "id": 386, "label": "03_手コキ", "value": "penis, handjob" },
-    { "id": 387, "label": "03_手コキ絞り", "value": "milking handjob" },
-    { "id": 388, "label": "03_足コキ", "value": "penis, footjob, barefoot" }
+    {
+      "id": 384,
+      "label": "03_前立腺",
+      "value": "prostate milking"
+    },
+    {
+      "id": 385,
+      "label": "03_尻コキ",
+      "value": "penis, buttjob"
+    },
+    {
+      "id": 386,
+      "label": "03_手コキ",
+      "value": "penis, handjob"
+    },
+    {
+      "id": 387,
+      "label": "03_手コキ絞り",
+      "value": "milking handjob"
+    },
+    {
+      "id": 388,
+      "label": "03_足コキ",
+      "value": "penis, footjob, barefoot"
+    }
   ],
   "special_sex": [
     {
@@ -1202,7 +2066,11 @@
       "label": "01_露出行為（エキシビ）",
       "value": "exhibitionism, public exposure, voyeurism"
     },
-    { "id": 401, "label": "02_アナル特殊具", "value": "butt plug, anal beads" },
+    {
+      "id": 401,
+      "label": "02_アナル特殊具",
+      "value": "butt plug, anal beads"
+    },
     {
       "id": 402,
       "label": "02_ディルド",
@@ -1228,9 +2096,21 @@
       "label": "02_拘束",
       "value": "bondage, tied up, handcuffs, rope"
     },
-    { "id": 407, "label": "02_猿轡/ギャグ", "value": "gag, ball gag, muzzle" },
-    { "id": 408, "label": "02_目隠し", "value": "blindfold, blindfolded" },
-    { "id": 409, "label": "02_首輪/リード", "value": "collar, leash, chained" },
+    {
+      "id": 407,
+      "label": "02_猿轡/ギャグ",
+      "value": "gag, ball gag, muzzle"
+    },
+    {
+      "id": 408,
+      "label": "02_目隠し",
+      "value": "blindfold, blindfolded"
+    },
+    {
+      "id": 409,
+      "label": "02_首輪/リード",
+      "value": "collar, leash, chained"
+    },
     {
       "id": 410,
       "label": "03_アナル（強調）",
@@ -1261,7 +2141,11 @@
       "label": "03_潮吹き",
       "value": "watersports, squirting, pee, bladder release"
     },
-    { "id": 416, "label": "03_顔射", "value": "cum on face, facial, cumshot" },
+    {
+      "id": 416,
+      "label": "03_顔射",
+      "value": "cum on face, facial, cumshot"
+    },
     {
       "id": 417,
       "label": "04_オイル使用",
@@ -1324,8 +2208,16 @@
     }
   ],
   "body_fluid_fx": [
-    { "id": 429, "label": "01_大量の潮吹き", "value": "extreme squirting" },
-    { "id": 430, "label": "02_カウパー", "value": "((precum))" },
+    {
+      "id": 429,
+      "label": "01_大量の潮吹き",
+      "value": "extreme squirting"
+    },
+    {
+      "id": 430,
+      "label": "02_カウパー",
+      "value": "((precum))"
+    },
     {
       "id": 431,
       "label": "02_濡れた性器",
@@ -1336,13 +2228,21 @@
       "label": "02_膣汁/愛液",
       "value": "pussy juice, wet pussy, excessive pussy juice"
     },
-    { "id": 433, "label": "03_中出し（アナル）", "value": "cum in anus" },
+    {
+      "id": 433,
+      "label": "03_中出し（アナル）",
+      "value": "cum in anus"
+    },
     {
       "id": 434,
       "label": "03_中出し（光る）",
       "value": "glowing cum in pussy"
     },
-    { "id": 435, "label": "03_中出し（膣内）", "value": "cum in pussy" },
+    {
+      "id": 435,
+      "label": "03_中出し（膣内）",
+      "value": "cum in pussy"
+    },
     {
       "id": 436,
       "label": "04_アヘ顔ダブル潮",
@@ -1365,7 +2265,11 @@
       "label": "01_おっぱいを手で寄せる",
       "value": "hold breasts with both hands and press breasts together"
     },
-    { "id": 440, "label": "01_おっぱいを腕で寄せる", "value": "v arms" },
+    {
+      "id": 440,
+      "label": "01_おっぱいを腕で寄せる",
+      "value": "v arms"
+    },
     {
       "id": 441,
       "label": "01_おっぱいを腕で支える",
@@ -1386,13 +2290,21 @@
       "label": "01_後ろから強くおっぱいを揉まれる",
       "value": "grabbing breasts strongly, from behind"
     },
-    { "id": 445, "label": "02_おっぱいを強調する", "value": "leaning forward" },
+    {
+      "id": 445,
+      "label": "02_おっぱいを強調する",
+      "value": "leaning forward"
+    },
     {
       "id": 446,
       "label": "02_メイドのおっぱいトレイ",
       "value": "maid, breast on tray"
     },
-    { "id": 447, "label": "02_乳乗せ", "value": "breasts on table, sitting" },
+    {
+      "id": 447,
+      "label": "02_乳乗せ",
+      "value": "breasts on table, sitting"
+    },
     {
       "id": 448,
       "label": "03_おっぱいを吸われて感じる",
@@ -1405,7 +2317,11 @@
     }
   ],
   "lying_action": [
-    { "id": 450, "label": "うつ伏せ", "value": "lying on stomach, prone" },
+    {
+      "id": 450,
+      "label": "うつ伏せ",
+      "value": "lying on stomach, prone"
+    },
     {
       "id": 451,
       "label": "まんぐり返し",
@@ -1426,11 +2342,31 @@
       "label": "両足を揃えて持ち上げる",
       "value": "legs up, legs together"
     },
-    { "id": 455, "label": "仰向け", "value": "lying on back, supine" },
-    { "id": 456, "label": "体をひねる", "value": "twisting body, lying" },
-    { "id": 457, "label": "抱き枕を抱く", "value": "holding pillow, lying" },
-    { "id": 458, "label": "横向き", "value": "lying on side, side-lying" },
-    { "id": 459, "label": "片膝を立てる", "value": "one leg up, lying" },
+    {
+      "id": 455,
+      "label": "仰向け",
+      "value": "lying on back, supine"
+    },
+    {
+      "id": 456,
+      "label": "体をひねる",
+      "value": "twisting body, lying"
+    },
+    {
+      "id": 457,
+      "label": "抱き枕を抱く",
+      "value": "holding pillow, lying"
+    },
+    {
+      "id": 458,
+      "label": "横向き",
+      "value": "lying on side, side-lying"
+    },
+    {
+      "id": 459,
+      "label": "片膝を立てる",
+      "value": "one leg up, lying"
+    },
     {
       "id": 460,
       "label": "足をブラブラさせる",
@@ -1443,16 +2379,36 @@
       "label": "お尻を突き出す",
       "value": "leaning forward, back view"
     },
-    { "id": 462, "label": "パンツの中に手を入れる", "value": "hand in pantie" },
-    { "id": 463, "label": "四つん這い（前から）", "value": "all fours" },
+    {
+      "id": 462,
+      "label": "パンツの中に手を入れる",
+      "value": "hand in pantie"
+    },
+    {
+      "id": 463,
+      "label": "四つん這い（前から）",
+      "value": "all fours"
+    },
     {
       "id": 464,
       "label": "四つん這い（後ろから）",
       "value": "all fours, back view"
     },
-    { "id": 465, "label": "片足のひざを曲げる", "value": "bent knee" },
-    { "id": 466, "label": "片足を上げる", "value": "leg up" },
-    { "id": 467, "label": "脚を組む", "value": "legs crossed" },
+    {
+      "id": 465,
+      "label": "片足のひざを曲げる",
+      "value": "bent knee"
+    },
+    {
+      "id": 466,
+      "label": "片足を上げる",
+      "value": "leg up"
+    },
+    {
+      "id": 467,
+      "label": "脚を組む",
+      "value": "legs crossed"
+    },
     {
       "id": 468,
       "label": "足で何かを挟む",
@@ -1463,7 +2419,11 @@
       "label": "足を開く（強調）",
       "value": "spread legs, wide open legs"
     },
-    { "id": 470, "label": "足首を掴む", "value": "grabbing own ankle" }
+    {
+      "id": 470,
+      "label": "足首を掴む",
+      "value": "grabbing own ankle"
+    }
   ],
   "animan_action": [
     {
@@ -1481,15 +2441,31 @@
       "label": "01_メスブタ2匹ぺろぺろご奉仕",
       "value": "2girls, nsfw, 1boy, pov boy, 1penis, veiny penis, penis with wet skin,cooperative lick, girls licking body of penis, tongue pressed to body of penis,"
     },
-    { "id": 474, "label": "01_複数パイズリ", "value": "cooperative paizuri" },
-    { "id": 475, "label": "01_複数フェラ", "value": "cooperative fellatio" },
-    { "id": 476, "label": "01_複数手コキ", "value": "cooperative handjob" },
+    {
+      "id": 474,
+      "label": "01_複数パイズリ",
+      "value": "cooperative paizuri"
+    },
+    {
+      "id": 475,
+      "label": "01_複数フェラ",
+      "value": "cooperative fellatio"
+    },
+    {
+      "id": 476,
+      "label": "01_複数手コキ",
+      "value": "cooperative handjob"
+    },
     {
       "id": 477,
       "label": "01_複数舐め",
       "value": "cooperative fellatio, out tongue, cooperative lick"
     },
-    { "id": 478, "label": "01_複数足コキ", "value": "cooperative footjob" },
+    {
+      "id": 478,
+      "label": "01_複数足コキ",
+      "value": "cooperative footjob"
+    },
     {
       "id": 479,
       "label": "02_くぱぁ（指）",
@@ -1520,7 +2496,11 @@
       "label": "02_指舐め胸揉みフェラ素振り",
       "value": "breast squeeze,fellatio gesture,hand gesture ,shake my wrist,licking my fingers,"
     },
-    { "id": 485, "label": "02_玉吸い", "value": "testicle sucking" },
+    {
+      "id": 485,
+      "label": "02_玉吸い",
+      "value": "testicle sucking"
+    },
     {
       "id": 486,
       "label": "02_脇見せ",
@@ -1568,10 +2548,26 @@
     }
   ],
   "framing": [
-    { "id": 495, "label": "01_ポートレート", "value": "portrait" },
-    { "id": 496, "label": "02_上半身", "value": "upper body" },
-    { "id": 497, "label": "03_膝上（カウボーイ）", "value": "cowboy shot" },
-    { "id": 498, "label": "04_全身", "value": "full body" }
+    {
+      "id": 495,
+      "label": "01_ポートレート",
+      "value": "portrait"
+    },
+    {
+      "id": 496,
+      "label": "02_上半身",
+      "value": "upper body"
+    },
+    {
+      "id": 497,
+      "label": "03_膝上（カウボーイ）",
+      "value": "cowboy shot"
+    },
+    {
+      "id": 498,
+      "label": "04_全身",
+      "value": "full body"
+    }
   ],
   "camera_angle": [
     {
@@ -1584,13 +2580,41 @@
       "label": "01_正面からの視点",
       "value": "from front, straight-on"
     },
-    { "id": 501, "label": "02_後ろからの視点", "value": "from behind" },
-    { "id": 502, "label": "03_横からの視点", "value": "side view" },
-    { "id": 503, "label": "04_右からの視点", "value": "from right" },
-    { "id": 504, "label": "05_左からの視点", "value": "from left" },
-    { "id": 505, "label": "06_俯瞰（上から）", "value": "from above" },
-    { "id": 506, "label": "07_アオリ（下から）", "value": "from below" },
-    { "id": 507, "label": "08_魚眼レンズ", "value": "fisheye" }
+    {
+      "id": 501,
+      "label": "02_後ろからの視点",
+      "value": "from behind"
+    },
+    {
+      "id": 502,
+      "label": "03_横からの視点",
+      "value": "side view"
+    },
+    {
+      "id": 503,
+      "label": "04_右からの視点",
+      "value": "from right"
+    },
+    {
+      "id": 504,
+      "label": "05_左からの視点",
+      "value": "from left"
+    },
+    {
+      "id": 505,
+      "label": "06_俯瞰（上から）",
+      "value": "from above"
+    },
+    {
+      "id": 506,
+      "label": "07_アオリ（下から）",
+      "value": "from below"
+    },
+    {
+      "id": 507,
+      "label": "08_魚眼レンズ",
+      "value": "fisheye"
+    }
   ],
   "composition_rules": [
     {
@@ -1598,7 +2622,11 @@
       "label": "01_ダイナミックな構図",
       "value": "dynamic pose, diagonal composition, dutch angle"
     },
-    { "id": 509, "label": "01_三分割法", "value": "rule of thirds" },
+    {
+      "id": 509,
+      "label": "01_三分割法",
+      "value": "rule of thirds"
+    },
     {
       "id": 510,
       "label": "01_対称（シンメトリー）",
@@ -1629,8 +2657,16 @@
       "label": "02_前景による強調",
       "value": "foreground focus, depth of field"
     },
-    { "id": 516, "label": "03_S字構図", "value": "S-curve" },
-    { "id": 517, "label": "03_オッドネスの法則", "value": "rule of odds" },
+    {
+      "id": 516,
+      "label": "03_S字構図",
+      "value": "S-curve"
+    },
+    {
+      "id": 517,
+      "label": "03_オッドネスの法則",
+      "value": "rule of odds"
+    },
     {
       "id": 518,
       "label": "03_シンプル/センター配置",
@@ -1641,7 +2677,11 @@
       "label": "03_対角線構図",
       "value": "diagonal composition, triangular composition"
     },
-    { "id": 520, "label": "04_Mtu Virus", "value": "multiple views,mtu virus" },
+    {
+      "id": 520,
+      "label": "04_Mtu Virus",
+      "value": "multiple views,mtu virus"
+    },
     {
       "id": 521,
       "label": "04_Mtu Virus 全身・パンツ",
@@ -1674,7 +2714,11 @@
       "label": "01_浅い被写界深度 (人物中心)",
       "value": "shallow depth of field"
     },
-    { "id": 527, "label": "02_玉ボケ (人物中心)", "value": "bokeh" },
+    {
+      "id": 527,
+      "label": "02_玉ボケ (人物中心)",
+      "value": "bokeh"
+    },
     {
       "id": 528,
       "label": "03_被写界深度（ボケ味） (人物中心)",
@@ -1717,10 +2761,26 @@
       "label": "05_胸元のクローズアップ",
       "value": "cleavage focus, breasts focus"
     },
-    { "id": 536, "label": "06_非常に近い（顔全体）", "value": "very close" },
-    { "id": 537, "label": "07_近景（上半身/顔中心）", "value": "close-up" },
-    { "id": 538, "label": "08_中景（腰上/バスト）", "value": "medium shot" },
-    { "id": 539, "label": "09_遠景（全体像/背景強調）", "value": "far away" }
+    {
+      "id": 536,
+      "label": "06_非常に近い（顔全体）",
+      "value": "very close"
+    },
+    {
+      "id": 537,
+      "label": "07_近景（上半身/顔中心）",
+      "value": "close-up"
+    },
+    {
+      "id": 538,
+      "label": "08_中景（腰上/バスト）",
+      "value": "medium shot"
+    },
+    {
+      "id": 539,
+      "label": "09_遠景（全体像/背景強調）",
+      "value": "far away"
+    }
   ],
   "close_up": [
     {
@@ -1728,7 +2788,11 @@
       "label": "01_唇のアップ",
       "value": "close-up lips, glossy lips, eyes out of frame"
     },
-    { "id": 541, "label": "01_瞳のアップ", "value": "close-up eye" },
+    {
+      "id": 541,
+      "label": "01_瞳のアップ",
+      "value": "close-up eye"
+    },
     {
       "id": 542,
       "label": "01_耳のアップ",
@@ -1739,7 +2803,11 @@
       "label": "01_顔のどアップ",
       "value": "extreme close-up face, crown of the head out of frame"
     },
-    { "id": 544, "label": "01_顔のアップ", "value": "close-up face" },
+    {
+      "id": 544,
+      "label": "01_顔のアップ",
+      "value": "close-up face"
+    },
     {
       "id": 545,
       "label": "01_鼻のアップ",
@@ -1795,11 +2863,31 @@
       "label": "03_背中・腰回りアップ",
       "value": "close-up back, waist, head out of frame, facing away, from behind"
     },
-    { "id": 556, "label": "04_お腹から上", "value": "upper body, waist" },
-    { "id": 557, "label": "04_胸から上", "value": "bust shot" },
-    { "id": 558, "label": "04_胸より上", "value": "portrait, headshot" },
-    { "id": 559, "label": "04_腰から上", "value": "upper body, skirt" },
-    { "id": 560, "label": "04_膝から上", "value": "cowboy shot" },
+    {
+      "id": 556,
+      "label": "04_お腹から上",
+      "value": "upper body, waist"
+    },
+    {
+      "id": 557,
+      "label": "04_胸から上",
+      "value": "bust shot"
+    },
+    {
+      "id": 558,
+      "label": "04_胸より上",
+      "value": "portrait, headshot"
+    },
+    {
+      "id": 559,
+      "label": "04_腰から上",
+      "value": "upper body, skirt"
+    },
+    {
+      "id": 560,
+      "label": "04_膝から上",
+      "value": "cowboy shot"
+    },
     {
       "id": 561,
       "label": "04_顔を外した上半身アップ",
@@ -1810,7 +2898,11 @@
       "label": "05_ヒップ（お尻）アップ",
       "value": "lower body only, close-up butt, butt out, from behind, from below, dutch angle"
     },
-    { "id": 563, "label": "05_下半身のみ（基本）", "value": "lower body only" },
+    {
+      "id": 563,
+      "label": "05_下半身のみ（基本）",
+      "value": "lower body only"
+    },
     {
       "id": 564,
       "label": "05_太ももアップ（横）",
@@ -1841,65 +2933,193 @@
       "label": "05_足のアップ",
       "value": "extreme close-up feet, tiptoes, pigeon-toed"
     },
-    { "id": 570, "label": "06_膝が入る", "value": "knees visible" },
-    { "id": 571, "label": "06_膝下がフレーム外", "value": "feet out of frame" },
+    {
+      "id": 570,
+      "label": "06_膝が入る",
+      "value": "knees visible"
+    },
+    {
+      "id": 571,
+      "label": "06_膝下がフレーム外",
+      "value": "feet out of frame"
+    },
     {
       "id": 572,
       "label": "07_クローズアップの基本（共通）",
       "value": "extreme close-up"
     },
-    { "id": 573, "label": "07_光の演出（逆光）", "value": "backlighting" },
-    { "id": 574, "label": "07_全身フレーミング", "value": "full body shot" }
+    {
+      "id": 573,
+      "label": "07_光の演出（逆光）",
+      "value": "backlighting"
+    },
+    {
+      "id": 574,
+      "label": "07_全身フレーミング",
+      "value": "full body shot"
+    }
   ],
   "background_effect": [
-    { "id": 575, "label": "01_オレンジの光", "value": "orange light (effect)" },
-    { "id": 576, "label": "01_オーロラ", "value": "aurora (effect)" },
-    { "id": 577, "label": "01_ピンクの光", "value": "pink light (effect)" },
+    {
+      "id": 575,
+      "label": "01_オレンジの光",
+      "value": "orange light (effect)"
+    },
+    {
+      "id": 576,
+      "label": "01_オーロラ",
+      "value": "aurora (effect)"
+    },
+    {
+      "id": 577,
+      "label": "01_ピンクの光",
+      "value": "pink light (effect)"
+    },
     {
       "id": 578,
       "label": "01_光のカーテン",
       "value": "light curtain (effect)"
     },
-    { "id": 579, "label": "01_光の筋", "value": "light shafts (effect)" },
-    { "id": 580, "label": "01_光の粒子", "value": "light particles (effect)" },
-    { "id": 581, "label": "01_光の線", "value": "light lines (effect)" },
-    { "id": 582, "label": "01_光の輪", "value": "light halo (effect)" },
-    { "id": 583, "label": "01_夕焼け", "value": "sunset (effect)" },
-    { "id": 584, "label": "01_夜景", "value": "nightscape (effect)" },
-    { "id": 585, "label": "01_寒色系の光", "value": "cool light (effect)" },
-    { "id": 586, "label": "01_暖色系の光", "value": "warm light (effect)" },
-    { "id": 587, "label": "01_玉ボケ", "value": "bokeh (effect)" },
-    { "id": 588, "label": "01_紫の光", "value": "purple light (effect)" },
-    { "id": 589, "label": "01_赤い光", "value": "red light (effect)" },
-    { "id": 590, "label": "01_青い光", "value": "blue light (effect)" },
-    { "id": 591, "label": "01_青空", "value": "blue sky (effect)" },
-    { "id": 592, "label": "02_吹雪", "value": "blizzard (effect)" },
-    { "id": 593, "label": "02_稲妻", "value": "thunder (effect)" },
-    { "id": 594, "label": "02_雨", "value": "rain (effect)" },
-    { "id": 595, "label": "02_雪", "value": "snow (effect)" },
-    { "id": 596, "label": "02_雷", "value": "lightning (effect)" },
-    { "id": 597, "label": "02_霧", "value": "mist (effect)" },
-    { "id": 598, "label": "03_グラデーション", "value": "gradation (effect)" },
+    {
+      "id": 579,
+      "label": "01_光の筋",
+      "value": "light shafts (effect)"
+    },
+    {
+      "id": 580,
+      "label": "01_光の粒子",
+      "value": "light particles (effect)"
+    },
+    {
+      "id": 581,
+      "label": "01_光の線",
+      "value": "light lines (effect)"
+    },
+    {
+      "id": 582,
+      "label": "01_光の輪",
+      "value": "light halo (effect)"
+    },
+    {
+      "id": 583,
+      "label": "01_夕焼け",
+      "value": "sunset (effect)"
+    },
+    {
+      "id": 584,
+      "label": "01_夜景",
+      "value": "nightscape (effect)"
+    },
+    {
+      "id": 585,
+      "label": "01_寒色系の光",
+      "value": "cool light (effect)"
+    },
+    {
+      "id": 586,
+      "label": "01_暖色系の光",
+      "value": "warm light (effect)"
+    },
+    {
+      "id": 587,
+      "label": "01_玉ボケ",
+      "value": "bokeh (effect)"
+    },
+    {
+      "id": 588,
+      "label": "01_紫の光",
+      "value": "purple light (effect)"
+    },
+    {
+      "id": 589,
+      "label": "01_赤い光",
+      "value": "red light (effect)"
+    },
+    {
+      "id": 590,
+      "label": "01_青い光",
+      "value": "blue light (effect)"
+    },
+    {
+      "id": 591,
+      "label": "01_青空",
+      "value": "blue sky (effect)"
+    },
+    {
+      "id": 592,
+      "label": "02_吹雪",
+      "value": "blizzard (effect)"
+    },
+    {
+      "id": 593,
+      "label": "02_稲妻",
+      "value": "thunder (effect)"
+    },
+    {
+      "id": 594,
+      "label": "02_雨",
+      "value": "rain (effect)"
+    },
+    {
+      "id": 595,
+      "label": "02_雪",
+      "value": "snow (effect)"
+    },
+    {
+      "id": 596,
+      "label": "02_雷",
+      "value": "lightning (effect)"
+    },
+    {
+      "id": 597,
+      "label": "02_霧",
+      "value": "mist (effect)"
+    },
+    {
+      "id": 598,
+      "label": "03_グラデーション",
+      "value": "gradation (effect)"
+    },
     {
       "id": 599,
       "label": "03_グリッチエフェクト",
       "value": "glitch effect (effect)"
     },
-    { "id": 600, "label": "03_セピア", "value": "sepia (effect)" },
+    {
+      "id": 600,
+      "label": "03_セピア",
+      "value": "sepia (effect)"
+    },
     {
       "id": 601,
       "label": "03_デジタルノイズ",
       "value": "digital noise (effect)"
     },
-    { "id": 602, "label": "03_ノイズ", "value": "noise (effect)" },
+    {
+      "id": 602,
+      "label": "03_ノイズ",
+      "value": "noise (effect)"
+    },
     {
       "id": 603,
       "label": "03_フィルムグレイン",
       "value": "film grain (effect)"
     },
-    { "id": 604, "label": "03_ヴィネット", "value": "vignette (effect)" },
-    { "id": 605, "label": "03_水面反射", "value": "water reflection (effect)" },
-    { "id": 606, "label": "03_白黒", "value": "monochrome (effect)" },
+    {
+      "id": 604,
+      "label": "03_ヴィネット",
+      "value": "vignette (effect)"
+    },
+    {
+      "id": 605,
+      "label": "03_水面反射",
+      "value": "water reflection (effect)"
+    },
+    {
+      "id": 606,
+      "label": "03_白黒",
+      "value": "monochrome (effect)"
+    },
     {
       "id": 607,
       "label": "03_色収差",
@@ -1910,10 +3130,26 @@
       "label": "03_被写界深度（DoF）",
       "value": "depth of field (effect)"
     },
-    { "id": 609, "label": "04_花びら", "value": "falling petals (effect)" },
-    { "id": 610, "label": "04_葉", "value": "leaves (effect)" },
-    { "id": 611, "label": "04_蝶", "value": "butterfly (effect)" },
-    { "id": 612, "label": "04_鳥", "value": "bird (effect)" }
+    {
+      "id": 609,
+      "label": "04_花びら",
+      "value": "falling petals (effect)"
+    },
+    {
+      "id": 610,
+      "label": "04_葉",
+      "value": "leaves (effect)"
+    },
+    {
+      "id": 611,
+      "label": "04_蝶",
+      "value": "butterfly (effect)"
+    },
+    {
+      "id": 612,
+      "label": "04_鳥",
+      "value": "bird (effect)"
+    }
   ],
   "location_type": [
     {
@@ -1921,36 +3157,116 @@
       "label": "01_ぼかし背景",
       "value": "blurred background, out of focus"
     },
-    { "id": 614, "label": "01_シンプル背景", "value": "simple background" },
-    { "id": 615, "label": "01_単色背景", "value": "colored background" },
-    { "id": 616, "label": "01_白背景", "value": "white background" },
-    { "id": 617, "label": "01_黒背景", "value": "black background" },
-    { "id": 618, "label": "02_カジノ", "value": "casino" },
-    { "id": 619, "label": "02_カフェ", "value": "cafe, coffee shop" },
-    { "id": 620, "label": "02_キッチン", "value": "kitchen" },
-    { "id": 621, "label": "02_コンビニ", "value": "convenience store" },
-    { "id": 622, "label": "02_シャワールーム", "value": "shower room" },
+    {
+      "id": 614,
+      "label": "01_シンプル背景",
+      "value": "simple background"
+    },
+    {
+      "id": 615,
+      "label": "01_単色背景",
+      "value": "colored background"
+    },
+    {
+      "id": 616,
+      "label": "01_白背景",
+      "value": "white background"
+    },
+    {
+      "id": 617,
+      "label": "01_黒背景",
+      "value": "black background"
+    },
+    {
+      "id": 618,
+      "label": "02_カジノ",
+      "value": "casino"
+    },
+    {
+      "id": 619,
+      "label": "02_カフェ",
+      "value": "cafe, coffee shop"
+    },
+    {
+      "id": 620,
+      "label": "02_キッチン",
+      "value": "kitchen"
+    },
+    {
+      "id": 621,
+      "label": "02_コンビニ",
+      "value": "convenience store"
+    },
+    {
+      "id": 622,
+      "label": "02_シャワールーム",
+      "value": "shower room"
+    },
     {
       "id": 623,
       "label": "02_ショッピングモール",
       "value": "shopping mall, department store"
     },
-    { "id": 624, "label": "02_バスルーム", "value": "bathroom" },
-    { "id": 625, "label": "02_バー/クラブ", "value": "bar, nightclub" },
-    { "id": 626, "label": "02_リビングルーム", "value": "living room" },
-    { "id": 627, "label": "02_レストラン", "value": "restaurant" },
-    { "id": 628, "label": "02_寝室", "value": "bedroom" },
-    { "id": 629, "label": "02_研究所/ラボ", "value": "laboratory, sci-fi lab" },
-    { "id": 630, "label": "03_体育館", "value": "gymnasium" },
-    { "id": 631, "label": "03_図書館", "value": "library, bookshelf" },
+    {
+      "id": 624,
+      "label": "02_バスルーム",
+      "value": "bathroom"
+    },
+    {
+      "id": 625,
+      "label": "02_バー/クラブ",
+      "value": "bar, nightclub"
+    },
+    {
+      "id": 626,
+      "label": "02_リビングルーム",
+      "value": "living room"
+    },
+    {
+      "id": 627,
+      "label": "02_レストラン",
+      "value": "restaurant"
+    },
+    {
+      "id": 628,
+      "label": "02_寝室",
+      "value": "bedroom"
+    },
+    {
+      "id": 629,
+      "label": "02_研究所/ラボ",
+      "value": "laboratory, sci-fi lab"
+    },
+    {
+      "id": 630,
+      "label": "03_体育館",
+      "value": "gymnasium"
+    },
+    {
+      "id": 631,
+      "label": "03_図書館",
+      "value": "library, bookshelf"
+    },
     {
       "id": 632,
       "label": "03_地下鉄/駅構内",
       "value": "subway, train station"
     },
-    { "id": 633, "label": "03_学校の屋上", "value": "school rooftop" },
-    { "id": 634, "label": "03_学校の廊下", "value": "school hallway" },
-    { "id": 635, "label": "03_教室", "value": "classroom" },
+    {
+      "id": 633,
+      "label": "03_学校の屋上",
+      "value": "school rooftop"
+    },
+    {
+      "id": 634,
+      "label": "03_学校の廊下",
+      "value": "school hallway"
+    },
+    {
+      "id": 635,
+      "label": "03_教室",
+      "value": "classroom"
+    },
     {
       "id": 636,
       "label": "03_更衣室・ロッカールーム",
@@ -1961,46 +3277,206 @@
       "label": "04_サイバーパンク都市",
       "value": "cyberpunk city, futuristic city"
     },
-    { "id": 638, "label": "04_ネオン街", "value": "neon city" },
-    { "id": 639, "label": "04_公園", "value": "park" },
-    { "id": 640, "label": "04_工場内部", "value": "factory interior" },
-    { "id": 641, "label": "04_廃墟", "value": "ruins, abandoned building" },
-    { "id": 642, "label": "04_競馬場", "value": "race track" },
-    { "id": 643, "label": "04_街中・通り", "value": "city street" },
-    { "id": 644, "label": "04_路地裏", "value": "alleyway" },
-    { "id": 645, "label": "04_軍事基地", "value": "military base" },
-    { "id": 646, "label": "04_農場/畑", "value": "farm" },
-    { "id": 647, "label": "04_遊園地", "value": "amusement park" },
-    { "id": 648, "label": "05_ジャングル", "value": "jungle" },
-    { "id": 649, "label": "05_プール", "value": "pool, swimming pool" },
-    { "id": 650, "label": "05_山", "value": "mountain" },
-    { "id": 651, "label": "05_星空", "value": "starry sky" },
-    { "id": 652, "label": "05_森", "value": "forest" },
-    { "id": 653, "label": "05_水中", "value": "underwater" },
-    { "id": 654, "label": "05_海辺・ビーチ", "value": "beach, seaside" },
-    { "id": 655, "label": "05_湖畔", "value": "lakeside" },
-    { "id": 656, "label": "05_滝", "value": "waterfall" },
-    { "id": 657, "label": "05_砂漠", "value": "desert" },
-    { "id": 658, "label": "05_神社/寺", "value": "shrine, temple" },
-    { "id": 659, "label": "05_花畑", "value": "flower field" },
-    { "id": 660, "label": "05_雪の降る夜", "value": "snowy night" },
-    { "id": 661, "label": "05_雪原", "value": "snowy field" },
-    { "id": 662, "label": "06_エルフの都市", "value": "elven city" },
-    { "id": 663, "label": "06_クリスタル洞窟", "value": "crystal cave" },
-    { "id": 664, "label": "06_ファンタジー世界", "value": "fantasy world" },
-    { "id": 665, "label": "06_中世の城", "value": "medieval castle" },
-    { "id": 666, "label": "06_中世の市場", "value": "medieval market" },
-    { "id": 667, "label": "06_中世の街", "value": "medieval town" },
-    { "id": 668, "label": "06_大聖堂", "value": "cathedral" },
-    { "id": 669, "label": "06_宇宙", "value": "space" },
-    { "id": 670, "label": "06_宇宙船の内部", "value": "spaceship interior" },
-    { "id": 671, "label": "06_日本の城", "value": "japanese castle" },
-    { "id": 672, "label": "06_洞窟", "value": "cave" },
-    { "id": 673, "label": "06_浮遊島", "value": "floating island" },
-    { "id": 674, "label": "06_玉座の間", "value": "throne room" },
-    { "id": 675, "label": "06_異世界食堂/居酒屋", "value": "fantasy tavern" },
-    { "id": 676, "label": "06_異星/別の惑星", "value": "other planet" },
-    { "id": 677, "label": "06_魔法の森", "value": "magical forest" },
+    {
+      "id": 638,
+      "label": "04_ネオン街",
+      "value": "neon city"
+    },
+    {
+      "id": 639,
+      "label": "04_公園",
+      "value": "park"
+    },
+    {
+      "id": 640,
+      "label": "04_工場内部",
+      "value": "factory interior"
+    },
+    {
+      "id": 641,
+      "label": "04_廃墟",
+      "value": "ruins, abandoned building"
+    },
+    {
+      "id": 642,
+      "label": "04_競馬場",
+      "value": "race track"
+    },
+    {
+      "id": 643,
+      "label": "04_街中・通り",
+      "value": "city street"
+    },
+    {
+      "id": 644,
+      "label": "04_路地裏",
+      "value": "alleyway"
+    },
+    {
+      "id": 645,
+      "label": "04_軍事基地",
+      "value": "military base"
+    },
+    {
+      "id": 646,
+      "label": "04_農場/畑",
+      "value": "farm"
+    },
+    {
+      "id": 647,
+      "label": "04_遊園地",
+      "value": "amusement park"
+    },
+    {
+      "id": 648,
+      "label": "05_ジャングル",
+      "value": "jungle"
+    },
+    {
+      "id": 649,
+      "label": "05_プール",
+      "value": "pool, swimming pool"
+    },
+    {
+      "id": 650,
+      "label": "05_山",
+      "value": "mountain"
+    },
+    {
+      "id": 651,
+      "label": "05_星空",
+      "value": "starry sky"
+    },
+    {
+      "id": 652,
+      "label": "05_森",
+      "value": "forest"
+    },
+    {
+      "id": 653,
+      "label": "05_水中",
+      "value": "underwater"
+    },
+    {
+      "id": 654,
+      "label": "05_海辺・ビーチ",
+      "value": "beach, seaside"
+    },
+    {
+      "id": 655,
+      "label": "05_湖畔",
+      "value": "lakeside"
+    },
+    {
+      "id": 656,
+      "label": "05_滝",
+      "value": "waterfall"
+    },
+    {
+      "id": 657,
+      "label": "05_砂漠",
+      "value": "desert"
+    },
+    {
+      "id": 658,
+      "label": "05_神社/寺",
+      "value": "shrine, temple"
+    },
+    {
+      "id": 659,
+      "label": "05_花畑",
+      "value": "flower field"
+    },
+    {
+      "id": 660,
+      "label": "05_雪の降る夜",
+      "value": "snowy night"
+    },
+    {
+      "id": 661,
+      "label": "05_雪原",
+      "value": "snowy field"
+    },
+    {
+      "id": 662,
+      "label": "06_エルフの都市",
+      "value": "elven city"
+    },
+    {
+      "id": 663,
+      "label": "06_クリスタル洞窟",
+      "value": "crystal cave"
+    },
+    {
+      "id": 664,
+      "label": "06_ファンタジー世界",
+      "value": "fantasy world"
+    },
+    {
+      "id": 665,
+      "label": "06_中世の城",
+      "value": "medieval castle"
+    },
+    {
+      "id": 666,
+      "label": "06_中世の市場",
+      "value": "medieval market"
+    },
+    {
+      "id": 667,
+      "label": "06_中世の街",
+      "value": "medieval town"
+    },
+    {
+      "id": 668,
+      "label": "06_大聖堂",
+      "value": "cathedral"
+    },
+    {
+      "id": 669,
+      "label": "06_宇宙",
+      "value": "space"
+    },
+    {
+      "id": 670,
+      "label": "06_宇宙船の内部",
+      "value": "spaceship interior"
+    },
+    {
+      "id": 671,
+      "label": "06_日本の城",
+      "value": "japanese castle"
+    },
+    {
+      "id": 672,
+      "label": "06_洞窟",
+      "value": "cave"
+    },
+    {
+      "id": 673,
+      "label": "06_浮遊島",
+      "value": "floating island"
+    },
+    {
+      "id": 674,
+      "label": "06_玉座の間",
+      "value": "throne room"
+    },
+    {
+      "id": 675,
+      "label": "06_異世界食堂/居酒屋",
+      "value": "fantasy tavern"
+    },
+    {
+      "id": 676,
+      "label": "06_異星/別の惑星",
+      "value": "other planet"
+    },
+    {
+      "id": 677,
+      "label": "06_魔法の森",
+      "value": "magical forest"
+    },
     {
       "id": 678,
       "label": "08_露天風呂",
@@ -2013,7 +3489,11 @@
     }
   ],
   "global_landmarks": [
-    { "id": 680, "label": "01_京都の竹林", "value": "arashiyama bamboo grove" },
+    {
+      "id": 680,
+      "label": "01_京都の竹林",
+      "value": "arashiyama bamboo grove"
+    },
     {
       "id": 681,
       "label": "01_伏見稲荷大社（千本鳥居）",
@@ -2024,9 +3504,21 @@
       "label": "01_厳島神社（鳥居）",
       "value": "itsukushima shrine, floating torii"
     },
-    { "id": 683, "label": "01_大阪城", "value": "osaka castle" },
-    { "id": 684, "label": "01_富士山", "value": "mount fuji" },
-    { "id": 685, "label": "01_札幌テレビ塔", "value": "sapporo tv tower" },
+    {
+      "id": 683,
+      "label": "01_大阪城",
+      "value": "osaka castle"
+    },
+    {
+      "id": 684,
+      "label": "01_富士山",
+      "value": "mount fuji"
+    },
+    {
+      "id": 685,
+      "label": "01_札幌テレビ塔",
+      "value": "sapporo tv tower"
+    },
     {
       "id": 686,
       "label": "01_東京タワー/スカイツリー",
@@ -2057,14 +3549,26 @@
       "label": "01_金閣寺（鹿苑寺）",
       "value": "kinkaku-ji, golden pavilion"
     },
-    { "id": 692, "label": "02_アクロポリス", "value": "acropolis, parthenon" },
+    {
+      "id": 692,
+      "label": "02_アクロポリス",
+      "value": "acropolis, parthenon"
+    },
     {
       "id": 693,
       "label": "02_アンネ・フランクの家",
       "value": "anne frank house, amsterdam"
     },
-    { "id": 694, "label": "02_エッフェル塔", "value": "eiffel tower, paris" },
-    { "id": 695, "label": "02_コロッセオ", "value": "colosseum, ancient rome" },
+    {
+      "id": 694,
+      "label": "02_エッフェル塔",
+      "value": "eiffel tower, paris"
+    },
+    {
+      "id": 695,
+      "label": "02_コロッセオ",
+      "value": "colosseum, ancient rome"
+    },
     {
       "id": 696,
       "label": "02_サグラダ・ファミリア",
@@ -2075,8 +3579,16 @@
       "label": "02_ストーンヘンジ",
       "value": "stonehenge, wiltshire"
     },
-    { "id": 698, "label": "02_ダブリン城", "value": "dublin castle, ireland" },
-    { "id": 699, "label": "02_トレビの泉", "value": "trevi fountain, rome" },
+    {
+      "id": 698,
+      "label": "02_ダブリン城",
+      "value": "dublin castle, ireland"
+    },
+    {
+      "id": 699,
+      "label": "02_トレビの泉",
+      "value": "trevi fountain, rome"
+    },
     {
       "id": 700,
       "label": "02_ノイシュヴァンシュタイン城",
@@ -2122,8 +3634,16 @@
       "label": "02_ヴェネツィア（運河）",
       "value": "venice canal, gondola"
     },
-    { "id": 709, "label": "02_凱旋門", "value": "arc de triomphe, paris" },
-    { "id": 710, "label": "03_グランドキャニオン", "value": "grand canyon" },
+    {
+      "id": 709,
+      "label": "02_凱旋門",
+      "value": "arc de triomphe, paris"
+    },
+    {
+      "id": 710,
+      "label": "03_グランドキャニオン",
+      "value": "grand canyon"
+    },
     {
       "id": 711,
       "label": "03_ゴールデンゲートブリッジ",
@@ -2134,7 +3654,11 @@
       "label": "03_タイムズスクエア",
       "value": "times square, new york city"
     },
-    { "id": 713, "label": "03_ナイアガラの滝", "value": "niagara falls" },
+    {
+      "id": 713,
+      "label": "03_ナイアガラの滝",
+      "value": "niagara falls"
+    },
     {
       "id": 714,
       "label": "03_ハリウッドサイン",
@@ -2145,15 +3669,31 @@
       "label": "03_自由の女神",
       "value": "statue of liberty, new york harbor"
     },
-    { "id": 716, "label": "04_アンコールワット", "value": "angkor wat" },
-    { "id": 717, "label": "04_タージマハル", "value": "taj mahal, agra" },
+    {
+      "id": 716,
+      "label": "04_アンコールワット",
+      "value": "angkor wat"
+    },
+    {
+      "id": 717,
+      "label": "04_タージマハル",
+      "value": "taj mahal, agra"
+    },
     {
       "id": 718,
       "label": "04_ブルジュ・ハリファ",
       "value": "burj khalifa, dubai skyline"
     },
-    { "id": 719, "label": "04_ペトラ遺跡", "value": "petra, al-khazneh" },
-    { "id": 720, "label": "04_万里の長城", "value": "great wall of china" },
+    {
+      "id": 719,
+      "label": "04_ペトラ遺跡",
+      "value": "petra, al-khazneh"
+    },
+    {
+      "id": 720,
+      "label": "04_万里の長城",
+      "value": "great wall of china"
+    },
     {
       "id": 721,
       "label": "04_紫禁城（故宮）",
@@ -2174,7 +3714,11 @@
       "label": "05_キリスト像（リオ）",
       "value": "christ the redeemer statue, rio de janeiro"
     },
-    { "id": 725, "label": "05_ピラミッド", "value": "pyramids of giza" },
+    {
+      "id": 725,
+      "label": "05_ピラミッド",
+      "value": "pyramids of giza"
+    },
     {
       "id": 726,
       "label": "05_マチュピチュ",
@@ -2202,7 +3746,11 @@
       "label": "01_廃線/古い駅舎",
       "value": "abandoned train track, old station"
     },
-    { "id": 731, "label": "01_縁側", "value": "engawa, wooden veranda" },
+    {
+      "id": 731,
+      "label": "01_縁側",
+      "value": "engawa, wooden veranda"
+    },
     {
       "id": 732,
       "label": "01_銭湯/大浴場",
@@ -2218,7 +3766,11 @@
       "label": "02_異世界迷宮",
       "value": "otherworld labyrinth, magical portal"
     },
-    { "id": 735, "label": "02_秘密基地", "value": "secret hideout, treehouse" },
+    {
+      "id": 735,
+      "label": "02_秘密基地",
+      "value": "secret hideout, treehouse"
+    },
     {
       "id": 736,
       "label": "02_空中都市",
@@ -2264,7 +3816,11 @@
       "label": "04_体育館/アリーナ",
       "value": "gymnasium, sports hall, wooden floor"
     },
-    { "id": 745, "label": "04_屋上プール", "value": "rooftop pool" },
+    {
+      "id": 745,
+      "label": "04_屋上プール",
+      "value": "rooftop pool"
+    },
     {
       "id": 746,
       "label": "04_放送室/視聴覚室",
@@ -2275,7 +3831,11 @@
       "label": "04_理科室/準備室",
       "value": "science lab, preparation room"
     },
-    { "id": 748, "label": "04_美術室/音楽室", "value": "art room, music room" },
+    {
+      "id": 748,
+      "label": "04_美術室/音楽室",
+      "value": "art room, music room"
+    },
     {
       "id": 749,
       "label": "05_ギルドの酒場",
@@ -2378,33 +3938,113 @@
     }
   ],
   "lighting_atmosphere": [
-    { "id": 769, "label": "ネオンライト", "value": "neon lights" },
+    {
+      "id": 769,
+      "label": "ネオンライト",
+      "value": "neon lights"
+    },
     {
       "id": 770,
       "label": "光の筋（ゴッドレイ）",
       "value": "volumetric lighting"
     },
-    { "id": 771, "label": "夕暮れ", "value": "sunset" },
-    { "id": 772, "label": "夜", "value": "night" },
-    { "id": 773, "label": "強風", "value": "windy" },
-    { "id": 774, "label": "映画的照明", "value": "cinematic lighting" },
-    { "id": 775, "label": "昼", "value": "day" },
-    { "id": 776, "label": "曇り", "value": "cloudy" },
-    { "id": 777, "label": "炎・火花", "value": "fire" },
-    { "id": 778, "label": "生物発光（幻想的）", "value": "bioluminescence" },
-    { "id": 779, "label": "逆光", "value": "backlighting" },
-    { "id": 780, "label": "雨", "value": "rain" },
-    { "id": 781, "label": "雪", "value": "snow" },
-    { "id": 782, "label": "黄昏時", "value": "twilight" }
+    {
+      "id": 771,
+      "label": "夕暮れ",
+      "value": "sunset"
+    },
+    {
+      "id": 772,
+      "label": "夜",
+      "value": "night"
+    },
+    {
+      "id": 773,
+      "label": "強風",
+      "value": "windy"
+    },
+    {
+      "id": 774,
+      "label": "映画的照明",
+      "value": "cinematic lighting"
+    },
+    {
+      "id": 775,
+      "label": "昼",
+      "value": "day"
+    },
+    {
+      "id": 776,
+      "label": "曇り",
+      "value": "cloudy"
+    },
+    {
+      "id": 777,
+      "label": "炎・火花",
+      "value": "fire"
+    },
+    {
+      "id": 778,
+      "label": "生物発光（幻想的）",
+      "value": "bioluminescence"
+    },
+    {
+      "id": 779,
+      "label": "逆光",
+      "value": "backlighting"
+    },
+    {
+      "id": 780,
+      "label": "雨",
+      "value": "rain"
+    },
+    {
+      "id": 781,
+      "label": "雪",
+      "value": "snow"
+    },
+    {
+      "id": 782,
+      "label": "黄昏時",
+      "value": "twilight"
+    }
   ],
   "weather_effects": [
-    { "id": 783, "label": "レンズフレア", "value": "lens flare" },
-    { "id": 784, "label": "光のビーム/透過光", "value": "light rays" },
-    { "id": 785, "label": "大雨", "value": "heavy rain" },
-    { "id": 786, "label": "煙", "value": "smoke" },
-    { "id": 787, "label": "舞い上がる塵", "value": "dust particles" },
-    { "id": 788, "label": "雪（雪の結晶）", "value": "snowflakes" },
-    { "id": 789, "label": "霧", "value": "fog" }
+    {
+      "id": 783,
+      "label": "レンズフレア",
+      "value": "lens flare"
+    },
+    {
+      "id": 784,
+      "label": "光のビーム/透過光",
+      "value": "light rays"
+    },
+    {
+      "id": 785,
+      "label": "大雨",
+      "value": "heavy rain"
+    },
+    {
+      "id": 786,
+      "label": "煙",
+      "value": "smoke"
+    },
+    {
+      "id": 787,
+      "label": "舞い上がる塵",
+      "value": "dust particles"
+    },
+    {
+      "id": 788,
+      "label": "雪（雪の結晶）",
+      "value": "snowflakes"
+    },
+    {
+      "id": 789,
+      "label": "霧",
+      "value": "fog"
+    }
   ],
   "art_style": [
     {
@@ -2452,7 +4092,11 @@
       "label": "02_墨絵/筆致",
       "value": "sumi-e, ink wash, strong brush strokes"
     },
-    { "id": 799, "label": "02_水彩風", "value": "watercolor, wash effect" },
+    {
+      "id": 799,
+      "label": "02_水彩風",
+      "value": "watercolor, wash effect"
+    },
     {
       "id": 800,
       "label": "02_油絵風",
@@ -2497,43 +4141,163 @@
     }
   ],
   "color_pattern": [
-    { "id": 808, "label": "01_桃/ピンク", "value": "pink■" },
-    { "id": 809, "label": "01_橙/オレンジ", "value": "orange■" },
-    { "id": 810, "label": "01_水色/シアン", "value": "cyan■" },
-    { "id": 811, "label": "01_灰/グレー", "value": "gray■" },
-    { "id": 812, "label": "01_白", "value": "white■" },
-    { "id": 813, "label": "01_紫", "value": "purple■" },
-    { "id": 814, "label": "01_緑", "value": "green■" },
-    { "id": 815, "label": "01_茶/ブラウン", "value": "brown■" },
-    { "id": 816, "label": "01_赤", "value": "red■" },
-    { "id": 817, "label": "01_金色/ゴールド", "value": "gold■" },
-    { "id": 818, "label": "01_銀色/シルバー", "value": "silver■" },
-    { "id": 819, "label": "01_青", "value": "blue■" },
-    { "id": 820, "label": "01_黄", "value": "yellow■" },
-    { "id": 821, "label": "01_黒", "value": "black■" },
-    { "id": 822, "label": "02_グラデーション", "value": "gradient■" },
-    { "id": 823, "label": "02_パステルカラー", "value": "pastel■" },
-    { "id": 824, "label": "02_モノクロ", "value": "monochrome■" },
-    { "id": 825, "label": "02_濃い/暗い", "value": "dark■" },
-    { "id": 826, "label": "02_無色/透明", "value": "clear■" },
-    { "id": 827, "label": "02_薄い/明るい", "value": "light■" },
-    { "id": 828, "label": "02_鮮やかな/ネオン", "value": "vivid■" }
+    {
+      "id": 808,
+      "label": "01_桃/ピンク",
+      "value": "pink■"
+    },
+    {
+      "id": 809,
+      "label": "01_橙/オレンジ",
+      "value": "orange■"
+    },
+    {
+      "id": 810,
+      "label": "01_水色/シアン",
+      "value": "cyan■"
+    },
+    {
+      "id": 811,
+      "label": "01_灰/グレー",
+      "value": "gray■"
+    },
+    {
+      "id": 812,
+      "label": "01_白",
+      "value": "white■"
+    },
+    {
+      "id": 813,
+      "label": "01_紫",
+      "value": "purple■"
+    },
+    {
+      "id": 814,
+      "label": "01_緑",
+      "value": "green■"
+    },
+    {
+      "id": 815,
+      "label": "01_茶/ブラウン",
+      "value": "brown■"
+    },
+    {
+      "id": 816,
+      "label": "01_赤",
+      "value": "red■"
+    },
+    {
+      "id": 817,
+      "label": "01_金色/ゴールド",
+      "value": "gold■"
+    },
+    {
+      "id": 818,
+      "label": "01_銀色/シルバー",
+      "value": "silver■"
+    },
+    {
+      "id": 819,
+      "label": "01_青",
+      "value": "blue■"
+    },
+    {
+      "id": 820,
+      "label": "01_黄",
+      "value": "yellow■"
+    },
+    {
+      "id": 821,
+      "label": "01_黒",
+      "value": "black■"
+    },
+    {
+      "id": 822,
+      "label": "02_グラデーション",
+      "value": "gradient■"
+    },
+    {
+      "id": 823,
+      "label": "02_パステルカラー",
+      "value": "pastel■"
+    },
+    {
+      "id": 824,
+      "label": "02_モノクロ",
+      "value": "monochrome■"
+    },
+    {
+      "id": 825,
+      "label": "02_濃い/暗い",
+      "value": "dark■"
+    },
+    {
+      "id": 826,
+      "label": "02_無色/透明",
+      "value": "clear■"
+    },
+    {
+      "id": 827,
+      "label": "02_薄い/明るい",
+      "value": "light■"
+    },
+    {
+      "id": 828,
+      "label": "02_鮮やかな/ネオン",
+      "value": "vivid■"
+    }
   ],
   "tone_and_texture": [
-    { "id": 829, "label": "03_セピア調/レトロ", "value": "sepia toned■" },
-    { "id": 830, "label": "03_ネオン/蛍光色", "value": "neon colors■" },
-    { "id": 831, "label": "03_マット/つや消し", "value": "matte finish■" },
-    { "id": 832, "label": "03_メタリック/光沢", "value": "metallic sheen■" },
-    { "id": 833, "label": "03_低彩度/くすんだ", "value": "desaturated■" },
-    { "id": 834, "label": "03_淡い/ペールトーン", "value": "pale colors■" },
+    {
+      "id": 829,
+      "label": "03_セピア調/レトロ",
+      "value": "sepia toned■"
+    },
+    {
+      "id": 830,
+      "label": "03_ネオン/蛍光色",
+      "value": "neon colors■"
+    },
+    {
+      "id": 831,
+      "label": "03_マット/つや消し",
+      "value": "matte finish■"
+    },
+    {
+      "id": 832,
+      "label": "03_メタリック/光沢",
+      "value": "metallic sheen■"
+    },
+    {
+      "id": 833,
+      "label": "03_低彩度/くすんだ",
+      "value": "desaturated■"
+    },
+    {
+      "id": 834,
+      "label": "03_淡い/ペールトーン",
+      "value": "pale colors■"
+    },
     {
       "id": 835,
       "label": "03_深みのある/リッチカラー",
       "value": "deep colors■"
     },
-    { "id": 836, "label": "03_高彩度/ビビッド", "value": "highly saturated■" },
-    { "id": 837, "label": "04_くっきり/シャープ", "value": "sharp colors■" },
-    { "id": 838, "label": "04_インクのにじみ", "value": "ink bleed effect■" },
+    {
+      "id": 836,
+      "label": "03_高彩度/ビビッド",
+      "value": "highly saturated■"
+    },
+    {
+      "id": 837,
+      "label": "04_くっきり/シャープ",
+      "value": "sharp colors■"
+    },
+    {
+      "id": 838,
+      "label": "04_インクのにじみ",
+      "value": "ink bleed effect■"
+    },
     {
       "id": 839,
       "label": "04_オイルペイント風",
@@ -2544,7 +4308,11 @@
       "label": "04_キラキラ/グリッター",
       "value": "glittering surface■"
     },
-    { "id": 841, "label": "04_水彩画風", "value": "watercolor texture■" },
+    {
+      "id": 841,
+      "label": "04_水彩画風",
+      "value": "watercolor texture■"
+    },
     {
       "id": 842,
       "label": "04_透明感/クリア",
@@ -2560,14 +4328,38 @@
       "label": "05_単色（ワントーン）",
       "value": "monochromatic color scheme■"
     },
-    { "id": 845, "label": "05_寒色系", "value": "cool color palette■" },
-    { "id": 846, "label": "05_暖色系", "value": "warm color palette■" },
-    { "id": 847, "label": "05_補色/対照的", "value": "complementary colors■" },
-    { "id": 848, "label": "05_類似色/同系色", "value": "analogous colors■" }
+    {
+      "id": 845,
+      "label": "05_寒色系",
+      "value": "cool color palette■"
+    },
+    {
+      "id": 846,
+      "label": "05_暖色系",
+      "value": "warm color palette■"
+    },
+    {
+      "id": 847,
+      "label": "05_補色/対照的",
+      "value": "complementary colors■"
+    },
+    {
+      "id": 848,
+      "label": "05_類似色/同系色",
+      "value": "analogous colors■"
+    }
   ],
   "clothes_pattern": [
-    { "id": 849, "label": "01_V字・斜線（矢絣）", "value": "chevron pattern■" },
-    { "id": 850, "label": "01_六角形（亀甲）", "value": "hexagon pattern■" },
+    {
+      "id": 849,
+      "label": "01_V字・斜線（矢絣）",
+      "value": "chevron pattern■"
+    },
+    {
+      "id": 850,
+      "label": "01_六角形（亀甲）",
+      "value": "hexagon pattern■"
+    },
     {
       "id": 851,
       "label": "01_円形繋ぎ（七宝・青海波など）",
@@ -2588,24 +4380,76 @@
       "label": "01_波線・縦曲線（立涌）",
       "value": "wavy vertical stripes■"
     },
-    { "id": 855, "label": "01_網目（籠目）", "value": "mesh pattern■" },
+    {
+      "id": 855,
+      "label": "01_網目（籠目）",
+      "value": "mesh pattern■"
+    },
     {
       "id": 856,
       "label": "01_菱形繋ぎ（鱗・毘沙門亀甲など）",
       "value": "diamond pattern■"
     },
-    { "id": 857, "label": "02_ひし形", "value": "rhombus print■" },
-    { "id": 858, "label": "02_アニマル柄", "value": "animal print■" },
-    { "id": 859, "label": "02_ストライプ", "value": "striped■" },
-    { "id": 860, "label": "02_タータンチェック", "value": "tartan plaid■" },
-    { "id": 861, "label": "02_チェック", "value": "checked pattern■" },
-    { "id": 862, "label": "02_ペイズリー", "value": "paisley print■" },
-    { "id": 863, "label": "02_ボーダー", "value": "horizontal stripes■" },
-    { "id": 864, "label": "02_レース", "value": "lace trim■" },
-    { "id": 865, "label": "02_千鳥格子", "value": "houndstooth■" },
-    { "id": 866, "label": "02_格子柄", "value": "plaid pattern■" },
-    { "id": 867, "label": "02_水玉", "value": "polka dot■" },
-    { "id": 868, "label": "02_花柄", "value": "floral print■" }
+    {
+      "id": 857,
+      "label": "02_ひし形",
+      "value": "rhombus print■"
+    },
+    {
+      "id": 858,
+      "label": "02_アニマル柄",
+      "value": "animal print■"
+    },
+    {
+      "id": 859,
+      "label": "02_ストライプ",
+      "value": "striped■"
+    },
+    {
+      "id": 860,
+      "label": "02_タータンチェック",
+      "value": "tartan plaid■"
+    },
+    {
+      "id": 861,
+      "label": "02_チェック",
+      "value": "checked pattern■"
+    },
+    {
+      "id": 862,
+      "label": "02_ペイズリー",
+      "value": "paisley print■"
+    },
+    {
+      "id": 863,
+      "label": "02_ボーダー",
+      "value": "horizontal stripes■"
+    },
+    {
+      "id": 864,
+      "label": "02_レース",
+      "value": "lace trim■"
+    },
+    {
+      "id": 865,
+      "label": "02_千鳥格子",
+      "value": "houndstooth■"
+    },
+    {
+      "id": 866,
+      "label": "02_格子柄",
+      "value": "plaid pattern■"
+    },
+    {
+      "id": 867,
+      "label": "02_水玉",
+      "value": "polka dot■"
+    },
+    {
+      "id": 868,
+      "label": "02_花柄",
+      "value": "floral print■"
+    }
   ],
   "uniforms": [
     {
@@ -2613,14 +4457,26 @@
       "label": "01_スクールベスト/ニットベスト",
       "value": "school vest"
     },
-    { "id": 870, "label": "01_スクール水着", "value": "school swimsuit" },
+    {
+      "id": 870,
+      "label": "01_スクール水着",
+      "value": "school swimsuit"
+    },
     {
       "id": 871,
       "label": "01_セーラー服 (Sailor uniform)",
       "value": "seifuku"
     },
-    { "id": 872, "label": "01_ブレザー制服", "value": "blazer" },
-    { "id": 873, "label": "01_一般的な制服", "value": "school uniform" },
+    {
+      "id": 872,
+      "label": "01_ブレザー制服",
+      "value": "blazer"
+    },
+    {
+      "id": 873,
+      "label": "01_一般的な制服",
+      "value": "school uniform"
+    },
     {
       "id": 874,
       "label": "01_学ラン (Japanese male uniform)",
@@ -2636,13 +4492,21 @@
       "label": "02_ウェイトレス/給仕服",
       "value": "waitress uniform"
     },
-    { "id": 877, "label": "02_シェフ/料理人の制服", "value": "chef uniform" },
+    {
+      "id": 877,
+      "label": "02_シェフ/料理人の制服",
+      "value": "chef uniform"
+    },
     {
       "id": 878,
       "label": "02_ナース服/看護師の制服",
       "value": "nurse uniform"
     },
-    { "id": 879, "label": "02_パイロットの制服", "value": "pilot uniform" },
+    {
+      "id": 879,
+      "label": "02_パイロットの制服",
+      "value": "pilot uniform"
+    },
     {
       "id": 880,
       "label": "02_ビジネススーツ/リクルートスーツ",
@@ -2653,17 +4517,41 @@
       "label": "02_商人",
       "value": "merchant,turban, sleeveless crop top, baggy pants"
     },
-    { "id": 882, "label": "02_執事服", "value": "butler uniform" },
+    {
+      "id": 882,
+      "label": "02_執事服",
+      "value": "butler uniform"
+    },
     {
       "id": 883,
       "label": "02_客室乗務員の制服 (CA)",
       "value": "flight attendant uniform"
     },
-    { "id": 884, "label": "02_白衣/医師のコート", "value": "doctor coat" },
-    { "id": 885, "label": "02_研究者/実験用の白衣", "value": "lab coat" },
-    { "id": 886, "label": "02_車掌の制服", "value": "train conductor uniform" },
-    { "id": 887, "label": "03_レーシングスーツ", "value": "racing suit" },
-    { "id": 888, "label": "03_士官服", "value": "officer uniform" },
+    {
+      "id": 884,
+      "label": "02_白衣/医師のコート",
+      "value": "doctor coat"
+    },
+    {
+      "id": 885,
+      "label": "02_研究者/実験用の白衣",
+      "value": "lab coat"
+    },
+    {
+      "id": 886,
+      "label": "02_車掌の制服",
+      "value": "train conductor uniform"
+    },
+    {
+      "id": 887,
+      "label": "03_レーシングスーツ",
+      "value": "racing suit"
+    },
+    {
+      "id": 888,
+      "label": "03_士官服",
+      "value": "officer uniform"
+    },
     {
       "id": 889,
       "label": "03_戦闘装甲/パワードスーツ",
@@ -2674,8 +4562,16 @@
       "label": "03_海軍服 (Navy uniform)",
       "value": "naval uniform"
     },
-    { "id": 891, "label": "03_消防士の制服", "value": "firefighter uniform" },
-    { "id": 892, "label": "03_警察官の制服", "value": "police uniform" },
+    {
+      "id": 891,
+      "label": "03_消防士の制服",
+      "value": "firefighter uniform"
+    },
+    {
+      "id": 892,
+      "label": "03_警察官の制服",
+      "value": "police uniform"
+    },
     {
       "id": 893,
       "label": "03_軍服 (Military uniform)",
@@ -2691,57 +4587,121 @@
       "label": "04_中国拳法着",
       "value": "kung fu uniform, wushu attire, sash, kung fu shoes"
     },
-    { "id": 896, "label": "04_修道女/シスター", "value": "nun, habit" },
-    { "id": 897, "label": "04_僧侶", "value": "priest, priest hat" },
-    { "id": 898, "label": "04_剣道着/袴", "value": "kendo uniform, hakama" },
-    { "id": 899, "label": "04_巫女装束", "value": "miko uniform" },
+    {
+      "id": 896,
+      "label": "04_修道女/シスター",
+      "value": "nun, habit"
+    },
+    {
+      "id": 897,
+      "label": "04_僧侶",
+      "value": "priest, priest hat"
+    },
+    {
+      "id": 898,
+      "label": "04_剣道着/袴",
+      "value": "kendo uniform, hakama"
+    },
+    {
+      "id": 899,
+      "label": "04_巫女装束",
+      "value": "miko uniform"
+    },
     {
       "id": 900,
       "label": "04_忍者",
       "value": "ninja, forehead protector, sleeveless"
     },
-    { "id": 901, "label": "04_浴衣", "value": "yukata" },
+    {
+      "id": 901,
+      "label": "04_浴衣",
+      "value": "yukata"
+    },
     {
       "id": 902,
       "label": "04_海賊",
       "value": "pirate, pirate hat, pirate clothes, boots"
     },
-    { "id": 903, "label": "04_着物", "value": "japanese kimono" },
-    { "id": 904, "label": "04_神官/聖職者", "value": "cleric, priestess" },
+    {
+      "id": 903,
+      "label": "04_着物",
+      "value": "japanese kimono"
+    },
+    {
+      "id": 904,
+      "label": "04_神官/聖職者",
+      "value": "cleric, priestess"
+    },
     {
       "id": 905,
       "label": "04_空手着/柔道着",
       "value": "karate gi, judo gi, martial arts uniform, white belt"
     },
-    { "id": 906, "label": "04_騎士", "value": "knights, armor" },
+    {
+      "id": 906,
+      "label": "04_騎士",
+      "value": "knights, armor"
+    },
     {
       "id": 907,
       "label": "04_魔法使い（ローブ）",
       "value": "mage, mage hat, cloak, long boots"
     },
-    { "id": 908, "label": "05_アオザイ", "value": "ao dai" },
-    { "id": 909, "label": "05_ゴスロリ服", "value": "gothic lolita fashion" },
+    {
+      "id": 908,
+      "label": "05_アオザイ",
+      "value": "ao dai"
+    },
+    {
+      "id": 909,
+      "label": "05_ゴスロリ服",
+      "value": "gothic lolita fashion"
+    },
     {
       "id": 910,
       "label": "05_サイバーパンク衣装",
       "value": "cyberpunk clothes, glowing lines"
     },
-    { "id": 911, "label": "05_サリー", "value": "sari" },
+    {
+      "id": 911,
+      "label": "05_サリー",
+      "value": "sari"
+    },
     {
       "id": 912,
       "label": "05_スチームパンク",
       "value": "steampunk, goggles, corset"
     },
-    { "id": 913, "label": "05_チャイナドレス (Qipao)", "value": "cheongsam" },
-    { "id": 914, "label": "05_チロリアン/ディアンドル", "value": "dirndl" },
+    {
+      "id": 913,
+      "label": "05_チャイナドレス (Qipao)",
+      "value": "cheongsam"
+    },
+    {
+      "id": 914,
+      "label": "05_チロリアン/ディアンドル",
+      "value": "dirndl"
+    },
     {
       "id": 915,
       "label": "05_バレエ衣装/チュチュ",
       "value": "ballet costume, tutu, leotard, pointe shoes"
     },
-    { "id": 916, "label": "05_韓服", "value": "hanbok" },
-    { "id": 917, "label": "06_つなぎ/ジャンプスーツ", "value": "jumpsuit" },
-    { "id": 918, "label": "06_アイドル衣装", "value": "idol costume" },
+    {
+      "id": 916,
+      "label": "05_韓服",
+      "value": "hanbok"
+    },
+    {
+      "id": 917,
+      "label": "06_つなぎ/ジャンプスーツ",
+      "value": "jumpsuit"
+    },
+    {
+      "id": 918,
+      "label": "06_アイドル衣装",
+      "value": "idol costume"
+    },
     {
       "id": 919,
       "label": "06_ウェディングドレス",
@@ -2752,7 +4712,11 @@
       "label": "06_サッカーユニフォーム",
       "value": "soccer uniform"
     },
-    { "id": 921, "label": "06_サンタコス", "value": "santa costume" },
+    {
+      "id": 921,
+      "label": "06_サンタコス",
+      "value": "santa costume"
+    },
     {
       "id": 922,
       "label": "06_ジャージ/トラックウェア",
@@ -2788,7 +4752,11 @@
       "label": "06_マリンルック/セーラー風",
       "value": "sailor clothes"
     },
-    { "id": 929, "label": "06_メイド服", "value": "maid uniform" },
+    {
+      "id": 929,
+      "label": "06_メイド服",
+      "value": "maid uniform"
+    },
     {
       "id": 930,
       "label": "06_レオタード/タイツ",
@@ -2804,23 +4772,63 @@
       "label": "06_踊り子",
       "value": "dancer, accessory, jewelry, arabian outfit, bare belly, veil"
     },
-    { "id": 933, "label": "06_野球ユニフォーム", "value": "baseball uniform" },
+    {
+      "id": 933,
+      "label": "06_野球ユニフォーム",
+      "value": "baseball uniform"
+    },
     {
       "id": 934,
       "label": "06_魔法使い（少女）",
       "value": "magical girl, frilled mini skirt, thigh-highs, hair accessories"
     },
-    { "id": 935, "label": "06_魔法少女の衣装", "value": "magical girl uniform" }
+    {
+      "id": 935,
+      "label": "06_魔法少女の衣装",
+      "value": "magical girl uniform"
+    }
   ],
   "top_wear": [
-    { "id": 936, "label": "01_Tシャツ", "value": "t-shirt" },
-    { "id": 937, "label": "01_Yシャツ/カッターシャツ", "value": "dress shirt" },
-    { "id": 938, "label": "01_カーディガン", "value": "cardigan" },
-    { "id": 939, "label": "01_シャツ (総称)", "value": "shirt" },
-    { "id": 940, "label": "01_セーター", "value": "sweater" },
-    { "id": 941, "label": "01_パーカー/フーディー", "value": "hoodie" },
-    { "id": 942, "label": "01_ブラウス", "value": "blouse" },
-    { "id": 943, "label": "01_ポロシャツ", "value": "polo shirt" },
+    {
+      "id": 936,
+      "label": "01_Tシャツ",
+      "value": "t-shirt"
+    },
+    {
+      "id": 937,
+      "label": "01_Yシャツ/カッターシャツ",
+      "value": "dress shirt"
+    },
+    {
+      "id": 938,
+      "label": "01_カーディガン",
+      "value": "cardigan"
+    },
+    {
+      "id": 939,
+      "label": "01_シャツ (総称)",
+      "value": "shirt"
+    },
+    {
+      "id": 940,
+      "label": "01_セーター",
+      "value": "sweater"
+    },
+    {
+      "id": 941,
+      "label": "01_パーカー/フーディー",
+      "value": "hoodie"
+    },
+    {
+      "id": 942,
+      "label": "01_ブラウス",
+      "value": "blouse"
+    },
+    {
+      "id": 943,
+      "label": "01_ポロシャツ",
+      "value": "polo shirt"
+    },
     {
       "id": 944,
       "label": "02_Gジャン/デニムジャケット",
@@ -2831,47 +4839,111 @@
       "label": "02_MA-1/ボンバージャケット",
       "value": "bomber jacket"
     },
-    { "id": 946, "label": "02_コート (総称)", "value": "coat" },
-    { "id": 947, "label": "02_ジャケット (総称)", "value": "jacket" },
-    { "id": 948, "label": "02_トレンチコート", "value": "trench coat" },
-    { "id": 949, "label": "02_ベスト/ジレ", "value": "vest" },
-    { "id": 950, "label": "02_ポンチョ/ケープ", "value": "poncho" },
+    {
+      "id": 946,
+      "label": "02_コート (総称)",
+      "value": "coat"
+    },
+    {
+      "id": 947,
+      "label": "02_ジャケット (総称)",
+      "value": "jacket"
+    },
+    {
+      "id": 948,
+      "label": "02_トレンチコート",
+      "value": "trench coat"
+    },
+    {
+      "id": 949,
+      "label": "02_ベスト/ジレ",
+      "value": "vest"
+    },
+    {
+      "id": 950,
+      "label": "02_ポンチョ/ケープ",
+      "value": "poncho"
+    },
     {
       "id": 951,
       "label": "02_レザージャケット/ライダースジャケット",
       "value": "leather jacket"
     },
-    { "id": 952, "label": "02_ロングコート", "value": "long coat" },
-    { "id": 953, "label": "03_キャミソール", "value": "camisole" },
-    { "id": 954, "label": "03_タンクトップ", "value": "tank top" },
+    {
+      "id": 952,
+      "label": "02_ロングコート",
+      "value": "long coat"
+    },
+    {
+      "id": 953,
+      "label": "03_キャミソール",
+      "value": "camisole"
+    },
+    {
+      "id": 954,
+      "label": "03_タンクトップ",
+      "value": "tank top"
+    },
     {
       "id": 955,
       "label": "03_ノースリーブシャツ",
       "value": "sleeveless shirt"
     },
-    { "id": 956, "label": "04_Vネック", "value": "v-neck" },
-    { "id": 957, "label": "04_オフタートルネック", "value": "cowl neck" },
+    {
+      "id": 956,
+      "label": "04_Vネック",
+      "value": "v-neck"
+    },
+    {
+      "id": 957,
+      "label": "04_オフタートルネック",
+      "value": "cowl neck"
+    },
     {
       "id": 958,
       "label": "04_クロップド丈トップス/短めの上着",
       "value": "cropped top"
     },
-    { "id": 959, "label": "04_セーラーカラー", "value": "sailor collar" },
+    {
+      "id": 959,
+      "label": "04_セーラーカラー",
+      "value": "sailor collar"
+    },
     {
       "id": 960,
       "label": "04_タートルネック/ハイネック",
       "value": "high neck"
     },
-    { "id": 961, "label": "04_開襟シャツ", "value": "open collar shirt" },
-    { "id": 962, "label": "05_なし", "value": "naked" },
+    {
+      "id": 961,
+      "label": "04_開襟シャツ",
+      "value": "open collar shirt"
+    },
+    {
+      "id": 962,
+      "label": "05_なし",
+      "value": "naked"
+    },
     {
       "id": 963,
       "label": "05_オフショルダー/肩出しトップス",
       "value": "off-shoulder"
     },
-    { "id": 964, "label": "05_ストラップレス/肩紐なし", "value": "strapless" },
-    { "id": 965, "label": "05_チューブトップ", "value": "tube top" },
-    { "id": 966, "label": "05_ホルターネック", "value": "halterneck" },
+    {
+      "id": 964,
+      "label": "05_ストラップレス/肩紐なし",
+      "value": "strapless"
+    },
+    {
+      "id": 965,
+      "label": "05_チューブトップ",
+      "value": "tube top"
+    },
+    {
+      "id": 966,
+      "label": "05_ホルターネック",
+      "value": "halterneck"
+    },
     {
       "id": 967,
       "label": "05_肩に掛ける/羽織る",
@@ -2882,18 +4954,58 @@
       "label": "05_肩出し (衣服による強調)",
       "value": "bare shoulders"
     },
-    { "id": 969, "label": "05_胸元が開いた服", "value": "cleavage cutout" },
-    { "id": 970, "label": "05_袖まくり", "value": "sleeves rolled up" },
-    { "id": 971, "label": "05_鎖骨 (強調)", "value": "collarbone" },
-    { "id": 972, "label": "06_エプロン", "value": "apron" },
-    { "id": 973, "label": "06_スカーフ/マフラー", "value": "scarf" },
-    { "id": 974, "label": "06_バスタオル", "value": "bath towel" }
+    {
+      "id": 969,
+      "label": "05_胸元が開いた服",
+      "value": "cleavage cutout"
+    },
+    {
+      "id": 970,
+      "label": "05_袖まくり",
+      "value": "sleeves rolled up"
+    },
+    {
+      "id": 971,
+      "label": "05_鎖骨 (強調)",
+      "value": "collarbone"
+    },
+    {
+      "id": 972,
+      "label": "06_エプロン",
+      "value": "apron"
+    },
+    {
+      "id": 973,
+      "label": "06_スカーフ/マフラー",
+      "value": "scarf"
+    },
+    {
+      "id": 974,
+      "label": "06_バスタオル",
+      "value": "bath towel"
+    }
   ],
   "bottom_wear": [
-    { "id": 975, "label": "01_カーゴパンツ", "value": "cargo pants" },
-    { "id": 976, "label": "01_ショートパンツ/半ズボン", "value": "shorts" },
-    { "id": 977, "label": "01_ジーンズ/デニムパンツ", "value": "denim jeans" },
-    { "id": 978, "label": "01_スラックス/オフィスパンツ", "value": "slacks" },
+    {
+      "id": 975,
+      "label": "01_カーゴパンツ",
+      "value": "cargo pants"
+    },
+    {
+      "id": 976,
+      "label": "01_ショートパンツ/半ズボン",
+      "value": "shorts"
+    },
+    {
+      "id": 977,
+      "label": "01_ジーンズ/デニムパンツ",
+      "value": "denim jeans"
+    },
+    {
+      "id": 978,
+      "label": "01_スラックス/オフィスパンツ",
+      "value": "slacks"
+    },
     {
       "id": 979,
       "label": "01_ビキニのボトム/水着の下",
@@ -2904,79 +5016,327 @@
       "label": "01_ホットパンツ/極端に短いパンツ",
       "value": "hot pants"
     },
-    { "id": 981, "label": "01_レギンス/スパッツ", "value": "leggings" },
-    { "id": 982, "label": "01_ロングパンツ/長ズボン", "value": "long pants" },
-    { "id": 983, "label": "01_ワイドパンツ", "value": "wide leg pants" },
-    { "id": 984, "label": "02_タイトスカート", "value": "pencil skirt" },
-    { "id": 985, "label": "02_デニムスカート", "value": "denim skirt" },
-    { "id": 986, "label": "02_フレアスカート", "value": "flared skirt" },
-    { "id": 987, "label": "02_プリーツスカート", "value": "pleated skirt" },
-    { "id": 988, "label": "02_ミニスカート", "value": "mini skirt" },
-    { "id": 989, "label": "02_レザースカート", "value": "leather skirt" },
-    { "id": 990, "label": "02_ロングスカート", "value": "long skirt" },
-    { "id": 991, "label": "03_つなぎ/オールインワン", "value": "jumpsuit" },
-    { "id": 992, "label": "03_オーバーオール/サロペット", "value": "overalls" },
-    { "id": 993, "label": "03_ハイウエスト", "value": "high-waist" },
-    { "id": 994, "label": "03_ワンピース", "value": "dress" }
+    {
+      "id": 981,
+      "label": "01_レギンス/スパッツ",
+      "value": "leggings"
+    },
+    {
+      "id": 982,
+      "label": "01_ロングパンツ/長ズボン",
+      "value": "long pants"
+    },
+    {
+      "id": 983,
+      "label": "01_ワイドパンツ",
+      "value": "wide leg pants"
+    },
+    {
+      "id": 984,
+      "label": "02_タイトスカート",
+      "value": "pencil skirt"
+    },
+    {
+      "id": 985,
+      "label": "02_デニムスカート",
+      "value": "denim skirt"
+    },
+    {
+      "id": 986,
+      "label": "02_フレアスカート",
+      "value": "flared skirt"
+    },
+    {
+      "id": 987,
+      "label": "02_プリーツスカート",
+      "value": "pleated skirt"
+    },
+    {
+      "id": 988,
+      "label": "02_ミニスカート",
+      "value": "mini skirt"
+    },
+    {
+      "id": 989,
+      "label": "02_レザースカート",
+      "value": "leather skirt"
+    },
+    {
+      "id": 990,
+      "label": "02_ロングスカート",
+      "value": "long skirt"
+    },
+    {
+      "id": 991,
+      "label": "03_つなぎ/オールインワン",
+      "value": "jumpsuit"
+    },
+    {
+      "id": 992,
+      "label": "03_オーバーオール/サロペット",
+      "value": "overalls"
+    },
+    {
+      "id": 993,
+      "label": "03_ハイウエスト",
+      "value": "high-waist"
+    },
+    {
+      "id": 994,
+      "label": "03_ワンピース",
+      "value": "dress"
+    }
   ],
   "lingerie_wear": [
-    { "id": 995, "label": "01_サテンガウン", "value": "satin robe" },
-    { "id": 996, "label": "01_ネグリジェ", "value": "negligee" },
-    { "id": 997, "label": "01_ベビードール", "value": "babydoll" },
-    { "id": 998, "label": "01_ローブ", "value": "robe" },
-    { "id": 999, "label": "02_ウェストニッパー", "value": "waist cincher" },
-    { "id": 1000, "label": "02_ガーターベルト", "value": "garter belt" },
-    { "id": 1001, "label": "02_コルセット", "value": "corset" },
-    { "id": 1002, "label": "02_ビスチェ", "value": "bustier" },
-    { "id": 1003, "label": "03_シミーズ", "value": "chemise" },
-    { "id": 1004, "label": "03_スリップ", "value": "slip dress" },
-    { "id": 1005, "label": "03_テディ", "value": "teddy (lingerie)" },
-    { "id": 1006, "label": "03_ニッカーズ/ドロワーズ", "value": "knickers" },
-    { "id": 1007, "label": "03_ボディスーツ", "value": "bodysuit" },
-    { "id": 1008, "label": "04_ストッキング", "value": "stockings" },
-    { "id": 1009, "label": "04_タイツ", "value": "tights" },
+    {
+      "id": 995,
+      "label": "01_サテンガウン",
+      "value": "satin robe"
+    },
+    {
+      "id": 996,
+      "label": "01_ネグリジェ",
+      "value": "negligee"
+    },
+    {
+      "id": 997,
+      "label": "01_ベビードール",
+      "value": "babydoll"
+    },
+    {
+      "id": 998,
+      "label": "01_ローブ",
+      "value": "robe"
+    },
+    {
+      "id": 999,
+      "label": "02_ウェストニッパー",
+      "value": "waist cincher"
+    },
+    {
+      "id": 1000,
+      "label": "02_ガーターベルト",
+      "value": "garter belt"
+    },
+    {
+      "id": 1001,
+      "label": "02_コルセット",
+      "value": "corset"
+    },
+    {
+      "id": 1002,
+      "label": "02_ビスチェ",
+      "value": "bustier"
+    },
+    {
+      "id": 1003,
+      "label": "03_シミーズ",
+      "value": "chemise"
+    },
+    {
+      "id": 1004,
+      "label": "03_スリップ",
+      "value": "slip dress"
+    },
+    {
+      "id": 1005,
+      "label": "03_テディ",
+      "value": "teddy (lingerie)"
+    },
+    {
+      "id": 1006,
+      "label": "03_ニッカーズ/ドロワーズ",
+      "value": "knickers"
+    },
+    {
+      "id": 1007,
+      "label": "03_ボディスーツ",
+      "value": "bodysuit"
+    },
+    {
+      "id": 1008,
+      "label": "04_ストッキング",
+      "value": "stockings"
+    },
+    {
+      "id": 1009,
+      "label": "04_タイツ",
+      "value": "tights"
+    },
     {
       "id": 1010,
       "label": "04_ボディストッキング",
       "value": "under bodystocking"
     },
-    { "id": 1011, "label": "04_メッシュストッキング", "value": "fishnets" }
+    {
+      "id": 1011,
+      "label": "04_メッシュストッキング",
+      "value": "fishnets"
+    }
   ],
   "bra_wear": [
-    { "id": 1012, "label": "01_スポーツブラ", "value": "sports bra" },
-    { "id": 1013, "label": "01_チューブトップ", "value": "tube top" },
-    { "id": 1014, "label": "01_バンドゥブラ", "value": "bandeau" },
-    { "id": 1015, "label": "01_ブラ (汎用)", "value": "bra" },
-    { "id": 1016, "label": "01_ホルターネックブラ", "value": "halter bra" },
-    { "id": 1017, "label": "01_紐なしブラ", "value": "strapless bra" },
-    { "id": 1018, "label": "02_シースルーブラ", "value": "sheer bra" },
-    { "id": 1019, "label": "02_レースブラ", "value": "lace bra" },
-    { "id": 1020, "label": "03_ストライプ柄", "value": "striped bra" },
-    { "id": 1021, "label": "03_ゼブラ柄", "value": "zebra print bra" },
-    { "id": 1022, "label": "03_チェック柄", "value": "plaid bra" },
-    { "id": 1023, "label": "03_ヒョウ柄", "value": "leopard print bra" },
-    { "id": 1024, "label": "03_水玉柄", "value": "polka dot bra" },
-    { "id": 1025, "label": "03_花柄", "value": "floral pattern bra" },
-    { "id": 1026, "label": "03_迷彩柄", "value": "camouflage pattern bra" }
+    {
+      "id": 1012,
+      "label": "01_スポーツブラ",
+      "value": "sports bra"
+    },
+    {
+      "id": 1013,
+      "label": "01_チューブトップ",
+      "value": "tube top"
+    },
+    {
+      "id": 1014,
+      "label": "01_バンドゥブラ",
+      "value": "bandeau"
+    },
+    {
+      "id": 1015,
+      "label": "01_ブラ (汎用)",
+      "value": "bra"
+    },
+    {
+      "id": 1016,
+      "label": "01_ホルターネックブラ",
+      "value": "halter bra"
+    },
+    {
+      "id": 1017,
+      "label": "01_紐なしブラ",
+      "value": "strapless bra"
+    },
+    {
+      "id": 1018,
+      "label": "02_シースルーブラ",
+      "value": "sheer bra"
+    },
+    {
+      "id": 1019,
+      "label": "02_レースブラ",
+      "value": "lace bra"
+    },
+    {
+      "id": 1020,
+      "label": "03_ストライプ柄",
+      "value": "striped bra"
+    },
+    {
+      "id": 1021,
+      "label": "03_ゼブラ柄",
+      "value": "zebra print bra"
+    },
+    {
+      "id": 1022,
+      "label": "03_チェック柄",
+      "value": "plaid bra"
+    },
+    {
+      "id": 1023,
+      "label": "03_ヒョウ柄",
+      "value": "leopard print bra"
+    },
+    {
+      "id": 1024,
+      "label": "03_水玉柄",
+      "value": "polka dot bra"
+    },
+    {
+      "id": 1025,
+      "label": "03_花柄",
+      "value": "floral pattern bra"
+    },
+    {
+      "id": 1026,
+      "label": "03_迷彩柄",
+      "value": "camouflage pattern bra"
+    }
   ],
   "panties_wear": [
-    { "id": 1027, "label": "00_ラクダのひづめ", "value": "cameltoe" },
-    { "id": 1028, "label": "01_Tバック/Gストリング", "value": "g-string" },
-    { "id": 1029, "label": "01_ショーツ（汎用）", "value": "panties" },
-    { "id": 1030, "label": "01_タンガ", "value": "thong" },
-    { "id": 1031, "label": "01_ビキニカット", "value": "bikini panties" },
-    { "id": 1032, "label": "01_ボクサーショーツ", "value": "boy shorts" },
-    { "id": 1033, "label": "02_ひもパン", "value": "string panties" },
-    { "id": 1034, "label": "02_シースルーパンティ", "value": "sheer panties" },
-    { "id": 1035, "label": "02_ハイレグ", "value": "high-leg cut" },
-    { "id": 1036, "label": "02_レースパンティ", "value": "lace panties" },
-    { "id": 1037, "label": "03_ストライプ柄", "value": "striped panties" },
-    { "id": 1038, "label": "03_ゼブラ柄", "value": "zebra print panties" },
-    { "id": 1039, "label": "03_チェック柄", "value": "plaid panties" },
-    { "id": 1040, "label": "03_ヒョウ柄", "value": "leopard print panties" },
-    { "id": 1041, "label": "03_水玉柄", "value": "polka dot panties" },
-    { "id": 1042, "label": "03_花柄", "value": "floral pattern panties" },
-    { "id": 1043, "label": "03_迷彩柄", "value": "camouflage pattern panties" }
+    {
+      "id": 1027,
+      "label": "00_ラクダのひづめ",
+      "value": "cameltoe"
+    },
+    {
+      "id": 1028,
+      "label": "01_Tバック/Gストリング",
+      "value": "g-string"
+    },
+    {
+      "id": 1029,
+      "label": "01_ショーツ（汎用）",
+      "value": "panties"
+    },
+    {
+      "id": 1030,
+      "label": "01_タンガ",
+      "value": "thong"
+    },
+    {
+      "id": 1031,
+      "label": "01_ビキニカット",
+      "value": "bikini panties"
+    },
+    {
+      "id": 1032,
+      "label": "01_ボクサーショーツ",
+      "value": "boy shorts"
+    },
+    {
+      "id": 1033,
+      "label": "02_ひもパン",
+      "value": "string panties"
+    },
+    {
+      "id": 1034,
+      "label": "02_シースルーパンティ",
+      "value": "sheer panties"
+    },
+    {
+      "id": 1035,
+      "label": "02_ハイレグ",
+      "value": "high-leg cut"
+    },
+    {
+      "id": 1036,
+      "label": "02_レースパンティ",
+      "value": "lace panties"
+    },
+    {
+      "id": 1037,
+      "label": "03_ストライプ柄",
+      "value": "striped panties"
+    },
+    {
+      "id": 1038,
+      "label": "03_ゼブラ柄",
+      "value": "zebra print panties"
+    },
+    {
+      "id": 1039,
+      "label": "03_チェック柄",
+      "value": "plaid panties"
+    },
+    {
+      "id": 1040,
+      "label": "03_ヒョウ柄",
+      "value": "leopard print panties"
+    },
+    {
+      "id": 1041,
+      "label": "03_水玉柄",
+      "value": "polka dot panties"
+    },
+    {
+      "id": 1042,
+      "label": "03_花柄",
+      "value": "floral pattern panties"
+    },
+    {
+      "id": 1043,
+      "label": "03_迷彩柄",
+      "value": "camouflage pattern panties"
+    }
   ],
   "footwear": [
     {
@@ -2984,65 +5344,193 @@
       "label": "01_サイハイブーツ/太もも丈ブーツ",
       "value": "thigh high boots"
     },
-    { "id": 1045, "label": "01_サンダル", "value": "sandal" },
+    {
+      "id": 1045,
+      "label": "01_サンダル",
+      "value": "sandal"
+    },
     {
       "id": 1046,
       "label": "01_ショートブーツ/アンクルブーツ",
       "value": "short boots"
     },
-    { "id": 1047, "label": "01_スニーカー", "value": "sneakers" },
+    {
+      "id": 1047,
+      "label": "01_スニーカー",
+      "value": "sneakers"
+    },
     {
       "id": 1048,
       "label": "01_ニーハイブーツ/膝丈ブーツ",
       "value": "knee high boots"
     },
-    { "id": 1049, "label": "01_ハイヒール/ピンヒール", "value": "high heels" },
-    { "id": 1050, "label": "01_バレエシューズ", "value": "ballet flats" },
-    { "id": 1051, "label": "01_パンプス", "value": "pumps" },
-    { "id": 1052, "label": "01_ブーツ (総称)", "value": "boots" },
-    { "id": 1053, "label": "01_ミュール", "value": "mules" },
-    { "id": 1054, "label": "01_ローファー", "value": "loafer" },
+    {
+      "id": 1049,
+      "label": "01_ハイヒール/ピンヒール",
+      "value": "high heels"
+    },
+    {
+      "id": 1050,
+      "label": "01_バレエシューズ",
+      "value": "ballet flats"
+    },
+    {
+      "id": 1051,
+      "label": "01_パンプス",
+      "value": "pumps"
+    },
+    {
+      "id": 1052,
+      "label": "01_ブーツ (総称)",
+      "value": "boots"
+    },
+    {
+      "id": 1053,
+      "label": "01_ミュール",
+      "value": "mules"
+    },
+    {
+      "id": 1054,
+      "label": "01_ローファー",
+      "value": "loafer"
+    },
     {
       "id": 1055,
       "label": "02_サイハイソックス/太もも丈ソックス",
       "value": "thigh high socks"
     },
-    { "id": 1056, "label": "02_タイツ", "value": "tights" },
-    { "id": 1057, "label": "02_パンティストッキング", "value": "pantyhose" },
-    { "id": 1058, "label": "02_ルーズソックス", "value": "loose socks" },
+    {
+      "id": 1056,
+      "label": "02_タイツ",
+      "value": "tights"
+    },
+    {
+      "id": 1057,
+      "label": "02_パンティストッキング",
+      "value": "pantyhose"
+    },
+    {
+      "id": 1058,
+      "label": "02_ルーズソックス",
+      "value": "loose socks"
+    },
     {
       "id": 1059,
       "label": "02_網タイツ/フィッシュネット",
       "value": "fishnets"
     },
-    { "id": 1060, "label": "02_靴下 (総称)", "value": "socks" },
-    { "id": 1061, "label": "03_下駄", "value": "geta" },
-    { "id": 1062, "label": "03_草履", "value": "zouri" },
-    { "id": 1063, "label": "04_厚底", "value": "platform footwear" },
-    { "id": 1064, "label": "04_裸足", "value": "barefoot" }
+    {
+      "id": 1060,
+      "label": "02_靴下 (総称)",
+      "value": "socks"
+    },
+    {
+      "id": 1061,
+      "label": "03_下駄",
+      "value": "geta"
+    },
+    {
+      "id": 1062,
+      "label": "03_草履",
+      "value": "zouri"
+    },
+    {
+      "id": 1063,
+      "label": "04_厚底",
+      "value": "platform footwear"
+    },
+    {
+      "id": 1064,
+      "label": "04_裸足",
+      "value": "barefoot"
+    }
   ],
   "hat_wear": [
-    { "id": 1065, "label": "01_カウボーイハット", "value": "cowboy hat" },
-    { "id": 1066, "label": "01_キャップ/野球帽", "value": "baseball cap" },
-    { "id": 1067, "label": "01_ニット帽/ビーニー", "value": "beanie" },
-    { "id": 1068, "label": "01_ベレー帽", "value": "beret" },
-    { "id": 1069, "label": "01_帽子 (汎用)", "value": "hat" },
-    { "id": 1070, "label": "01_麦わら帽子", "value": "straw hat" },
-    { "id": 1071, "label": "02_シルクハット/トップハット", "value": "top hat" },
-    { "id": 1072, "label": "02_ティアラ/王冠", "value": "tiara" },
-    { "id": 1073, "label": "02_ヘッドドレス", "value": "headdress" },
-    { "id": 1074, "label": "02_魔女の帽子", "value": "witch hat" },
-    { "id": 1075, "label": "03_うさ耳", "value": "bunny ears" },
-    { "id": 1076, "label": "03_ケモ耳 (動物の耳)", "value": "animal ears" },
-    { "id": 1077, "label": "03_猫耳", "value": "cat ears" },
-    { "id": 1078, "label": "04_サンバイザー", "value": "sun visor" },
+    {
+      "id": 1065,
+      "label": "01_カウボーイハット",
+      "value": "cowboy hat"
+    },
+    {
+      "id": 1066,
+      "label": "01_キャップ/野球帽",
+      "value": "baseball cap"
+    },
+    {
+      "id": 1067,
+      "label": "01_ニット帽/ビーニー",
+      "value": "beanie"
+    },
+    {
+      "id": 1068,
+      "label": "01_ベレー帽",
+      "value": "beret"
+    },
+    {
+      "id": 1069,
+      "label": "01_帽子 (汎用)",
+      "value": "hat"
+    },
+    {
+      "id": 1070,
+      "label": "01_麦わら帽子",
+      "value": "straw hat"
+    },
+    {
+      "id": 1071,
+      "label": "02_シルクハット/トップハット",
+      "value": "top hat"
+    },
+    {
+      "id": 1072,
+      "label": "02_ティアラ/王冠",
+      "value": "tiara"
+    },
+    {
+      "id": 1073,
+      "label": "02_ヘッドドレス",
+      "value": "headdress"
+    },
+    {
+      "id": 1074,
+      "label": "02_魔女の帽子",
+      "value": "witch hat"
+    },
+    {
+      "id": 1075,
+      "label": "03_うさ耳",
+      "value": "bunny ears"
+    },
+    {
+      "id": 1076,
+      "label": "03_ケモ耳 (動物の耳)",
+      "value": "animal ears"
+    },
+    {
+      "id": 1077,
+      "label": "03_猫耳",
+      "value": "cat ears"
+    },
+    {
+      "id": 1078,
+      "label": "04_サンバイザー",
+      "value": "sun visor"
+    },
     {
       "id": 1079,
       "label": "04_バイザーヘルメット",
       "value": "helmet with visor"
     },
-    { "id": 1080, "label": "04_フード", "value": "hood" },
-    { "id": 1081, "label": "04_ヘルメット", "value": "helmet" }
+    {
+      "id": 1080,
+      "label": "04_フード",
+      "value": "hood"
+    },
+    {
+      "id": 1081,
+      "label": "04_ヘルメット",
+      "value": "helmet"
+    }
   ],
   "special_costume_wear": [
     {
@@ -3135,7 +5623,11 @@
       "label": "03_紐甲冑（ビキニアーマー）",
       "value": "bikini armor, rope armor"
     },
-    { "id": 1100, "label": "03_透け巫女服", "value": "sheer miko outfit" },
+    {
+      "id": 1100,
+      "label": "03_透け巫女服",
+      "value": "sheer miko outfit"
+    },
     {
       "id": 1101,
       "label": "04_ラバースーツ",
@@ -3163,18 +5655,66 @@
     }
   ],
   "clothing_details": [
-    { "id": 1106, "label": "01_シースルー（透け素材）", "value": "sheer" },
-    { "id": 1107, "label": "01_ファー（毛皮）", "value": "fur" },
-    { "id": 1108, "label": "01_メタリック", "value": "metallic" },
-    { "id": 1109, "label": "01_レザー（革）", "value": "leather" },
-    { "id": 1110, "label": "02_フリル", "value": "frills" },
-    { "id": 1111, "label": "02_リボン", "value": "ribbon" },
-    { "id": 1112, "label": "02_レース", "value": "lace" },
-    { "id": 1113, "label": "02_宝石の装飾", "value": "jewelry" },
-    { "id": 1114, "label": "03_ぼろぼろの服", "value": "ragged clothes" },
-    { "id": 1115, "label": "03_シワ", "value": "wrinkles" },
-    { "id": 1116, "label": "03_濡れた服", "value": "wet clothes" },
-    { "id": 1117, "label": "03_破れた服", "value": "torn clothes" }
+    {
+      "id": 1106,
+      "label": "01_シースルー（透け素材）",
+      "value": "sheer"
+    },
+    {
+      "id": 1107,
+      "label": "01_ファー（毛皮）",
+      "value": "fur"
+    },
+    {
+      "id": 1108,
+      "label": "01_メタリック",
+      "value": "metallic"
+    },
+    {
+      "id": 1109,
+      "label": "01_レザー（革）",
+      "value": "leather"
+    },
+    {
+      "id": 1110,
+      "label": "02_フリル",
+      "value": "frills"
+    },
+    {
+      "id": 1111,
+      "label": "02_リボン",
+      "value": "ribbon"
+    },
+    {
+      "id": 1112,
+      "label": "02_レース",
+      "value": "lace"
+    },
+    {
+      "id": 1113,
+      "label": "02_宝石の装飾",
+      "value": "jewelry"
+    },
+    {
+      "id": 1114,
+      "label": "03_ぼろぼろの服",
+      "value": "ragged clothes"
+    },
+    {
+      "id": 1115,
+      "label": "03_シワ",
+      "value": "wrinkles"
+    },
+    {
+      "id": 1116,
+      "label": "03_濡れた服",
+      "value": "wet clothes"
+    },
+    {
+      "id": 1117,
+      "label": "03_破れた服",
+      "value": "torn clothes"
+    }
   ],
   "positioning": [
     {
@@ -3212,8 +5752,16 @@
       "label": "01_6_AAの後ろにBB",
       "value": "(BB behind the AA:1.2)"
     },
-    { "id": 1125, "label": "02_画面の上部（XX）", "value": "XX at the top" },
-    { "id": 1126, "label": "02_画面の下部（XX）", "value": "XX at the bottom" },
+    {
+      "id": 1125,
+      "label": "02_画面の上部（XX）",
+      "value": "XX at the top"
+    },
+    {
+      "id": 1126,
+      "label": "02_画面の下部（XX）",
+      "value": "XX at the bottom"
+    },
     {
       "id": 1127,
       "label": "02_画面の最も右端（XX）",
@@ -3229,9 +5777,21 @@
       "label": "03_XXが木々に囲まれて",
       "value": "XX surrounded by trees"
     },
-    { "id": 1130, "label": "03_XXが箱の中", "value": "XX inside the box" },
-    { "id": 1131, "label": "04_XXが中央", "value": "((XX)) in the center" },
-    { "id": 1132, "label": "04_XXが右側", "value": "((XX)) on the right" },
+    {
+      "id": 1130,
+      "label": "03_XXが箱の中",
+      "value": "XX inside the box"
+    },
+    {
+      "id": 1131,
+      "label": "04_XXが中央",
+      "value": "((XX)) in the center"
+    },
+    {
+      "id": 1132,
+      "label": "04_XXが右側",
+      "value": "((XX)) on the right"
+    },
     {
       "id": 1133,
       "label": "04_XXが右奥（右背景）",
@@ -3247,7 +5807,11 @@
       "label": "04_XXが奥（背景）",
       "value": "((XX)) in the background"
     },
-    { "id": 1136, "label": "04_XXが左側", "value": "((XX)) on the left" },
+    {
+      "id": 1136,
+      "label": "04_XXが左側",
+      "value": "((XX)) on the left"
+    },
     {
       "id": 1137,
       "label": "04_XXが左奥（左背景）",
@@ -3265,7 +5829,11 @@
     }
   ],
   "situation_meta": [
-    { "id": 1140, "label": "01_2画面？", "value": "multiple views, mtu virus" },
+    {
+      "id": 1140,
+      "label": "01_2画面？",
+      "value": "multiple views, mtu virus"
+    },
     {
       "id": 1141,
       "label": "01_マガジン形式",
@@ -3301,7 +5869,11 @@
       "label": "03_エロ衣装ネット",
       "value": "fishnet_bodystocking, nipplesless, crotchless"
     },
-    { "id": 1148, "label": "03_エロ蹲踞", "value": "spread legs, squatting" },
+    {
+      "id": 1148,
+      "label": "03_エロ蹲踞",
+      "value": "spread legs, squatting"
+    },
     {
       "id": 1149,
       "label": "03_スカート上げ",
@@ -3327,7 +5899,11 @@
       "label": "03_屈んで胸チラ",
       "value": "downblouse, looking down, leaning forward, no bra,"
     },
-    { "id": 1154, "label": "03_服はさみ", "value": "cleavage between clothes" },
+    {
+      "id": 1154,
+      "label": "03_服はさみ",
+      "value": "cleavage between clothes"
+    },
     {
       "id": 1155,
       "label": "04_メカクレ",
@@ -3603,28 +6179,56 @@
       "label": "01_正拳突き",
       "value": "seikenduki, straight punch"
     },
-    { "id": 1208, "label": "01_肘打ち", "value": "hiji ate, elbow strike" },
-    { "id": 1209, "label": "01_逆突き", "value": "gyakuzuki, reverse punch" },
+    {
+      "id": 1208,
+      "label": "01_肘打ち",
+      "value": "hiji ate, elbow strike"
+    },
+    {
+      "id": 1209,
+      "label": "01_逆突き",
+      "value": "gyakuzuki, reverse punch"
+    },
     {
       "id": 1210,
       "label": "01_鉤突き/フック",
       "value": "kage zuki, hook punch"
     },
-    { "id": 1211, "label": "02_上段受け", "value": "jodan uke, rising block" },
+    {
+      "id": 1211,
+      "label": "02_上段受け",
+      "value": "jodan uke, rising block"
+    },
     {
       "id": 1212,
       "label": "02_下段払い",
       "value": "gedan barai, downward block"
     },
-    { "id": 1213, "label": "02_外受け", "value": "soto uke, outside block" },
-    { "id": 1214, "label": "03_前蹴り", "value": "mae geri, front kick" },
+    {
+      "id": 1213,
+      "label": "02_外受け",
+      "value": "soto uke, outside block"
+    },
+    {
+      "id": 1214,
+      "label": "03_前蹴り",
+      "value": "mae geri, front kick"
+    },
     {
       "id": 1215,
       "label": "03_回し蹴り",
       "value": "mawashi geri, roundhouse kick"
     },
-    { "id": 1216, "label": "03_横蹴り", "value": "yoko geri, side kick" },
-    { "id": 1217, "label": "03_飛び蹴り", "value": "tobi geri, jumping kick" },
+    {
+      "id": 1216,
+      "label": "03_横蹴り",
+      "value": "yoko geri, side kick"
+    },
+    {
+      "id": 1217,
+      "label": "03_飛び蹴り",
+      "value": "tobi geri, jumping kick"
+    },
     {
       "id": 1218,
       "label": "04_前屈立ち",
@@ -3635,7 +6239,11 @@
       "label": "04_猫足立ち",
       "value": "nekoashi dachi, cat stance"
     },
-    { "id": 1220, "label": "04_騎馬立ち", "value": "kiba dachi, horse stance" }
+    {
+      "id": 1220,
+      "label": "04_騎馬立ち",
+      "value": "kiba dachi, horse stance"
+    }
   ],
   "chinese_martial_arts": [
     {
@@ -3787,8 +6395,16 @@
       "label": "02_側転",
       "value": "cartwheel, turning sideways, hands on ground"
     },
-    { "id": 1250, "label": "02_平均台", "value": "balance beam, on the beam" },
-    { "id": 1251, "label": "03_バク転", "value": "back handspring, back flip" },
+    {
+      "id": 1250,
+      "label": "02_平均台",
+      "value": "balance beam, on the beam"
+    },
+    {
+      "id": 1251,
+      "label": "03_バク転",
+      "value": "back handspring, back flip"
+    },
     {
       "id": 1252,
       "label": "03_宙返り（フリップ）",
@@ -3841,7 +6457,11 @@
       "label": "03_写真のようにリアル",
       "value": "photorealistic, hyperrealism, realistic shading"
     },
-    { "id": 1262, "label": "03_強い陰影", "value": "intense shadows" },
+    {
+      "id": 1262,
+      "label": "03_強い陰影",
+      "value": "intense shadows"
+    },
     {
       "id": 1263,
       "label": "03_映画的画質",
@@ -3869,7 +6489,11 @@
       "label": "01_落ち着いた/低彩度",
       "value": "muted colors, desaturated, soft colors"
     },
-    { "id": 1268, "label": "01_高コントラスト", "value": "high contrast" },
+    {
+      "id": 1268,
+      "label": "01_高コントラスト",
+      "value": "high contrast"
+    },
     {
       "id": 1269,
       "label": "01_鮮やか/高彩度",
@@ -3922,10 +6546,26 @@
       "label": "01_ベリーショート",
       "value": "very short hair, pixie cut"
     },
-    { "id": 1279, "label": "02_ショート", "value": "short hair" },
-    { "id": 1280, "label": "03_ボウルカット", "value": "bowl cut" },
-    { "id": 1281, "label": "04_ボブカット", "value": "bob cut" },
-    { "id": 1282, "label": "05_インバーテッドボブ", "value": "inverted bob" },
+    {
+      "id": 1279,
+      "label": "02_ショート",
+      "value": "short hair"
+    },
+    {
+      "id": 1280,
+      "label": "03_ボウルカット",
+      "value": "bowl cut"
+    },
+    {
+      "id": 1281,
+      "label": "04_ボブカット",
+      "value": "bob cut"
+    },
+    {
+      "id": 1282,
+      "label": "05_インバーテッドボブ",
+      "value": "inverted bob"
+    },
     {
       "id": 1283,
       "label": "06_ミディアム",
@@ -3936,30 +6576,98 @@
       "label": "07_ウルフカット",
       "value": "wolf cut, layered hair"
     },
-    { "id": 1285, "label": "08_マレットカット", "value": "mullet" },
-    { "id": 1286, "label": "09_非対称スタイル", "value": "asymmetrical hair" },
-    { "id": 1287, "label": "10_姫カット", "value": "hime cut, blunt bangs" },
-    { "id": 1288, "label": "11_ロング", "value": "long hair" },
+    {
+      "id": 1285,
+      "label": "08_マレットカット",
+      "value": "mullet"
+    },
+    {
+      "id": 1286,
+      "label": "09_非対称スタイル",
+      "value": "asymmetrical hair"
+    },
+    {
+      "id": 1287,
+      "label": "10_姫カット",
+      "value": "hime cut, blunt bangs"
+    },
+    {
+      "id": 1288,
+      "label": "11_ロング",
+      "value": "long hair"
+    },
     {
       "id": 1289,
       "label": "12_超ロング",
       "value": "very long hair, floor length hair"
     },
-    { "id": 1290, "label": "13_体を超える長さ", "value": "absurdly long hair" }
+    {
+      "id": 1290,
+      "label": "13_体を超える長さ",
+      "value": "absurdly long hair"
+    }
   ],
   "hair_arrangement": [
-    { "id": 1291, "label": "01_片側アップ", "value": "one side up" },
-    { "id": 1292, "label": "02_両側アップ", "value": "two side up" },
-    { "id": 1293, "label": "03_ハーフアップ", "value": "half updo" },
-    { "id": 1294, "label": "04_ポニーテール", "value": "ponytail" },
-    { "id": 1295, "label": "05_ショートポニー", "value": "short ponytail" },
-    { "id": 1296, "label": "06_ハイポニーテール", "value": "high ponytail" },
-    { "id": 1297, "label": "07_ローポニーテール", "value": "low ponytail" },
-    { "id": 1298, "label": "08_サイドポニーテール", "value": "side ponytail" },
-    { "id": 1299, "label": "09_折り返したポニー", "value": "folded ponytail" },
-    { "id": 1300, "label": "10_二股ポニー", "value": "split ponytail" },
-    { "id": 1301, "label": "11_ツインテール", "value": "twintails, pigtails" },
-    { "id": 1302, "label": "12_ローツインテール", "value": "low twintails" },
+    {
+      "id": 1291,
+      "label": "01_片側アップ",
+      "value": "one side up"
+    },
+    {
+      "id": 1292,
+      "label": "02_両側アップ",
+      "value": "two side up"
+    },
+    {
+      "id": 1293,
+      "label": "03_ハーフアップ",
+      "value": "half updo"
+    },
+    {
+      "id": 1294,
+      "label": "04_ポニーテール",
+      "value": "ponytail"
+    },
+    {
+      "id": 1295,
+      "label": "05_ショートポニー",
+      "value": "short ponytail"
+    },
+    {
+      "id": 1296,
+      "label": "06_ハイポニーテール",
+      "value": "high ponytail"
+    },
+    {
+      "id": 1297,
+      "label": "07_ローポニーテール",
+      "value": "low ponytail"
+    },
+    {
+      "id": 1298,
+      "label": "08_サイドポニーテール",
+      "value": "side ponytail"
+    },
+    {
+      "id": 1299,
+      "label": "09_折り返したポニー",
+      "value": "folded ponytail"
+    },
+    {
+      "id": 1300,
+      "label": "10_二股ポニー",
+      "value": "split ponytail"
+    },
+    {
+      "id": 1301,
+      "label": "11_ツインテール",
+      "value": "twintails, pigtails"
+    },
+    {
+      "id": 1302,
+      "label": "12_ローツインテール",
+      "value": "low twintails"
+    },
     {
       "id": 1303,
       "label": "13_ドリルツインテール",
@@ -3970,48 +6678,188 @@
       "label": "14_三つ編み/ブレイド",
       "value": "braid, french braid"
     },
-    { "id": 1305, "label": "15_サイドブレイド", "value": "side braid" },
-    { "id": 1306, "label": "16_クラウンブレイド", "value": "crown braid" },
-    { "id": 1307, "label": "17_お団子/シニヨン", "value": "bun, double bun" },
-    { "id": 1308, "label": "18_シングルお団子", "value": "single hair bun" },
-    { "id": 1309, "label": "19_ダブルお団子", "value": "double bun" },
-    { "id": 1310, "label": "20_トリプルお団子", "value": "triple bun" },
-    { "id": 1311, "label": "21_ハイバン", "value": "high bun" },
-    { "id": 1312, "label": "22_ローバン", "value": "low bun" },
-    { "id": 1313, "label": "23_サイドバン", "value": "side bun" },
-    { "id": 1314, "label": "24_トップノット", "value": "topknot" },
-    { "id": 1315, "label": "25_編み込みお団子", "value": "braided bun" },
-    { "id": 1316, "label": "26_ドーナツお団子", "value": "donut hair bun" },
-    { "id": 1317, "label": "27_コーンお団子", "value": "cone hair bun" },
-    { "id": 1318, "label": "28_アップヘア", "value": "updo, french twist" },
-    { "id": 1319, "label": "29_ドレッドヘア", "value": "dreadlocks" },
-    { "id": 1320, "label": "30_コーンロウ", "value": "cornrows" },
-    { "id": 1321, "label": "31_ヘアリング", "value": "hair rings" },
-    { "id": 1322, "label": "32_リボン結び", "value": "ribbon hair, bow hair" }
+    {
+      "id": 1305,
+      "label": "15_サイドブレイド",
+      "value": "side braid"
+    },
+    {
+      "id": 1306,
+      "label": "16_クラウンブレイド",
+      "value": "crown braid"
+    },
+    {
+      "id": 1307,
+      "label": "17_お団子/シニヨン",
+      "value": "bun, double bun"
+    },
+    {
+      "id": 1308,
+      "label": "18_シングルお団子",
+      "value": "single hair bun"
+    },
+    {
+      "id": 1309,
+      "label": "19_ダブルお団子",
+      "value": "double bun"
+    },
+    {
+      "id": 1310,
+      "label": "20_トリプルお団子",
+      "value": "triple bun"
+    },
+    {
+      "id": 1311,
+      "label": "21_ハイバン",
+      "value": "high bun"
+    },
+    {
+      "id": 1312,
+      "label": "22_ローバン",
+      "value": "low bun"
+    },
+    {
+      "id": 1313,
+      "label": "23_サイドバン",
+      "value": "side bun"
+    },
+    {
+      "id": 1314,
+      "label": "24_トップノット",
+      "value": "topknot"
+    },
+    {
+      "id": 1315,
+      "label": "25_編み込みお団子",
+      "value": "braided bun"
+    },
+    {
+      "id": 1316,
+      "label": "26_ドーナツお団子",
+      "value": "donut hair bun"
+    },
+    {
+      "id": 1317,
+      "label": "27_コーンお団子",
+      "value": "cone hair bun"
+    },
+    {
+      "id": 1318,
+      "label": "28_アップヘア",
+      "value": "updo, french twist"
+    },
+    {
+      "id": 1319,
+      "label": "29_ドレッドヘア",
+      "value": "dreadlocks"
+    },
+    {
+      "id": 1320,
+      "label": "30_コーンロウ",
+      "value": "cornrows"
+    },
+    {
+      "id": 1321,
+      "label": "31_ヘアリング",
+      "value": "hair rings"
+    },
+    {
+      "id": 1322,
+      "label": "32_リボン結び",
+      "value": "ribbon hair, bow hair"
+    }
   ],
   "bangs_sidelocks": [
-    { "id": 1323, "label": "01_前髪あり", "value": "bangs" },
-    { "id": 1324, "label": "02_長い前髪", "value": "long bangs" },
-    { "id": 1325, "label": "03_短い前髪", "value": "short bangs" },
-    { "id": 1326, "label": "04_横髪（サイドロック）", "value": "sidelocks" },
-    { "id": 1327, "label": "05_ぱっつん前髪", "value": "blunt bangs" },
-    { "id": 1328, "label": "06_分け目前髪", "value": "parted bangs" },
-    { "id": 1329, "label": "07_斜め前髪", "value": "diagonal bangs" },
-    { "id": 1330, "label": "08_横に流した前髪", "value": "swept bangs" },
-    { "id": 1331, "label": "09_カーブ前髪", "value": "arched bangs" },
-    { "id": 1332, "label": "10_カーテンバングス", "value": "curtained hair" },
-    { "id": 1333, "label": "11_片目にかかる髪", "value": "hair over one eye" },
-    { "id": 1334, "label": "12_片側サイドロック", "value": "single sidelock" },
-    { "id": 1335, "label": "13_ピン留め前髪", "value": "bangs pinned back" },
+    {
+      "id": 1323,
+      "label": "01_前髪あり",
+      "value": "bangs"
+    },
+    {
+      "id": 1324,
+      "label": "02_長い前髪",
+      "value": "long bangs"
+    },
+    {
+      "id": 1325,
+      "label": "03_短い前髪",
+      "value": "short bangs"
+    },
+    {
+      "id": 1326,
+      "label": "04_横髪（サイドロック）",
+      "value": "sidelocks"
+    },
+    {
+      "id": 1327,
+      "label": "05_ぱっつん前髪",
+      "value": "blunt bangs"
+    },
+    {
+      "id": 1328,
+      "label": "06_分け目前髪",
+      "value": "parted bangs"
+    },
+    {
+      "id": 1329,
+      "label": "07_斜め前髪",
+      "value": "diagonal bangs"
+    },
+    {
+      "id": 1330,
+      "label": "08_横に流した前髪",
+      "value": "swept bangs"
+    },
+    {
+      "id": 1331,
+      "label": "09_カーブ前髪",
+      "value": "arched bangs"
+    },
+    {
+      "id": 1332,
+      "label": "10_カーテンバングス",
+      "value": "curtained hair"
+    },
+    {
+      "id": 1333,
+      "label": "11_片目にかかる髪",
+      "value": "hair over one eye"
+    },
+    {
+      "id": 1334,
+      "label": "12_片側サイドロック",
+      "value": "single sidelock"
+    },
+    {
+      "id": 1335,
+      "label": "13_ピン留め前髪",
+      "value": "bangs pinned back"
+    },
     {
       "id": 1336,
       "label": "14_ドリルサイドロック",
       "value": "drill sidelocks"
     },
-    { "id": 1337, "label": "15_アホ毛", "value": "ahoge" },
-    { "id": 1338, "label": "16_超アホ毛", "value": "huge ahoge" },
-    { "id": 1339, "label": "17_ハートアホ毛", "value": "heart ahoge" },
-    { "id": 1340, "label": "18_アンテナ髪", "value": "antenna hair" }
+    {
+      "id": 1337,
+      "label": "15_アホ毛",
+      "value": "ahoge"
+    },
+    {
+      "id": 1338,
+      "label": "16_超アホ毛",
+      "value": "huge ahoge"
+    },
+    {
+      "id": 1339,
+      "label": "17_ハートアホ毛",
+      "value": "heart ahoge"
+    },
+    {
+      "id": 1340,
+      "label": "18_アンテナ髪",
+      "value": "antenna hair"
+    }
   ],
   "hair_texture": [
     {
@@ -4019,44 +6867,128 @@
       "label": "01_ウェーブヘア",
       "value": "wavy hair, loose waves"
     },
-    { "id": 1342, "label": "01_カーリーヘア", "value": "curly hair" },
-    { "id": 1343, "label": "01_ストレートヘア", "value": "straight hair" },
-    { "id": 1344, "label": "01_ツンツンした毛先", "value": "spiked hair" },
-    { "id": 1345, "label": "01_ハネた髪", "value": "flipped hair" },
-    { "id": 1346, "label": "01_尖った髪", "value": "pointy hair" },
+    {
+      "id": 1342,
+      "label": "01_カーリーヘア",
+      "value": "curly hair"
+    },
+    {
+      "id": 1343,
+      "label": "01_ストレートヘア",
+      "value": "straight hair"
+    },
+    {
+      "id": 1344,
+      "label": "01_ツンツンした毛先",
+      "value": "spiked hair"
+    },
+    {
+      "id": 1345,
+      "label": "01_ハネた髪",
+      "value": "flipped hair"
+    },
+    {
+      "id": 1346,
+      "label": "01_尖った髪",
+      "value": "pointy hair"
+    },
     {
       "id": 1347,
       "label": "02_ふわふわ/ボリューム",
       "value": "fluffy hair, puffy hair, soft hair"
     },
-    { "id": 1348, "label": "02_光沢のある髪/天使の輪", "value": "shiny hair" },
+    {
+      "id": 1348,
+      "label": "02_光沢のある髪/天使の輪",
+      "value": "shiny hair"
+    },
     {
       "id": 1349,
       "label": "03_上向きになびく (浮遊)",
       "value": "hair flowing upwards, anti-gravity hair"
     },
-    { "id": 1350, "label": "03_乱れた髪", "value": "messy hair, wild hair" },
-    { "id": 1351, "label": "03_濡れた髪", "value": "wet hair, dripping hair" },
+    {
+      "id": 1350,
+      "label": "03_乱れた髪",
+      "value": "messy hair, wild hair"
+    },
+    {
+      "id": 1351,
+      "label": "03_濡れた髪",
+      "value": "wet hair, dripping hair"
+    },
     {
       "id": 1352,
       "label": "03_風になびく",
       "value": "floating hair, hair in the wind"
     },
-    { "id": 1353, "label": "04_触角/横髪", "value": "antennae hair, sidelocks" }
+    {
+      "id": 1353,
+      "label": "04_触角/横髪",
+      "value": "antennae hair, sidelocks"
+    }
   ],
   "hair_fantasy": [
-    { "id": 1354, "label": "エネルギーヘア", "value": "energy hair" },
-    { "id": 1355, "label": "クラウドヘア", "value": "cloud hair" },
-    { "id": 1356, "label": "クリスタルヘア", "value": "crystal hair" },
-    { "id": 1357, "label": "グローイングヘア", "value": "glowing hair" },
-    { "id": 1358, "label": "スターリーヘア", "value": "starry hair" },
-    { "id": 1359, "label": "スネークヘア", "value": "snake hair" },
-    { "id": 1360, "label": "プラントヘア", "value": "plant hair" },
-    { "id": 1361, "label": "メカニカルヘア", "value": "mechanical hair" },
-    { "id": 1362, "label": "リキッドヘア", "value": "liquid hair" },
-    { "id": 1363, "label": "リビングヘア", "value": "living hair" },
-    { "id": 1364, "label": "炎の髪", "value": "fiery hair" },
-    { "id": 1365, "label": "食べ物テーマの髪", "value": "food-themed hair" }
+    {
+      "id": 1354,
+      "label": "エネルギーヘア",
+      "value": "energy hair"
+    },
+    {
+      "id": 1355,
+      "label": "クラウドヘア",
+      "value": "cloud hair"
+    },
+    {
+      "id": 1356,
+      "label": "クリスタルヘア",
+      "value": "crystal hair"
+    },
+    {
+      "id": 1357,
+      "label": "グローイングヘア",
+      "value": "glowing hair"
+    },
+    {
+      "id": 1358,
+      "label": "スターリーヘア",
+      "value": "starry hair"
+    },
+    {
+      "id": 1359,
+      "label": "スネークヘア",
+      "value": "snake hair"
+    },
+    {
+      "id": 1360,
+      "label": "プラントヘア",
+      "value": "plant hair"
+    },
+    {
+      "id": 1361,
+      "label": "メカニカルヘア",
+      "value": "mechanical hair"
+    },
+    {
+      "id": 1362,
+      "label": "リキッドヘア",
+      "value": "liquid hair"
+    },
+    {
+      "id": 1363,
+      "label": "リビングヘア",
+      "value": "living hair"
+    },
+    {
+      "id": 1364,
+      "label": "炎の髪",
+      "value": "fiery hair"
+    },
+    {
+      "id": 1365,
+      "label": "食べ物テーマの髪",
+      "value": "food-themed hair"
+    }
   ],
   "preset_normal": [
     {
@@ -4093,19 +7025,31 @@
     }
   ],
   "sex_time": [
-    { "id": 1372, "label": "1_朝チュン", "value": "morning sex" },
+    {
+      "id": 1372,
+      "label": "1_朝チュン",
+      "value": "morning sex"
+    },
     {
       "id": 1373,
       "label": "2_昼間の行為",
       "value": "day sex, afternoon delight"
     },
-    { "id": 1374, "label": "3_夜の行為", "value": "night sex, evening sex" },
+    {
+      "id": 1374,
+      "label": "3_夜の行為",
+      "value": "night sex, evening sex"
+    },
     {
       "id": 1375,
       "label": "4_真夜中の行為",
       "value": "midnight sex, late night"
     },
-    { "id": 1376, "label": "5_日の出の行為", "value": "sunrise sex, dawn sex" },
+    {
+      "id": 1376,
+      "label": "5_日の出の行為",
+      "value": "sunrise sex, dawn sex"
+    },
     {
       "id": 1377,
       "label": "6_休憩中の行為",
@@ -4116,7 +7060,11 @@
       "label": "7_朝食前の行為",
       "value": "pre-breakfast sex, morning rush"
     },
-    { "id": 1379, "label": "8_夜更かし", "value": "all-nighter sex" }
+    {
+      "id": 1379,
+      "label": "8_夜更かし",
+      "value": "all-nighter sex"
+    }
   ],
   "sex_place": [
     {
@@ -4129,8 +7077,16 @@
       "label": "11_病院",
       "value": "hospital bed, examination room"
     },
-    { "id": 1382, "label": "12_ホテル", "value": "hotel room, minibar access" },
-    { "id": 1383, "label": "13_バス/電車", "value": "on the train, bus seat" },
+    {
+      "id": 1382,
+      "label": "12_ホテル",
+      "value": "hotel room, minibar access"
+    },
+    {
+      "id": 1383,
+      "label": "13_バス/電車",
+      "value": "on the train, bus seat"
+    },
     {
       "id": 1384,
       "label": "14_隠し部屋",
@@ -4151,16 +7107,36 @@
       "label": "3_シャワー",
       "value": "steamy shower, wet and wild"
     },
-    { "id": 1388, "label": "4_路上", "value": "alleyway sex, backseat sex" },
-    { "id": 1389, "label": "5_更衣室", "value": "fitting room, changing room" },
-    { "id": 1390, "label": "6_教室", "value": "classroom sex, under the desk" },
-    { "id": 1391, "label": "7_職場", "value": "office sex, on the copier" },
+    {
+      "id": 1388,
+      "label": "4_路上",
+      "value": "alleyway sex, backseat sex"
+    },
+    {
+      "id": 1389,
+      "label": "5_更衣室",
+      "value": "fitting room, changing room"
+    },
+    {
+      "id": 1390,
+      "label": "6_教室",
+      "value": "classroom sex, under the desk"
+    },
+    {
+      "id": 1391,
+      "label": "7_職場",
+      "value": "office sex, on the copier"
+    },
     {
       "id": 1392,
       "label": "8_階段・廊下",
       "value": "stairwell sex, hallway encounter"
     },
-    { "id": 1393, "label": "9_旅館", "value": "ryokan futon, tatami room" }
+    {
+      "id": 1393,
+      "label": "9_旅館",
+      "value": "ryokan futon, tatami room"
+    }
   ],
   "sex_atmosphere": [
     {
@@ -4168,14 +7144,26 @@
       "label": "1_荒れた場所",
       "value": "messy room, cluttered space"
     },
-    { "id": 1395, "label": "2_濡れた場所", "value": "wet surface, damp floor" },
-    { "id": 1396, "label": "3_密室感", "value": "cramped space, narrow gap" },
+    {
+      "id": 1395,
+      "label": "2_濡れた場所",
+      "value": "wet surface, damp floor"
+    },
+    {
+      "id": 1396,
+      "label": "3_密室感",
+      "value": "cramped space, narrow gap"
+    },
     {
       "id": 1397,
       "label": "4_特定の光と影",
       "value": "shadowy corner, deep shadows"
     },
-    { "id": 1398, "label": "5_悪天候", "value": "rainy day, thunderstorm" },
+    {
+      "id": 1398,
+      "label": "5_悪天候",
+      "value": "rainy day, thunderstorm"
+    },
     {
       "id": 1399,
       "label": "6_時間の経過",
@@ -4208,7 +7196,11 @@
       "label": "01_体重移動",
       "value": "weight shift, leaning to the side, balancing"
     },
-    { "id": 1405, "label": "01_泳ぐ", "value": "swimming, diving, underwater" },
+    {
+      "id": 1405,
+      "label": "01_泳ぐ",
+      "value": "swimming, diving, underwater"
+    },
     {
       "id": 1406,
       "label": "01_片膝を曲げる",
@@ -4224,7 +7216,11 @@
       "label": "01_脚をクロス (立)",
       "value": "crossed legs, standing, ankle cross"
     },
-    { "id": 1409, "label": "01_走る", "value": "running, sprinting, in motion" }
+    {
+      "id": 1409,
+      "label": "01_走る",
+      "value": "running, sprinting, in motion"
+    }
   ],
   "sitting_squatting_pose": [
     {
@@ -4257,7 +7253,11 @@
       "label": "02_座って後ろを向く",
       "value": "sitting, turned away, back view, sitting"
     },
-    { "id": 1416, "label": "02_正座", "value": "seiza, kneeling" },
+    {
+      "id": 1416,
+      "label": "02_正座",
+      "value": "seiza, kneeling"
+    },
     {
       "id": 1417,
       "label": "02_片膝を立てて座る",
@@ -4290,8 +7290,16 @@
     }
   ],
   "hand_gesture": [
-    { "id": 1423, "label": "03_ダブルピース", "value": "double v, v sign" },
-    { "id": 1424, "label": "03_ピース", "value": "v, peace sign" },
+    {
+      "id": 1423,
+      "label": "03_ダブルピース",
+      "value": "double v, v sign"
+    },
+    {
+      "id": 1424,
+      "label": "03_ピース",
+      "value": "v, peace sign"
+    },
     {
       "id": 1425,
       "label": "03_ポケットに手",
@@ -4332,7 +7340,11 @@
       "label": "03_指先合わせ",
       "value": "index fingers together, shy, nervous"
     },
-    { "id": 1433, "label": "03_腕組み", "value": "arms crossed, folded arms" },
+    {
+      "id": 1433,
+      "label": "03_腕組み",
+      "value": "arms crossed, folded arms"
+    },
     {
       "id": 1434,
       "label": "03_頬杖をつく",
@@ -4345,36 +7357,116 @@
     }
   ],
   "indoor_objects": [
-    { "id": 1436, "label": "家具・調度品_カーテン", "value": "curtain" },
-    { "id": 1437, "label": "家具・調度品_キャビネット", "value": "cabinet" },
-    { "id": 1438, "label": "家具・調度品_クッション", "value": "cushion" },
-    { "id": 1439, "label": "家具・調度品_ソファ", "value": "sofa" },
-    { "id": 1440, "label": "家具・調度品_テーブル", "value": "table" },
-    { "id": 1441, "label": "家具・調度品_ベッド", "value": "bed" },
-    { "id": 1442, "label": "家具・調度品_本棚", "value": "bookshelf" },
-    { "id": 1443, "label": "家具・調度品_机", "value": "desk" },
-    { "id": 1444, "label": "家具・調度品_椅子", "value": "chair" },
-    { "id": 1445, "label": "家具・調度品_絨毯/ラグ", "value": "rug" },
-    { "id": 1446, "label": "装飾品・雑貨_おもちゃ", "value": "toy" },
-    { "id": 1447, "label": "装飾品・雑貨_ぬいぐるみ", "value": "stuffed toy" },
-    { "id": 1448, "label": "装飾品・雑貨_キャンドル", "value": "candle" },
-    { "id": 1449, "label": "装飾品・雑貨_コップ/マグ", "value": "mug" },
-    { "id": 1450, "label": "装飾品・雑貨_写真立て", "value": "photo frame" },
-    { "id": 1451, "label": "装飾品・雑貨_本", "value": "book" },
+    {
+      "id": 1436,
+      "label": "家具・調度品_カーテン",
+      "value": "curtain"
+    },
+    {
+      "id": 1437,
+      "label": "家具・調度品_キャビネット",
+      "value": "cabinet"
+    },
+    {
+      "id": 1438,
+      "label": "家具・調度品_クッション",
+      "value": "cushion"
+    },
+    {
+      "id": 1439,
+      "label": "家具・調度品_ソファ",
+      "value": "sofa"
+    },
+    {
+      "id": 1440,
+      "label": "家具・調度品_テーブル",
+      "value": "table"
+    },
+    {
+      "id": 1441,
+      "label": "家具・調度品_ベッド",
+      "value": "bed"
+    },
+    {
+      "id": 1442,
+      "label": "家具・調度品_本棚",
+      "value": "bookshelf"
+    },
+    {
+      "id": 1443,
+      "label": "家具・調度品_机",
+      "value": "desk"
+    },
+    {
+      "id": 1444,
+      "label": "家具・調度品_椅子",
+      "value": "chair"
+    },
+    {
+      "id": 1445,
+      "label": "家具・調度品_絨毯/ラグ",
+      "value": "rug"
+    },
+    {
+      "id": 1446,
+      "label": "装飾品・雑貨_おもちゃ",
+      "value": "toy"
+    },
+    {
+      "id": 1447,
+      "label": "装飾品・雑貨_ぬいぐるみ",
+      "value": "stuffed toy"
+    },
+    {
+      "id": 1448,
+      "label": "装飾品・雑貨_キャンドル",
+      "value": "candle"
+    },
+    {
+      "id": 1449,
+      "label": "装飾品・雑貨_コップ/マグ",
+      "value": "mug"
+    },
+    {
+      "id": 1450,
+      "label": "装飾品・雑貨_写真立て",
+      "value": "photo frame"
+    },
+    {
+      "id": 1451,
+      "label": "装飾品・雑貨_本",
+      "value": "book"
+    },
     {
       "id": 1452,
       "label": "装飾品・雑貨_植物/鉢植え",
       "value": "potted plant"
     },
-    { "id": 1453, "label": "装飾品・雑貨_絵画/ポスター", "value": "painting" },
-    { "id": 1454, "label": "装飾品・雑貨_花瓶", "value": "vase" },
-    { "id": 1455, "label": "装飾品・雑貨_鏡", "value": "mirror" },
+    {
+      "id": 1453,
+      "label": "装飾品・雑貨_絵画/ポスター",
+      "value": "painting"
+    },
+    {
+      "id": 1454,
+      "label": "装飾品・雑貨_花瓶",
+      "value": "vase"
+    },
+    {
+      "id": 1455,
+      "label": "装飾品・雑貨_鏡",
+      "value": "mirror"
+    },
     {
       "id": 1456,
       "label": "電化製品・設備_エアコン",
       "value": "air conditioner"
     },
-    { "id": 1457, "label": "電化製品・設備_キーボード", "value": "keyboard" },
+    {
+      "id": 1457,
+      "label": "電化製品・設備_キーボード",
+      "value": "keyboard"
+    },
     {
       "id": 1458,
       "label": "電化製品・設備_シャンデリア",
@@ -4385,39 +7477,143 @@
       "label": "電化製品・設備_スマートフォン",
       "value": "smartphone"
     },
-    { "id": 1460, "label": "電化製品・設備_テレビ", "value": "television" },
-    { "id": 1461, "label": "電化製品・設備_パソコン/PC", "value": "computer" },
-    { "id": 1462, "label": "電化製品・設備_モニター", "value": "monitor" },
-    { "id": 1463, "label": "電化製品・設備_ランプ/スタンド", "value": "lamp" },
-    { "id": 1464, "label": "電化製品・設備_換気扇", "value": "fan" },
-    { "id": 1465, "label": "電化製品・設備_暖炉", "value": "fireplace" }
+    {
+      "id": 1460,
+      "label": "電化製品・設備_テレビ",
+      "value": "television"
+    },
+    {
+      "id": 1461,
+      "label": "電化製品・設備_パソコン/PC",
+      "value": "computer"
+    },
+    {
+      "id": 1462,
+      "label": "電化製品・設備_モニター",
+      "value": "monitor"
+    },
+    {
+      "id": 1463,
+      "label": "電化製品・設備_ランプ/スタンド",
+      "value": "lamp"
+    },
+    {
+      "id": 1464,
+      "label": "電化製品・設備_換気扇",
+      "value": "fan"
+    },
+    {
+      "id": 1465,
+      "label": "電化製品・設備_暖炉",
+      "value": "fireplace"
+    }
   ],
   "outdoor_objects": [
-    { "id": 1466, "label": "乗り物_トラック", "value": "truck" },
-    { "id": 1467, "label": "乗り物_バイク/オートバイ", "value": "motorcycle" },
-    { "id": 1468, "label": "乗り物_バス", "value": "bus" },
-    { "id": 1469, "label": "乗り物_気球", "value": "hot air balloon" },
-    { "id": 1470, "label": "乗り物_自動車", "value": "car" },
-    { "id": 1471, "label": "乗り物_自転車", "value": "bicycle" },
-    { "id": 1472, "label": "乗り物_船", "value": "ship, boat" },
-    { "id": 1473, "label": "乗り物_路面電車", "value": "tram" },
-    { "id": 1474, "label": "乗り物_電車/列車", "value": "train, railroad car" },
+    {
+      "id": 1466,
+      "label": "乗り物_トラック",
+      "value": "truck"
+    },
+    {
+      "id": 1467,
+      "label": "乗り物_バイク/オートバイ",
+      "value": "motorcycle"
+    },
+    {
+      "id": 1468,
+      "label": "乗り物_バス",
+      "value": "bus"
+    },
+    {
+      "id": 1469,
+      "label": "乗り物_気球",
+      "value": "hot air balloon"
+    },
+    {
+      "id": 1470,
+      "label": "乗り物_自動車",
+      "value": "car"
+    },
+    {
+      "id": 1471,
+      "label": "乗り物_自転車",
+      "value": "bicycle"
+    },
+    {
+      "id": 1472,
+      "label": "乗り物_船",
+      "value": "ship, boat"
+    },
+    {
+      "id": 1473,
+      "label": "乗り物_路面電車",
+      "value": "tram"
+    },
+    {
+      "id": 1474,
+      "label": "乗り物_電車/列車",
+      "value": "train, railroad car"
+    },
     {
       "id": 1475,
       "label": "乗り物_飛行機/航空機",
       "value": "airplane, aircraft"
     },
-    { "id": 1476, "label": "自然の要素_山", "value": "mountain" },
-    { "id": 1477, "label": "自然の要素_岩/石", "value": "rock, stone" },
-    { "id": 1478, "label": "自然の要素_木", "value": "tree" },
-    { "id": 1479, "label": "自然の要素_森/林", "value": "forest, woods" },
-    { "id": 1480, "label": "自然の要素_水面/湖", "value": "lake, pond" },
-    { "id": 1481, "label": "自然の要素_滝", "value": "waterfall" },
-    { "id": 1482, "label": "自然の要素_畑/農地", "value": "field, farmland" },
-    { "id": 1483, "label": "自然の要素_砂浜", "value": "beach, sand" },
-    { "id": 1484, "label": "自然の要素_花", "value": "flower" },
-    { "id": 1485, "label": "自然の要素_草/芝生", "value": "grass, lawn" },
-    { "id": 1486, "label": "都市の構造物_ゴミ箱", "value": "trash can" },
+    {
+      "id": 1476,
+      "label": "自然の要素_山",
+      "value": "mountain"
+    },
+    {
+      "id": 1477,
+      "label": "自然の要素_岩/石",
+      "value": "rock, stone"
+    },
+    {
+      "id": 1478,
+      "label": "自然の要素_木",
+      "value": "tree"
+    },
+    {
+      "id": 1479,
+      "label": "自然の要素_森/林",
+      "value": "forest, woods"
+    },
+    {
+      "id": 1480,
+      "label": "自然の要素_水面/湖",
+      "value": "lake, pond"
+    },
+    {
+      "id": 1481,
+      "label": "自然の要素_滝",
+      "value": "waterfall"
+    },
+    {
+      "id": 1482,
+      "label": "自然の要素_畑/農地",
+      "value": "field, farmland"
+    },
+    {
+      "id": 1483,
+      "label": "自然の要素_砂浜",
+      "value": "beach, sand"
+    },
+    {
+      "id": 1484,
+      "label": "自然の要素_花",
+      "value": "flower"
+    },
+    {
+      "id": 1485,
+      "label": "自然の要素_草/芝生",
+      "value": "grass, lawn"
+    },
+    {
+      "id": 1486,
+      "label": "都市の構造物_ゴミ箱",
+      "value": "trash can"
+    },
     {
       "id": 1487,
       "label": "都市の構造物_ビル/高層ビル",
@@ -4428,24 +7624,48 @@
       "label": "都市の構造物_フェンス/柵",
       "value": "fence, railing"
     },
-    { "id": 1489, "label": "都市の構造物_ベンチ", "value": "bench" },
-    { "id": 1490, "label": "都市の構造物_信号機", "value": "traffic light" },
+    {
+      "id": 1489,
+      "label": "都市の構造物_ベンチ",
+      "value": "bench"
+    },
+    {
+      "id": 1490,
+      "label": "都市の構造物_信号機",
+      "value": "traffic light"
+    },
     {
       "id": 1491,
       "label": "都市の構造物_家/住宅",
       "value": "house, residential area"
     },
-    { "id": 1492, "label": "都市の構造物_橋", "value": "bridge" },
-    { "id": 1493, "label": "都市の構造物_街灯", "value": "street lamp" },
+    {
+      "id": 1492,
+      "label": "都市の構造物_橋",
+      "value": "bridge"
+    },
+    {
+      "id": 1493,
+      "label": "都市の構造物_街灯",
+      "value": "street lamp"
+    },
     {
       "id": 1494,
       "label": "都市の構造物_道路/舗装",
       "value": "road, pavement"
     },
-    { "id": 1495, "label": "都市の構造物_電柱", "value": "utility pole" }
+    {
+      "id": 1495,
+      "label": "都市の構造物_電柱",
+      "value": "utility pole"
+    }
   ],
   "celestial_objects": [
-    { "id": 1496, "label": "大気現象_オーロラ", "value": "aurora" },
+    {
+      "id": 1496,
+      "label": "大気現象_オーロラ",
+      "value": "aurora"
+    },
     {
       "id": 1497,
       "label": "大気現象_光芒/天使の梯子",
@@ -4456,59 +7676,183 @@
       "label": "大気現象_夕焼け/朝焼け",
       "value": "sunset sky, sunrise sky"
     },
-    { "id": 1499, "label": "大気現象_日食/月食", "value": "eclipse" },
-    { "id": 1500, "label": "大気現象_積乱雲", "value": "cumulonimbus" },
-    { "id": 1501, "label": "大気現象_虹", "value": "rainbow" },
-    { "id": 1502, "label": "大気現象_蜃気楼", "value": "mirage" },
-    { "id": 1503, "label": "大気現象_雲 (一般)", "value": "cloud" },
-    { "id": 1504, "label": "大気現象_雷/稲妻", "value": "lightning, thunder" },
-    { "id": 1505, "label": "大気現象_霞/もや", "value": "haze, mist" },
-    { "id": 1506, "label": "天体_土星 (輪)", "value": "saturn, saturn rings" },
-    { "id": 1507, "label": "天体_地球", "value": "earth" },
-    { "id": 1508, "label": "天体_太陽", "value": "sun" },
-    { "id": 1509, "label": "天体_小惑星", "value": "asteroid" },
-    { "id": 1510, "label": "天体_彗星", "value": "comet" },
-    { "id": 1511, "label": "天体_惑星 (一般)", "value": "planet" },
-    { "id": 1512, "label": "天体_星 (一般)", "value": "star" },
-    { "id": 1513, "label": "天体_星座", "value": "constellation" },
-    { "id": 1514, "label": "天体_月", "value": "moon" },
+    {
+      "id": 1499,
+      "label": "大気現象_日食/月食",
+      "value": "eclipse"
+    },
+    {
+      "id": 1500,
+      "label": "大気現象_積乱雲",
+      "value": "cumulonimbus"
+    },
+    {
+      "id": 1501,
+      "label": "大気現象_虹",
+      "value": "rainbow"
+    },
+    {
+      "id": 1502,
+      "label": "大気現象_蜃気楼",
+      "value": "mirage"
+    },
+    {
+      "id": 1503,
+      "label": "大気現象_雲 (一般)",
+      "value": "cloud"
+    },
+    {
+      "id": 1504,
+      "label": "大気現象_雷/稲妻",
+      "value": "lightning, thunder"
+    },
+    {
+      "id": 1505,
+      "label": "大気現象_霞/もや",
+      "value": "haze, mist"
+    },
+    {
+      "id": 1506,
+      "label": "天体_土星 (輪)",
+      "value": "saturn, saturn rings"
+    },
+    {
+      "id": 1507,
+      "label": "天体_地球",
+      "value": "earth"
+    },
+    {
+      "id": 1508,
+      "label": "天体_太陽",
+      "value": "sun"
+    },
+    {
+      "id": 1509,
+      "label": "天体_小惑星",
+      "value": "asteroid"
+    },
+    {
+      "id": 1510,
+      "label": "天体_彗星",
+      "value": "comet"
+    },
+    {
+      "id": 1511,
+      "label": "天体_惑星 (一般)",
+      "value": "planet"
+    },
+    {
+      "id": 1512,
+      "label": "天体_星 (一般)",
+      "value": "star"
+    },
+    {
+      "id": 1513,
+      "label": "天体_星座",
+      "value": "constellation"
+    },
+    {
+      "id": 1514,
+      "label": "天体_月",
+      "value": "moon"
+    },
     {
       "id": 1515,
       "label": "天体_流星/流れ星",
       "value": "meteor, shooting star"
     },
-    { "id": 1516, "label": "宇宙_SF的宇宙船", "value": "spaceship, ufo" },
-    { "id": 1517, "label": "宇宙_ブラックホール", "value": "black hole" },
-    { "id": 1518, "label": "宇宙_ワームホール", "value": "wormhole" },
-    { "id": 1519, "label": "宇宙_天の川", "value": "milky way" },
-    { "id": 1520, "label": "宇宙_宇宙ステーション", "value": "space station" },
+    {
+      "id": 1516,
+      "label": "宇宙_SF的宇宙船",
+      "value": "spaceship, ufo"
+    },
+    {
+      "id": 1517,
+      "label": "宇宙_ブラックホール",
+      "value": "black hole"
+    },
+    {
+      "id": 1518,
+      "label": "宇宙_ワームホール",
+      "value": "wormhole"
+    },
+    {
+      "id": 1519,
+      "label": "宇宙_天の川",
+      "value": "milky way"
+    },
+    {
+      "id": 1520,
+      "label": "宇宙_宇宙ステーション",
+      "value": "space station"
+    },
     {
       "id": 1521,
       "label": "宇宙_宇宙塵/星屑",
       "value": "cosmic dust, stardust"
     },
-    { "id": 1522, "label": "宇宙_宇宙空間", "value": "space" },
-    { "id": 1523, "label": "宇宙_星雲", "value": "nebula" },
+    {
+      "id": 1522,
+      "label": "宇宙_宇宙空間",
+      "value": "space"
+    },
+    {
+      "id": 1523,
+      "label": "宇宙_星雲",
+      "value": "nebula"
+    },
     {
       "id": 1524,
       "label": "宇宙_異星の風景",
       "value": "alien planet, exoplanet surface"
     },
-    { "id": 1525, "label": "宇宙_銀河", "value": "galaxy" }
+    {
+      "id": 1525,
+      "label": "宇宙_銀河",
+      "value": "galaxy"
+    }
   ],
   "kitchen_objects": [
-    { "id": 1526, "label": "厨房_まな板", "value": "cutting board" },
-    { "id": 1527, "label": "厨房_オーブン", "value": "oven" },
+    {
+      "id": 1526,
+      "label": "厨房_まな板",
+      "value": "cutting board"
+    },
+    {
+      "id": 1527,
+      "label": "厨房_オーブン",
+      "value": "oven"
+    },
     {
       "id": 1528,
       "label": "厨房_ガスレンジ/コンロ",
       "value": "stove, gas range"
     },
-    { "id": 1529, "label": "厨房_コーヒーメーカー", "value": "coffee maker" },
-    { "id": 1530, "label": "厨房_シンク/流し台", "value": "sink, washbasin" },
-    { "id": 1531, "label": "厨房_スパイスラック", "value": "spice rack" },
-    { "id": 1532, "label": "厨房_ティーセット", "value": "tea set" },
-    { "id": 1533, "label": "厨房_冷蔵庫", "value": "refrigerator, fridge" },
+    {
+      "id": 1529,
+      "label": "厨房_コーヒーメーカー",
+      "value": "coffee maker"
+    },
+    {
+      "id": 1530,
+      "label": "厨房_シンク/流し台",
+      "value": "sink, washbasin"
+    },
+    {
+      "id": 1531,
+      "label": "厨房_スパイスラック",
+      "value": "spice rack"
+    },
+    {
+      "id": 1532,
+      "label": "厨房_ティーセット",
+      "value": "tea set"
+    },
+    {
+      "id": 1533,
+      "label": "厨房_冷蔵庫",
+      "value": "refrigerator, fridge"
+    },
     {
       "id": 1534,
       "label": "厨房_包丁/ナイフ",
@@ -4529,8 +7873,16 @@
       "label": "厨房_鍋/フライパン",
       "value": "pot, pan, cooking utensils"
     },
-    { "id": 1538, "label": "厨房_電子レンジ", "value": "microwave oven" },
-    { "id": 1539, "label": "厨房_食器棚", "value": "cabinet, cupboard" }
+    {
+      "id": 1538,
+      "label": "厨房_電子レンジ",
+      "value": "microwave oven"
+    },
+    {
+      "id": 1539,
+      "label": "厨房_食器棚",
+      "value": "cabinet, cupboard"
+    }
   ],
   "casino_objects": [
     {
@@ -4573,7 +7925,11 @@
       "label": "ベルベットロープ",
       "value": "velvet rope, stanchion"
     },
-    { "id": 1548, "label": "ポーカーテーブル", "value": "poker table" },
+    {
+      "id": 1548,
+      "label": "ポーカーテーブル",
+      "value": "poker table"
+    },
     {
       "id": 1549,
       "label": "ルーレットテーブル",
@@ -4584,7 +7940,11 @@
       "label": "札束/現金",
       "value": "stack of cash, paper currency"
     },
-    { "id": 1551, "label": "葉巻/シガー", "value": "cigar, cigar smoke" },
+    {
+      "id": 1551,
+      "label": "葉巻/シガー",
+      "value": "cigar, cigar smoke"
+    },
     {
       "id": 1552,
       "label": "豪華シャンデリア",
@@ -4632,10 +7992,26 @@
       "label": "02_ゼッケン",
       "value": "saddlecloth, racing number"
     },
-    { "id": 1561, "label": "02_パドック", "value": "paddock" },
-    { "id": 1562, "label": "02_競走馬", "value": "racehorse, thoroughbred" },
-    { "id": 1563, "label": "02_馬運車", "value": "horse transport truck" },
-    { "id": 1564, "label": "02_騎手", "value": "jockey" },
+    {
+      "id": 1561,
+      "label": "02_パドック",
+      "value": "paddock"
+    },
+    {
+      "id": 1562,
+      "label": "02_競走馬",
+      "value": "racehorse, thoroughbred"
+    },
+    {
+      "id": 1563,
+      "label": "02_馬運車",
+      "value": "horse transport truck"
+    },
+    {
+      "id": 1564,
+      "label": "02_騎手",
+      "value": "jockey"
+    },
     {
       "id": 1565,
       "label": "03_ガードレール/ウォール",
@@ -4661,7 +8037,11 @@
       "label": "03_ダートコース",
       "value": "dirt track, sand course"
     },
-    { "id": 1570, "label": "03_チェッカーフラッグ", "value": "checker flag" },
+    {
+      "id": 1570,
+      "label": "03_チェッカーフラッグ",
+      "value": "checker flag"
+    },
     {
       "id": 1571,
       "label": "03_芝生コース",
@@ -4686,30 +8066,38 @@
   "city_street_objects": [
     {
       "id": 1575,
-      "label": "01_ゴミ箱/公衆電話",
-      "value": "trash can, public phone booth"
-    },
-    {
-      "id": 1576,
-      "label": "01_マンホール/排水溝",
-      "value": "manhole cover, sewer grate"
-    },
-    {
-      "id": 1577,
       "label": "01_信号機",
       "value": "traffic light, crosswalk signal"
     },
     {
-      "id": 1578,
-      "label": "01_工事用バリケード",
-      "value": "construction barricade, traffic cone"
+      "id": 1576,
+      "label": "01_街灯",
+      "value": "street lamp, light post"
     },
-    { "id": 1579, "label": "01_消火栓", "value": "fire hydrant" },
-    { "id": 1580, "label": "01_街灯", "value": "street lamp, light post" },
     {
-      "id": 1581,
+      "id": 1577,
       "label": "01_電柱と電線",
       "value": "utility pole and power lines"
+    },
+    {
+      "id": 1578,
+      "label": "01_消火栓",
+      "value": "fire hydrant"
+    },
+    {
+      "id": 1579,
+      "label": "01_ゴミ箱/公衆電話",
+      "value": "trash can, public phone booth"
+    },
+    {
+      "id": 1580,
+      "label": "01_マンホール/排水溝",
+      "value": "manhole cover, sewer grate"
+    },
+    {
+      "id": 1581,
+      "label": "01_工事用バリケード",
+      "value": "construction barricade, traffic cone"
     },
     {
       "id": 1582,
@@ -4726,110 +8114,142 @@
       "label": "02_店舗の窓/ショーウィンドウ",
       "value": "shop window, storefront display"
     },
-    { "id": 1585, "label": "02_自動販売機", "value": "vending machine" },
-    { "id": 1586, "label": "03_グラフィティ", "value": "graffiti, street art" },
     {
-      "id": 1587,
-      "label": "03_スケートボード",
-      "value": "skateboard, longboard"
+      "id": 1585,
+      "label": "02_自動販売機",
+      "value": "vending machine"
     },
     {
-      "id": 1588,
+      "id": 1586,
+      "label": "03_グラフィティ",
+      "value": "graffiti, street art"
+    },
+    {
+      "id": 1587,
       "label": "03_濡れた路面",
       "value": "wet street, reflecting puddle"
     },
     {
-      "id": 1589,
+      "id": 1588,
       "label": "03_落葉/散らかったゴミ",
       "value": "scattered leaves, street litter"
     },
-    { "id": 1590, "label": "04_タクシー", "value": "taxi, cab" },
-    { "id": 1591, "label": "04_バス", "value": "bus, public transport" },
-    { "id": 1592, "label": "04_交通標識", "value": "street sign, road marker" }
+    {
+      "id": 1589,
+      "label": "03_スケートボード",
+      "value": "skateboard, longboard"
+    },
+    {
+      "id": 1590,
+      "label": "04_タクシー",
+      "value": "taxi, cab"
+    },
+    {
+      "id": 1591,
+      "label": "04_バス",
+      "value": "bus, public transport"
+    },
+    {
+      "id": 1592,
+      "label": "04_交通標識",
+      "value": "street sign, road marker"
+    }
   ],
   "beach_seaside_objects": [
     {
       "id": 1593,
-      "label": "01_自然_サンゴ礁",
-      "value": "coral reef, colorful reef"
-    },
-    {
-      "id": 1594,
-      "label": "01_自然_ヤシの木",
-      "value": "palm tree, coconut tree"
-    },
-    {
-      "id": 1595,
-      "label": "01_自然_岩場/崖",
-      "value": "rocky coast, cliffside"
-    },
-    {
-      "id": 1596,
-      "label": "01_自然_波打ち際",
-      "value": "shoreline, waves breaking"
-    },
-    { "id": 1597, "label": "01_自然_海藻", "value": "seaweed, kelp" },
-    {
-      "id": 1598,
       "label": "01_自然_砂浜",
       "value": "sandy beach, golden sand"
     },
     {
-      "id": 1599,
+      "id": 1594,
+      "label": "01_自然_波打ち際",
+      "value": "shoreline, waves breaking"
+    },
+    {
+      "id": 1595,
+      "label": "01_自然_サンゴ礁",
+      "value": "coral reef, colorful reef"
+    },
+    {
+      "id": 1596,
+      "label": "01_自然_ヤシの木",
+      "value": "palm tree, coconut tree"
+    },
+    {
+      "id": 1597,
+      "label": "01_自然_岩場/崖",
+      "value": "rocky coast, cliffside"
+    },
+    {
+      "id": 1598,
       "label": "01_自然_貝殻/流木",
       "value": "seashells, driftwood"
     },
     {
+      "id": 1599,
+      "label": "01_自然_海藻",
+      "value": "seaweed, kelp"
+    },
+    {
       "id": 1600,
-      "label": "02_レジャー_クーラーボックス",
-      "value": "cooler box, picnic basket"
+      "label": "02_レジャー_ビーチパラソル",
+      "value": "beach umbrella, large parasol"
     },
     {
       "id": 1601,
-      "label": "02_レジャー_サーフボード",
-      "value": "surfboard, longboard"
-    },
-    {
-      "id": 1602,
       "label": "02_レジャー_デッキチェア",
       "value": "deck chair, beach lounger"
     },
     {
+      "id": 1602,
+      "label": "02_レジャー_サーフボード",
+      "value": "surfboard, longboard"
+    },
+    {
       "id": 1603,
+      "label": "02_レジャー_浮き輪/ボート",
+      "value": "swim ring, inflatable boat"
+    },
+    {
+      "id": 1604,
+      "label": "02_レジャー_ビーチボール",
+      "value": "beach ball"
+    },
+    {
+      "id": 1605,
+      "label": "02_レジャー_砂のお城",
+      "value": "sandcastle"
+    },
+    {
+      "id": 1606,
+      "label": "02_レジャー_クーラーボックス",
+      "value": "cooler box, picnic basket"
+    },
+    {
+      "id": 1607,
       "label": "02_レジャー_ビーチタオル",
       "value": "beach towel, blanket"
     },
     {
-      "id": 1604,
-      "label": "02_レジャー_ビーチパラソル",
-      "value": "beach umbrella, large parasol"
-    },
-    { "id": 1605, "label": "02_レジャー_ビーチボール", "value": "beach ball" },
-    {
-      "id": 1606,
-      "label": "02_レジャー_浮き輪/ボート",
-      "value": "swim ring, inflatable boat"
-    },
-    { "id": 1607, "label": "02_レジャー_砂のお城", "value": "sandcastle" },
-    {
       "id": 1608,
-      "label": "03_インフラ_シャワー/更衣室",
-      "value": "outdoor shower, changing booth"
-    },
-    {
-      "id": 1609,
-      "label": "03_インフラ_ボート/ヨット",
-      "value": "small boat, sailboat, yacht"
-    },
-    {
-      "id": 1610,
       "label": "03_インフラ_ライフガードタワー",
       "value": "lifeguard tower, watch stand"
     },
     {
-      "id": 1611,
+      "id": 1609,
       "label": "03_インフラ_桟橋/防波堤",
       "value": "pier, jetty, breakwater"
+    },
+    {
+      "id": 1610,
+      "label": "03_インフラ_シャワー/更衣室",
+      "value": "outdoor shower, changing booth"
+    },
+    {
+      "id": 1611,
+      "label": "03_インフラ_ボート/ヨット",
+      "value": "small boat, sailboat, yacht"
     }
   ]
 }

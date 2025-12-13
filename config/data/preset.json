@@ -1,234 +1,105 @@
 {
-  "preset_tags": [
+  "presets": [
     {
-      "value": "portrait_clean",
-      "label": "ポートレート（クリーン）",
-      "exclude_from_random": true,
+      "id": "preset_001",
+      "label": "🎨 スケッチ風 (Sketch Style)",
+      "description": "シンプルなモノトーンのスケッチアートを生成します。",
       "active": {
-        "expression": ["smiling"],
-        "lighting": ["soft light"],
-        "camera_position": ["centered"],
-        "distance": ["headshot"]
+        "group1_style": ["sketch", "monochrome"],
+        "group1_artist": ["greg_rutkowski"],
+        "group2_composition": ["close_up"]
       }
     },
     {
-      "value": "portrait_dramatic",
-      "label": "ポートレート（ドラマチック）",
-      "exclude_from_random": true,
+      "id": "preset_002",
+      "label": "🏙️ サイバーパンク・夜景 (Cyberpunk Night)",
+      "description": "鮮やかなネオンと未来的な都市の夜景を生成します。",
       "active": {
-        "expression": ["serious"],
-        "lighting": ["dramatic lighting"],
-        "angle": ["low angle"],
-        "focus": ["shallow depth of field"]
+        "group1_style": ["cyberpunk", "photorealistic", "neon_glow"],
+        "group1_color": ["bright_colors"],
+        "group2_lighting": ["volumetric_lighting", "back_lighting"],
+        "group3_image_quality": ["masterpiece", "best_quality"]
       }
     },
     {
-      "value": "landscape_evening",
-      "label": "夕景風景",
-      "exclude_from_random": true,
+      "id": "preset_003",
+      "label": "🧚 ファンタジー・ポートレート (Fantasy Portrait)",
+      "description": "美しいキャラクターのファンタジーアートポートレートを生成します。",
       "active": {
-        "mood": ["calm"],
-        "ratio_composition": ["rule of thirds"],
-        "sky": ["sunset"],
-        "lighting": ["golden hour"]
+        "group1_style": ["fantasy", "detailed", "digital_painting"],
+        "group1_artist": ["artgerm"],
+        "group2_composition": ["portrait", "intricate_details"],
+        "group2_lighting": ["soft_lighting"]
       }
     },
     {
-      "value": "landscape_morning",
-      "label": "朝景風景",
-      "exclude_from_random": true,
+      "id": "preset_004",
+      "label": "🌸 水彩画 (Watercolor Anime)",
+      "description": "淡く柔らかな水彩画風のアニメスタイル画像を生成します。",
       "active": {
-        "mood": ["bright"],
-        "ratio_composition": ["golden ratio"],
-        "sky": ["sunrise"],
-        "lighting": ["soft light"]
+        "group1_style": ["anime_style", "watercolor", "pastel"],
+        "group1_color": ["soft_colors"],
+        "group3_image_quality": ["high_quality"]
       }
     },
     {
-      "value": "action_jump",
-      "label": "ジャンプアクション",
-      "exclude_from_random": true,
+      "id": "preset_005",
+      "label": "🐾 獣人キャラクター (Furry Character)",
+      "description": "高品質で詳細な獣人キャラクターのアートを生成します。",
       "active": {
-        "action": ["jumping high"],
-        "pose": ["jumping"],
-        "motion": ["tracking shot"],
-        "angle": ["low angle"]
-      }
-    },
-    {
-      "value": "sci_fi_character",
-      "label": "SFキャラクター",
-      "exclude_from_random": true,
-      "active": {
-        "subject_type": ["android"],
-        "species": ["android"],
-        "outfit": ["futuristic suit"],
-        "lighting": ["neon lights"]
-      }
-    },
-    {
-      "value": "fantasy_mage",
-      "label": "ファンタジー魔法使い",
-      "exclude_from_random": true,
-      "active": {
-        "subject_type": ["mage"],
-        "species": ["human"],
-        "outfit": ["wizard outfit"],
-        "pose": ["hands_raised"],
-        "expression": ["determined"]
-      }
-    },
-    {
-      "value": "urban_night",
-      "label": "都会の夜",
-      "exclude_from_random": true,
-      "active": {
-        "background": ["urban street"],
-        "sky": ["night with neon lights"],
-        "lighting": ["neon lights"],
-        "mood": ["mysterious"]
-      }
-    },
-    {
-      "value": "cozy_interior",
-      "label": "居心地の良い室内",
-      "exclude_from_random": true,
-      "active": {
-        "background": ["cozy room"],
-        "props_background": ["books", "lamp", "rug"],
-        "lighting": ["soft light"],
-        "mood": ["calm"]
-      }
-    },
-    {
-      "value": "action_running",
-      "label": "走るアクション",
-      "exclude_from_random": true,
-      "active": {
-        "action": ["running fast"],
-        "pose": ["running"],
-        "motion": ["tracking shot"],
-        "angle": ["low angle"]
-      }
-    },
-    {
-      "value": "beach_swim",
-      "label": "ビーチ水着",
-      "exclude_from_random": true,
-      "active": {
-        "subject_type": ["girl"],
-        "outfit": ["swimsuit one-piece"],
-        "pose": ["standing"],
-        "background": ["sand"],
-        "lighting": ["bright"]
-      }
-    },
-    {
-      "value": "forest_adventure",
-      "label": "森の冒険者",
-      "exclude_from_random": true,
-      "active": {
-        "subject_type": ["adventurer outfit"],
-        "pose": ["running"],
-        "background": ["forest"],
-        "lighting": ["soft light"]
-      }
-    },
-    {
-      "value": "snowy_scene",
-      "label": "雪景色",
-      "exclude_from_random": true,
-      "active": {
-        "background": ["snowy park"],
-        "ground": ["snow"],
-        "sky": ["snowy"],
-        "lighting": ["soft light"],
-        "mood": ["calm"]
-      }
-    },
-    {
-      "value": "vampire_gothic",
-      "label": "ゴシックヴァンパイア",
-      "exclude_from_random": true,
-      "active": {
-        "species": ["vampire"],
-        "outfit": ["formal suit"],
-        "expression": ["serious"],
-        "lighting": ["dramatic lighting"],
-        "mood": ["dark"]
-      }
-    },
-    {
-      "value": "angelic_pose",
-      "label": "天使のポーズ",
-      "exclude_from_random": true,
-      "active": {
-        "subject_type": ["angel"],
-        "pose": ["arms_wide_open"],
-        "expression": ["happy"],
-        "lighting": ["backlit"],
-        "mood": ["dreamy"]
-      }
-    },
-    {
-      "value": "school_life",
-      "label": "学校の日常",
-      "exclude_from_random": true,
-      "active": {
-        "subject_type": ["schoolgirl"],
-        "outfit": ["school uniform"],
-        "pose": ["sitting_on_knees"],
-        "expression": ["smiling"],
-        "background": ["classroom"]
-      }
-    },
-    {
-      "value": "romantic_couple",
-      "label": "ロマンチックカップル",
-      "exclude_from_random": true,
-      "active": {
-        "subject_main": ["couple"],
-        "pose": ["hands_raised"],
-        "expression": ["blushing"],
-        "mood": ["romantic"],
-        "lighting": ["soft light"]
-      }
-    },
-    {
-      "value": "dynamic_dance",
-      "label": "ダイナミックダンス",
-      "exclude_from_random": true,
-      "active": {
-        "pose": ["dancing"],
-        "action": ["dancing"],
-        "motion": ["panning"],
-        "expression": ["happy"],
-        "lighting": ["cinematic"]
-      }
-    },
-    {
-      "value": "library_reading",
-      "label": "図書館で読書",
-      "exclude_from_random": true,
-      "active": {
-        "background": ["library corner"],
-        "pose": ["sitting_cross_legged"],
-        "props_background": ["books", "lamp"],
-        "lighting": ["soft light"],
-        "mood": ["calm"]
-      }
-    },
-    {
-      "value": "hero_warrior",
-      "label": "勇者・戦士",
-      "exclude_from_random": true,
-      "active": {
-        "subject_type": ["warrior"],
-        "pose": ["hands_on_hips"],
-        "outfit": ["armor"],
-        "expression": ["determined"],
-        "lighting": ["dramatic lighting"]
+        "group1_style": ["furry", "digital_painting", "detailed"],
+        "group2_composition": ["full_body", "dynamic_pose"],
+        "group3_image_quality": ["masterpiece", "best_quality", "8k"]
       }
     }
+  ],
+
+  "group1_style": [
+    { "label": "ファンタジー", "value": "fantasy" },
+    { "label": "サイバーパンク", "value": "cyberpunk" },
+    { "label": "スケッチ", "value": "sketch" },
+    { "label": "デジタル絵画", "value": "digital_painting" },
+    { "label": "アニメ風", "value": "anime_style" },
+    { "label": "獣人", "value": "furry" },
+    { "label": "リアル", "value": "photorealistic" },
+    { "label": "水彩画", "value": "watercolor" },
+    { "label": "詳細", "value": "detailed" },
+    { "label": "モノトーン", "value": "monochrome" }
+  ],
+
+  "group1_artist": [
+    { "label": "Greg Rutkowski", "value": "greg_rutkowski" },
+    { "label": "Artgerm", "value": "artgerm" },
+    { "label": "Loish", "value": "loish" },
+    { "label": "Krenz Cushart", "value": "krenz_cushart" }
+  ],
+
+  "group1_color": [
+    { "label": "明るい色", "value": "bright_colors" },
+    { "label": "暗い色", "value": "dark_colors" },
+    { "label": "パステルカラー", "value": "pastel" },
+    { "label": "ネオン", "value": "neon_glow" },
+    { "label": "ソフト", "value": "soft_colors" }
+  ],
+
+  "group2_composition": [
+    { "label": "クローズアップ", "value": "close_up" },
+    { "label": "ポートレート", "value": "portrait" },
+    { "label": "全身", "value": "full_body" },
+    { "label": "ダイナミックなポーズ", "value": "dynamic_pose" },
+    { "label": "複雑なディテール", "value": "intricate_details" }
+  ],
+
+  "group2_lighting": [
+    { "label": "ソフトな光", "value": "soft_lighting" },
+    { "label": "体積光", "value": "volumetric_lighting" },
+    { "label": "逆光", "value": "back_lighting" }
+  ],
+
+  "group3_image_quality": [
+    { "label": "最高傑作", "value": "masterpiece" },
+    { "label": "最高品質", "value": "best_quality" },
+    { "label": "高画質", "value": "high_quality" },
+    { "label": "8K", "value": "8k" }
   ]
 }

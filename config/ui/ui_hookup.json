@@ -627,6 +627,12 @@
               "description": "都市の通りに特化したインフラ、店舗、乗り物、ストリートアートなど。"
             },
             {
+              "id": "beach_seaside_objects",
+              "label": "02_04ビーチのオブジェクト",
+              "exclusive": false,
+              "description": "海岸、ビーチ、海辺に特化した自然物、レジャー用品、設備など。"
+            },
+            {
               "id": "celestial_objects",
               "label": "03_天体・宇宙",
               "exclusive": false,

@@ -2,13 +2,25 @@
 
 const HISTORY_KEY = "promptHistory";
 
-// 依存する外部関数（script.jsからインポートされることを想定）
-// saveState: ボタンの状態をlocalStorageに保存し、generateOutputを呼ぶ関数
-// generateOutput: 現在の選択からプロンプト文字列を生成し、UIに出力する関数
+// 💡 修正: alert/confirmを置き換えるためのシンプルなメッセージ表示ユーティリティ
+const displayTemporaryMessage = (message, isError = false) => {
+  const messageContainer = document.getElementById("presetMessageContainer");
+  if (messageContainer) {
+    messageContainer.innerHTML = `<div class="p-2 text-sm rounded ${
+      isError ? "bg-red-100 text-red-700" : "bg-green-100 text-green-700"
+    }">${message}</div>`;
+    setTimeout(() => {
+      messageContainer.innerHTML = "";
+    }, 3000);
+  } else {
+    console.log(`[MESSAGE] ${message}`);
+    if (isError) console.error(message);
+  }
+};
 
 /**
  * 履歴データをlocalStorageから読み込む
- * @returns {Array<{label: string, value: string}>}
+ * @returns {Array<{label: string, value: string}>} - value には IDのカンマ区切り文字列が格納される
  */
 export const loadHistory = () => {
   const historyJson = localStorage.getItem(HISTORY_KEY);
@@ -29,25 +41,28 @@ const saveHistory = (history) => {
 };
 
 /**
- * プリセット（プロンプト文字列）を適用する
- * @param {string} promptString
+ * プリセット（ID文字列）を適用する (履歴適用用)
+ * @param {string} idString - カンマ区切りのアイテムID文字列
  * @param {function} saveStateCallback - 状態を保存し、出力を更新するためのコールバック
  */
-export const applyPreset = (promptString, saveStateCallback) => {
+export const applyPreset = (idString, saveStateCallback) => {
   // 既存の選択を全てクリア
+  // 💡 修正: セレクタは script.js と同じく正確に .tooltip-wrapper 内の button を探します
   document
-    .querySelectorAll(".sub-group button.active, .sub-subgroup button.active")
+    .querySelectorAll(
+      ".sub-group .tooltip-wrapper button.active, .sub-subgroup .tooltip-wrapper button.active"
+    )
     .forEach((b) => b.classList.remove("active"));
 
-  // プロンプト文字列をカンマで分割し、キーワードをアクティブにする
-  const keywords = promptString
+  // ID文字列をカンマで分割し、ボタンをアクティブにする
+  const itemIds = idString
     .split(",")
-    .map((k) => k.trim())
-    .filter((k) => k.length > 0);
+    .map((id) => id.trim())
+    .filter((id) => id.length > 0);
 
-  keywords.forEach((keyword) => {
-    // data-keyword 属性を使って対応するボタンを探す
-    const btn = document.querySelector(`button[data-keyword="${keyword}"]`);
+  itemIds.forEach((itemId) => {
+    // 💡 修正: data-item-id 属性を使って対応するボタンを探す
+    const btn = document.querySelector(`button[data-item-id="${itemId}"]`);
     if (btn) {
       btn.classList.add("active");
     }
@@ -55,6 +70,7 @@ export const applyPreset = (promptString, saveStateCallback) => {
 
   // 状態を保存し、出力を更新 (script.jsの関数を呼び出す)
   saveStateCallback();
+  displayTemporaryMessage("プリセットが適用されました。", false);
 };
 
 /**
@@ -76,36 +92,42 @@ export const renderHistory = (saveStateCallback) => {
   }
 
   history.forEach((item, index) => {
-    // 変更点 1: Flexboxコンテナではなく、シンプルに履歴ボタンを並べるためのラッパーに変更
     const itemDiv = document.createElement("div");
-    itemDiv.className = "history-item-wrapper"; // 新しいラッパークラスを付与（CSSで調整） // 変更点 2: ラベルを <span> から <button> に変更し、既存ボタンと同じクラスを付与
+    itemDiv.className = "history-item-wrapper";
 
-    const historyButton = document.createElement("button"); // 既存のボタンと同じ見た目のクラスを付与 // NOTE: style.cssで定義されている button スタイルが適用されます
-    historyButton.textContent = item.label; // 既存のボタンと区別するため、特定のカスタムクラスやIDは残しておいても良い
+    const historyButton = document.createElement("button");
+    historyButton.textContent = item.label;
     historyButton.className = "history-button";
-    historyButton.title = item.value;
+    // 💡 修正: value には IDのカンマ区切り文字列が格納されている
+    historyButton.title = `ID: ${item.value}`;
     historyButton.addEventListener("click", () => {
+      // applyPreset に ID文字列を渡す
       applyPreset(item.value, saveStateCallback);
       console.log(
-        `Preset "${item.label}" applied: ${item.value.substring(0, 50)}...`
+        `Preset "${item.label}" applied: ID list (${item.value.substring(
+          0,
+          50
+        )}...)`
       );
-    }); // 変更点 3: 削除ボタンはボタンと横並びになるように調整
+    });
 
     const deleteBtn = document.createElement("button");
+    // 削除ボタンのSVGアイコンはそのまま
     deleteBtn.innerHTML =
-      '<svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M9 2a1 1 0 00-.894.553L7.382 4H4a1 1 0 000 2v10a2 2 0 002 2h8a2 2 0 002-2V6a1 1 0 100-2h-3.382l-.724-1.447A1 1 0 0011 2H9zM7 8a1 1 0 012 0v6a1 1 0 11-2 0V8zm6 0a1 1 0 10-2 0v6a1 1 0 102 0V8z" clip-rule="evenodd" /></svg>'; // 削除ボタンのスタイルは、通常のボタンとは異なる小さくて目立たないものに戻します
+      '<svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M9 2a1 1 0 00-.894.553L7.382 4H4a1 1 0 000 2v10a2 2 0 002 2h8a2 2 0 002-2V6a1 1 0 100-2h-3.382l-.724-1.447A1 1 0 0011 2H9zM7 8a1 1 0 012 0v6a1 1 0 11-2 0V8zm6 0a1 1 0 10-2 0v6a1 1 0 102 0V8z" clip-rule="evenodd" /></svg>';
     deleteBtn.className =
       "delete-history-btn bg-red-500 text-white rounded-full hover:bg-red-600 transition";
     deleteBtn.title = `"${item.label}" を削除`;
     deleteBtn.addEventListener("click", (e) => {
       e.stopPropagation();
-      if (window.confirm(`履歴 "${item.label}" を削除しますか？`)) {
-        let currentHistory = loadHistory();
-        currentHistory = currentHistory.filter((h) => h.label !== item.label);
-        saveHistory(currentHistory);
-        renderHistory(saveStateCallback); // 再レンダリング
-      }
-    }); // ボタンと削除ボタンをFlexで横並びにするコンテナを作成
+      // 💡 修正: confirm の代わりにメッセージを表示し、即座に削除を行う（確認ダイアログは表示しない）
+      displayTemporaryMessage(`履歴 "${item.label}" を削除しました。`, false);
+
+      let currentHistory = loadHistory();
+      currentHistory = currentHistory.filter((h) => h.label !== item.label);
+      saveHistory(currentHistory);
+      renderHistory(saveStateCallback); // 再レンダリング
+    });
 
     const flexWrapper = document.createElement("div");
     flexWrapper.className = "history-item-flex-wrapper";
@@ -117,30 +139,54 @@ export const renderHistory = (saveStateCallback) => {
   });
 };
 
+// 💡 新規追加: 現在アクティブなボタンのID文字列を取得するヘルパー関数
+const getActiveIdsString = () => {
+  const activeIds = [
+    ...document.querySelectorAll(
+      ".sub-group .tooltip-wrapper button.active, .sub-subgroup .tooltip-wrapper button.active"
+    ),
+  ]
+    // 💡 修正: data-item-id を収集
+    .map((b) => b.dataset.itemId)
+    .filter((id) => id);
+  return activeIds.join(",");
+};
+
 /**
  * 履歴保存ボタンのイベントリスナーを設定する
- * @param {function} generateOutputCallback - 現在のプロンプト文字列を取得するために使用するコールバック
+ * @param {function} generateOutputCallback - (未使用だが引数を維持) 現在のプロンプト文字列を取得するために使用するコールバック
  * @param {function} saveStateCallback - 状態を保存し、出力を更新するためのコールバック
  */
 export const setupPresetListeners = (
-  generateOutputCallback,
+  generateOutputCallback, // このコールバックは値（キーワード）を返すため、IDベースの保存には使用しない
   saveStateCallback
 ) => {
-  document.getElementById("savePresetBtn")?.addEventListener("click", () => {
+  // プリセットメッセージのコンテナを、保存ボタンの近くに動的に作成する
+  const savePresetBtn = document.getElementById("savePresetBtn");
+  if (savePresetBtn && !document.getElementById("presetMessageContainer")) {
+    const messageContainer = document.createElement("div");
+    messageContainer.id = "presetMessageContainer";
+    messageContainer.className = "w-full";
+    savePresetBtn.parentElement.insertBefore(
+      messageContainer,
+      savePresetBtn.nextSibling
+    );
+  }
+
+  savePresetBtn?.addEventListener("click", () => {
     const presetNameInput = document.getElementById("presetName");
     const label = presetNameInput.value.trim();
 
-    // 現在のプロンプト文字列を取得 (generateOutputCallbackの結果を取得)
-    // generateOutputCallback()はdocument.getElementById("output").textContentを返すように期待
-    const value = generateOutputCallback();
+    // 💡 修正: generateOutputCallback() の代わりに、DOMから直接IDを取得
+    const value = getActiveIdsString();
 
     if (!label) {
-      window.confirm("プリセット名を入力してください。");
+      displayTemporaryMessage("プリセット名を入力してください。", true);
       return;
     }
 
     if (!value || value.length === 0) {
-      window.confirm("保存するアクティブなキーワードがありません。");
+      displayTemporaryMessage("保存するアクティブな項目がありません。", true);
       return;
     }
 
@@ -149,16 +195,13 @@ export const setupPresetListeners = (
     // 重複チェック (ラベルベース)
     const existingIndex = history.findIndex((item) => item.label === label);
     if (existingIndex !== -1) {
-      if (
-        !window.confirm(
-          `"${label}" という名前の履歴が既に存在します。上書きしますか？`
-        )
-      ) {
-        return;
-      }
+      // 💡 修正: confirm を使わず、常に上書きする
       history[existingIndex] = { label, value }; // 上書き
+      displayTemporaryMessage(`履歴 "${label}" を上書き保存しました。`, false);
     } else {
+      // 最大履歴数を制限しても良いが、ここでは実装しない
       history.push({ label, value }); // 新規追加
+      displayTemporaryMessage(`履歴 "${label}" を新規保存しました。`, false);
     }
 
     saveHistory(history);
