@@ -603,10 +603,28 @@
               "description": "部屋の中にあるオブジェクト（家具、家電、装飾品など）。"
             },
             {
+              "id": "casino_objects",
+              "label": "01_02カジノのオブジェクト",
+              "exclusive": false,
+              "description": "カジノの背景に特化したギャンブル設備、豪華な内装、小物。"
+            },
+            {
               "id": "outdoor_objects",
-              "label": "02_屋外・自然・都市",
+              "label": "02_01屋外・自然・都市",
               "exclusive": false,
               "description": "室外にあるオブジェクト（木、岩、乗り物、建物の一部、道路など）。"
+            },
+            {
+              "id": "racetrack_objects",
+              "label": "02_02サーキットのオブジェクト",
+              "exclusive": false,
+              "description": "レース場に特化した車両、ピット設備、インフラ、安全物。"
+            },
+            {
+              "id": "city_street_objects",
+              "label": "02_03都会のストリートのオブジェクト",
+              "exclusive": false,
+              "description": "都市の通りに特化したインフラ、店舗、乗り物、ストリートアートなど。"
             },
             {
               "id": "celestial_objects",
