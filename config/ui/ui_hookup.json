@@ -609,8 +609,8 @@
               "description": "カジノの背景に特化したギャンブル設備、豪華な内装、小物。"
             },
             {
-              "id": "01_03bar_nightclub_objects",
-              "label": "バー・ナイトクラブのオブジェクト",
+              "id": "bar_nightclub_objects",
+              "label": "01_03バー・ナイトクラブのオブジェクト",
               "exclusive": false,
               "description": "バー、ラウンジ、ナイトクラブに特化した照明、ドリンク、設備、家具など。"
             },
@@ -631,6 +631,12 @@
               "label": "01_06体育館・ジムのオブジェクト",
               "exclusive": false,
               "description": "トレーニングジム、体育館、フィットネスルームに特化した機器、器具、設備など。"
+            },
+            {
+              "id": "library_objects",
+              "label": "01_07図書館・本棚のオブジェクト",
+              "exclusive": false,
+              "description": "図書館、書斎、書店に特化した書架、書籍、家具、学術的な備品など。"
             },
             {
               "id": "outdoor_objects",
@@ -661,6 +667,12 @@
               "label": "02_05農場・牧場のオブジェクト",
               "exclusive": false,
               "description": "農場、牧場、田園地帯に特化した建物、農機具、作物、家畜など。"
+            },
+            {
+              "id": "onsen_objects",
+              "label": "02_06露天風呂・温泉のオブジェクト",
+              "exclusive": false,
+              "description": "露天風呂、大浴場、温泉旅館に特化した浴槽、自然要素、備品など。"
             },
             {
               "id": "celestial_objects",
