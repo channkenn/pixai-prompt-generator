@@ -4831,5 +4831,184 @@
       "label": "03_インフラ_桟橋/防波堤",
       "value": "pier, jetty, breakwater"
     }
+  ],
+  "bar_nightclub_objects": [
+    {
+      "id": 1612,
+      "label": "01_照明_スポットライト",
+      "value": "spotlight, stage lighting"
+    },
+    {
+      "id": 1613,
+      "label": "01_照明_スモーク/霧",
+      "value": "smoke machine effect, fog"
+    },
+    {
+      "id": 1614,
+      "label": "01_照明_ネオンサイン",
+      "value": "neon sign, glowing bar sign"
+    },
+    {
+      "id": 1615,
+      "label": "01_照明_ミラーボール",
+      "value": "disco ball, mirror ball"
+    },
+    {
+      "id": 1616,
+      "label": "01_照明_レーザーライト",
+      "value": "laser light show, strobe lights"
+    },
+    {
+      "id": 1617,
+      "label": "01_照明_青いムード照明",
+      "value": "blue mood lighting, atmospheric lighting"
+    },
+    {
+      "id": 1618,
+      "label": "02_設備_DJブース",
+      "value": "DJ booth, turntable, mixing console"
+    },
+    {
+      "id": 1619,
+      "label": "02_設備_カクテルグラス",
+      "value": "cocktail glass, martini glass"
+    },
+    {
+      "id": 1620,
+      "label": "02_設備_スピーカー",
+      "value": "large speaker stack, subwoofers"
+    },
+    {
+      "id": 1621,
+      "label": "02_設備_ビールタップ",
+      "value": "beer tap, draft tower"
+    },
+    {
+      "id": 1622,
+      "label": "02_設備_酒瓶の陳列棚",
+      "value": "liquor bottles display, tiered shelf"
+    },
+    {
+      "id": 1623,
+      "label": "02_設備_長いバーカウンター",
+      "value": "long bar counter, polished wood bar"
+    },
+    {
+      "id": 1624,
+      "label": "03_家具_ダンスフロア",
+      "value": "dance floor, crowded floor"
+    },
+    {
+      "id": 1625,
+      "label": "03_家具_バーチェア",
+      "value": "bar stool, leather chair"
+    },
+    {
+      "id": 1626,
+      "label": "03_家具_ビリヤード台",
+      "value": "billiard table, pool table"
+    },
+    {
+      "id": 1627,
+      "label": "03_家具_壁の鏡",
+      "value": "wall mirror, decorative mirror"
+    },
+    {
+      "id": 1628,
+      "label": "03_家具_革張りソファ",
+      "value": "leather sofa, lounge seating"
+    }
+  ],
+  "cafe_objects": [
+    {
+      "id": 1629,
+      "label": "01_家具_カウンター席",
+      "value": "counter seating, bar stools"
+    },
+    {
+      "id": 1630,
+      "label": "01_家具_ソファ席",
+      "value": "comfortable sofa booth"
+    },
+    {
+      "id": 1631,
+      "label": "01_家具_デザイナーズチェア",
+      "value": "designer chair, unique seating"
+    },
+    {
+      "id": 1632,
+      "label": "01_家具_ブックシェルフ",
+      "value": "bookshelf display, reading nook"
+    },
+    {
+      "id": 1633,
+      "label": "01_家具_大きな窓",
+      "value": "large window, street view"
+    },
+    {
+      "id": 1634,
+      "label": "01_家具_木製テーブル",
+      "value": "wooden cafe table, round table"
+    },
+    {
+      "id": 1635,
+      "label": "02_器具_エスプレッソマシン",
+      "value": "large espresso machine, coffee maker"
+    },
+    {
+      "id": 1636,
+      "label": "02_器具_ケーキ/ペストリー",
+      "value": "cake display, pastry, dessert"
+    },
+    {
+      "id": 1637,
+      "label": "02_器具_コーヒー豆",
+      "value": "coffee beans, grinder"
+    },
+    {
+      "id": 1638,
+      "label": "02_器具_マグカップ/ソーサー",
+      "value": "ceramic mug, coffee cup and saucer"
+    },
+    {
+      "id": 1639,
+      "label": "02_器具_ラテアート",
+      "value": "latte art, coffee foam pattern"
+    },
+    {
+      "id": 1640,
+      "label": "02_器具_新聞/雑誌",
+      "value": "newspaper, magazine"
+    },
+    {
+      "id": 1641,
+      "label": "03_装飾_アートポスター",
+      "value": "art poster, framed picture"
+    },
+    {
+      "id": 1642,
+      "label": "03_装飾_チョークボード",
+      "value": "chalkboard menu, handwritten sign"
+    },
+    {
+      "id": 1643,
+      "label": "03_装飾_ペンダントライト",
+      "value": "pendant light, hanging lamp"
+    },
+    {
+      "id": 1644,
+      "label": "03_装飾_レンガの壁",
+      "value": "exposed brick wall, rustic interior"
+    },
+    {
+      "id": 1645,
+      "label": "03_装飾_店員 (バリスタ)",
+      "value": "barista, staff member"
+    },
+    {
+      "id": 1646,
+      "label": "03_装飾_観葉植物",
+      "value": "potted plant, green foliage"
+    }
   ]
 }

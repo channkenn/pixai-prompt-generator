@@ -609,6 +609,18 @@
               "description": "カジノの背景に特化したギャンブル設備、豪華な内装、小物。"
             },
             {
+              "id": "01_03bar_nightclub_objects",
+              "label": "バー・ナイトクラブのオブジェクト",
+              "exclusive": false,
+              "description": "バー、ラウンジ、ナイトクラブに特化した照明、ドリンク、設備、家具など。"
+            },
+            {
+              "id": "cafe_objects",
+              "label": "01_04カフェのオブジェクト",
+              "exclusive": false,
+              "description": "カフェ、喫茶店、コーヒーショップに特化した家具、器具、飲食物、装飾など。"
+            },
+            {
               "id": "outdoor_objects",
               "label": "02_01屋外・自然・都市",
               "exclusive": false,
