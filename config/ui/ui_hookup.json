@@ -621,6 +621,18 @@
               "description": "カフェ、喫茶店、コーヒーショップに特化した家具、器具、飲食物、装飾など。"
             },
             {
+              "id": "restaurant_objects",
+              "label": "01_05レストランのオブジェクト",
+              "exclusive": false,
+              "description": "レストラン、食堂、ダイニングルームに特化した家具、食器、備品、装飾など。"
+            },
+            {
+              "id": "gym_objects",
+              "label": "01_06体育館・ジムのオブジェクト",
+              "exclusive": false,
+              "description": "トレーニングジム、体育館、フィットネスルームに特化した機器、器具、設備など。"
+            },
+            {
               "id": "outdoor_objects",
               "label": "02_01屋外・自然・都市",
               "exclusive": false,
@@ -643,6 +655,12 @@
               "label": "02_04ビーチのオブジェクト",
               "exclusive": false,
               "description": "海岸、ビーチ、海辺に特化した自然物、レジャー用品、設備など。"
+            },
+            {
+              "id": "farm_objects",
+              "label": "02_05農場・牧場のオブジェクト",
+              "exclusive": false,
+              "description": "農場、牧場、田園地帯に特化した建物、農機具、作物、家畜など。"
             },
             {
               "id": "celestial_objects",

@@ -5010,5 +5010,147 @@
       "label": "03_装飾_観葉植物",
       "value": "potted plant, green foliage"
     }
+  ],
+  "restaurant_objects": [
+    {
+      "label": "01_家具_ダイニングテーブル",
+      "value": "dining table, dinner table"
+    },
+    {
+      "label": "01_家具_布張りの椅子",
+      "value": "upholstered chair, comfortable seating"
+    },
+    { "label": "01_家具_ベンチシート", "value": "booth seating, padded bench" },
+    {
+      "label": "01_家具_パーティション",
+      "value": "room divider, privacy screen"
+    },
+    {
+      "label": "01_家具_キャッシャー/レジ",
+      "value": "cash register, cashier counter"
+    },
+    {
+      "label": "01_家具_ワインセラー",
+      "value": "wine cellar, wine rack display"
+    },
+
+    {
+      "label": "02_食器_フルセットの食器",
+      "value": "full set of tableware, dinnerware"
+    },
+    {
+      "label": "02_食器_銀食器/カトラリー",
+      "value": "silverware, cutlery, detailed fork and knife"
+    },
+    { "label": "02_食器_ワイングラス", "value": "wine glass, crystal glass" },
+    { "label": "02_食器_テーブルクロス", "value": "tablecloth, linen napkin" },
+    { "label": "02_食器_メニュー", "value": "menu book, folded menu" },
+    { "label": "02_食器_パン籠", "value": "bread basket, rolls" },
+    {
+      "label": "02_食器_キャンドルスタンド",
+      "value": "candle holder, romantic candlelight"
+    },
+
+    {
+      "label": "03_サービス_ウェイター/ウェイトレス",
+      "value": "waiter, waitress, service staff"
+    },
+    {
+      "label": "03_サービス_シェフ",
+      "value": "chef, cooking staff in uniform"
+    },
+    { "label": "03_装飾_壁のアート", "value": "wall art, decorative painting" },
+    {
+      "label": "03_装飾_観葉植物",
+      "value": "potted plant, large indoor foliage"
+    },
+    {
+      "label": "03_装飾_間接照明",
+      "value": "ambient lighting, indirect light"
+    },
+    {
+      "label": "03_装飾_オープンキッチン",
+      "value": "open kitchen, visible cooking area"
+    }
+  ],
+  "gym_objects": [
+    { "label": "01_機器_トレッドミル", "value": "treadmill, running machine" },
+    {
+      "label": "01_機器_エアロバイク",
+      "value": "exercise bike, stationary bicycle"
+    },
+    { "label": "01_機器_ダンベル", "value": "dumbbells rack, free weights" },
+    {
+      "label": "01_機器_バーベルとラック",
+      "value": "barbell and squat rack, weight plates"
+    },
+    {
+      "label": "01_機器_ケーブルマシン",
+      "value": "cable machine, pulley system"
+    },
+    { "label": "01_機器_ベンチプレス", "value": "weight bench, flat bench" },
+    {
+      "label": "01_機器_エリプティカル",
+      "value": "elliptical machine, cross trainer"
+    },
+
+    { "label": "02_器具_バスケットゴール", "value": "basketball hoop, net" },
+    { "label": "02_器具_バレーボールネット", "value": "volleyball net" },
+    { "label": "02_器具_平均台", "value": "balance beam" },
+    { "label": "02_器具_ヨガマット", "value": "yoga mat, exercise mat" },
+    {
+      "label": "02_器具_スポーツボール",
+      "value": "various sports balls, medicine ball"
+    },
+    { "label": "02_器具_サンドバッグ", "value": "punching bag, heavy bag" },
+
+    {
+      "label": "03_空間_体育館の床",
+      "value": "gymnasium wooden floor, court lines"
+    },
+    { "label": "03_空間_ロッカー", "value": "locker room, metal lockers" },
+    { "label": "03_空間_大きな鏡", "value": "large wall mirror, gym mirror" },
+    {
+      "label": "03_空間_飲料ディスペンサー",
+      "value": "water dispenser, drink fountain"
+    },
+    { "label": "03_空間_タオル/ボトル", "value": "workout towel, water bottle" }
+  ],
+  "farm_objects": [
+    { "label": "01_建物_納屋/倉庫", "value": "red barn, farmhouse, shed" },
+    { "label": "01_建物_サイロ", "value": "grain silo, tower silo" },
+    { "label": "01_建物_木製のフェンス", "value": "wooden fence, barbed wire" },
+    { "label": "01_建物_風車/水車", "value": "windmill, water wheel" },
+    { "label": "01_建物_井戸/ポンプ", "value": "water well, manual pump" },
+
+    { "label": "02_農業_トラクター", "value": "tractor, farming vehicle" },
+    { "label": "02_農業_干し草の山", "value": "hay bale, stack of hay, straw" },
+    {
+      "label": "02_農業_収穫物 (トウモロコシ)",
+      "value": "corn field, corn stalks"
+    },
+    {
+      "label": "02_農業_収穫物 (小麦/稲)",
+      "value": "wheat field, rice paddies"
+    },
+    {
+      "label": "02_農業_農具 (シャベル)",
+      "value": "shovel, rake, gardening tools"
+    },
+    {
+      "label": "02_農業_バケツ/ジョウロ",
+      "value": "metal bucket, watering can"
+    },
+    { "label": "02_農業_カカシ", "value": "scarecrow" },
+
+    { "label": "03_動物_牛", "value": "cow, dairy cattle" },
+    { "label": "03_動物_馬", "value": "horse, stable" },
+    { "label": "03_動物_羊", "value": "sheep, flock of sheep" },
+    {
+      "label": "03_動物_鶏/アヒル",
+      "value": "chicken, rooster, duck, poultry"
+    },
+    { "label": "03_動物_水飲み場/餌桶", "value": "water trough, feeding bin" },
+    { "label": "03_動物_犬 (牧羊犬)", "value": "farm dog, sheepdog" }
   ]
 }
