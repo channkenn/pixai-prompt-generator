@@ -639,6 +639,12 @@
               "description": "図書館、書斎、書店に特化した書架、書籍、家具、学術的な備品など。"
             },
             {
+              "id": "grand_ballroom_objects",
+              "label": "01_08大舞踏会のオブジェクト",
+              "exclusive": false,
+              "description": "豪華な舞踏会、王宮のホール、式典会場に特化した内装や調度品。"
+            },
+            {
               "id": "outdoor_objects",
               "label": "02_01屋外・自然・都市",
               "exclusive": false,
