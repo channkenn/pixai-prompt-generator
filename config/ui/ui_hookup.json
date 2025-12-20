@@ -367,37 +367,8 @@
       ]
     },
     {
-      "id": "4_composition_parent",
-      "label": "4. 構図・カメラ (Composition) - (枠組み)",
-      "description": "画角とアングル、構図ルールなど、画像の骨格を決定する要素。",
-      "subgroups": [
-        { "id": "framing", "label": "フレーミング", "exclusive": false },
-        { "id": "camera_angle", "label": "アングル", "exclusive": false },
-        {
-          "id": "proximity_depth",
-          "label": "被写体との距離",
-          "exclusive": false
-        },
-        {
-          "id": "close_up",
-          "label": "被写体をクローズアップする",
-          "exclusive": false
-        },
-        {
-          "id": "composition_rules",
-          "label": "構図ルール",
-          "exclusive": false
-        },
-        {
-          "id": "focus_and_depth",
-          "label": "焦点・被写界深度",
-          "exclusive": false
-        }
-      ]
-    },
-    {
-      "id": "5_pose_action_parent",
-      "label": "5. 動作・ポーズ (Action & Pose) - (PixAI推奨: 動作)",
+      "id": "4_pose_action_parent",
+      "label": "4. 動作・ポーズ (Action & Pose) - (PixAI推奨: 動作)",
       "description": "主題（キャラクター）がどのような動きや姿勢をとるか。",
       "subgroups": [
         {
@@ -566,6 +537,36 @@
         }
       ]
     },
+    {
+      "id": "5_composition_parent",
+      "label": "5. 構図・カメラ (Composition) - (枠組み)",
+      "description": "画角とアングル、構図ルールなど、画像の骨格を決定する要素。",
+      "subgroups": [
+        { "id": "framing", "label": "フレーミング", "exclusive": false },
+        { "id": "camera_angle", "label": "アングル", "exclusive": false },
+        {
+          "id": "proximity_depth",
+          "label": "被写体との距離",
+          "exclusive": false
+        },
+        {
+          "id": "close_up",
+          "label": "被写体をクローズアップする",
+          "exclusive": false
+        },
+        {
+          "id": "composition_rules",
+          "label": "構図ルール",
+          "exclusive": false
+        },
+        {
+          "id": "focus_and_depth",
+          "label": "焦点・被写界深度",
+          "exclusive": false
+        }
+      ]
+    },
+
     {
       "id": "6_background_parent",
       "label": "6. 背景 (Background) - (PixAI推奨: 場所)",

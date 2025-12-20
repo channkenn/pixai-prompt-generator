@@ -586,7 +586,10 @@
     { "id": 504, "label": "05_左からの視点", "value": "from left" },
     { "id": 505, "label": "06_俯瞰（上から）", "value": "from above" },
     { "id": 506, "label": "07_アオリ（下から）", "value": "from below" },
-    { "id": 507, "label": "08_魚眼レンズ", "value": "fisheye" }
+    { "id": 507, "label": "08_魚眼レンズ", "value": "fisheye" },
+    { "id": 1783, "label": "09_斜め前（3/4ビュー）", "value": "three-quarter view, 3/4 view" },
+    { "id": 1784, "label": "10_右斜め前（3/4ビュー）", "value": "three-quarter view, facing left" },
+    { "id": 1785, "label": "11_左斜め前（3/4ビュー）", "value": "three-quarter view, facing right" }
   ],
   "composition_rules": [
     { "id": 508, "label": "01_ダイナミックな構図", "value": "dynamic pose, diagonal composition, dutch angle" },
