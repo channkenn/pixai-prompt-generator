@@ -1029,6 +1029,7 @@
     { "id": 903, "label": "04_着物", "value": "japanese kimono" },
     { "id": 904, "label": "04_神官/聖職者", "value": "cleric, priestess" },
     { "id": 905, "label": "04_空手着/柔道着", "value": "karate gi, judo gi, martial arts uniform, white belt" },
+    { "id": 1786, "label": "04_腋巫女", "value": "(nontraditional miko:1.5),  beautiful detailed hakama, white top, red hakama, (sleeveless:1.3), (detached sleeves:1.2), (side slit:1.3)" },
     { "id": 906, "label": "04_騎士", "value": "knights, armor" },
     { "id": 907, "label": "04_魔法使い（ローブ）", "value": "mage, mage hat, cloak, long boots" },
     { "id": 908, "label": "05_アオザイ", "value": "ao dai" },

@@ -2749,6 +2749,11 @@
       "label": "04_空手着/柔道着",
       "value": "karate gi, judo gi, martial arts uniform, white belt"
     },
+    {
+      "id": 1786,
+      "label": "04_腋巫女",
+      "value": "(nontraditional miko:1.5),  beautiful detailed hakama, white top, red hakama, (sleeveless:1.3), (detached sleeves:1.2), (side slit:1.3)"
+    },
     { "id": 906, "label": "04_騎士", "value": "knights, armor" },
     {
       "id": 907,
