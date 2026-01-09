@@ -992,6 +992,7 @@
     { "id": 868, "label": "02_花柄", "value": "floral print■" }
   ],
   "uniforms": [
+    { "id": 1787, "label": "01_ギャルブレザー", "value": "tan cardigan wrapped around the waist, red ribbon white polo shirt, red short kilt skirt, loose socks" },
     { "id": 869, "label": "01_スクールベスト/ニットベスト", "value": "school vest" },
     { "id": 870, "label": "01_スクール水着", "value": "school swimsuit" },
     { "id": 871, "label": "01_セーラー服 (Sailor uniform)", "value": "seifuku" },

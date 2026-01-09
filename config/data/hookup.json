@@ -2645,6 +2645,11 @@
   ],
   "uniforms": [
     {
+      "id": 1787,
+      "label": "01_ギャルブレザー",
+      "value": "tan cardigan wrapped around the waist, red ribbon white polo shirt, red short kilt skirt, loose socks"
+    },
+    {
       "id": 869,
       "label": "01_スクールベスト/ニットベスト",
       "value": "school vest"
